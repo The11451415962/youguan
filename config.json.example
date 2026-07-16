@@ -1,5 +1,5 @@
 {
-  "youtube_api_key": "YOUR_API_KEY_HERE",
+  "youtube_api_key": "AIzaSyBLejlHdB8DeN1mPOSFMU4vWJwz8YsFTwg",
   "channels": {
     "UC2Xj7yOR4FyLMWiUce1vjdA": "Ideas Earth",
     "UC9wjlkT2YBQHuCejvHCztsw": "ViStorm",
@@ -11,11 +11,11 @@
     "host": "smtp.qq.com",
     "port": 587,
     "use_tls": true,
-    "sender_email": "YOUR_SENDER_QQ@qq.com",
-    "password": "YOUR_SMTP_PASSWORD_HERE"
+    "sender_email": "2053037956@qq.com",
+    "password": "afgwlsqpojqxihgg"
   },
   "notification": {
-    "recipient_email": "YOUR_RECIPIENT_QQ@qq.com",
+    "recipient_email": "3630644102@qq.com",
     "max_videos_per_channel": 5
   }
 }
