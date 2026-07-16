@@ -1,0 +1,13 @@
+# 敏感信息（含真实密钥）
+.env
+config.json
+
+# 运行时生成
+history.json
+yt_monitor.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/

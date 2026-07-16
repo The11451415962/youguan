@@ -1,0 +1,21 @@
+{
+  "youtube_api_key": "YOUR_API_KEY_HERE",
+  "channels": {
+    "UC2Xj7yOR4FyLMWiUce1vjdA": "Ideas Earth",
+    "UC9wjlkT2YBQHuCejvHCztsw": "ViStorm",
+    "UCQmgzE_jWnIrGN3jqDQeQCQ": "白雪熊SnowBear",
+    "UCUQtsb-9SOtRfONTl4qPw3w": "遇见",
+    "UC-4avig6ySwwKLv5SLlXXcg": "WZenKai"
+  },
+  "smtp": {
+    "host": "smtp.qq.com",
+    "port": 587,
+    "use_tls": true,
+    "sender_email": "YOUR_SENDER_QQ@qq.com",
+    "password": "YOUR_SMTP_PASSWORD_HERE"
+  },
+  "notification": {
+    "recipient_email": "YOUR_RECIPIENT_QQ@qq.com",
+    "max_videos_per_channel": 5
+  }
+}
