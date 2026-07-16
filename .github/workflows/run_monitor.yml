@@ -30,6 +30,32 @@ jobs:
           restore-keys: |
             yt-monitor-history-
 
+      - name: 生成配置文件
+        run: |
+          cat > config.json << 'EOF'
+          {
+            "youtube_api_key": "${{ secrets.YOUTUBE_API_KEY }}",
+            "channels": {
+              "UC2Xj7yOR4FyLMWiUce1vjdA": "Ideas Earth",
+              "UC9wjlkT2YBQHuCejvHCztsw": "ViStorm",
+              "UCQmgzE_jWnIrGN3jqDQeQCQ": "白雪熊SnowBear",
+              "UCUQtsb-9SOtRfONTl4qPw3w": "遇见",
+              "UC-4avig6ySwwKLv5SLlXXcg": "WZenKai"
+            },
+            "smtp": {
+              "host": "smtp.qq.com",
+              "port": 587,
+              "use_tls": true,
+              "sender_email": "${{ secrets.SMTP_SENDER }}",
+              "password": "${{ secrets.SMTP_PASSWORD }}"
+            },
+            "notification": {
+              "recipient_email": "${{ secrets.NOTIFICATION_RECIPIENT }}",
+              "max_videos_per_channel": 5
+            }
+          }
+          EOF
+
       - name: 运行监控
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
