@@ -41,7 +41,6 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           SMTP_SENDER: ${{ secrets.SMTP_SENDER }}
           NOTIFICATION_RECIPIENT: ${{ secrets.NOTIFICATION_RECIPIENT }}
-          # CI 环境无需代理，禁用 Clash 代理避免超时回退延迟
-          CLASH_PROXY_HOST: ''
-          CLASH_PROXY_PORT: '0'
+          # 注意：CI 环境不设 CLASH_PROXY_HOST，脚本会直连 YouTube API
+          # （不设置 = 直连；设置值 = 走 Clash 代理，适用于本地开发）
         run: python yt_monitor.py

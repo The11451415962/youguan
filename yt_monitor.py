@@ -245,19 +245,26 @@ def send_email(config: dict, msg: MIMEMultipart) -> None:
 
 
 def build_youtube_client(api_key: str):
-    """创建 YouTube API 客户端，自动走 Clash 代理。"""
+    """创建 YouTube API 客户端。
+
+    - 本地开发：设置 CLASH_PROXY_HOST / CLASH_PROXY_PORT 走 Clash 代理（默认 127.0.0.1:7897）
+    - CI / 无需代理：不设（或设为空）上述环境变量，直接连接 YouTube API
+    """
     from googleapiclient.discovery import build
 
-    # 检测是否需要代理（国内网络环境）
     proxy_host = os.getenv("CLASH_PROXY_HOST", "127.0.0.1")
-    proxy_port = int(os.getenv("CLASH_PROXY_PORT", "7897"))
+    proxy_port = os.getenv("CLASH_PROXY_PORT", "7897")
+
+    # 空值视为"无代理"，直接回退直连（避免 httplib2 带哑配置请求）
+    if not proxy_host or not proxy_port:
+        return build("youtube", "v3", developerKey=api_key)
 
     try:
         import httplib2
         proxy_info = httplib2.ProxyInfo(
             proxy_type=httplib2.socks.PROXY_TYPE_HTTP,
             proxy_host=proxy_host,
-            proxy_port=proxy_port,
+            proxy_port=int(proxy_port),
         )
         http = httplib2.Http(proxy_info=proxy_info, timeout=15)
         return build("youtube", "v3", developerKey=api_key, http=http)
