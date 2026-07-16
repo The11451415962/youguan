@@ -1,13 +1,25 @@
-# 敏感信息（含真实密钥）
+# 敏感信息（含真实密钥）- 永远不要提交到 Git
 .env
-config.json
 
-# 运行时生成
+# 运行时自动生成
 history.json
 yt_monitor.log
 
-# Python
+# Python 缓存
 __pycache__/
 *.pyc
+*.pyo
+
+# 虚拟环境
 venv/
 .venv/
+env/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp

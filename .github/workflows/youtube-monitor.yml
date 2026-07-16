@@ -1,0 +1,47 @@
+name: YouTube Monitor
+
+on:
+  schedule:
+    # 每 15 分钟运行一次（UTC 时间）
+    - cron: '*/15 * * * *'
+  # 允许在 Actions 页面手动触发
+  workflow_dispatch:
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 恢复历史记录缓存
+        uses: actions/cache@v4
+        with:
+          path: history.json
+          # 用固定前缀 + run_id 保证每次写入新缓存，同时能回退到最近的缓存
+          key: yt-monitor-history-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            yt-monitor-history-${{ runner.os }}-
+
+      - name: 运行监控脚本
+        env:
+          # 敏感信息从 GitHub Secrets 注入，脚本内 os.getenv() 优先读取
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_SENDER: ${{ secrets.SMTP_SENDER }}
+          NOTIFICATION_RECIPIENT: ${{ secrets.NOTIFICATION_RECIPIENT }}
+          # CI 环境无需代理，禁用 Clash 代理避免超时回退延迟
+          CLASH_PROXY_HOST: ''
+          CLASH_PROXY_PORT: '0'
+        run: python yt_monitor.py
