@@ -1,11 +1,13 @@
 name: YouTube Monitor
 
 on:
-  schedule:
-    # 每 15 分钟运行一次（UTC 时间）
-    - cron: '*/15 * * * *'
-  # 允许在 Actions 页面手动触发
+  # 允许由外部定时（cron-job.org）通过 API 随时手动触发
   workflow_dispatch:
+
+# 当 5 分钟频率极高时，如果上一次没跑完，直接取消旧的、让最新的立刻运行，避免任务堆积
+concurrency:
+  group: youtube-monitor-group
+  cancel-in-progress: true
 
 jobs:
   run-monitor:
