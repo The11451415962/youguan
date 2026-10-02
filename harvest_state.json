@@ -1,15 +1,6 @@
 {
   "cursor_utc": "2026-10-02T21:45:22.346199Z",
-  "staging": {
-    "JZ690gj3v10": {
-      "video_id": "JZ690gj3v10",
-      "title": "MINECRAFT EDIT #shorts #minecraft #edit",
-      "channel_id": "UCNb-Rybv-3b8Ima6enzFNdA",
-      "channel_name": "EITOR CRAFT:A LENDA",
-      "published_at": "2026-10-02T21:36:57Z",
-      "first_seen_at": "2026-10-02T21:40:21.270570Z"
-    }
-  },
+  "staging": {},
   "candidates": {},
   "notified": {
     "MHMgXmR_djs": "2026-10-02T17:05:22.651108Z",
@@ -689,7 +680,8 @@
     "5GmbNPPbYvk": "2026-10-02T21:30:29.968516Z",
     "vAF_aDaDaKg": "2026-10-02T21:30:29.968516Z",
     "Nd9Vq5P47Z8": "2026-10-02T21:35:19.669098Z",
-    "HSN-4QdwSo0": "2026-10-02T21:35:19.669098Z"
+    "HSN-4QdwSo0": "2026-10-02T21:35:19.669098Z",
+    "JZ690gj3v10": "2026-10-02T21:50:20.033085Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3247,6 +3239,10 @@
     "UCNoy5Uyxip2wizJVyI_lX6g": {
       "subs": 29,
       "fetched_at": "2026-10-02T21:35:19.821460Z"
+    },
+    "UCNb-Rybv-3b8Ima6enzFNdA": {
+      "subs": 156,
+      "fetched_at": "2026-10-02T21:50:20.174653Z"
     }
   },
   "search_log": [
@@ -3549,7 +3545,7 @@
     }
   },
   "reject_reasons": {
-    "分类不符": 109,
+    "分类不符": 110,
     "描述过长(疑口播)": 79,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 8
@@ -3558,24 +3554,23 @@
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1927,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1135,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1233,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1134,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1234,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1135,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1035
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T21:45:22.549867Z",
+      "at": "2026-10-02T21:50:20.033073Z",
       "elapsed": 0.2,
-      "searched": 1,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 0
+      "dropped": 0
     }
   },
-  "key_rr": 2,
+  "key_rr": 4,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
