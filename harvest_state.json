@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T19:40:23.346199Z",
+  "cursor_utc": "2026-10-02T19:45:23.346199Z",
   "staging": {
     "5tkg9-z0EUk": {
       "video_id": "5tkg9-z0EUk",
@@ -23,38 +23,6 @@
       "channel_id": "UCv13mdmS3vZqlUBdHY30R1w",
       "channel_name": "Asam Ty",
       "published_at": "2026-10-02T19:36:28Z",
-      "first_seen_at": "2026-10-02T19:40:24.195358Z"
-    },
-    "EAAiftLhjYc": {
-      "video_id": "EAAiftLhjYc",
-      "title": "Minecraft Good Vs Bad 🤔",
-      "channel_id": "UCyJwuIyxlkFYrhOg5lH6eSA",
-      "channel_name": " Camus",
-      "published_at": "2026-10-02T19:30:37Z",
-      "first_seen_at": "2026-10-02T19:40:24.195358Z"
-    },
-    "MUZzoqwN4L4": {
-      "video_id": "MUZzoqwN4L4",
-      "title": "Gato Ouija",
-      "channel_id": "UCC29GM1Fxr37upmFzMglXiA",
-      "channel_name": "JonnPlay",
-      "published_at": "2026-10-02T19:30:40Z",
-      "first_seen_at": "2026-10-02T19:40:24.195358Z"
-    },
-    "w120GzxBlRg": {
-      "video_id": "w120GzxBlRg",
-      "title": "Day 14 of Beating HARDCORE MINECRAFT in 30 seconds a day!",
-      "channel_id": "UCwl_ryWrfO4duWSNBt5uoeA",
-      "channel_name": "VortexRules10",
-      "published_at": "2026-10-02T19:30:34Z",
-      "first_seen_at": "2026-10-02T19:40:24.195358Z"
-    },
-    "NcZSR8jkeXk": {
-      "video_id": "NcZSR8jkeXk",
-      "title": "Nigdy nie rzucaj MILIONA enderpereł w Minecraft... 💀",
-      "channel_id": "UCpcDXszrcR7AvZfO279fxwQ",
-      "channel_name": "Mateush",
-      "published_at": "2026-10-02T19:32:13Z",
       "first_seen_at": "2026-10-02T19:40:24.195358Z"
     }
   },
@@ -640,7 +608,11 @@
     "Qdo5qY5LGQE": "2026-10-02T19:40:24.195373Z",
     "v609EbWDvwQ": "2026-10-02T19:40:24.195373Z",
     "PRp9RYNTA60": "2026-10-02T19:40:24.195373Z",
-    "PZUCr5eLkno": "2026-10-02T19:40:24.195373Z"
+    "PZUCr5eLkno": "2026-10-02T19:40:24.195373Z",
+    "w120GzxBlRg": "2026-10-02T19:45:24.111188Z",
+    "EAAiftLhjYc": "2026-10-02T19:45:24.111188Z",
+    "MUZzoqwN4L4": "2026-10-02T19:45:24.111188Z",
+    "NcZSR8jkeXk": "2026-10-02T19:45:24.111188Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -2646,6 +2618,18 @@
     "UCrF4EpjT5j9O156A2S0Ya6A": {
       "subs": 217,
       "fetched_at": "2026-10-02T19:40:24.586543Z"
+    },
+    "UCpcDXszrcR7AvZfO279fxwQ": {
+      "subs": 15700,
+      "fetched_at": "2026-10-02T19:45:24.283966Z"
+    },
+    "UCyJwuIyxlkFYrhOg5lH6eSA": {
+      "subs": 180000,
+      "fetched_at": "2026-10-02T19:45:24.283966Z"
+    },
+    "UCwl_ryWrfO4duWSNBt5uoeA": {
+      "subs": 456,
+      "fetched_at": "2026-10-02T19:45:24.283966Z"
     }
   },
   "search_log": [
@@ -2883,6 +2867,11 @@
       "at": "2026-10-02T19:40:23.869596Z",
       "results": 7,
       "span_minutes": 9.85
+    },
+    {
+      "at": "2026-10-02T19:45:23.839643Z",
+      "results": 0,
+      "span_minutes": 5.0
     }
   ],
   "hourly_density": {
@@ -2918,38 +2907,38 @@
     },
     "3": {
       "results": 99,
-      "span": 39.78333333333333,
-      "n": 5
+      "span": 44.78333333333333,
+      "n": 6
     }
   },
   "reject_reasons": {
     "分类不符": 86,
-    "描述过长(疑口播)": 69,
+    "描述过长(疑口播)": 70,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 7
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1223,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 926,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1025,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1323,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 927,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1026,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 827,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 827
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T19:40:23.869596Z",
-      "elapsed": 0.9,
+      "at": "2026-10-02T19:45:23.839643Z",
+      "elapsed": 0.6,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 7
+      "staged": 0
     }
   },
-  "key_rr": 0,
+  "key_rr": 3,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
