@@ -27,6 +27,7 @@
 """
 
 import argparse
+import html as html_lib
 import json
 import math
 import os
@@ -263,6 +264,7 @@ CFG = {
     # ---- 运行 ----
     "loop_sleep_seconds": 20,          # 主循环空转间隔
     "slice_lookahead_hours": 2,        # 用接下来几小时的历史密度估切片宽度
+    "dry_run_mail": False,             # True = 只打印不发邮件（调试用）
 }
 
 
@@ -1140,27 +1142,8 @@ def _sample_due(pool, state, stats):
         c["stale_checks"] = (int(c.get("stale_checks") or 0) + 1) if d["views"] - prev < 5 else 0
         stats["sampled"] += 1
 
-        # 按档位判定预警（不再是统一的 views/subs >= 2）
-        if not c.get("notified"):
-            fire, high, detail = alert_check(c, state)
-            if fire:
-                c["notified"] = True
-                state["notified"][vid] = iso_z(now_utc())
-                t = state.setdefault("tier_stats", {}).setdefault(
-                    detail["tier"], {"vpm_samples": [], "alerted": 0, "promoted": 0})
-                t["alerted"] = int(t.get("alerted", 0)) + 1
-                rates = detail.get("rates") or (0, 0)
-                tag = "🔥🔥 高优先级" if high else "🔥"
-                print(f"  [{tag}] {c['title'][:46]}")
-                print(f"           {detail['tier']} {TIER_LABEL[detail['tier']]} | "
-                      f"{detail['views']:,} 播放 / {detail['subs']:,} 订阅 "
-                      f"= {detail.get('ratio', 0):.2f}x | "
-                      f"门槛 {detail['alert_views']:,} | "
-                      f"涨速 {rates[0]:.0f}→{rates[1]:.0f}/分 | "
-                      f"发布后 {age_minutes(c['published_at']):.0f} 分")
-                print(f"           https://www.youtube.com/watch?v={vid}")
-            elif detail.get("why") and stats.get("verbose"):
-                print(f"  [·] {c['title'][:38]} 未预警: {detail['why']}")
+    # 采样完统一判定 + 发邮件（达标即发，不等 6 小时）
+    fire_alerts(pool_c, state, stats)
 
 
 def _prune(state, stats):
@@ -1195,6 +1178,203 @@ def _prune(state, stats):
     state["notified"] = {k: v for k, v in state["notified"].items() if v >= cutoff_n}
     cutoff_r = iso_z(now_utc() - timedelta(days=2))
     state["rejected"] = {k: v for k, v in state["rejected"].items() if v >= cutoff_r}
+
+
+# ---------------------------------------------------------------------------
+# 邮件发送（达标即发）
+# ---------------------------------------------------------------------------
+
+def smtp_config():
+    """从环境变量读 SMTP 配置（CI 里由 GitHub Secrets 注入）。"""
+    return {
+        "host": os.getenv("SMTP_HOST", "smtp.qq.com"),
+        "port": int(os.getenv("SMTP_PORT", "587")),
+        "sender": (os.getenv("SMTP_SENDER") or "").strip(),
+        "password": (os.getenv("SMTP_PASSWORD") or "").strip(),
+        "recipient": (os.getenv("NOTIFICATION_RECIPIENT") or "").strip(),
+    }
+
+
+def smtp_ready():
+    c = smtp_config()
+    missing = [k for k in ("sender", "password", "recipient") if not c[k]]
+    return (not missing), missing
+
+
+def build_digest(videos):
+    """把一批达标的视频合成一封邮件（返回 msg 对象）。"""
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.text import MIMEText
+
+    cfg = smtp_config()
+    now_bjt = datetime.now(BJT)
+    n = len(videos)
+    subject = f"🔥 打捞 {n} 条达标 | {now_bjt:%m-%d %H:%M}"
+
+    T = [f"候选池打捞结果   北京时间 {now_bjt:%Y-%m-%d %H:%M}",
+         f"本批 {n} 条（都是刚达标的）", ""]
+    for i, v in enumerate(videos, 1):
+        T.append(f"{i}. [{v['tier']} {TIER_LABEL[v['tier']]}] {v['title']}")
+        T.append(f"   触发: {v.get('trigger','')}   速度 {v['speed_mult']:.1f}x 该档位基线")
+        T.append(f"   频道: {v['channel']}（{v['subs']:,} 订阅）")
+        T.append(f"   播放: {v['views']:,}   点赞: {v['likes']:,}"
+                 + (f"（{v['like_rate']*100:.1f}%）" if v.get("like_rate") else ""))
+        T.append(f"   速度: {v['vpm']:.0f} 播放/分   播放/订阅: {v['ratio']:.2f}x")
+        T.append(f"   发布: {v['pub_bjt']}（已 {v['age']/60:.1f} 小时）")
+        if v.get("desc_len") is not None and v["desc_len"] > 400:
+            T.append(f"   ⚠️ 描述 {v['desc_len']} 字（像是口播，你自己听一下）")
+        T.append(f"   {v['url']}")
+        T.append("")
+    text = "\n".join(T)
+
+    H = ["<div style='font-family:sans-serif;font-size:14px'>",
+         f"<h2>🔥 候选池打捞结果</h2>",
+         f"<p>北京时间 <b>{now_bjt:%Y-%m-%d %H:%M}</b>　本批 <b>{n}</b> 条</p>",
+         "<table cellpadding='8' cellspacing='0' border='0' "
+         "style='border-collapse:collapse'>",
+         "<tr style='background:#f0f0f0'>"
+         "<th align='left'>#</th><th align='left'>档位</th>"
+         "<th align='left'>标题 / 频道</th><th align='right'>播放</th>"
+         "<th align='right'>点赞率</th><th align='right'>速度</th>"
+         "<th align='right'>播放/订阅</th><th align='left'>发布</th></tr>"]
+    for i, v in enumerate(videos, 1):
+        lr = f"{v['like_rate']*100:.1f}%" if v.get("like_rate") else "-"
+        warn = ""
+        if v.get("desc_len") and v["desc_len"] > 400:
+            warn = (f"<br><span style='color:#c00'>⚠️ 描述 {v['desc_len']} 字，"
+                    f"疑似口播，自己听一下</span>")
+        H.append(
+            f"<tr style='border-top:1px solid #ddd'>"
+            f"<td valign='top'>{i}</td>"
+            f"<td valign='top'><b>{v['tier']}</b><br><small>{TIER_LABEL[v['tier']]}</small></td>"
+            f"<td valign='top'><a href='{v['url']}' style='font-size:15px'>"
+            f"{html_lib.escape(v['title'][:90])}</a><br>"
+            f"<small>{html_lib.escape(v['channel'])}　{v['subs']:,} 订阅</small>{warn}</td>"
+            f"<td valign='top' align='right'><b style='font-size:15px'>{v['views']:,}</b></td>"
+            f"<td valign='top' align='right'>{lr}</td>"
+            f"<td valign='top' align='right'>{v['vpm']:.0f}/分<br>"
+            f"<small>{v['speed_mult']:.1f}x</small></td>"
+            f"<td valign='top' align='right'>{v['ratio']:.2f}x</td>"
+            f"<td valign='top'><small>{v['pub_bjt']}<br>已 {v['age']/60:.1f}h</small></td>"
+            f"</tr>")
+    H.append("</table></div>")
+
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = subject
+    msg["From"] = cfg["sender"]
+    msg["To"] = cfg["recipient"]
+    msg.attach(MIMEText(text, "plain", "utf-8"))
+    msg.attach(MIMEText("\n".join(H), "html", "utf-8"))
+    return msg
+
+
+def send_mail(msg):
+    """发送邮件。返回 (成功?, 说明)。"""
+    import smtplib
+    import ssl
+
+    cfg = smtp_config()
+    ok, missing = smtp_ready()
+    if not ok:
+        return False, f"SMTP 配置缺失: {', '.join(missing)}"
+
+    try:
+        ctx = ssl.create_default_context()
+        if cfg["port"] == 465:
+            server = smtplib.SMTP_SSL(cfg["host"], cfg["port"], context=ctx, timeout=30)
+        else:
+            server = smtplib.SMTP(cfg["host"], cfg["port"], timeout=30)
+        server.ehlo()
+        if cfg["port"] != 465:
+            server.starttls(context=ctx)
+            server.ehlo()
+        server.login(cfg["sender"], cfg["password"])
+        server.sendmail(cfg["sender"], [cfg["recipient"]], msg.as_string())
+        server.quit()
+        return True, f"已发送到 {cfg['recipient']}"
+    except Exception as e:
+        return False, f"{type(e).__name__}: {str(e)[:180]}"
+
+
+def fire_alerts(pool, state, stats):
+    """把本轮**新达标**的视频合成邮件发出。
+
+    达标条件（满足其一，见 alert_check）：
+      ① 播放/分钟 ≥ 该档位基线 × alert_speed_mult
+      ② 播放 ≥ alert_views
+
+    已发过的靠 c["notified"] 去重，不会重复发。
+    """
+    hits = []
+    for vid, c in list(pool.items()):
+        if c.get("notified"):
+            continue
+        fire, high, detail = alert_check(c, state)
+        if not fire:
+            continue
+        samples = c.get("samples") or []
+        last = samples[-1] if samples else {}
+        views = int(last.get("views") or 0)
+        likes = int(last.get("likes") or 0)
+        pub = parse_iso(c.get("published_at"))
+        hits.append({
+            "video_id": vid,
+            "title": c.get("title", ""),
+            "channel": c.get("channel_name", ""),
+            "subs": int(c.get("channel_subs") or 0),
+            "tier": detail.get("tier", "T3"),
+            "views": views,
+            "likes": likes,
+            "like_rate": (likes / views) if views >= 50 else None,
+            "vpm": detail.get("vpm", 0),
+            "speed_mult": detail.get("speed_mult", 0),
+            "ratio": detail.get("ratio", 0),
+            "desc_len": c.get("desc_len"),
+            "pub_bjt": pub.astimezone(BJT).strftime("%m-%d %H:%M") if pub else "?",
+            "age": age_minutes(c.get("published_at")),
+            "url": f"https://www.youtube.com/watch?v={vid}",
+            "trigger": detail.get("trigger", ""),
+            "high": high,
+        })
+
+    if not hits:
+        return 0
+
+    # 高优先级排前面
+    hits.sort(key=lambda v: (not v["high"], -v["speed_mult"]))
+
+    print(f"\n  [🔥] 本轮达标 {len(hits)} 条：")
+    for v in hits:
+        mark = "🔥🔥" if v["high"] else "🔥"
+        print(f"       {mark} [{v['tier']}] {v['views']:,} 播放 "
+              f"({v['vpm']:.0f}/分, {v['speed_mult']:.1f}x) {v['title'][:40]}")
+        print(f"          {v['url']}")
+
+    stats["alerts"] = stats.get("alerts", 0) + len(hits)
+
+    # 标为已通知（无论邮件发没发成功都标，避免重复轰炸；
+    # 发失败的情况在日志里能看到，需要重发可以手工清 notified）
+    for v in hits:
+        vid = v["video_id"]
+        state["notified"][vid] = iso_z(now_utc())
+        t = state.setdefault("tier_stats", {}).setdefault(
+            v["tier"], {"vpm_samples": [], "alerted": 0, "promoted": 0})
+        t["alerted"] = int(t.get("alerted", 0)) + 1
+        # 已通知的移出候选池 —— 不再占采样配额
+        # （state["notified"] 会挡住它被重新捞回来）
+        pool.pop(vid, None)
+
+    if CFG.get("dry_run_mail"):
+        print(f"  [邮件] dry-run 模式，未发送")
+        return len(hits)
+
+    msg = build_digest(hits)
+    ok, info = send_mail(msg)
+    if ok:
+        print(f"  [邮件] ✓ {info}")
+    else:
+        print(f"  [邮件] ✗ 发送失败: {info}")
+    return len(hits)
 
 
 # ---------------------------------------------------------------------------
@@ -1271,9 +1451,18 @@ def main():
           f"  (共 {sum(TIER_QUOTA.values())})")
     print(f"  采样节奏    : " + " / ".join(f"{a}分内每{b}分" for a, b in CFG["sample_schedule"]))
     print(f"  单把日上限  : {CFG['daily_budget_per_key']:,} 点")
+    print(f"  配额            : 单把日上限 {CFG['daily_budget_per_key']:,} 点")
+    ok, missing = smtp_ready()
+    if ok:
+        c = smtp_config()
+        print(f"  邮件            : ✓ 已配置（{c['sender']} → {c['recipient']}）")
+    else:
+        print(f"  邮件            : ✗ 缺少 {', '.join(missing)}（无法发预警）")
+    if CFG.get("dry_run_mail"):
+        print(f"  邮件模式        : dry-run（只打印不发送）")
     if pool:
-        print(f"  钥匙数      : {len(pool.keys)}")
-        print(f"  日可用总量  : {pool.total_remaining():,} 点")
+        print(f"  钥匙数          : {len(pool.keys)}")
+        print(f"  日可用总量      : {pool.total_remaining():,} 点")
     print()
 
     stop = {"flag": False}
