@@ -1,22 +1,6 @@
 {
   "cursor_utc": "2026-10-02T17:45:22.346199Z",
   "staging": {
-    "EesS5NLXHQo": {
-      "video_id": "EesS5NLXHQo",
-      "title": "Giganci w chmurach :D - Venomlazarus - Minecraft na modach: Better MC",
-      "channel_id": "UCOIhmeRx2hGgE52vWbGtzhA",
-      "channel_name": "venomlazarus",
-      "published_at": "2026-10-02T17:37:42Z",
-      "first_seen_at": "2026-10-02T17:40:21.422773Z"
-    },
-    "hcpUQ6EXjLE": {
-      "video_id": "hcpUQ6EXjLE",
-      "title": "LOVITY INTENTA SALVAR A VERITY... PERO MORBOSITY ESTÁ AHÍ #minecraft #verity #lovity",
-      "channel_id": "UCYqZumVBBg03YRfixnnLIqA",
-      "channel_name": "matute",
-      "published_at": "2026-10-02T17:38:55Z",
-      "first_seen_at": "2026-10-02T17:40:21.422773Z"
-    },
     "pg2j4Y--Wyg": {
       "video_id": "pg2j4Y--Wyg",
       "title": "Pack Review [Fusion 16x | Tag 543] #minecraft #pvp #bedwars",
@@ -448,7 +432,9 @@
     "32Gu6pBKurQ": "2026-10-02T17:45:23.280299Z",
     "Q9eWlRoBQ54": "2026-10-02T17:45:23.280299Z",
     "pf4qPkftaTo": "2026-10-02T17:45:23.280299Z",
-    "-CTeQnUrRxk": "2026-10-02T17:45:23.280299Z"
+    "-CTeQnUrRxk": "2026-10-02T17:45:23.280299Z",
+    "EesS5NLXHQo": "2026-10-02T17:50:21.481161Z",
+    "hcpUQ6EXjLE": "2026-10-02T17:50:21.481161Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -1694,6 +1680,14 @@
     "UCwbRD9NkWagzOYTZ6rba59w": {
       "subs": 809,
       "fetched_at": "2026-10-02T17:45:23.415111Z"
+    },
+    "UCOIhmeRx2hGgE52vWbGtzhA": {
+      "subs": 44500,
+      "fetched_at": "2026-10-02T17:50:21.612392Z"
+    },
+    "UCYqZumVBBg03YRfixnnLIqA": {
+      "subs": 4540,
+      "fetched_at": "2026-10-02T17:50:21.612392Z"
     }
   },
   "search_log": [
@@ -1887,7 +1881,7 @@
   },
   "reject_reasons": {
     "分类不符": 60,
-    "描述过长(疑口播)": 45,
+    "描述过长(疑口播)": 46,
     "标题含(twitch)": 2,
     "直播/切片(twitch.tv)": 4
   },
@@ -1895,24 +1889,23 @@
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 816,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 717,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 716,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 617,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 717,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 618,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 419
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T17:45:23.001127Z",
-      "elapsed": 0.5,
-      "searched": 1,
+      "at": "2026-10-02T17:50:21.481143Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 1
+      "dropped": 0
     }
   },
-  "key_rr": 2,
+  "key_rr": 4,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
