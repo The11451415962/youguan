@@ -584,6 +584,15 @@ def cycle(pool, state, dry_run=False):
     gap = (now - cursor).total_seconds()
     if gap >= CFG["min_slice_seconds"]:
         sec, density, source = next_slice_seconds(state, cursor)
+
+        # 关键：切片不能超过「距上次搜索实际过了多久」。
+        # 否则每 5 分钟触发一次、却每次回看 21 分钟 —— 四次里三次在重复买同一批视频。
+        uncapped = sec
+        sec = int(min(sec, gap))
+        if sec < uncapped:
+            print(f"  [采集] 切片由 {uncapped//60}分 收窄到 {sec//60}分{sec%60}秒"
+                  f"（对齐触发间隔，避免重叠）")
+
         before = min(now, cursor + timedelta(seconds=sec))
         print(f"  [采集] {bjt_str(cursor)} → {bjt_str(before)}  "
               f"({sec//60}分{sec%60}秒, 密度 {density:.2f} 条/分, 来源:{source})")
