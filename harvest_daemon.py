@@ -63,14 +63,18 @@ TIER_LABEL = {
 }
 
 # 档位边界（订阅数下限）与每档规则
+#
+# 关于 alert_views：绝对门槛必须落在「发布后 6 小时内物理可达」的量级。
+# 实测外推（速度 × 360 分钟）显示原来的 50 万/15 万根本到不了，
+# 会导致一条都不预警。所以下调，并且加了「相对阈值」作为主判据。
 TIER_RULES = {
-    #            订阅下限      进池:播放/分  进池:最小播放   预警:最小播放   高优先级:比值
-    "T1": {"min_subs": 0,          "gate_vpm": 30, "gate_min_views": 200,    "alert_views": 3_000,    "boost_ratio": 50.0},
-    "T2": {"min_subs": 100,        "gate_vpm": 25, "gate_min_views": 250,    "alert_views": 5_000,    "boost_ratio": 20.0},
-    "T3": {"min_subs": 1_000,      "gate_vpm": 25, "gate_min_views": 300,    "alert_views": 20_000,   "boost_ratio": 5.0},
-    "T4": {"min_subs": 10_000,     "gate_vpm": 30, "gate_min_views": 500,    "alert_views": 50_000,   "boost_ratio": 1.0},
-    "T5": {"min_subs": 100_000,    "gate_vpm": 40, "gate_min_views": 1_000,  "alert_views": 150_000,  "boost_ratio": 0.2},
-    "T6": {"min_subs": 1_000_000,  "gate_vpm": 60, "gate_min_views": 2_000,  "alert_views": 500_000,  "boost_ratio": 0.05},
+    #            订阅下限      进池:播放/分  进池:最小播放   预警:绝对量   预警:速度倍数  高优先级:比值
+    "T1": {"min_subs": 0,          "gate_vpm": 30, "gate_min_views": 200,    "alert_views": 2_000,    "alert_speed_mult": 6.0, "boost_ratio": 50.0},
+    "T2": {"min_subs": 100,        "gate_vpm": 25, "gate_min_views": 250,    "alert_views": 5_000,    "alert_speed_mult": 6.0, "boost_ratio": 20.0},
+    "T3": {"min_subs": 1_000,      "gate_vpm": 25, "gate_min_views": 300,    "alert_views": 15_000,   "alert_speed_mult": 6.0, "boost_ratio": 5.0},
+    "T4": {"min_subs": 10_000,     "gate_vpm": 30, "gate_min_views": 500,    "alert_views": 40_000,   "alert_speed_mult": 6.0, "boost_ratio": 1.0},
+    "T5": {"min_subs": 100_000,    "gate_vpm": 40, "gate_min_views": 1_000,  "alert_views": 100_000,  "alert_speed_mult": 5.0, "boost_ratio": 0.2},
+    "T6": {"min_subs": 1_000_000,  "gate_vpm": 60, "gate_min_views": 2_000,  "alert_views": 300_000,  "alert_speed_mult": 5.0, "boost_ratio": 0.05},
 }
 
 # 候选池按档位分配名额（总数 400）—— 防止小号把池子撑爆
@@ -145,31 +149,56 @@ def record_tier_sample(state, tier, vpm):
 def alert_check(cand, state):
     """按档位判定是否该发预警。
 
+    判定改为「满足其一」而不是「全部满足」：
+
+      ① 速度异常：播放/分钟 ≥ 该档位基线 × alert_speed_mult
+         （跟「自己档位的常规水平」比，小号跑出异常速度也能触发）
+      ② 绝对量大：播放 ≥ alert_views
+         （兜底，抓那些绝对值确实大的）
+
+    「加速中」从必要条件降为**加分项**——原来要求三个条件同时满足，
+    会把预警量压到零。
+
     返回 (是否预警, 是否高优先级, 详情 dict)
     """
     tier = cand.get("tier") or "T3"
     rule = TIER_RULES[tier]
     samples = cand.get("samples") or []
-    if len(samples) < 3:
-        return False, False, {"why": "采样点不足"}
+    if not samples:
+        return False, False, {"why": "无采样"}
 
     views = int(samples[-1]["views"])
     subs = int(cand.get("channel_subs") or 0)
+    age = age_minutes(cand.get("published_at"))
+    vpm = views / age if age > 1 else 0
+    base = tier_vpm_baseline(state, tier)
+    speed_mult = vpm / max(1.0, base)
     acc, rates = is_accelerating(cand)
 
-    detail = {"tier": tier, "views": views, "subs": subs,
-              "alert_views": rule["alert_views"], "accel": acc,
-              "rates": rates}
+    detail = {"tier": tier, "views": views, "subs": subs, "vpm": round(vpm, 1),
+              "speed_mult": round(speed_mult, 2), "base_vpm": round(base, 1),
+              "alert_views": rule["alert_views"], "accel": acc, "rates": rates}
 
-    if views < rule["alert_views"]:
-        return False, False, {**detail, "why": f"播放未达 {rule['alert_views']:,}"}
-    if not acc:
-        return False, False, {**detail, "why": "涨速未加速"}
+    hit_speed = speed_mult >= rule["alert_speed_mult"]
+    hit_volume = views >= rule["alert_views"]
 
+    if not (hit_speed or hit_volume):
+        why = []
+        if age < 360:
+            why.append(f"观察中({age:.0f}/360分)")
+        if views < rule["alert_views"]:
+            why.append(f"量{views:,}<{rule['alert_views']:,}")
+        if speed_mult < rule["alert_speed_mult"]:
+            why.append(f"速度{speed_mult:.1f}x<{rule['alert_speed_mult']}x")
+        return False, False, {**detail, "why": " ".join(why[:2])}
+
+    # 高优先级：比值本身就是黑马级别（小号打出远超体量的成绩）
     ratio = (views / subs) if subs else 0
-    priority = ratio >= rule["boost_ratio"]
-    detail["ratio"] = round(ratio, 3)
-    detail["high_priority"] = priority
+    priority = (ratio >= rule["boost_ratio"]) or (speed_mult >= rule["alert_speed_mult"] * 2)
+    detail.update({"ratio": round(ratio, 3), "high_priority": priority,
+                   "trigger": ("速度异常" if hit_speed else "") +
+                              ("+绝对量" if (hit_speed and hit_volume) else
+                               ("绝对量" if hit_volume else ""))})
     return True, priority, detail
 
 
