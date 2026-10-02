@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T21:40:20.346199Z",
+  "cursor_utc": "2026-10-02T21:45:22.346199Z",
   "staging": {
     "JZ690gj3v10": {
       "video_id": "JZ690gj3v10",
@@ -3251,11 +3251,6 @@
   },
   "search_log": [
     {
-      "at": "2026-10-02T15:15:29.101171Z",
-      "results": 10,
-      "span_minutes": 7.65
-    },
-    {
       "at": "2026-10-02T15:20:28.618354Z",
       "results": 8,
       "span_minutes": 5.283333333333333
@@ -3499,6 +3494,11 @@
       "at": "2026-10-02T21:40:20.967937Z",
       "results": 1,
       "span_minutes": 9.85
+    },
+    {
+      "at": "2026-10-02T21:45:22.549867Z",
+      "results": 0,
+      "span_minutes": 5.033333333333333
     }
   ],
   "hourly_density": {
@@ -3544,8 +3544,8 @@
     },
     "5": {
       "results": 51,
-      "span": 39.68333333333334,
-      "n": 4
+      "span": 44.71666666666667,
+      "n": 5
     }
   },
   "reject_reasons": {
@@ -3557,7 +3557,7 @@
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1927,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1035,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1135,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1233,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1134,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1035
@@ -3565,17 +3565,17 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T21:40:20.967937Z",
-      "elapsed": 0.3,
+      "at": "2026-10-02T21:45:22.549867Z",
+      "elapsed": 0.2,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 1
+      "staged": 0
     }
   },
-  "key_rr": 1,
+  "key_rr": 2,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
