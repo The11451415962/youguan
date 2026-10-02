@@ -1,6 +1,31 @@
 {
-  "cursor_utc": "2026-10-02T21:45:22.346199Z",
-  "staging": {},
+  "cursor_utc": "2026-10-02T21:55:17.346199Z",
+  "staging": {
+    "hQ-Z5Kwyt3w": {
+      "video_id": "hQ-Z5Kwyt3w",
+      "title": "Beating Underwater Minecraft with Farex and Purrfectttt",
+      "channel_id": "UCPYZ-R5LQGMeU7QikgxmH8Q",
+      "channel_name": "DrDonut",
+      "published_at": "2026-10-02T21:48:37Z",
+      "first_seen_at": "2026-10-02T21:55:18.411954Z"
+    },
+    "MUJVhGPtLDA": {
+      "video_id": "MUJVhGPtLDA",
+      "title": "Minecraft Crimson Warrior #minecraft  #legominecraft   #minecraftlego  #lego   #games",
+      "channel_id": "UCNFZIfo37qKzDL4gmU3sMEg",
+      "channel_name": "Stud Built",
+      "published_at": "2026-10-02T21:47:13Z",
+      "first_seen_at": "2026-10-02T21:55:18.411954Z"
+    },
+    "PXD4lGKvHl4": {
+      "video_id": "PXD4lGKvHl4",
+      "title": "TODO LO QUE DIGO DESAPARECE EN MINECRAFT",
+      "channel_id": "UCGplclmNmk8heP5HQbhzQng",
+      "channel_name": "Tonacho",
+      "published_at": "2026-10-02T21:45:39Z",
+      "first_seen_at": "2026-10-02T21:55:18.411954Z"
+    }
+  },
   "candidates": {},
   "notified": {
     "MHMgXmR_djs": "2026-10-02T17:05:22.651108Z",
@@ -3247,11 +3272,6 @@
   },
   "search_log": [
     {
-      "at": "2026-10-02T15:20:28.618354Z",
-      "results": 8,
-      "span_minutes": 5.283333333333333
-    },
-    {
       "at": "2026-10-02T15:30:31.181431Z",
       "results": 9,
       "span_minutes": 10.033333333333333
@@ -3495,6 +3515,11 @@
       "at": "2026-10-02T21:45:22.549867Z",
       "results": 0,
       "span_minutes": 5.033333333333333
+    },
+    {
+      "at": "2026-10-02T21:55:18.115025Z",
+      "results": 3,
+      "span_minutes": 9.916666666666666
     }
   ],
   "hourly_density": {
@@ -3539,9 +3564,9 @@
       "n": 8
     },
     "5": {
-      "results": 51,
-      "span": 44.71666666666667,
-      "n": 5
+      "results": 54,
+      "span": 54.63333333333333,
+      "n": 6
     }
   },
   "reject_reasons": {
@@ -3556,21 +3581,22 @@
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1135,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1234,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1135,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1035
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1135
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T21:50:20.033073Z",
-      "elapsed": 0.2,
-      "searched": 0,
+      "at": "2026-10-02T21:55:18.115025Z",
+      "elapsed": 0.3,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 3
     }
   },
-  "key_rr": 4,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
