@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T15:45:23.346199Z",
+  "cursor_utc": "2026-10-02T15:50:23.346199Z",
   "staging": {
     "3dhUuN-DA7c": {
       "video_id": "3dhUuN-DA7c",
@@ -1130,6 +1130,11 @@
       "at": "2026-10-02T15:45:24.178686Z",
       "results": 1,
       "span_minutes": 5.016666666666667
+    },
+    {
+      "at": "2026-10-02T15:50:23.639197Z",
+      "results": 0,
+      "span_minutes": 5.0
     }
   ],
   "hourly_density": {
@@ -1145,8 +1150,8 @@
     },
     "23": {
       "results": 67,
-      "span": 44.699999999999996,
-      "n": 6
+      "span": 49.699999999999996,
+      "n": 7
     }
   },
   "reject_reasons": {
@@ -1160,23 +1165,23 @@
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 310,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 211,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 508,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 408,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 508,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 309
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T15:45:24.178686Z",
-      "elapsed": 0.8,
+      "at": "2026-10-02T15:50:23.639197Z",
+      "elapsed": 0.4,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
+      "sampled": 0,
       "dropped": 0,
-      "staged": 1
+      "staged": 0
     }
   },
-  "key_rr": 3,
+  "key_rr": 4,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
