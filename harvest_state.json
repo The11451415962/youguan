@@ -1,21 +1,45 @@
 {
-  "cursor_utc": "2026-10-02T18:50:23.346199Z",
+  "cursor_utc": "2026-10-02T19:00:36.346199Z",
   "staging": {
-    "bSD1MwHZwFw": {
-      "video_id": "bSD1MwHZwFw",
-      "title": "Mom1 Feedback #minecraft #minecraftsurvivalseriesepisode1 #gaming #survival #minecraftbuilding",
-      "channel_id": "UCvmP1UzMIWMM7UE70PUQ3kw",
-      "channel_name": "Playful Digital Learning",
-      "published_at": "2026-10-02T18:47:45Z",
-      "first_seen_at": "2026-10-02T18:50:23.868215Z"
+    "CxeLkck3Tpo": {
+      "video_id": "CxeLkck3Tpo",
+      "title": "El peor Gameplay de Minecraft 🎥",
+      "channel_id": "UCylq-hBhJeMbJivgbUSpBCQ",
+      "channel_name": "INOS12",
+      "published_at": "2026-10-02T18:57:42Z",
+      "first_seen_at": "2026-10-02T19:00:36.846964Z"
     },
-    "x_ygKp8UM5M": {
-      "video_id": "x_ygKp8UM5M",
-      "title": "ADIVINA el BLOQUE con BLUEY NOOB vs PRO en MINECRAFT 🎮 #shorts #tiktok #minecraft #minecraftshorts",
-      "channel_id": "UCfBXbAv66bkwdAjP4tCqMsg",
-      "channel_name": "Danycopetin",
-      "published_at": "2026-10-02T18:45:30Z",
-      "first_seen_at": "2026-10-02T18:50:23.868215Z"
+    "82Uf2ux7ibg": {
+      "video_id": "82Uf2ux7ibg",
+      "title": "THE RISKIEST JOKE EVER #minecraft #gaming #crazy #shorts #pvp #multiplayer #funny #clips #hilarious",
+      "channel_id": "UCsM-NtRALC73lGihWrqx0ZQ",
+      "channel_name": "TheAppleLover",
+      "published_at": "2026-10-02T18:57:44Z",
+      "first_seen_at": "2026-10-02T19:00:36.846964Z"
+    },
+    "0ysa8ovbRvI": {
+      "video_id": "0ysa8ovbRvI",
+      "title": "Minecraft x Jenga 🍀🌳",
+      "channel_id": "UCWFzuA34RPtKa7H04Gy3iCg",
+      "channel_name": "Tasha Hart",
+      "published_at": "2026-10-02T18:52:28Z",
+      "first_seen_at": "2026-10-02T19:00:36.846964Z"
+    },
+    "-dkjUVArOp4": {
+      "video_id": "-dkjUVArOp4",
+      "title": "Mejor semilla para MINECRAFT 2027 #minecraft",
+      "channel_id": "UCdl-CFB1omQw9XWX_dHJIVQ",
+      "channel_name": "VELOZ",
+      "published_at": "2026-10-02T18:51:00Z",
+      "first_seen_at": "2026-10-02T19:00:36.846964Z"
+    },
+    "H1sge0Ur1BA": {
+      "video_id": "H1sge0Ur1BA",
+      "title": "Лучшая ферма золота в Майнкрафт. #funpay #cliphub #minecraft #shorts",
+      "channel_id": "UCiY19Xcl63MXEnpUoxVV2oA",
+      "channel_name": "Veizox",
+      "published_at": "2026-10-02T18:50:42Z",
+      "first_seen_at": "2026-10-02T19:00:36.846964Z"
     }
   },
   "candidates": {
@@ -81,7 +105,7 @@
       "channel_subs": 25300,
       "published_at": "2026-10-02T14:00:39Z",
       "first_seen_at": "2026-10-02T14:10:22.637052Z",
-      "last_checked_at": "2026-10-02T17:55:22.846838Z",
+      "last_checked_at": "2026-10-02T19:00:37.337212Z",
       "samples": [
         {
           "t": "2026-10-02T14:15:23.903136Z",
@@ -114,6 +138,11 @@
           "t": "2026-10-02T17:55:22.846819Z",
           "views": 9021,
           "likes": 191
+        },
+        {
+          "t": "2026-10-02T19:00:37.337205Z",
+          "views": 11942,
+          "likes": 209
         }
       ],
       "stale_checks": 0,
@@ -549,7 +578,9 @@
     "IlwED2Vp7B8": "2026-10-02T18:45:24.007055Z",
     "1RykWbwSO1I": "2026-10-02T18:50:23.868232Z",
     "W2jtllAuNPU": "2026-10-02T18:50:23.868232Z",
-    "hMvzGi_hnvY": "2026-10-02T18:55:19.948104Z"
+    "hMvzGi_hnvY": "2026-10-02T18:55:19.948104Z",
+    "x_ygKp8UM5M": "2026-10-02T19:00:36.846978Z",
+    "bSD1MwHZwFw": "2026-10-02T19:00:36.846978Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -2171,6 +2202,14 @@
     "UCz7KmczgYYoZiZqlqCpVx-g": {
       "subs": 294,
       "fetched_at": "2026-10-02T18:55:20.086897Z"
+    },
+    "UCvmP1UzMIWMM7UE70PUQ3kw": {
+      "subs": 5700,
+      "fetched_at": "2026-10-02T19:00:36.952289Z"
+    },
+    "UCfBXbAv66bkwdAjP4tCqMsg": {
+      "subs": 1750000,
+      "fetched_at": "2026-10-02T19:00:36.952289Z"
     }
   },
   "search_log": [
@@ -2378,6 +2417,11 @@
       "at": "2026-10-02T18:50:23.509688Z",
       "results": 2,
       "span_minutes": 5.0
+    },
+    {
+      "at": "2026-10-02T19:00:36.413418Z",
+      "results": 5,
+      "span_minutes": 10.216666666666667
     }
   ],
   "hourly_density": {
@@ -2407,38 +2451,39 @@
       "n": 8
     },
     "2": {
-      "results": 98,
-      "span": 49.766666666666666,
-      "n": 7
+      "results": 103,
+      "span": 59.983333333333334,
+      "n": 8
     }
   },
   "reject_reasons": {
     "分类不符": 74,
-    "描述过长(疑口播)": 57,
+    "描述过长(疑口播)": 58,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 5
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1119,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 723,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 822,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 822,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1219,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 724,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 823,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 823,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 723
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T18:55:19.948092Z",
-      "elapsed": 0.3,
-      "searched": 0,
+      "at": "2026-10-02T19:00:36.413418Z",
+      "elapsed": 0.9,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
-      "dropped": 0
+      "sampled": 1,
+      "dropped": 0,
+      "staged": 5
     }
   },
-  "key_rr": 0,
+  "key_rr": 4,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
