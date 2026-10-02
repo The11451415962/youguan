@@ -1,70 +1,6 @@
 {
   "cursor_utc": "2026-10-02T15:20:28.346199Z",
   "staging": {
-    "M48EX2tcl8Q": {
-      "video_id": "M48EX2tcl8Q",
-      "title": "#мемы #minecraft #youtubeshorts",
-      "channel_id": "UC7c9r3aK6LGipf3SPaE3IQw",
-      "channel_name": "MISTER STAS ",
-      "published_at": "2026-10-02T15:14:16Z",
-      "first_seen_at": "2026-10-02T15:15:29.382466Z"
-    },
-    "BFGK4fUJ-Wo": {
-      "video_id": "BFGK4fUJ-Wo",
-      "title": "Minecraft: The Best View EVER… Until THIS Showed Up 😳",
-      "channel_id": "UCIHWHYJ_L_x2A-2jc8nIwpw",
-      "channel_name": "Minecraft Movies",
-      "published_at": "2026-10-02T15:14:19Z",
-      "first_seen_at": "2026-10-02T15:15:29.382466Z"
-    },
-    "djZpBxirooE": {
-      "video_id": "djZpBxirooE",
-      "title": "Surviving 100 Days in Hardcore Minecraft! 💀🔥 #shorts #minecraft",
-      "channel_id": "UCNHU1q5dEiV7SxJ_WZyZXNA",
-      "channel_name": "HOLA IS LIVE",
-      "published_at": "2026-10-02T15:12:36Z",
-      "first_seen_at": "2026-10-02T15:15:29.382466Z"
-    },
-    "FMVgosLCKfk": {
-      "video_id": "FMVgosLCKfk",
-      "title": "Dragon Dance | Minecraft PE | Minecraft shorts",
-      "channel_id": "UCTEXBvB4XPbIuF0OTsuOwtQ",
-      "channel_name": "Soull",
-      "published_at": "2026-10-02T15:12:07Z",
-      "first_seen_at": "2026-10-02T15:15:29.382466Z"
-    },
-    "X2DZjVY1n9s": {
-      "video_id": "X2DZjVY1n9s",
-      "title": "Small to Collosal Black Holes VS Planets #minecraft #teardown",
-      "channel_id": "UCU-1uA6D6kYAVKAJAY-04yw",
-      "channel_name": "TeardownTown",
-      "published_at": "2026-10-02T15:12:32Z",
-      "first_seen_at": "2026-10-02T15:15:29.382466Z"
-    },
-    "MHMgXmR_djs": {
-      "video_id": "MHMgXmR_djs",
-      "title": "minecraft&#39;ta verity ne gördü..🤯",
-      "channel_id": "UChlHu91lAhEgqW4Oz29C4-Q",
-      "channel_name": "Neandor",
-      "published_at": "2026-10-02T15:13:28Z",
-      "first_seen_at": "2026-10-02T15:15:29.382466Z"
-    },
-    "X-zFVgA0NS0": {
-      "video_id": "X-zFVgA0NS0",
-      "title": "Guess the mob Part - 2 #minecraft #mojang",
-      "channel_id": "UCdTP7-LwCdy75OGdX4oacag",
-      "channel_name": "Haddi Gamerzs ",
-      "published_at": "2026-10-02T15:10:38Z",
-      "first_seen_at": "2026-10-02T15:15:29.382466Z"
-    },
-    "lBMiIjZs7U4": {
-      "video_id": "lBMiIjZs7U4",
-      "title": "Is This the Best Starter House for Survival? 🏠 #minecraft #shorts",
-      "channel_id": "UC66NQR1O9A4aeK2oOl_-xJQ",
-      "channel_name": "Tecanpe",
-      "published_at": "2026-10-02T15:10:32Z",
-      "first_seen_at": "2026-10-02T15:15:29.382466Z"
-    },
     "T6ax94Jg7Oo": {
       "video_id": "T6ax94Jg7Oo",
       "title": "Minecraft: Simple Shore Base #minecraft #shorts",
@@ -87,14 +23,6 @@
       "channel_id": "UCBdt5z5q26sT8KaWIYCZxDQ",
       "channel_name": "Virtex",
       "published_at": "2026-10-02T15:18:20Z",
-      "first_seen_at": "2026-10-02T15:20:28.905286Z"
-    },
-    "awkxlYIf3go": {
-      "video_id": "awkxlYIf3go",
-      "title": "🐶 Dog Attack Went CRAZY in Party Craft! 😱🔥#minecraft #roblox #gta",
-      "channel_id": "UCrxm4Zfsj4sHP7HJBqJYQQw",
-      "channel_name": "Galaxy Gamer",
-      "published_at": "2026-10-02T15:15:13Z",
       "first_seen_at": "2026-10-02T15:20:28.905286Z"
     },
     "TBSsPHwzKnA": {
@@ -120,14 +48,6 @@
       "channel_name": "Eldermilion",
       "published_at": "2026-10-02T15:15:38Z",
       "first_seen_at": "2026-10-02T15:20:28.905286Z"
-    },
-    "3f9z60lKjcc": {
-      "video_id": "3f9z60lKjcc",
-      "title": "This Is Actually the Rarest Mob in Minecraft",
-      "channel_id": "UCYl_9aD8P1XDeNFQotDhtJA",
-      "channel_name": " PIXELRAGE_GAMING",
-      "published_at": "2026-10-02T15:15:16Z",
-      "first_seen_at": "2026-10-02T15:20:28.905286Z"
     }
   },
   "candidates": {
@@ -139,7 +59,7 @@
       "channel_subs": 3930000,
       "published_at": "2026-10-02T13:30:06Z",
       "first_seen_at": "2026-10-02T13:51:04.733695Z",
-      "last_checked_at": "2026-10-02T15:00:43.463149Z",
+      "last_checked_at": "2026-10-02T15:25:21.481160Z",
       "samples": [
         {
           "t": "2026-10-02T13:51:04.733735Z",
@@ -156,6 +76,11 @@
         {
           "t": "2026-10-02T15:00:43.463126Z",
           "views": 9394
+        },
+        {
+          "t": "2026-10-02T15:25:21.481139Z",
+          "views": 9611,
+          "likes": 330
         }
       ],
       "stale_checks": 0,
@@ -173,7 +98,7 @@
       "channel_subs": 12600,
       "published_at": "2026-10-02T13:30:14Z",
       "first_seen_at": "2026-10-02T13:51:04.733695Z",
-      "last_checked_at": "2026-10-02T15:00:43.463183Z",
+      "last_checked_at": "2026-10-02T15:25:21.481171Z",
       "samples": [
         {
           "t": "2026-10-02T13:51:04.733735Z",
@@ -190,6 +115,11 @@
         {
           "t": "2026-10-02T15:00:43.463179Z",
           "views": 4974
+        },
+        {
+          "t": "2026-10-02T15:25:21.481167Z",
+          "views": 5277,
+          "likes": 513
         }
       ],
       "stale_checks": 0,
@@ -207,7 +137,7 @@
       "channel_subs": 25300,
       "published_at": "2026-10-02T14:00:39Z",
       "first_seen_at": "2026-10-02T14:10:22.637052Z",
-      "last_checked_at": "2026-10-02T15:00:43.463198Z",
+      "last_checked_at": "2026-10-02T15:25:21.481177Z",
       "samples": [
         {
           "t": "2026-10-02T14:15:23.903136Z",
@@ -220,6 +150,11 @@
         {
           "t": "2026-10-02T15:00:43.463195Z",
           "views": 4237
+        },
+        {
+          "t": "2026-10-02T15:25:21.481175Z",
+          "views": 4824,
+          "likes": 118
         }
       ],
       "stale_checks": 0,
@@ -294,6 +229,29 @@
       "tier": "T6",
       "tier_locked_at": "2026-10-02T15:06:44.238443Z",
       "promo_score": 10.82
+    },
+    "MHMgXmR_djs": {
+      "video_id": "MHMgXmR_djs",
+      "title": "minecraft'ta verity ne gördü..🤯",
+      "channel_id": "UChlHu91lAhEgqW4Oz29C4-Q",
+      "channel_name": "Neandor",
+      "channel_subs": 910,
+      "tier": "T2",
+      "tier_locked_at": "2026-10-02T15:25:20.936111Z",
+      "published_at": "2026-10-02T15:13:28Z",
+      "first_seen_at": "2026-10-02T15:15:29.382466Z",
+      "last_checked_at": "2026-10-02T15:25:20.936111Z",
+      "samples": [
+        {
+          "t": "2026-10-02T15:25:20.936111Z",
+          "views": 347,
+          "likes": 2
+        }
+      ],
+      "stale_checks": 0,
+      "notified": false,
+      "gate_vpm": 29.2,
+      "promo_score": 7.99
     }
   },
   "notified": {},
@@ -440,7 +398,16 @@
     "gBSgLEgcb4g": "2026-10-02T15:20:28.905307Z",
     "OK2JnHjZcR8": "2026-10-02T15:20:28.905307Z",
     "SQCV88wXATs": "2026-10-02T15:20:28.905307Z",
-    "eytC9BXD_oY": "2026-10-02T15:20:28.905307Z"
+    "eytC9BXD_oY": "2026-10-02T15:20:28.905307Z",
+    "lBMiIjZs7U4": "2026-10-02T15:25:20.936111Z",
+    "X-zFVgA0NS0": "2026-10-02T15:25:20.936111Z",
+    "FMVgosLCKfk": "2026-10-02T15:25:20.936111Z",
+    "X2DZjVY1n9s": "2026-10-02T15:25:20.936111Z",
+    "djZpBxirooE": "2026-10-02T15:25:20.936111Z",
+    "M48EX2tcl8Q": "2026-10-02T15:25:20.936111Z",
+    "BFGK4fUJ-Wo": "2026-10-02T15:25:20.936111Z",
+    "awkxlYIf3go": "2026-10-02T15:25:20.936111Z",
+    "3f9z60lKjcc": "2026-10-02T15:25:20.936111Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -1002,6 +969,42 @@
     "UCR2Tok4xtaDVYXA9QmmArbg": {
       "subs": 38300,
       "fetched_at": "2026-10-02T15:20:29.791402Z"
+    },
+    "UCYl_9aD8P1XDeNFQotDhtJA": {
+      "subs": 28000,
+      "fetched_at": "2026-10-02T15:25:21.141291Z"
+    },
+    "UCrxm4Zfsj4sHP7HJBqJYQQw": {
+      "subs": 1220,
+      "fetched_at": "2026-10-02T15:25:21.141291Z"
+    },
+    "UCU-1uA6D6kYAVKAJAY-04yw": {
+      "subs": 40800,
+      "fetched_at": "2026-10-02T15:25:21.141291Z"
+    },
+    "UCdTP7-LwCdy75OGdX4oacag": {
+      "subs": 76,
+      "fetched_at": "2026-10-02T15:25:21.141291Z"
+    },
+    "UC66NQR1O9A4aeK2oOl_-xJQ": {
+      "subs": 173,
+      "fetched_at": "2026-10-02T15:25:21.141291Z"
+    },
+    "UC7c9r3aK6LGipf3SPaE3IQw": {
+      "subs": 22200,
+      "fetched_at": "2026-10-02T15:25:21.141291Z"
+    },
+    "UCIHWHYJ_L_x2A-2jc8nIwpw": {
+      "subs": 23,
+      "fetched_at": "2026-10-02T15:25:21.141291Z"
+    },
+    "UChlHu91lAhEgqW4Oz29C4-Q": {
+      "subs": 910,
+      "fetched_at": "2026-10-02T15:25:21.141291Z"
+    },
+    "UCTEXBvB4XPbIuF0OTsuOwtQ": {
+      "subs": 0,
+      "fetched_at": "2026-10-02T15:25:21.141291Z"
     }
   },
   "search_log": [
@@ -1094,30 +1097,38 @@
     }
   },
   "reject_reasons": {
-    "分类不符": 25,
+    "分类不符": 27,
     "描述过长(疑口播)": 23,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 208,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 207,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 504,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 405,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 208,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 505,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 406,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 108
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T15:20:28.618354Z",
-      "elapsed": 1.3,
-      "searched": 1,
+      "at": "2026-10-02T15:25:20.936100Z",
+      "elapsed": 0.5,
+      "searched": 0,
       "new": 0,
-      "gated_in": 0,
-      "sampled": 0,
-      "dropped": 0,
-      "staged": 8
+      "gated_in": 1,
+      "sampled": 3,
+      "dropped": 0
     }
   },
-  "key_rr": 1
+  "key_rr": 4,
+  "tier_stats": {
+    "T2": {
+      "vpm_samples": [
+        29.19
+      ],
+      "alerted": 0,
+      "promoted": 0
+    }
+  }
 }
