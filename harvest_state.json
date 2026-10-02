@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T13:30:31.644255Z",
+  "cursor_utc": "2026-10-02T13:40:22.644255Z",
   "candidates": {
     "yPY666jlGyI": {
       "video_id": "yPY666jlGyI",
@@ -432,6 +432,24 @@
       ],
       "stale_checks": 0,
       "notified": false
+    },
+    "qgTXLAT6cK4": {
+      "video_id": "qgTXLAT6cK4",
+      "title": "Minecraft Dungeons II Lego Prize #minecraft #lego #creativecollective",
+      "channel_id": "UCg7OIORlpsXwAmhWRvQqwzQ",
+      "channel_name": "Sports Techie",
+      "channel_subs": 12000,
+      "published_at": "2026-10-02T13:33:36Z",
+      "first_seen_at": "2026-10-02T13:40:23.547843Z",
+      "last_checked_at": "2026-10-02T13:40:23.547843Z",
+      "samples": [
+        {
+          "t": "2026-10-02T13:40:23.547843Z",
+          "views": 29
+        }
+      ],
+      "stale_checks": 0,
+      "notified": false
     }
   },
   "notified": {},
@@ -453,7 +471,9 @@
     "LjnOoloXzrI": "2026-10-02T13:06:31.444384Z",
     "LgNRlLfMGhU": "2026-10-02T13:06:31.444387Z",
     "aJuHLSGuIZU": "2026-10-02T13:07:27.959619Z",
-    "epMihg27hqU": "2026-10-02T13:07:27.959737Z"
+    "epMihg27hqU": "2026-10-02T13:07:27.959737Z",
+    "-Ni_TzjGvz4": "2026-10-02T13:40:23.547861Z",
+    "2TFkuvmLmsc": "2026-10-02T13:40:23.547873Z"
   },
   "channels": {
     "UCYb2SMWGGqr85rOfaXWNYLQ": {
@@ -635,6 +655,18 @@
     "UCjs-0dEqQnJXgNvSA5qqFzQ": {
       "subs": 31,
       "fetched_at": "2026-10-02T13:30:32.854034Z"
+    },
+    "UCg7OIORlpsXwAmhWRvQqwzQ": {
+      "subs": 12000,
+      "fetched_at": "2026-10-02T13:40:23.391840Z"
+    },
+    "UCm5PjM1oOGkWuGYJPaORHiA": {
+      "subs": 10400,
+      "fetched_at": "2026-10-02T13:40:23.391840Z"
+    },
+    "UCgXRB2YQdem-9Sxr09DOa4Q": {
+      "subs": 394,
+      "fetched_at": "2026-10-02T13:40:23.391840Z"
     }
   },
   "search_log": [
@@ -662,6 +694,11 @@
       "at": "2026-10-02T13:30:32.422570Z",
       "results": 3,
       "span_minutes": 10.116666666666667
+    },
+    {
+      "at": "2026-10-02T13:40:22.797516Z",
+      "results": 3,
+      "span_minutes": 9.85
     }
   ],
   "hourly_density": {
@@ -671,29 +708,29 @@
       "n": 2
     },
     "21": {
-      "results": 19,
-      "span": 23.083333333333336,
-      "n": 3
+      "results": 22,
+      "span": 32.93333333333334,
+      "n": 4
     }
   },
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 103,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 103,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 3,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 201,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 102
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 103,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 202,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 103
   },
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T13:35:22.448593Z",
-      "elapsed": 0.0,
-      "searched": 0,
-      "new": 0,
-      "gated_in": 0,
+      "at": "2026-10-02T13:40:22.797516Z",
+      "elapsed": 0.8,
+      "searched": 1,
+      "new": 1,
+      "gated_in": 1,
       "sampled": 0,
       "dropped": 0
     }
   },
-  "key_rr": 2
+  "key_rr": 0
 }
