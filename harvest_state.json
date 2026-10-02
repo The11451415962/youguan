@@ -1,62 +1,6 @@
 {
   "cursor_utc": "2026-10-02T20:30:28.346199Z",
   "staging": {
-    "obsGiyz2MPE": {
-      "video_id": "obsGiyz2MPE",
-      "title": "The Admin Was Spectating... #minecraft  #shorts",
-      "channel_id": "UC1en9w-UKXLrya75jOiTemg",
-      "channel_name": "kshelz",
-      "published_at": "2026-10-02T20:23:55Z",
-      "first_seen_at": "2026-10-02T20:25:23.982854Z"
-    },
-    "FLjbkkPy7ec": {
-      "video_id": "FLjbkkPy7ec",
-      "title": "esquizofrenia pega #minecraft #twitch #twitchstreamer #shorts #fyp #streamer #clips #juegos #español",
-      "channel_id": "UCwJK3AtyxAwNfJouFdgDD-g",
-      "channel_name": "KngBruce",
-      "published_at": "2026-10-02T20:24:17Z",
-      "first_seen_at": "2026-10-02T20:25:23.982854Z"
-    },
-    "rccV31Md-MY": {
-      "video_id": "rccV31Md-MY",
-      "title": "#minecraft",
-      "channel_id": "UCD9JNuYYKrP2KItVuk0DOxQ",
-      "channel_name": "kosmo_34",
-      "published_at": "2026-10-02T20:22:16Z",
-      "first_seen_at": "2026-10-02T20:25:23.982854Z"
-    },
-    "U2DZYSzbYg0": {
-      "video_id": "U2DZYSzbYg0",
-      "title": "#minecraft #bedrock #memes #warden #shortminecraft",
-      "channel_id": "UCaGZsXK06dGt2nB_zA_0n-g",
-      "channel_name": "SR. CRIATURA",
-      "published_at": "2026-10-02T20:22:14Z",
-      "first_seen_at": "2026-10-02T20:25:23.982854Z"
-    },
-    "8h8X6m2FMIw": {
-      "video_id": "8h8X6m2FMIw",
-      "title": "ПХВХХАХА меня так обманывают уже пол года)) но это секрет) #minecraft #промайнкрафт #рек #майнкрафт",
-      "channel_id": "UC6o5m2eV5cP5Iw6zHsB9xTA",
-      "channel_name": "Кори Филли",
-      "published_at": "2026-10-02T20:22:47Z",
-      "first_seen_at": "2026-10-02T20:25:23.982854Z"
-    },
-    "gGfUqujZru0": {
-      "video_id": "gGfUqujZru0",
-      "title": "Minecraft Creeper Variations &quot;Be on of my FIRST 100 Subscribers&quot; #shorts #minecraft",
-      "channel_id": "UC1c5BDg1oW1noEj9Xo816QA",
-      "channel_name": "Sonder Ore",
-      "published_at": "2026-10-02T20:22:38Z",
-      "first_seen_at": "2026-10-02T20:25:23.982854Z"
-    },
-    "ZQR2NzJWW4g": {
-      "video_id": "ZQR2NzJWW4g",
-      "title": "Minecraft PERO si recibo DAÑO me DETONAN! 😳 #minecraft #shorts",
-      "channel_id": "UChTvW3y9dvAvBgdokRx89hw",
-      "channel_name": "Keke♥️🦴",
-      "published_at": "2026-10-02T20:23:03Z",
-      "first_seen_at": "2026-10-02T20:25:23.982854Z"
-    },
     "RmovYffyWlA": {
       "video_id": "RmovYffyWlA",
       "title": "Bmw mod in Minecraft 🤯 #minecraft #memes #minecraftshorts",
@@ -701,7 +645,14 @@
     "swrJqWKyYAs": "2026-10-02T20:30:29.647504Z",
     "E9yylMSMNvk": "2026-10-02T20:30:29.647504Z",
     "NKtRB1JfNME": "2026-10-02T20:30:29.647504Z",
-    "JfmTZx6svKs": "2026-10-02T20:30:29.647504Z"
+    "JfmTZx6svKs": "2026-10-02T20:30:29.647504Z",
+    "U2DZYSzbYg0": "2026-10-02T20:35:19.407091Z",
+    "rccV31Md-MY": "2026-10-02T20:35:19.407091Z",
+    "gGfUqujZru0": "2026-10-02T20:35:19.407091Z",
+    "8h8X6m2FMIw": "2026-10-02T20:35:19.407091Z",
+    "ZQR2NzJWW4g": "2026-10-02T20:35:19.407091Z",
+    "obsGiyz2MPE": "2026-10-02T20:35:19.407091Z",
+    "FLjbkkPy7ec": "2026-10-02T20:35:19.407091Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -2983,6 +2934,34 @@
     "UC-sYs3UOgY053ZBafbTH_yQ": {
       "subs": 1100,
       "fetched_at": "2026-10-02T20:30:29.788437Z"
+    },
+    "UC1c5BDg1oW1noEj9Xo816QA": {
+      "subs": 8,
+      "fetched_at": "2026-10-02T20:35:19.572758Z"
+    },
+    "UCwJK3AtyxAwNfJouFdgDD-g": {
+      "subs": 24,
+      "fetched_at": "2026-10-02T20:35:19.572758Z"
+    },
+    "UChTvW3y9dvAvBgdokRx89hw": {
+      "subs": 0,
+      "fetched_at": "2026-10-02T20:35:19.572758Z"
+    },
+    "UC1en9w-UKXLrya75jOiTemg": {
+      "subs": 132,
+      "fetched_at": "2026-10-02T20:35:19.572758Z"
+    },
+    "UC6o5m2eV5cP5Iw6zHsB9xTA": {
+      "subs": 24,
+      "fetched_at": "2026-10-02T20:35:19.572758Z"
+    },
+    "UCD9JNuYYKrP2KItVuk0DOxQ": {
+      "subs": 51,
+      "fetched_at": "2026-10-02T20:35:19.572758Z"
+    },
+    "UCaGZsXK06dGt2nB_zA_0n-g": {
+      "subs": 558,
+      "fetched_at": "2026-10-02T20:35:19.572758Z"
     }
   },
   "search_log": [
@@ -3280,15 +3259,15 @@
     }
   },
   "reject_reasons": {
-    "分类不符": 100,
+    "分类不符": 102,
     "描述过长(疑口播)": 76,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 8
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1326,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1029,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1327,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1030,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1128,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1029,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1029
@@ -3296,17 +3275,16 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T20:30:29.297176Z",
-      "elapsed": 0.6,
-      "searched": 1,
+      "at": "2026-10-02T20:35:19.407079Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 5
+      "dropped": 0
     }
   },
-  "key_rr": 0,
+  "key_rr": 2,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
