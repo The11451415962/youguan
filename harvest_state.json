@@ -1,39 +1,6 @@
 {
-  "cursor_utc": "2026-10-02T23:40:19.346199Z",
-  "staging": {
-    "hB3CCwgXlAk": {
-      "video_id": "hB3CCwgXlAk",
-      "title": "DRDONUT HAS RATS IN THE HOUSE #shorts #minecraft #drdonutt",
-      "channel_id": "UCCTha469iyN8KBPy2QBCX5w",
-      "channel_name": "DrDonutShorts",
-      "published_at": "2026-10-02T23:32:06Z",
-      "first_seen_at": "2026-10-02T23:40:19.944039Z"
-    },
-    "vGFV1shm74k": {
-      "video_id": "vGFV1shm74k",
-      "title": "The DARK TRUTH About The End in Minecraft... 😨 (Part 1) #minecraft #shorts",
-      "channel_id": "UCbkwIjX8Du6qv_llyhhr1bA",
-      "channel_name": "LoreCraft Shorts",
-      "published_at": "2026-10-02T23:30:34Z",
-      "first_seen_at": "2026-10-02T23:40:19.944039Z"
-    },
-    "GEKUAfLbOLI": {
-      "video_id": "GEKUAfLbOLI",
-      "title": "a física do minecraft é toda bugada kkk",
-      "channel_id": "UCHLJ-OCS8smio04gSuRBlng",
-      "channel_name": "Gatunno",
-      "published_at": "2026-10-02T23:30:31Z",
-      "first_seen_at": "2026-10-02T23:40:19.944039Z"
-    },
-    "hWUNWrjzcak": {
-      "video_id": "hWUNWrjzcak",
-      "title": "Día 9 Completando Todos Los Logros De Minecraft Bedrock Logro Manos De Hierro (Android) #minecraft",
-      "channel_id": "UCXX3TVG-251mdVdDmZSrhXQ",
-      "channel_name": "Isairux",
-      "published_at": "2026-10-02T23:30:30Z",
-      "first_seen_at": "2026-10-02T23:40:19.944039Z"
-    }
-  },
+  "cursor_utc": "2026-10-02T23:45:22.346199Z",
+  "staging": {},
   "candidates": {
     "hJqbA5DVb_w": {
       "video_id": "hJqbA5DVb_w",
@@ -907,7 +874,11 @@
     "YVgmv3_Ad6Q": "2026-10-02T23:40:19.944056Z",
     "_LyTrDm9eRI": "2026-10-02T23:40:19.944056Z",
     "zmbab9_ztUs": "2026-10-02T23:40:19.944056Z",
-    "5Vpmu8LX62Q": "2026-10-02T23:40:19.944056Z"
+    "5Vpmu8LX62Q": "2026-10-02T23:40:19.944056Z",
+    "hWUNWrjzcak": "2026-10-02T23:45:23.017711Z",
+    "GEKUAfLbOLI": "2026-10-02T23:45:23.017711Z",
+    "vGFV1shm74k": "2026-10-02T23:45:23.017711Z",
+    "hB3CCwgXlAk": "2026-10-02T23:45:23.017711Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -4053,14 +4024,21 @@
     "UCfQwScadonE-aqZ7gY8SQ4Q": {
       "subs": 239,
       "fetched_at": "2026-10-02T23:40:20.072776Z"
+    },
+    "UCbkwIjX8Du6qv_llyhhr1bA": {
+      "subs": 28,
+      "fetched_at": "2026-10-02T23:45:23.145648Z"
+    },
+    "UCHLJ-OCS8smio04gSuRBlng": {
+      "subs": 46800,
+      "fetched_at": "2026-10-02T23:45:23.145648Z"
+    },
+    "UCXX3TVG-251mdVdDmZSrhXQ": {
+      "subs": 59,
+      "fetched_at": "2026-10-02T23:45:23.145648Z"
     }
   },
   "search_log": [
-    {
-      "at": "2026-10-02T17:30:31.739553Z",
-      "results": 6,
-      "span_minutes": 10.166666666666666
-    },
     {
       "at": "2026-10-02T17:40:21.128061Z",
       "results": 7,
@@ -4305,6 +4283,11 @@
       "at": "2026-10-02T23:40:19.682748Z",
       "results": 4,
       "span_minutes": 9.85
+    },
+    {
+      "at": "2026-10-02T23:45:22.761722Z",
+      "results": 0,
+      "span_minutes": 5.05
     }
   ],
   "hourly_density": {
@@ -4360,8 +4343,8 @@
     },
     "7": {
       "results": 70,
-      "span": 39.7,
-      "n": 5
+      "span": 44.75,
+      "n": 6
     }
   },
   "reject_reasons": {
@@ -4372,26 +4355,26 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2532,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1344,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2533,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1345,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1344,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1641,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1244
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1344
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T23:40:19.682748Z",
-      "elapsed": 0.6,
+      "at": "2026-10-02T23:45:22.761722Z",
+      "elapsed": 0.5,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
+      "sampled": 0,
       "dropped": 0,
-      "staged": 4
+      "staged": 0
     }
   },
-  "key_rr": 4,
+  "key_rr": 2,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
