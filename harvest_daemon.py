@@ -83,24 +83,42 @@ CFG = {
 # ---------------------------------------------------------------------------
 
 class KeyPool:
-    """管理多把 API Key，记录各自当日用量，轮转分配。"""
+    """管理多把 API Key，记录各自当日用量，轮转分配。
+
+    注意：Google 的配额按「项目」算，每天太平洋时间 0 点重置。
+    北京时间的重置点是 15:00 或 16:00（取决于夏令时），所以本类用
+    16:00 BJT 作为记账日界，宁可晚换日也不要提前归零。
+    """
+
+    # 记账日界：北京时间 16:00（太平洋时间 0 点）
+    RESET_HOUR_BJT = 16
 
     def __init__(self, state):
         self.keys = self._load_keys()
         if not self.keys:
             print("[×] 没有找到任何 API Key（检查 .env 的 YOUTUBE_API_KEY）")
             sys.exit(1)
-        today = datetime.now(BJT).strftime("%Y-%m-%d")
+        self.today = self._accounting_day()
         usage = state.setdefault("key_usage", {})
-        if usage.get("_date") != today:
+        if usage.get("_day") != self.today:
             usage.clear()
-            usage["_date"] = today
+            usage["_day"] = self.today
         self.usage = usage
         self.state = state
         self.clients = {}
         self._rr = state.setdefault("key_rr", 0)
-        print(f"[√] 载入 {len(self.keys)} 把钥匙，今日已用 "
-              f"{sum(v for k, v in usage.items() if not k.startswith('_')):,} 点")
+        # 今日被服务端拒绝（配额耗尽等）的钥匙，本轮不再尝试
+        self.dead = set(usage.get("_dead") or [])
+        print(f"[√] 载入 {len(self.keys)} 把钥匙，记账日 {self.today}，"
+              f"今日已用 {sum(v for k, v in usage.items() if not k.startswith('_')):,} 点"
+              + (f"，已耗尽 {len(self.dead)} 把" if self.dead else ""))
+
+    @classmethod
+    def _accounting_day(cls):
+        now = datetime.now(BJT)
+        if now.hour < cls.RESET_HOUR_BJT:
+            now = now - timedelta(days=1)
+        return now.strftime("%Y-%m-%d")
 
     @staticmethod
     def _load_keys():
@@ -133,20 +151,31 @@ class KeyPool:
         self.usage[key] = self.used(key) + cost
 
     def pick(self, cost, for_observation=False):
-        """挑一把还有额度的钥匙。返回 (client, key) 或 (None, None)。"""
+        """挑一把还有额度、且今日未被服务端拒绝的钥匙。"""
         n = len(self.keys)
-        limit_ratio = 1.0 if not for_observation else 1.0
         for i in range(n):
             idx = (self._rr + i) % n
             key = self.keys[idx]
-            budget = CFG["daily_budget_per_key"] * limit_ratio
-            if self.used(key) + cost <= budget:
+            if key in self.dead:
+                continue
+            if self.used(key) + cost <= CFG["daily_budget_per_key"]:
                 self._rr = (idx + 1) % n
                 self.state["key_rr"] = self._rr
                 if key not in self.clients:
                     self.clients[key] = YouTubeAPI(key)
                 return self.clients[key], key
         return None, None
+
+    def mark_dead(self, key):
+        """服务端说这把钥匙没配额了 —— 今日不再使用。"""
+        self.dead.add(key)
+        usage = self.state.setdefault("key_usage", {})
+        usage["_dead"] = sorted(self.dead)
+        usage[key] = CFG["daily_budget_per_key"]      # 记账上也标满，避免再被挑中
+        print(f"     [!] 钥匙 {key[:8]}… 今日配额耗尽，已停用（剩 {len(self.keys)-len(self.dead)} 把可用）")
+
+    def alive(self):
+        return [k for k in self.keys if k not in self.dead]
 
     def total_remaining(self):
         return sum(self.remaining(k) for k in self.keys)
@@ -283,42 +312,72 @@ def next_slice_seconds(state, when=None):
 SEARCH_QUERY = "Minecraft"
 
 
+class QuotaExhausted(Exception):
+    """某把钥匙的当日配额用完了。"""
+
+
+def _is_quota_error(msg):
+    m = (msg or "").lower()
+    return ("quota" in m or "429" in m or "ratelimitexceeded" in m
+            or "dailylimitexceeded" in m)
+
+
 def do_search(pool, state, after, before):
-    """搜一个时间窗。返回 (ids, 详细信息, 消耗)。"""
-    client, key = pool.pick(cost=100)
-    if client is None:
-        return None, None, 0, "配额耗尽"
+    """搜一个时间窗。配额耗尽会自动换下一把钥匙重试。
 
-    try:
-        resp = client.get("search", {
-            "part": "snippet",
-            "q": SEARCH_QUERY,
-            "type": "video",
-            "videoDuration": "short",
-            "order": "date",
-            "publishedAfter": iso_z(after),
-            "publishedBefore": iso_z(before),
-            "maxResults": 50,
-        }, cost=100)
-    except Exception as e:
-        # 搜索失败不扣配额（可能没成功）
-        return None, None, 0, f"{type(e).__name__}: {str(e)[:120]}"
+    返回 (items, key, cost, err, quota_exhausted)
+        items=None + quota_exhausted=True  → 所有钥匙都没配额了，本轮放弃（**不推进游标**）
+        items=None + err                   → 其它错误，本轮放弃（**不推进游标**，下轮重试同一片）
+    """
+    tried = set()
+    last_err = None
 
-    pool.charge(key, 100)
-    items = []
-    for it in resp.get("items", []):
-        vid = (it.get("id") or {}).get("videoId")
-        if not vid:
-            continue
-        sn = it.get("snippet") or {}
-        items.append({
-            "video_id": vid,
-            "title": sn.get("title", ""),
-            "channel_id": sn.get("channelId", ""),
-            "channel_name": sn.get("channelTitle", ""),
-            "published_at": sn.get("publishedAt", ""),
-        })
-    return items, key, 100, None
+    for _ in range(len(pool.keys)):
+        client, key = pool.pick(cost=100)
+        if client is None:
+            return None, None, 0, "所有钥匙的配额都用完了", True
+        if key in tried:
+            break
+        tried.add(key)
+
+        try:
+            resp = client.get("search", {
+                "part": "snippet",
+                "q": SEARCH_QUERY,
+                "type": "video",
+                "videoDuration": "short",
+                "order": "date",
+                "publishedAfter": iso_z(after),
+                "publishedBefore": iso_z(before),
+                "maxResults": 50,
+            }, cost=100)
+        except Exception as e:
+            msg = f"{type(e).__name__}: {str(e)[:160]}"
+            last_err = msg
+            if _is_quota_error(msg):
+                pool.mark_dead(key)          # 这把废了，换下一把
+                continue
+            if "429" in msg or "403" in msg or "500" in msg or "503" in msg:
+                continue                     # 临时故障，也换一把试试
+            return None, None, 0, msg, False
+
+        pool.charge(key, 100)
+        items = []
+        for it in resp.get("items", []):
+            vid = (it.get("id") or {}).get("videoId")
+            if not vid:
+                continue
+            sn = it.get("snippet") or {}
+            items.append({
+                "video_id": vid,
+                "title": sn.get("title", ""),
+                "channel_id": sn.get("channelId", ""),
+                "channel_name": sn.get("channelTitle", ""),
+                "published_at": sn.get("publishedAt", ""),
+            })
+        return items, key, 100, None, False
+
+    return None, None, 0, last_err or "没有可用钥匙", _is_quota_error(last_err or "")
 
 
 def fetch_details(pool, video_ids):
@@ -514,12 +573,17 @@ def cycle(pool, state, dry_run=False):
             state["cursor_utc"] = iso_z(before)
             stats["searched"] += 1
         else:
-            items, key, cost, err = do_search(pool, state, cursor, before)
+            items, key, cost, err, quota_dead = do_search(pool, state, cursor, before)
             if err:
                 print(f"  [采集] 失败: {err}")
-                if "配额" in err:
-                    state["cursor_utc"] = iso_z(before)   # 跳过，别卡住
+                if quota_dead:
+                    print(f"  [采集] 所有钥匙配额耗尽，本轮暂停采集（**游标不推进**，"
+                          f"下轮或配额重置后继续）")
+                    stats["quota_blocked"] = 1
+                else:
+                    print(f"  [采集] 本轮跳过（**游标不推进**，下轮重试同一片，不会丢数据）")
             else:
+                # 只有真正搜到了才推进游标 —— 保证不漏时间片
                 state["cursor_utc"] = iso_z(before)
                 stats["searched"] += 1
                 state.setdefault("search_log", []).append({
