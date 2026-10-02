@@ -1,0 +1,141 @@
+{
+  "cursor_utc": "2026-10-02T12:56:30.644255Z",
+  "candidates": {},
+  "notified": {},
+  "rejected": {
+    "ILRtI3MJnQc": "2026-10-02T13:06:31.444320Z",
+    "0RzbSK1ry1M": "2026-10-02T13:06:31.444328Z",
+    "zlGRi8M1r6Q": "2026-10-02T13:06:31.444334Z",
+    "abbQLVA-rr8": "2026-10-02T13:06:31.444338Z",
+    "fvQN3ol50FE": "2026-10-02T13:06:31.444343Z",
+    "m1aLHtumxu4": "2026-10-02T13:06:31.444347Z",
+    "iSXin19-uNM": "2026-10-02T13:06:31.444352Z",
+    "VEzyCAWxgL4": "2026-10-02T13:06:31.444356Z",
+    "oSVSnJExCBE": "2026-10-02T13:06:31.444361Z",
+    "EXYSZwFLlrE": "2026-10-02T13:06:31.444365Z",
+    "p8vcQl0lp-o": "2026-10-02T13:06:31.444369Z",
+    "xLmSFsty_J4": "2026-10-02T13:06:31.444372Z",
+    "g_tccOGUm_E": "2026-10-02T13:06:31.444377Z",
+    "nDWTdR_XmvM": "2026-10-02T13:06:31.444380Z",
+    "LjnOoloXzrI": "2026-10-02T13:06:31.444384Z",
+    "LgNRlLfMGhU": "2026-10-02T13:06:31.444387Z"
+  },
+  "channels": {
+    "UCYb2SMWGGqr85rOfaXWNYLQ": {
+      "subs": 16300,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCxL_wy7Yk0X2eIUFpB5G6dQ": {
+      "subs": 28500,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCdRmsFYYyTlfwj_Ax_iDuWg": {
+      "subs": 311000,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCFooFRtG66uzwkWK5J8zH-w": {
+      "subs": 4420,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCTfRhQ0UiNuXBsuxPUnILZg": {
+      "subs": 3460,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCgeIaUOGituIiuAW0mdwhbQ": {
+      "subs": 402,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCaZj3_zCe7SLe-VWDC8VH9Q": {
+      "subs": 510,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCjF7YqpzNIhTc7zioCjKc-w": {
+      "subs": 45400,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCmoq2V6wAzasprJp_G-LKLA": {
+      "subs": 172,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCQxMSlSVfFDjresftEsKaZg": {
+      "subs": 50700,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCiQOeY1uZ8mSTWdFbpkRDCg": {
+      "subs": 1590,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCgJS_T1O2H-NSoCStVXpXlg": {
+      "subs": 623,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCz-fxukIVijmIfdZOzsH-AA": {
+      "subs": 167,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCoPTduh9faqLMXFDklDKTZQ": {
+      "subs": 126,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UClZG58UPbwQ1jNjdALO-BUg": {
+      "subs": 40000,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UC3pDnAKtf80l_J-H26FPbqQ": {
+      "subs": 150,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCoo5atB4q385iR2QNReootQ": {
+      "subs": 1660,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCLBIT2rk14dr0LJDkGtuuRA": {
+      "subs": 681,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCHaspauWKVActIBuTGaJYzQ": {
+      "subs": 5470,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UCP-evNobN1MJ61xHb8tAhcg": {
+      "subs": 327000,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UC7vXMFIIXdR3CeD-L2s8IxQ": {
+      "subs": 1620,
+      "fetched_at": "2026-10-02T13:06:31.277140Z"
+    }
+  },
+  "search_log": [
+    {
+      "at": "2026-10-02T13:06:30.644255Z",
+      "results": 21,
+      "span_minutes": 20.0
+    }
+  ],
+  "hourly_density": {
+    "20": {
+      "results": 21,
+      "span": 20.0,
+      "n": 1
+    }
+  },
+  "key_usage": {
+    "_day": "2026-10-02",
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 100,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1
+  },
+  "stats": {
+    "last_cycle": {
+      "at": "2026-10-02T13:06:30.644255Z",
+      "elapsed": 0.8,
+      "searched": 1,
+      "new": 0,
+      "gated_in": 0,
+      "sampled": 0,
+      "dropped": 0
+    }
+  },
+  "key_rr": 3
+}
