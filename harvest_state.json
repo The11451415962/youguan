@@ -1,21 +1,61 @@
 {
-  "cursor_utc": "2026-10-02T17:30:31.346199Z",
+  "cursor_utc": "2026-10-02T17:40:20.346199Z",
   "staging": {
-    "tTS41VSgso4": {
-      "video_id": "tTS41VSgso4",
-      "title": "Everyone Thought This Minecraft Monster Was Evil… Until Milo Found the Truth 😱",
-      "channel_id": "UCErTMHRoOOQRwJkkTB5fSsA",
-      "channel_name": "NITIN_SYNC",
-      "published_at": "2026-10-02T17:30:07Z",
-      "first_seen_at": "2026-10-02T17:30:32.026261Z"
+    "EesS5NLXHQo": {
+      "video_id": "EesS5NLXHQo",
+      "title": "Giganci w chmurach :D - Venomlazarus - Minecraft na modach: Better MC",
+      "channel_id": "UCOIhmeRx2hGgE52vWbGtzhA",
+      "channel_name": "venomlazarus",
+      "published_at": "2026-10-02T17:37:42Z",
+      "first_seen_at": "2026-10-02T17:40:21.422773Z"
     },
-    "KBWwS9w7Mzw": {
-      "video_id": "KBWwS9w7Mzw",
-      "title": "Ron reads the Rules for the Hardcore Minecraft Marathon with Jynxzi &amp; Lospollos",
-      "channel_id": "UCkTji8RaVodQQw3uIHQ_jwA",
-      "channel_name": "ClippedbyTen",
-      "published_at": "2026-10-02T17:28:47Z",
-      "first_seen_at": "2026-10-02T17:30:32.026261Z"
+    "hcpUQ6EXjLE": {
+      "video_id": "hcpUQ6EXjLE",
+      "title": "LOVITY INTENTA SALVAR A VERITY... PERO MORBOSITY ESTÁ AHÍ #minecraft #verity #lovity",
+      "channel_id": "UCYqZumVBBg03YRfixnnLIqA",
+      "channel_name": "matute",
+      "published_at": "2026-10-02T17:38:55Z",
+      "first_seen_at": "2026-10-02T17:40:21.422773Z"
+    },
+    "-CTeQnUrRxk": {
+      "video_id": "-CTeQnUrRxk",
+      "title": "There Is MORE MATH TNT In This Mod #moddedminecraft #minecraft #gaming",
+      "channel_id": "UCwbRD9NkWagzOYTZ6rba59w",
+      "channel_name": "Kaos",
+      "published_at": "2026-10-02T17:33:24Z",
+      "first_seen_at": "2026-10-02T17:40:21.422773Z"
+    },
+    "Q9eWlRoBQ54": {
+      "video_id": "Q9eWlRoBQ54",
+      "title": "DRDONUT UNDER WATER WORLD CHALLENGE #shorts #minecraft #drdonutt",
+      "channel_id": "UCCTha469iyN8KBPy2QBCX5w",
+      "channel_name": "DrDonutShorts",
+      "published_at": "2026-10-02T17:31:08Z",
+      "first_seen_at": "2026-10-02T17:40:21.422773Z"
+    },
+    "pf4qPkftaTo": {
+      "video_id": "pf4qPkftaTo",
+      "title": "GRIF NA SERWERZE JEST CORAZ WIĘKSZY 🚨 #minecraft #shorts",
+      "channel_id": "UCgDQSLmn6Zr3ot-TaUIXiiA",
+      "channel_name": "Overr",
+      "published_at": "2026-10-02T17:32:15Z",
+      "first_seen_at": "2026-10-02T17:40:21.422773Z"
+    },
+    "32Gu6pBKurQ": {
+      "video_id": "32Gu6pBKurQ",
+      "title": "0.0001% chance",
+      "channel_id": "UC0UetqANVOipDeOLx08dffg",
+      "channel_name": "Basicking",
+      "published_at": "2026-10-02T17:30:37Z",
+      "first_seen_at": "2026-10-02T17:40:21.422773Z"
+    },
+    "Fs8gAgYM4-4": {
+      "video_id": "Fs8gAgYM4-4",
+      "title": "THIS OLD TREND but it’s MINECRAFT 💀😎 #shorts",
+      "channel_id": "UC9JLbIF9QXlDjGeDOt7Q_Jw",
+      "channel_name": "Amiraft",
+      "published_at": "2026-10-02T17:30:36Z",
+      "first_seen_at": "2026-10-02T17:40:21.422773Z"
     }
   },
   "candidates": {
@@ -433,7 +473,9 @@
     "4swjqjJwTGw": "2026-10-02T17:30:32.026283Z",
     "HxowGpGRnng": "2026-10-02T17:35:22.263969Z",
     "6XKJcs5K_Z8": "2026-10-02T17:35:22.263969Z",
-    "IzVTJHYLWxk": "2026-10-02T17:35:22.263969Z"
+    "IzVTJHYLWxk": "2026-10-02T17:35:22.263969Z",
+    "KBWwS9w7Mzw": "2026-10-02T17:40:21.422794Z",
+    "tTS41VSgso4": "2026-10-02T17:40:21.422794Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -1651,6 +1693,14 @@
     "UCG9SFCw9Tacq5np_cGwOKOQ": {
       "subs": 1180,
       "fetched_at": "2026-10-02T17:35:22.427197Z"
+    },
+    "UCErTMHRoOOQRwJkkTB5fSsA": {
+      "subs": 20,
+      "fetched_at": "2026-10-02T17:40:21.549376Z"
+    },
+    "UCkTji8RaVodQQw3uIHQ_jwA": {
+      "subs": 31700,
+      "fetched_at": "2026-10-02T17:40:21.549376Z"
     }
   },
   "search_log": [
@@ -1803,6 +1853,11 @@
       "at": "2026-10-02T17:30:31.739553Z",
       "results": 6,
       "span_minutes": 10.166666666666666
+    },
+    {
+      "at": "2026-10-02T17:40:21.128061Z",
+      "results": 7,
+      "span_minutes": 9.816666666666666
     }
   ],
   "hourly_density": {
@@ -1827,38 +1882,39 @@
       "n": 7
     },
     "1": {
-      "results": 70,
-      "span": 29.866666666666667,
-      "n": 4
+      "results": 77,
+      "span": 39.68333333333334,
+      "n": 5
     }
   },
   "reject_reasons": {
-    "分类不符": 59,
-    "描述过长(疑口播)": 42,
+    "分类不符": 60,
+    "描述过长(疑口播)": 43,
     "标题含(twitch)": 2,
     "直播/切片(twitch.tv)": 4
   },
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 815,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 616,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 715,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 616,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 716,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 716,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 617,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 319
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T17:35:22.263958Z",
-      "elapsed": 0.3,
-      "searched": 0,
+      "at": "2026-10-02T17:40:21.128061Z",
+      "elapsed": 0.5,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 7
     }
   },
-  "key_rr": 1,
+  "key_rr": 4,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
