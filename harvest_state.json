@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T15:50:23.346199Z",
+  "cursor_utc": "2026-10-02T16:00:40.346199Z",
   "staging": {},
   "candidates": {
     "_-wkx3yZigg": {
@@ -89,7 +89,7 @@
       "channel_subs": 555000,
       "published_at": "2026-10-02T14:05:24Z",
       "first_seen_at": "2026-10-02T14:10:22.637052Z",
-      "last_checked_at": "2026-10-02T15:40:23.639752Z",
+      "last_checked_at": "2026-10-02T16:00:43.972105Z",
       "samples": [
         {
           "t": "2026-10-02T14:20:24.836753Z",
@@ -112,6 +112,11 @@
           "t": "2026-10-02T15:40:23.639730Z",
           "views": 9331,
           "likes": 448
+        },
+        {
+          "t": "2026-10-02T16:00:43.972087Z",
+          "views": 9649,
+          "likes": 482
         }
       ],
       "stale_checks": 0,
@@ -129,7 +134,7 @@
       "channel_subs": 3930000,
       "published_at": "2026-10-02T14:30:08Z",
       "first_seen_at": "2026-10-02T14:30:54.229434Z",
-      "last_checked_at": "2026-10-02T15:40:23.639765Z",
+      "last_checked_at": "2026-10-02T16:00:43.972116Z",
       "samples": [
         {
           "t": "2026-10-02T14:40:23.875630Z",
@@ -148,6 +153,11 @@
           "t": "2026-10-02T15:40:23.639761Z",
           "views": 13824,
           "likes": 427
+        },
+        {
+          "t": "2026-10-02T16:00:43.972113Z",
+          "views": 14671,
+          "likes": 486
         }
       ],
       "stale_checks": 0,
@@ -167,7 +177,7 @@
       "tier_locked_at": "2026-10-02T15:25:20.936111Z",
       "published_at": "2026-10-02T15:13:28Z",
       "first_seen_at": "2026-10-02T15:15:29.382466Z",
-      "last_checked_at": "2026-10-02T15:35:21.784545Z",
+      "last_checked_at": "2026-10-02T16:00:43.972123Z",
       "samples": [
         {
           "t": "2026-10-02T15:25:20.936111Z",
@@ -178,6 +188,11 @@
           "t": "2026-10-02T15:35:21.784528Z",
           "views": 2491,
           "likes": 21
+        },
+        {
+          "t": "2026-10-02T16:00:43.972121Z",
+          "views": 3843,
+          "likes": 124
         }
       ],
       "stale_checks": 0,
@@ -361,7 +376,8 @@
     "0KzeNFSDpuo": "2026-10-02T15:45:24.595390Z",
     "DOS4SbGhXno": "2026-10-02T15:45:24.595390Z",
     "GIAFiGrevVE": "2026-10-02T15:45:24.595390Z",
-    "3dhUuN-DA7c": "2026-10-02T15:55:19.015940Z"
+    "3dhUuN-DA7c": "2026-10-02T15:55:19.015940Z",
+    "r8rHFdM6hr4": "2026-10-02T16:00:41.248984Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -1039,6 +1055,10 @@
     "UCLIaZbweQ_dYMC4UWeS8n7Q": {
       "subs": 23800,
       "fetched_at": "2026-10-02T15:55:19.136861Z"
+    },
+    "UCK7NI338Nw3h612vFv6koQA": {
+      "subs": 4280,
+      "fetched_at": "2026-10-02T16:00:41.369205Z"
     }
   },
   "search_log": [
@@ -1131,6 +1151,11 @@
       "at": "2026-10-02T15:50:23.639197Z",
       "results": 0,
       "span_minutes": 5.0
+    },
+    {
+      "at": "2026-10-02T16:00:40.922811Z",
+      "results": 1,
+      "span_minutes": 10.283333333333333
     }
   ],
   "hourly_density": {
@@ -1145,9 +1170,9 @@
       "n": 8
     },
     "23": {
-      "results": 67,
-      "span": 49.699999999999996,
-      "n": 7
+      "results": 68,
+      "span": 59.98333333333333,
+      "n": 8
     }
   },
   "reject_reasons": {
@@ -1159,24 +1184,25 @@
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 311,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 211,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 508,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 508,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 310
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 311,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 509,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 509,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 311
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T15:55:19.015928Z",
-      "elapsed": 0.2,
-      "searched": 0,
+      "at": "2026-10-02T16:00:40.922811Z",
+      "elapsed": 3.0,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
-      "dropped": 0
+      "sampled": 3,
+      "dropped": 0,
+      "staged": 1
     }
   },
-  "key_rr": 1,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
