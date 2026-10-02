@@ -1,31 +1,6 @@
 {
-  "cursor_utc": "2026-10-02T20:45:22.346199Z",
-  "staging": {
-    "bdeUiuNwlGY": {
-      "video_id": "bdeUiuNwlGY",
-      "title": "Rimuru finds Jinwoo Sung in Minecraft (MCAnime: Part 2)",
-      "channel_id": "UCiVOP63A2ltMSjYjXBicFSA",
-      "channel_name": "itsbrando",
-      "published_at": "2026-10-02T20:43:27Z",
-      "first_seen_at": "2026-10-02T20:45:23.399096Z"
-    },
-    "sw0zEsVLLos": {
-      "video_id": "sw0zEsVLLos",
-      "title": "Así es la NUEVA DIMENSIÓN SECRETA en Minecraft 🌀 #minecraft",
-      "channel_id": "UCud9A79W0lfEoRKjZRSyapA",
-      "channel_name": "ANDREUI Y MISA",
-      "published_at": "2026-10-02T20:42:09Z",
-      "first_seen_at": "2026-10-02T20:45:23.399096Z"
-    },
-    "nDfQwMrmbjs": {
-      "video_id": "nDfQwMrmbjs",
-      "title": "EL MOD NECESARIO PARA HACER CINEMATICAS #minecraft",
-      "channel_id": "UChApXqnqDpdzR-T8Q2Lg7yQ",
-      "channel_name": "fiorella3 SP",
-      "published_at": "2026-10-02T20:40:30Z",
-      "first_seen_at": "2026-10-02T20:45:23.399096Z"
-    }
-  },
+  "cursor_utc": "2026-10-02T20:55:18.346199Z",
+  "staging": {},
   "candidates": {
     "Go7Qt32Eu0E": {
       "video_id": "Go7Qt32Eu0E",
@@ -673,7 +648,10 @@
     "I9W706puoOM": "2026-10-02T20:45:23.399113Z",
     "60L4IrsnRhw": "2026-10-02T20:45:23.399113Z",
     "fI9Kv-GLbtQ": "2026-10-02T20:50:21.766287Z",
-    "jeLQrzSqOSA": "2026-10-02T20:50:21.766287Z"
+    "jeLQrzSqOSA": "2026-10-02T20:50:21.766287Z",
+    "nDfQwMrmbjs": "2026-10-02T20:55:19.363003Z",
+    "sw0zEsVLLos": "2026-10-02T20:55:19.363003Z",
+    "bdeUiuNwlGY": "2026-10-02T20:55:19.363003Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3027,14 +3005,21 @@
     "UCKPUTY3OiPhAkqbU5RHvTKw": {
       "subs": 3110,
       "fetched_at": "2026-10-02T20:50:21.939202Z"
+    },
+    "UChApXqnqDpdzR-T8Q2Lg7yQ": {
+      "subs": 4360,
+      "fetched_at": "2026-10-02T20:55:19.492311Z"
+    },
+    "UCiVOP63A2ltMSjYjXBicFSA": {
+      "subs": 18,
+      "fetched_at": "2026-10-02T20:55:19.492311Z"
+    },
+    "UCud9A79W0lfEoRKjZRSyapA": {
+      "subs": 369000,
+      "fetched_at": "2026-10-02T20:55:19.492311Z"
     }
   },
   "search_log": [
-    {
-      "at": "2026-10-02T14:30:53.895787Z",
-      "results": 8,
-      "span_minutes": 10.483333333333333
-    },
     {
       "at": "2026-10-02T14:40:23.554692Z",
       "results": 1,
@@ -3279,6 +3264,11 @@
       "at": "2026-10-02T20:45:23.060675Z",
       "results": 3,
       "span_minutes": 5.0
+    },
+    {
+      "at": "2026-10-02T20:55:19.048465Z",
+      "results": 0,
+      "span_minutes": 9.933333333333334
     }
   ],
   "hourly_density": {
@@ -3319,8 +3309,8 @@
     },
     "4": {
       "results": 93,
-      "span": 44.75,
-      "n": 6
+      "span": 54.68333333333334,
+      "n": 7
     }
   },
   "reject_reasons": {
@@ -3331,25 +3321,26 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1427,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1031,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1229,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1527,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1032,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1230,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1031,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1031
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T20:50:21.766276Z",
-      "elapsed": 0.3,
-      "searched": 0,
+      "at": "2026-10-02T20:55:19.048465Z",
+      "elapsed": 0.6,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 0
     }
   },
-  "key_rr": 0,
+  "key_rr": 3,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
