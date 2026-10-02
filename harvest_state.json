@@ -1,15 +1,6 @@
 {
   "cursor_utc": "2026-10-02T15:50:23.346199Z",
-  "staging": {
-    "3dhUuN-DA7c": {
-      "video_id": "3dhUuN-DA7c",
-      "title": "SİZİ BEKLİYORUM 🎇 #minecraft",
-      "channel_id": "UCLIaZbweQ_dYMC4UWeS8n7Q",
-      "channel_name": "erennwell",
-      "published_at": "2026-10-02T15:40:45Z",
-      "first_seen_at": "2026-10-02T15:45:24.595376Z"
-    }
-  },
+  "staging": {},
   "candidates": {
     "_-wkx3yZigg": {
       "video_id": "_-wkx3yZigg",
@@ -369,7 +360,8 @@
     "wdDPOv_elTM": "2026-10-02T15:45:24.595390Z",
     "0KzeNFSDpuo": "2026-10-02T15:45:24.595390Z",
     "DOS4SbGhXno": "2026-10-02T15:45:24.595390Z",
-    "GIAFiGrevVE": "2026-10-02T15:45:24.595390Z"
+    "GIAFiGrevVE": "2026-10-02T15:45:24.595390Z",
+    "3dhUuN-DA7c": "2026-10-02T15:55:19.015940Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -1043,6 +1035,10 @@
     "UCJbMDKgB9YnqaNLkXKFusEQ": {
       "subs": 3720000,
       "fetched_at": "2026-10-02T15:45:24.711369Z"
+    },
+    "UCLIaZbweQ_dYMC4UWeS8n7Q": {
+      "subs": 23800,
+      "fetched_at": "2026-10-02T15:55:19.136861Z"
     }
   },
   "search_log": [
@@ -1162,26 +1158,25 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 310,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 311,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 211,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 508,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 508,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 309
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 310
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T15:50:23.639197Z",
-      "elapsed": 0.4,
-      "searched": 1,
+      "at": "2026-10-02T15:55:19.015928Z",
+      "elapsed": 0.2,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 0
+      "dropped": 0
     }
   },
-  "key_rr": 4,
+  "key_rr": 1,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
