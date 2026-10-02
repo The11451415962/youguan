@@ -28,6 +28,7 @@
 
 import argparse
 import json
+import math
 import os
 import re
 import signal
@@ -42,6 +43,135 @@ from yt_collect import BJT, YouTubeAPI
 
 BASE = Path(__file__).parent
 STATE_PATH = BASE / "harvest_state.json"
+
+# ---------------------------------------------------------------------------
+# 分层打捞（六档）
+# ---------------------------------------------------------------------------
+# 为什么必须分档：实测「播放/订阅比 ≥ 2」对大号数学上不可达 ——
+# 393 万订阅的频道要 786 万播放才算预警，永远触发不了。
+# 所以进池门槛、预警门槛都按订阅规模分档，小号看比值，大号看绝对量。
+
+TIERS = ["T1", "T2", "T3", "T4", "T5", "T6"]
+
+TIER_LABEL = {
+    "T1": "0~100 订阅",
+    "T2": "100~1k",
+    "T3": "1k~10k",
+    "T4": "10k~100k",
+    "T5": "100k~1M",
+    "T6": "1M+",
+}
+
+# 档位边界（订阅数下限）与每档规则
+TIER_RULES = {
+    #            订阅下限      进池:播放/分  进池:最小播放   预警:最小播放   高优先级:比值
+    "T1": {"min_subs": 0,          "gate_vpm": 30, "gate_min_views": 200,    "alert_views": 3_000,    "boost_ratio": 50.0},
+    "T2": {"min_subs": 100,        "gate_vpm": 25, "gate_min_views": 250,    "alert_views": 5_000,    "boost_ratio": 20.0},
+    "T3": {"min_subs": 1_000,      "gate_vpm": 25, "gate_min_views": 300,    "alert_views": 20_000,   "boost_ratio": 5.0},
+    "T4": {"min_subs": 10_000,     "gate_vpm": 30, "gate_min_views": 500,    "alert_views": 50_000,   "boost_ratio": 1.0},
+    "T5": {"min_subs": 100_000,    "gate_vpm": 40, "gate_min_views": 1_000,  "alert_views": 150_000,  "boost_ratio": 0.2},
+    "T6": {"min_subs": 1_000_000,  "gate_vpm": 60, "gate_min_views": 2_000,  "alert_views": 500_000,  "boost_ratio": 0.05},
+}
+
+# 候选池按档位分配名额（总数 400）—— 防止小号把池子撑爆
+TIER_QUOTA = {"T1": 20, "T2": 60, "T3": 100, "T4": 100, "T5": 80, "T6": 40}
+
+
+def tier_of(subs: int) -> str:
+    """按订阅数定档。"""
+    subs = int(subs or 0)
+    for t in reversed(TIERS):
+        if subs >= TIER_RULES[t]["min_subs"]:
+            return t
+    return "T1"
+
+
+def tier_vpm_baseline(state, tier):
+    """该档位实测的「播放/分钟」基线（有数据用数据，没有用默认）。
+
+    默认值是量级先验，跑一天后自动被真实数据替换（取 p75）。
+    """
+    stats = (state.get("tier_stats") or {}).get(tier) or {}
+    samples = stats.get("vpm_samples") or []
+    if len(samples) >= 20:
+        s = sorted(samples)
+        return s[int(len(s) * 0.75)]        # p75
+    return TIER_VPM_PRIOR[tier]
+
+
+# 各档位「播放/分钟」的先验基线（用于标准化，让跨档位可比）
+TIER_VPM_PRIOR = {"T1": 15.0, "T2": 20.0, "T3": 30.0,
+                  "T4": 40.0, "T5": 60.0, "T6": 120.0}
+
+
+def promotion_score(views, vpm, subs, tier, likes=0):
+    """排序分 —— 「这个视频跑得比它同档位的常规水平快多少」。
+
+    用途：① 档位名额满了，同档内谁留下 ② 通知邮件里的排序
+
+    公式（加法，不是乘法）：
+        log2(速度倍数) × 10  +  log10(播放量)
+
+    为什么用加法：乘法会让播放量主导（实测 T6 的 2.5M 播放
+    分数是 T1 黑马的 286 倍）。改成加法后两部分互不压倒：
+      速度倍数 每翻一倍 → +10 分
+      播放量 每翻十倍 → +1 分
+
+    例：
+      T1 50订阅/29.9万播放/200每分 → log2(13.3)*10 + log10(299000) = 37.3 + 5.5 = 42.8
+      T6 393万订阅/250万播放/5万每分 → log2(416.7)*10 + log10(2500000) = 86.7 + 6.4 = 93.1
+    """
+    base = TIER_VPM_PRIOR.get(tier, 30.0)
+    speed_mult = max(0.01, vpm / max(1.0, base))
+    score = math.log2(speed_mult) * 10.0 + math.log10(max(10, views))
+    if views >= 50 and likes:
+        rate = likes / views
+        if rate >= 0.03:
+            score += min(8.0, (rate - 0.03) * 80)     # 点赞率加成，最多 +8 分
+    return round(score, 2)
+
+
+
+def record_tier_sample(state, tier, vpm):
+    """记录该档位观察到的播放速度，用于算基线。"""
+    stats = state.setdefault("tier_stats", {}).setdefault(
+        tier, {"vpm_samples": [], "alerted": 0, "promoted": 0})
+    arr = stats.setdefault("vpm_samples", [])
+    arr.append(round(float(vpm), 2))
+    if len(arr) > 500:
+        del arr[:-500]
+
+
+def alert_check(cand, state):
+    """按档位判定是否该发预警。
+
+    返回 (是否预警, 是否高优先级, 详情 dict)
+    """
+    tier = cand.get("tier") or "T3"
+    rule = TIER_RULES[tier]
+    samples = cand.get("samples") or []
+    if len(samples) < 3:
+        return False, False, {"why": "采样点不足"}
+
+    views = int(samples[-1]["views"])
+    subs = int(cand.get("channel_subs") or 0)
+    acc, rates = is_accelerating(cand)
+
+    detail = {"tier": tier, "views": views, "subs": subs,
+              "alert_views": rule["alert_views"], "accel": acc,
+              "rates": rates}
+
+    if views < rule["alert_views"]:
+        return False, False, {**detail, "why": f"播放未达 {rule['alert_views']:,}"}
+    if not acc:
+        return False, False, {**detail, "why": "涨速未加速"}
+
+    ratio = (views / subs) if subs else 0
+    priority = ratio >= rule["boost_ratio"]
+    detail["ratio"] = round(ratio, 3)
+    detail["high_priority"] = priority
+    return True, priority, detail
+
 
 # ---------------------------------------------------------------------------
 # 可调参数
@@ -59,10 +189,10 @@ CFG = {
     "title_keywords": ["#minecraft", "minecraft", "minecraftmemes", "minecraftshorts",
                        "maizen", "verity", "#mc", "mc"],
     "title_allow_hashtag": True,       # 允许 #minecraft 这种 hashtag 形式也算命中
-    # 频道订阅门槛：低于这个数不进池
-    # 理由：小号的「高播放/订阅比」往往是分母太小造成的假象，
-    #       而你要的是「量已经验证过」的视频，订阅数是最便宜的确定性代理指标
-    "min_channel_subs": 10_000,
+    # ---- 频道门槛：已改为按订阅分档（见 TIER_RULES）----
+    # 旧的统一门槛 min_channel_subs=10000 已废弃 —— 它会滤掉实测存在的
+    # 92 订阅 / 29.9 万播放（3250x）这类黑马，而它们正是最有价值的信号。
+    # 现在所有档位都能进池，靠 TIER_RULES 的每档门槛 + TIER_QUOTA 的分档名额控制质量。
 
     # ---- 内容形态过滤（拦「跑题」和「有人声口播」）----
     # 允许的分类。实测池内跑题视频集中在 Travel/People&Blogs；
@@ -89,6 +219,10 @@ CFG = {
         (120, 20),
         (360, 60),
     ],
+    # 观察窗口：发布后多少分钟停止观察（按**发布时间**算，不按进池时间）
+    # 用发布时间做基准：它是 YouTube 给的、稳定的；
+    # 「发现时刻」取决于搜索运气，不稳定，会导致同样的视频被观察不同时长。
+    "observe_minutes": 360,
     "max_pool_size": 400,              # 候选池上限，超了就扔涨得最慢的
     "drop_if_views_below": 300,        # 2 小时后仍低于这个播放 → 扔
     "drop_if_stale_checks": 3,         # 连续 N 次检查几乎不涨 → 扔
@@ -634,20 +768,43 @@ def is_accelerating(cand):
     return late > early * 1.5, (early, late)
 
 
+def like_rate(cand):
+    """点赞率 = 点赞 / 播放。返回 (率, 点赞数, 播放数)；数据不足返回 (None, 0, 0)。"""
+    samples = cand.get("samples") or []
+    if not samples:
+        return None, 0, 0
+    last = samples[-1]
+    views = int(last.get("views") or 0)
+    likes = int(last.get("likes") or 0)
+    if views < 50:
+        return None, likes, views          # 播放太少，比率没意义
+    return likes / views, likes, views
+
+
 def should_drop(cand):
+    """淘汰：过期 / 没人气 / 涨不动。判定标准按档位分。"""
     age = age_minutes(cand.get("published_at"))
     views = int((cand.get("samples") or [{"views": 0}])[-1]["views"])
     stale = int(cand.get("stale_checks") or 0)
+    tier = cand.get("tier") or "T3"
 
-    # 太老了，早就错过窗口
-    if age > 480:
-        return "过期(>8h)"
-    # 很久了还没量
-    if age > 120 and views < CFG["drop_if_views_below"]:
-        return f"无望({views}播放)"
-    # 连续多轮不涨
+    # 观察窗口结束（按发布时间算，不用进池时间）—— 过了就停止采样
+    if age > CFG["observe_minutes"]:
+        return f"观察期满({CFG['observe_minutes']//60}h)"
+
+    # 分档的「无望」门槛：大号的绝对量要求更高
+    hopeless_views = {"T1": 500, "T2": 800, "T3": 2_000,
+                      "T4": 5_000, "T5": 15_000, "T6": 50_000}[tier]
+    if age > 120 and views < hopeless_views:
+        return f"无望({views}播放<{hopeless_views})"
+
+    # 分档的「停涨」门槛
+    stale_growth = {"T1": 20, "T2": 40, "T3": 80,
+                    "T4": 200, "T5": 500, "T6": 1_500}[tier]
     if stale >= CFG["drop_if_stale_checks"]:
-        return f"停涨({stale}轮)"
+        g = last_growth(cand)
+        if g is None or g < stale_growth:
+            return f"停涨({stale}轮)"
     return None
 
 
@@ -826,7 +983,8 @@ def _evaluate_staging(pool, state, stats):
         (details.get(v, {}) or staging[v]).get("channel_id") or staging[v].get("channel_id", "")
         for v in due])
 
-    promoted = gated_views = gated_dur = gated_title = gated_subs = gated_content = 0
+    promoted = gated_views = gated_dur = gated_title = gated_content = 0
+    gated_quota = gated_minviews = 0
     for vid in due:
         e = staging.get(vid)
         d = details.get(vid)
@@ -849,6 +1007,9 @@ def _evaluate_staging(pool, state, stats):
             state["rejected"][vid] = iso_z(now)
             return reason_counter + 1
 
+        tier = tier_of(subs)
+        rule = TIER_RULES[tier]
+
         # 判定顺序：先做最便宜的排除，再做需要计算的
         if not (0 < d["duration"] <= CFG["max_duration"]):
             gated_dur = drop(gated_dur)
@@ -863,36 +1024,58 @@ def _evaluate_staging(pool, state, stats):
             state.setdefault("reject_reasons", {})
             state["reject_reasons"][why] = state["reject_reasons"].get(why, 0) + 1
             continue
-        if subs and subs < CFG["min_channel_subs"]:
-            gated_subs = drop(gated_subs)
-            continue
-        if vpm < CFG["gate_min_views_per_min"]:
+        # 按档位的进池门槛：播放速度 + 最小绝对播放量
+        if vpm < rule["gate_vpm"]:
             gated_views = drop(gated_views)
             continue
+        if views < rule["gate_min_views"]:
+            gated_minviews = drop(gated_minviews)
+            continue
 
-        # 通过 → 进候选池
+        # 该档位名额满了？按推广分决定谁留下
+        tier_count = sum(1 for c in pool_c.values() if c.get("tier") == tier)
+        if tier_count >= TIER_QUOTA[tier]:
+            weakest = min(
+                (c for c in pool_c.values() if c.get("tier") == tier),
+                key=lambda c: c.get("promo_score", 0.0), default=None)
+            my_score = promotion_score(views, vpm, subs, tier, d.get("likes", 0))
+            if weakest is None or my_score <= weakest.get("promo_score", 0.0):
+                gated_quota = drop(gated_quota)
+                continue
+            # 顶掉最弱的
+            del pool_c[weakest["video_id"]]
+            state["rejected"][weakest["video_id"]] = iso_z(now)
+            gated_quota += 1
+
+        record_tier_sample(state, tier, vpm)
+
+        # 通过 → 进候选池。档位在此**锁定**，后续不再重算
+        # （频道订阅会变，不锁的话一个视频可能被两套规则判过，产生重复通知）
         pool_c[vid] = {
             "video_id": vid,
             "title": title,
             "channel_id": e.get("channel_id", ""),
             "channel_name": e.get("channel_name", ""),
             "channel_subs": subs,
+            "tier": tier,
+            "tier_locked_at": iso_z(now),
             "published_at": pub,
             "first_seen_at": e.get("first_seen_at", iso_z(now)),
             "last_checked_at": iso_z(now),
-            "samples": [{"t": iso_z(now), "views": views}],
+            "samples": [{"t": iso_z(now), "views": views, "likes": d.get("likes", 0)}],
             "stale_checks": 0,
             "notified": False,
             "gate_vpm": round(vpm, 1),
+            "promo_score": round(promotion_score(views, vpm, subs, tier, d.get("likes", 0)), 3),
         }
         del staging[vid]
         promoted += 1
         stats["gated_in"] = stats.get("gated_in", 0) + 1
 
-    if promoted or gated_views or gated_dur or gated_title or gated_subs or gated_content:
-        print(f"  [判定] 进池 {promoted} | 订阅不足 {gated_subs} | 内容形态 {gated_content} | "
-              f"播放太慢 {gated_views} | 非Shorts {gated_dur} | 标题不符 {gated_title} | "
-              f"待判定 {len(staging)}")
+    if promoted or gated_views or gated_dur or gated_title or gated_content or gated_quota or gated_minviews:
+        print(f"  [判定] 进池 {promoted} | 播放太慢 {gated_views} | 绝对量不足 {gated_minviews} | "
+              f"内容形态 {gated_content} | 非Shorts {gated_dur} | 标题不符 {gated_title} | "
+              f"档位名额挤掉 {gated_quota} | 待判定 {len(staging)}")
 
 
 def _ingest_legacy(pool, state, items, stats):
@@ -915,23 +1098,40 @@ def _sample_due(pool, state, stats):
         if c is None or d is None:
             continue
         prev = int(c["samples"][-1]["views"]) if c["samples"] else 0
-        c["samples"].append({"t": iso_z(now_utc()), "views": d["views"]})
+        c["samples"].append({
+            "t": iso_z(now_utc()),
+            "views": d["views"],
+            # 点赞是免费的信号（同一次 videos.list 就返回了），
+            # 用来算点赞率，区分「算法推的」和「观众真的喜欢」
+            "likes": d.get("likes", 0),
+        })
         if len(c["samples"]) > 24:
             del c["samples"][:-24]
         c["last_checked_at"] = iso_z(now_utc())
         c["stale_checks"] = (int(c.get("stale_checks") or 0) + 1) if d["views"] - prev < 5 else 0
         stats["sampled"] += 1
 
-        acc, rates = is_accelerating(c)
-        if acc and c["channel_subs"]:
-            ratio = d["views"] / c["channel_subs"]
-            if ratio >= 2.0 and not c.get("notified"):
+        # 按档位判定预警（不再是统一的 views/subs >= 2）
+        if not c.get("notified"):
+            fire, high, detail = alert_check(c, state)
+            if fire:
                 c["notified"] = True
                 state["notified"][vid] = iso_z(now_utc())
-                print(f"  [🔥 预警] {c['title'][:46]}")
-                print(f"            {d['views']:,} 播放 / {c['channel_subs']:,} 订阅 "
-                      f"= {ratio:.1f}x | 涨速 {rates[0]:.0f}→{rates[1]:.0f}/分 | "
+                t = state.setdefault("tier_stats", {}).setdefault(
+                    detail["tier"], {"vpm_samples": [], "alerted": 0, "promoted": 0})
+                t["alerted"] = int(t.get("alerted", 0)) + 1
+                rates = detail.get("rates") or (0, 0)
+                tag = "🔥🔥 高优先级" if high else "🔥"
+                print(f"  [{tag}] {c['title'][:46]}")
+                print(f"           {detail['tier']} {TIER_LABEL[detail['tier']]} | "
+                      f"{detail['views']:,} 播放 / {detail['subs']:,} 订阅 "
+                      f"= {detail.get('ratio', 0):.2f}x | "
+                      f"门槛 {detail['alert_views']:,} | "
+                      f"涨速 {rates[0]:.0f}→{rates[1]:.0f}/分 | "
                       f"发布后 {age_minutes(c['published_at']):.0f} 分")
+                print(f"           https://www.youtube.com/watch?v={vid}")
+            elif detail.get("why") and stats.get("verbose"):
+                print(f"  [·] {c['title'][:38]} 未预警: {detail['why']}")
 
 
 def _prune(state, stats):
@@ -1031,10 +1231,15 @@ def main():
     print(f"{'═'*92}")
     print(f"  切片        : 自适应 {CFG['min_slice_seconds']//60}~{CFG['max_slice_seconds']//60} 分钟")
     print(f"  目标结果数  : {CFG['target_results_per_search']} 条/次搜索")
-    print(f"  门槛        : 订阅≥{CFG['min_channel_subs']:,} | "
-          f"播放/分钟≥{CFG['gate_min_views_per_min']} | "
-          f"描述≤{CFG['max_description_chars']}字 | "
-          f"分类∈{CFG['allow_categories']}")
+    print(f"  分层门槛    : " + " | ".join(
+        f"{t} {TIER_LABEL[t]}: 播放/分≥{TIER_RULES[t]['gate_vpm']}, 预警≥{TIER_RULES[t]['alert_views']:,}"
+        for t in TIERS[:3]))
+    print(f"                " + " | ".join(
+        f"{t} {TIER_LABEL[t]}: 播放/分≥{TIER_RULES[t]['gate_vpm']}, 预警≥{TIER_RULES[t]['alert_views']:,}"
+        for t in TIERS[3:]))
+    print(f"  内容过滤    : 描述≤{CFG['max_description_chars']}字 | 分类∈{CFG['allow_categories']}")
+    print(f"  分档名额    : " + " ".join(f"{t}={TIER_QUOTA[t]}" for t in TIERS) +
+          f"  (共 {sum(TIER_QUOTA.values())})")
     print(f"  采样节奏    : " + " / ".join(f"{a}分内每{b}分" for a, b in CFG["sample_schedule"]))
     print(f"  单把日上限  : {CFG['daily_budget_per_key']:,} 点")
     if pool:
