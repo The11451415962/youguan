@@ -241,14 +241,6 @@
       "published_at": "2026-10-02T15:02:47Z",
       "first_seen_at": "2026-10-02T15:07:33.006855Z"
     },
-    "j54GDqhJS-w": {
-      "video_id": "j54GDqhJS-w",
-      "title": "COMPLETA el VERITY en MINECRAFT 💀​⚠️​☠️ #español #minecraft #verity",
-      "channel_id": "UC72dRCB2ecWc-L6CaHXmNJw",
-      "channel_name": "detroHD",
-      "published_at": "2026-10-02T15:00:47Z",
-      "first_seen_at": "2026-10-02T15:07:33.006855Z"
-    },
     "xXCrS_XqC0k": {
       "video_id": "xXCrS_XqC0k",
       "title": "معانات لاعبين ماين كرفت 😂 #minecraft #ماينكرافتللجوال #ماين_كرافت #gaming #memes",
@@ -538,7 +530,8 @@
     "CcJn99AoH04": "2026-10-02T14:40:23.875630Z",
     "kkfgsNBcKvQ": "2026-10-02T14:45:25.567802Z",
     "xzgRZeUhsOA": "2026-10-02T15:00:42.636482Z",
-    "BRq0suqYM38": "2026-10-02T15:00:42.636482Z"
+    "BRq0suqYM38": "2026-10-02T15:00:42.636482Z",
+    "j54GDqhJS-w": "2026-10-02T15:10:51.033985Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -964,6 +957,10 @@
     "UCxqGfXplVDxDw5tkSAWsn4Q": {
       "subs": 12,
       "fetched_at": "2026-10-02T15:00:42.770492Z"
+    },
+    "UC72dRCB2ecWc-L6CaHXmNJw": {
+      "subs": 555000,
+      "fetched_at": "2026-10-02T15:10:51.114520Z"
     }
   },
   "search_log": [
@@ -1053,15 +1050,15 @@
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 206,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 206,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 502,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 304,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 503,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 305,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 7
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T15:10:21.079095Z",
-      "elapsed": 0.0,
+      "at": "2026-10-02T15:10:51.033972Z",
+      "elapsed": 0.2,
       "searched": 0,
       "new": 0,
       "gated_in": 0,
@@ -1069,5 +1066,5 @@
       "dropped": 0
     }
   },
-  "key_rr": 2
+  "key_rr": 4
 }
