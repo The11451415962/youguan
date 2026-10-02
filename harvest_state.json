@@ -1,22 +1,6 @@
 {
   "cursor_utc": "2026-10-02T20:45:22.346199Z",
   "staging": {
-    "fI9Kv-GLbtQ": {
-      "video_id": "fI9Kv-GLbtQ",
-      "title": "Самая редкая деревня в истории Minecraft! #minecraft",
-      "channel_id": "UCKPUTY3OiPhAkqbU5RHvTKw",
-      "channel_name": "Ivorymice",
-      "published_at": "2026-10-02T20:37:36Z",
-      "first_seen_at": "2026-10-02T20:40:22.616016Z"
-    },
-    "jeLQrzSqOSA": {
-      "video_id": "jeLQrzSqOSA",
-      "title": "BLOKOYUN Skyblock’ta karşına çıkacak bosslarla tanış! ⚔️ #minecraft",
-      "channel_id": "UCxekdPo76y2vw-bF3UNE3XA",
-      "channel_name": "Blokoyun",
-      "published_at": "2026-10-02T20:37:51Z",
-      "first_seen_at": "2026-10-02T20:40:22.616016Z"
-    },
     "bdeUiuNwlGY": {
       "video_id": "bdeUiuNwlGY",
       "title": "Rimuru finds Jinwoo Sung in Minecraft (MCAnime: Part 2)",
@@ -687,7 +671,9 @@
     "aDjof1ZykAY": "2026-10-02T20:45:23.399113Z",
     "6HycaITSDGk": "2026-10-02T20:45:23.399113Z",
     "I9W706puoOM": "2026-10-02T20:45:23.399113Z",
-    "60L4IrsnRhw": "2026-10-02T20:45:23.399113Z"
+    "60L4IrsnRhw": "2026-10-02T20:45:23.399113Z",
+    "fI9Kv-GLbtQ": "2026-10-02T20:50:21.766287Z",
+    "jeLQrzSqOSA": "2026-10-02T20:50:21.766287Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3033,6 +3019,14 @@
     "UChw-fTB7h2zbm74XlflpO_w": {
       "subs": 64,
       "fetched_at": "2026-10-02T20:45:23.554479Z"
+    },
+    "UCxekdPo76y2vw-bF3UNE3XA": {
+      "subs": 29,
+      "fetched_at": "2026-10-02T20:50:21.939202Z"
+    },
+    "UCKPUTY3OiPhAkqbU5RHvTKw": {
+      "subs": 3110,
+      "fetched_at": "2026-10-02T20:50:21.939202Z"
     }
   },
   "search_log": [
@@ -3340,23 +3334,22 @@
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1427,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1031,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1229,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1030,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1030
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1031,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1031
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T20:45:23.060675Z",
-      "elapsed": 0.6,
-      "searched": 1,
+      "at": "2026-10-02T20:50:21.766276Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
-      "gated_in": 1,
+      "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 3
+      "dropped": 0
     }
   },
-  "key_rr": 3,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
