@@ -1,21 +1,61 @@
 {
-  "cursor_utc": "2026-10-02T18:30:30.346199Z",
+  "cursor_utc": "2026-10-02T18:40:19.346199Z",
   "staging": {
-    "ecw53xb1f0I": {
-      "video_id": "ecw53xb1f0I",
-      "title": "Testing the new wool stairs in Minecraft #shorts",
-      "channel_id": "UCFkMhUloCqDbHREE5D6x4pw",
-      "channel_name": "Button",
-      "published_at": "2026-10-02T18:28:18Z",
-      "first_seen_at": "2026-10-02T18:30:31.200412Z"
+    "W2jtllAuNPU": {
+      "video_id": "W2jtllAuNPU",
+      "title": "Opening New Minecraft Toy Packet 🤤 #shorts #asmr #toys #toysunboxing",
+      "channel_id": "UCkTlzrrmAGA_cRKWCJkaJiw",
+      "channel_name": "CLIPSFALL STUDIOS",
+      "published_at": "2026-10-02T18:39:37Z",
+      "first_seen_at": "2026-10-02T18:40:20.580443Z"
     },
-    "PVd5vvYJ1b4": {
-      "video_id": "PVd5vvYJ1b4",
-      "title": "We Lost ? #minecraft #shorts",
-      "channel_id": "UCFFRSXz9V9AN8PFW2QXN7Qg",
-      "channel_name": "Pro Aashu",
-      "published_at": "2026-10-02T18:30:06Z",
-      "first_seen_at": "2026-10-02T18:30:31.200412Z"
+    "1RykWbwSO1I": {
+      "video_id": "1RykWbwSO1I",
+      "title": "This drowned zombie is PARTYING HARD! | Minecraft: Stack Locked 🔒 #shorts #minecraftshorts",
+      "channel_id": "UCKjfM1672DaOhq37Le2mAKg",
+      "channel_name": "XP While They Sleep",
+      "published_at": "2026-10-02T18:36:15Z",
+      "first_seen_at": "2026-10-02T18:40:20.580443Z"
+    },
+    "xRXxHshyTDg": {
+      "video_id": "xRXxHshyTDg",
+      "title": "SKĄD ON MA TAKIE OWCE?! 🐑 #minecraft #shorts",
+      "channel_id": "UCgDQSLmn6Zr3ot-TaUIXiiA",
+      "channel_name": "Overr",
+      "published_at": "2026-10-02T18:30:32Z",
+      "first_seen_at": "2026-10-02T18:40:20.580443Z"
+    },
+    "IlwED2Vp7B8": {
+      "video_id": "IlwED2Vp7B8",
+      "title": "Herobrine Minecraft&#39;ta Koltuk Düğmesine Bastı AMA... 😱 #shorts",
+      "channel_id": "UCfDs33BdjZzgIKBBtEkHM6Q",
+      "channel_name": "YAV Clips",
+      "published_at": "2026-10-02T18:31:33Z",
+      "first_seen_at": "2026-10-02T18:40:20.580443Z"
+    },
+    "Ec4UFEsnjSk": {
+      "video_id": "Ec4UFEsnjSk",
+      "title": "Ellie: ¡La Mejor Superviviente que tendrás y mejor compañera! #minecraft #gameplay",
+      "channel_id": "UC6-WfpZ-uKOxlOEf4xPJ7LA",
+      "channel_name": "Roxytuber ",
+      "published_at": "2026-10-02T18:30:33Z",
+      "first_seen_at": "2026-10-02T18:40:20.580443Z"
+    },
+    "h5zIKF3TqUk": {
+      "video_id": "h5zIKF3TqUk",
+      "title": "Ejder Meyvesini Tüküren Kızı Herobrine Minecraft&#39;ta Buldu! 😱 #shorts",
+      "channel_id": "UCfDs33BdjZzgIKBBtEkHM6Q",
+      "channel_name": "YAV Clips",
+      "published_at": "2026-10-02T18:30:51Z",
+      "first_seen_at": "2026-10-02T18:40:20.580443Z"
+    },
+    "gEjjSrUFi4c": {
+      "video_id": "gEjjSrUFi4c",
+      "title": "Bro Really Needed Those Diamonds! 😭💎 #shorts #minecraft",
+      "channel_id": "UC3B--ae4snsUjnONNhX1kOg",
+      "channel_name": "Yleveldaily",
+      "published_at": "2026-10-02T18:30:50Z",
+      "first_seen_at": "2026-10-02T18:40:20.580443Z"
     }
   },
   "candidates": {
@@ -539,7 +579,9 @@
     "MeL2QPr4klM": "2026-10-02T18:35:18.570818Z",
     "AtGlrtcLUh8": "2026-10-02T18:35:18.570818Z",
     "gPTHKjN5RwY": "2026-10-02T18:35:18.570818Z",
-    "MzfKkIvPL9Q": "2026-10-02T18:35:18.570818Z"
+    "MzfKkIvPL9Q": "2026-10-02T18:35:18.570818Z",
+    "ecw53xb1f0I": "2026-10-02T18:40:20.580461Z",
+    "PVd5vvYJ1b4": "2026-10-02T18:40:20.580461Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -2129,6 +2171,14 @@
     "UCJbe2fIu9bgkbCx7uTzMZ6g": {
       "subs": 655,
       "fetched_at": "2026-10-02T18:35:18.730455Z"
+    },
+    "UCFFRSXz9V9AN8PFW2QXN7Qg": {
+      "subs": 1870,
+      "fetched_at": "2026-10-02T18:40:20.770047Z"
+    },
+    "UCFkMhUloCqDbHREE5D6x4pw": {
+      "subs": 9640,
+      "fetched_at": "2026-10-02T18:40:20.770047Z"
     }
   },
   "search_log": [
@@ -2321,6 +2371,11 @@
       "at": "2026-10-02T18:30:30.879253Z",
       "results": 5,
       "span_minutes": 6.8
+    },
+    {
+      "at": "2026-10-02T18:40:20.269182Z",
+      "results": 7,
+      "span_minutes": 9.816666666666666
     }
   ],
   "hourly_density": {
@@ -2350,9 +2405,9 @@
       "n": 8
     },
     "2": {
-      "results": 88,
-      "span": 29.883333333333336,
-      "n": 4
+      "results": 95,
+      "span": 39.7,
+      "n": 5
     }
   },
   "reject_reasons": {
@@ -2363,25 +2418,26 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1018,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 721,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1019,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 722,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 721,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 820,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 621
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 721
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T18:35:18.570808Z",
-      "elapsed": 0.4,
-      "searched": 0,
+      "at": "2026-10-02T18:40:20.269182Z",
+      "elapsed": 0.7,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
-      "dropped": 0
+      "sampled": 0,
+      "dropped": 0,
+      "staged": 7
     }
   },
-  "key_rr": 4,
+  "key_rr": 2,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
