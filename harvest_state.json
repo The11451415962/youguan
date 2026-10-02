@@ -1,29 +1,13 @@
 {
-  "cursor_utc": "2026-10-02T14:30:53.346199Z",
+  "cursor_utc": "2026-10-02T14:40:23.346199Z",
   "staging": {
-    "jJjQ5AqYNu8": {
-      "video_id": "jJjQ5AqYNu8",
-      "title": "polluting the entire minecraft world",
-      "channel_id": "UCOVTTjN8BndrmcamYQ8MWxg",
-      "channel_name": "Carvs",
-      "published_at": "2026-10-02T14:30:08Z",
-      "first_seen_at": "2026-10-02T14:30:54.229434Z"
-    },
-    "CcJn99AoH04": {
-      "video_id": "CcJn99AoH04",
-      "title": "#minecraft",
-      "channel_id": "UCCNpFnGrt8Hc3S3EqlzWcag",
-      "channel_name": "Endless Edit",
-      "published_at": "2026-10-02T14:28:54Z",
-      "first_seen_at": "2026-10-02T14:30:54.229434Z"
-    },
-    "Pw7SpjGQvW4": {
-      "video_id": "Pw7SpjGQvW4",
-      "title": "¡Lay’s quiso colaborar con Roblox… pero fue rechazado! 😂💀",
-      "channel_id": "UCCNpFnGrt8Hc3S3EqlzWcag",
-      "channel_name": "Endless Edit",
-      "published_at": "2026-10-02T14:28:26Z",
-      "first_seen_at": "2026-10-02T14:30:54.229434Z"
+    "kkfgsNBcKvQ": {
+      "video_id": "kkfgsNBcKvQ",
+      "title": "Tutte le età in Minecraft?! 😰 #minecraft",
+      "channel_id": "UCNJH2nkNeoJ_cJxCMxFhbGw",
+      "channel_name": "Kasp",
+      "published_at": "2026-10-02T14:33:30Z",
+      "first_seen_at": "2026-10-02T14:40:23.875617Z"
     }
   },
   "candidates": {
@@ -35,7 +19,7 @@
       "channel_subs": 3930000,
       "published_at": "2026-10-02T13:30:06Z",
       "first_seen_at": "2026-10-02T13:51:04.733695Z",
-      "last_checked_at": "2026-10-02T14:15:24.499226Z",
+      "last_checked_at": "2026-10-02T14:40:24.643847Z",
       "samples": [
         {
           "t": "2026-10-02T13:51:04.733735Z",
@@ -44,6 +28,10 @@
         {
           "t": "2026-10-02T14:15:24.499206Z",
           "views": 5701
+        },
+        {
+          "t": "2026-10-02T14:40:24.643823Z",
+          "views": 8221
         }
       ],
       "stale_checks": 0,
@@ -58,7 +46,7 @@
       "channel_subs": 12600,
       "published_at": "2026-10-02T13:30:14Z",
       "first_seen_at": "2026-10-02T13:51:04.733695Z",
-      "last_checked_at": "2026-10-02T14:15:24.499242Z",
+      "last_checked_at": "2026-10-02T14:40:24.643857Z",
       "samples": [
         {
           "t": "2026-10-02T13:51:04.733735Z",
@@ -67,6 +55,10 @@
         {
           "t": "2026-10-02T14:15:24.499237Z",
           "views": 3844
+        },
+        {
+          "t": "2026-10-02T14:40:24.643855Z",
+          "views": 4584
         }
       ],
       "stale_checks": 0,
@@ -81,11 +73,15 @@
       "channel_subs": 25300,
       "published_at": "2026-10-02T14:00:39Z",
       "first_seen_at": "2026-10-02T14:10:22.637052Z",
-      "last_checked_at": "2026-10-02T14:15:23.903136Z",
+      "last_checked_at": "2026-10-02T14:40:24.643862Z",
       "samples": [
         {
           "t": "2026-10-02T14:15:23.903136Z",
           "views": 518
+        },
+        {
+          "t": "2026-10-02T14:40:24.643861Z",
+          "views": 2609
         }
       ],
       "stale_checks": 0,
@@ -114,6 +110,25 @@
       "stale_checks": 0,
       "notified": false,
       "gate_vpm": 28.3
+    },
+    "jJjQ5AqYNu8": {
+      "video_id": "jJjQ5AqYNu8",
+      "title": "polluting the entire minecraft world",
+      "channel_id": "UCOVTTjN8BndrmcamYQ8MWxg",
+      "channel_name": "Carvs",
+      "channel_subs": 3930000,
+      "published_at": "2026-10-02T14:30:08Z",
+      "first_seen_at": "2026-10-02T14:30:54.229434Z",
+      "last_checked_at": "2026-10-02T14:40:23.875630Z",
+      "samples": [
+        {
+          "t": "2026-10-02T14:40:23.875630Z",
+          "views": 411
+        }
+      ],
+      "stale_checks": 0,
+      "notified": false,
+      "gate_vpm": 40.0
     }
   },
   "notified": {},
@@ -219,7 +234,9 @@
     "LaqoLDxs6bM": "2026-10-02T14:35:23.384380Z",
     "XczNTb23ya0": "2026-10-02T14:35:23.384380Z",
     "gxPZOcmwQaA": "2026-10-02T14:35:23.384380Z",
-    "CVYVtPTrxk4": "2026-10-02T14:35:23.384380Z"
+    "CVYVtPTrxk4": "2026-10-02T14:35:23.384380Z",
+    "Pw7SpjGQvW4": "2026-10-02T14:40:23.875630Z",
+    "CcJn99AoH04": "2026-10-02T14:40:23.875630Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -629,6 +646,10 @@
     "UC1NMr6wMTPW2d8e-WTe7L2w": {
       "subs": 18000,
       "fetched_at": "2026-10-02T14:35:23.557828Z"
+    },
+    "UCCNpFnGrt8Hc3S3EqlzWcag": {
+      "subs": 15,
+      "fetched_at": "2026-10-02T14:40:23.998898Z"
     }
   },
   "search_log": [
@@ -666,6 +687,11 @@
       "at": "2026-10-02T14:30:53.895787Z",
       "results": 8,
       "span_minutes": 10.483333333333333
+    },
+    {
+      "at": "2026-10-02T14:40:23.554692Z",
+      "results": 1,
+      "span_minutes": 9.5
     }
   ],
   "hourly_density": {
@@ -675,9 +701,9 @@
       "n": 3
     },
     "22": {
-      "results": 64,
-      "span": 30.233333333333334,
-      "n": 4
+      "results": 65,
+      "span": 39.733333333333334,
+      "n": 5
     }
   },
   "reject_reasons": {
@@ -686,23 +712,24 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 104,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 104,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 105,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 105,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 302,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 202,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 4
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 302,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 5
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T14:35:23.384366Z",
-      "elapsed": 0.3,
-      "searched": 0,
+      "at": "2026-10-02T14:40:23.554692Z",
+      "elapsed": 1.1,
+      "searched": 1,
       "new": 0,
-      "gated_in": 0,
-      "sampled": 0,
-      "dropped": 0
+      "gated_in": 1,
+      "sampled": 3,
+      "dropped": 0,
+      "staged": 1
     }
   },
-  "key_rr": 3
+  "key_rr": 2
 }
