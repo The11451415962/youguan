@@ -1,62 +1,6 @@
 {
   "cursor_utc": "2026-10-02T23:20:22.346199Z",
   "staging": {
-    "IoeT_KBVvEA": {
-      "video_id": "IoeT_KBVvEA",
-      "title": "This block is unknown...  #jgamer_635 #minecraft #minecraftshorts",
-      "channel_id": "UCOKOzDZbmaxDKc-KKfLCgGQ",
-      "channel_name": "Jgamer_635",
-      "published_at": "2026-10-02T23:14:15Z",
-      "first_seen_at": "2026-10-02T23:15:22.088194Z"
-    },
-    "ix7osbm-_W0": {
-      "video_id": "ix7osbm-_W0",
-      "title": "EL VÍDEO DE HOY ES EPICO @FedeGames7 #fedevigevani #minecraft",
-      "channel_id": "UC09E1B2PgAJ9VFZaHQmWVrw",
-      "channel_name": "FABRI VIGEVANI",
-      "published_at": "2026-10-02T23:13:18Z",
-      "first_seen_at": "2026-10-02T23:15:22.088194Z"
-    },
-    "vanhwpCrbzw": {
-      "video_id": "vanhwpCrbzw",
-      "title": "Jynxzi dies the RAREST way in Minecraft! 😂 #jynxzi #minecraft",
-      "channel_id": "UC3TPg8L8nECo8fVI3iGHgCQ",
-      "channel_name": "AllThingsClipped",
-      "published_at": "2026-10-02T23:12:57Z",
-      "first_seen_at": "2026-10-02T23:15:22.088194Z"
-    },
-    "IGrNP_R3G8I": {
-      "video_id": "IGrNP_R3G8I",
-      "title": "Testing Minecraft Block vs Max Fall Damage!🔥💀",
-      "channel_id": "UCTW8HyBJmcdEGVxRx4Hcn3g",
-      "channel_name": "zThunder",
-      "published_at": "2026-10-02T23:12:42Z",
-      "first_seen_at": "2026-10-02T23:15:22.088194Z"
-    },
-    "012TiHw0gdY": {
-      "video_id": "012TiHw0gdY",
-      "title": "Biggest Villager Trading Hall 💀 #shorts #fyp # #minecraft #donutsmp",
-      "channel_id": "UC45QyTjLsEEc3CamgKGMS0g",
-      "channel_name": "Zy_Short_YT",
-      "published_at": "2026-10-02T23:12:25Z",
-      "first_seen_at": "2026-10-02T23:15:22.088194Z"
-    },
-    "eFHn_Qii7-w": {
-      "video_id": "eFHn_Qii7-w",
-      "title": "火剣縛りをした結果.... #マイクラ  #pvp #マイクラ #minecraft #hiveskywars",
-      "channel_id": "UCw5tBEX_8Webn8o6JbMB2DA",
-      "channel_name": "asbequ",
-      "published_at": "2026-10-02T23:13:13Z",
-      "first_seen_at": "2026-10-02T23:15:22.088194Z"
-    },
-    "GnQTAD-1mCc": {
-      "video_id": "GnQTAD-1mCc",
-      "title": "The Minecraft Kid Who Hacked Obama #minecraft #shorts",
-      "channel_id": "UCTbHFCuAp_bowGSe6OGjMrA",
-      "channel_name": "suNder",
-      "published_at": "2026-10-02T23:10:59Z",
-      "first_seen_at": "2026-10-02T23:15:22.088194Z"
-    },
     "yXYbMM8CU6U": {
       "video_id": "yXYbMM8CU6U",
       "title": "BEST MINECRAFT MOMENTS 2023 part 2💀 #minecraft #minecraftmemes",
@@ -953,7 +897,14 @@
     "eI4yz_z7wds": "2026-10-02T23:20:23.142597Z",
     "pDTszexcIro": "2026-10-02T23:20:23.142597Z",
     "JOdRMcdvzxI": "2026-10-02T23:20:23.142597Z",
-    "WT-ODlN4Uq4": "2026-10-02T23:20:23.142597Z"
+    "WT-ODlN4Uq4": "2026-10-02T23:20:23.142597Z",
+    "GnQTAD-1mCc": "2026-10-02T23:25:19.637362Z",
+    "012TiHw0gdY": "2026-10-02T23:25:19.637362Z",
+    "IGrNP_R3G8I": "2026-10-02T23:25:19.637362Z",
+    "vanhwpCrbzw": "2026-10-02T23:25:19.637362Z",
+    "eFHn_Qii7-w": "2026-10-02T23:25:19.637362Z",
+    "ix7osbm-_W0": "2026-10-02T23:25:19.637362Z",
+    "IoeT_KBVvEA": "2026-10-02T23:25:19.637362Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -4023,6 +3974,34 @@
     "UCQ9cko8GZ4_T2tAoSZoiGfg": {
       "subs": 8,
       "fetched_at": "2026-10-02T23:20:23.401640Z"
+    },
+    "UCOKOzDZbmaxDKc-KKfLCgGQ": {
+      "subs": 189,
+      "fetched_at": "2026-10-02T23:25:19.801858Z"
+    },
+    "UC09E1B2PgAJ9VFZaHQmWVrw": {
+      "subs": 40600,
+      "fetched_at": "2026-10-02T23:25:19.801858Z"
+    },
+    "UCw5tBEX_8Webn8o6JbMB2DA": {
+      "subs": 30,
+      "fetched_at": "2026-10-02T23:25:19.801858Z"
+    },
+    "UCTbHFCuAp_bowGSe6OGjMrA": {
+      "subs": 1110,
+      "fetched_at": "2026-10-02T23:25:19.801858Z"
+    },
+    "UC3TPg8L8nECo8fVI3iGHgCQ": {
+      "subs": 1,
+      "fetched_at": "2026-10-02T23:25:19.801858Z"
+    },
+    "UCTW8HyBJmcdEGVxRx4Hcn3g": {
+      "subs": 169,
+      "fetched_at": "2026-10-02T23:25:19.801858Z"
+    },
+    "UC45QyTjLsEEc3CamgKGMS0g": {
+      "subs": 0,
+      "fetched_at": "2026-10-02T23:25:19.801858Z"
     }
   },
   "search_log": [
@@ -4335,7 +4314,7 @@
     }
   },
   "reject_reasons": {
-    "分类不符": 129,
+    "分类不符": 131,
     "描述过长(疑口播)": 101,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 16
@@ -4345,23 +4324,22 @@
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2332,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1342,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1342,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1638,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1242
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1639,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1243
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T23:20:22.824634Z",
-      "elapsed": 0.7,
-      "searched": 1,
+      "at": "2026-10-02T23:25:19.637351Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 6
+      "dropped": 0
     }
   },
-  "key_rr": 3,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
