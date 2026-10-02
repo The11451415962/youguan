@@ -1,6 +1,43 @@
 {
-  "cursor_utc": "2026-10-02T12:56:30.644255Z",
-  "candidates": {},
+  "cursor_utc": "2026-10-02T13:07:26.644255Z",
+  "candidates": {
+    "yPY666jlGyI": {
+      "video_id": "yPY666jlGyI",
+      "title": "O que é la peace??? #minecraft #minecraftmeme #minecraftshorts",
+      "channel_id": "UCY_OBcfC02zY6M1mZM6Qtjg",
+      "channel_name": "SouFio",
+      "channel_subs": 131000,
+      "published_at": "2026-10-02T13:00:06Z",
+      "first_seen_at": "2026-10-02T13:07:27.959644Z",
+      "last_checked_at": "2026-10-02T13:07:27.959644Z",
+      "samples": [
+        {
+          "t": "2026-10-02T13:07:27.959644Z",
+          "views": 187
+        }
+      ],
+      "stale_checks": 0,
+      "notified": false
+    },
+    "zrlzxzl6hc8": {
+      "video_id": "zrlzxzl6hc8",
+      "title": "Misteri Minecraft: Alasan Asli Kenapa Rumah Witch Berada di Rawa! #Minecraft #MinecraftIndonesia",
+      "channel_id": "UC8pQpgFoH0rnUKQpAcu0B1g",
+      "channel_name": "D Folkgame's",
+      "channel_subs": 6630,
+      "published_at": "2026-10-02T13:00:13Z",
+      "first_seen_at": "2026-10-02T13:07:27.959714Z",
+      "last_checked_at": "2026-10-02T13:07:27.959714Z",
+      "samples": [
+        {
+          "t": "2026-10-02T13:07:27.959714Z",
+          "views": 184
+        }
+      ],
+      "stale_checks": 0,
+      "notified": false
+    }
+  },
   "notified": {},
   "rejected": {
     "ILRtI3MJnQc": "2026-10-02T13:06:31.444320Z",
@@ -18,7 +55,9 @@
     "g_tccOGUm_E": "2026-10-02T13:06:31.444377Z",
     "nDWTdR_XmvM": "2026-10-02T13:06:31.444380Z",
     "LjnOoloXzrI": "2026-10-02T13:06:31.444384Z",
-    "LgNRlLfMGhU": "2026-10-02T13:06:31.444387Z"
+    "LgNRlLfMGhU": "2026-10-02T13:06:31.444387Z",
+    "aJuHLSGuIZU": "2026-10-02T13:07:27.959619Z",
+    "epMihg27hqU": "2026-10-02T13:07:27.959737Z"
   },
   "channels": {
     "UCYb2SMWGGqr85rOfaXWNYLQ": {
@@ -104,6 +143,26 @@
     "UC7vXMFIIXdR3CeD-L2s8IxQ": {
       "subs": 1620,
       "fetched_at": "2026-10-02T13:06:31.277140Z"
+    },
+    "UC8pQpgFoH0rnUKQpAcu0B1g": {
+      "subs": 6630,
+      "fetched_at": "2026-10-02T13:07:27.822213Z"
+    },
+    "UCY_OBcfC02zY6M1mZM6Qtjg": {
+      "subs": 131000,
+      "fetched_at": "2026-10-02T13:07:27.822213Z"
+    },
+    "UCQ4MvpPWmhHmGQsfBZQt3DQ": {
+      "subs": 1730,
+      "fetched_at": "2026-10-02T13:07:27.822213Z"
+    },
+    "UCWotKePe8dmABe-d_qJsZjQ": {
+      "subs": 137,
+      "fetched_at": "2026-10-02T13:07:27.822213Z"
+    },
+    "UCLPDpoFsAijK9vYxCFajcBQ": {
+      "subs": 14800,
+      "fetched_at": "2026-10-02T13:07:27.822213Z"
     }
   },
   "search_log": [
@@ -111,31 +170,38 @@
       "at": "2026-10-02T13:06:30.644255Z",
       "results": 21,
       "span_minutes": 20.0
+    },
+    {
+      "at": "2026-10-02T13:07:27.393950Z",
+      "results": 5,
+      "span_minutes": 10.933333333333334
     }
   ],
   "hourly_density": {
     "20": {
-      "results": 21,
-      "span": 20.0,
-      "n": 1
+      "results": 26,
+      "span": 30.933333333333334,
+      "n": 2
     }
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 100,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 101,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 100,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1
   },
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T13:06:30.644255Z",
-      "elapsed": 0.8,
+      "at": "2026-10-02T13:07:27.393950Z",
+      "elapsed": 0.6,
       "searched": 1,
-      "new": 0,
-      "gated_in": 0,
+      "new": 2,
+      "gated_in": 2,
       "sampled": 0,
       "dropped": 0
     }
   },
-  "key_rr": 3
+  "key_rr": 1
 }
