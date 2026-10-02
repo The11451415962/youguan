@@ -1,30 +1,6 @@
 {
   "cursor_utc": "2026-10-02T16:30:30.346199Z",
   "staging": {
-    "lRFIFQrQ2lo": {
-      "video_id": "lRFIFQrQ2lo",
-      "title": "Minecraft Inspired LED Room Decor 🌟",
-      "channel_id": "UC7FmjTo-Z-52NAhM7VFITaQ",
-      "channel_name": "MrSONN",
-      "published_at": "2026-10-02T16:24:04Z",
-      "first_seen_at": "2026-10-02T16:25:17.988912Z"
-    },
-    "_DEiKvfpbRY": {
-      "video_id": "_DEiKvfpbRY",
-      "title": "Flugmaschiene Minecraft Redstone Totorial",
-      "channel_id": "UCBw_-UQNkpXnMeMo0uRHvvQ",
-      "channel_name": "TheRealFinnTV",
-      "published_at": "2026-10-02T16:20:57Z",
-      "first_seen_at": "2026-10-02T16:25:17.988912Z"
-    },
-    "BFvxGeW9hXc": {
-      "video_id": "BFvxGeW9hXc",
-      "title": "Minecraft Elytra in Skyrim Looks Unreal",
-      "channel_id": "UCziHbwtJe-UK2ytZfX99Zkw",
-      "channel_name": "Side Quest Chaos",
-      "published_at": "2026-10-02T16:20:54Z",
-      "first_seen_at": "2026-10-02T16:25:17.988912Z"
-    },
     "abHPNlsLpeQ": {
       "video_id": "abHPNlsLpeQ",
       "title": "The Biggest Minecraft Surprise! 😱",
@@ -407,7 +383,10 @@
     "NJx8Pm0OFx0": "2026-10-02T16:30:31.150998Z",
     "3Vv5R2v3MF4": "2026-10-02T16:30:31.150998Z",
     "fAixbLpSzuY": "2026-10-02T16:30:31.150998Z",
-    "jJjQ5AqYNu8": "2026-10-02T16:30:31.599461Z"
+    "jJjQ5AqYNu8": "2026-10-02T16:30:31.599461Z",
+    "BFvxGeW9hXc": "2026-10-02T16:35:23.148736Z",
+    "_DEiKvfpbRY": "2026-10-02T16:35:23.148736Z",
+    "lRFIFQrQ2lo": "2026-10-02T16:35:23.148736Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -1341,6 +1320,18 @@
     "UCaYxLidj5B71v26Ou6TW8Jw": {
       "subs": 11100,
       "fetched_at": "2026-10-02T16:30:31.356919Z"
+    },
+    "UCziHbwtJe-UK2ytZfX99Zkw": {
+      "subs": 1,
+      "fetched_at": "2026-10-02T16:35:23.321932Z"
+    },
+    "UC7FmjTo-Z-52NAhM7VFITaQ": {
+      "subs": 600000,
+      "fetched_at": "2026-10-02T16:35:23.321932Z"
+    },
+    "UCBw_-UQNkpXnMeMo0uRHvvQ": {
+      "subs": 242,
+      "fetched_at": "2026-10-02T16:35:23.321932Z"
     }
   },
   "search_log": [
@@ -1483,33 +1474,32 @@
     }
   },
   "reject_reasons": {
-    "分类不符": 43,
+    "分类不符": 44,
     "描述过长(疑口播)": 37,
     "标题含(twitch)": 2,
     "直播/切片(twitch.tv)": 1
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 512,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 513,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 413,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 512,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 611,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 313
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 314
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T16:30:30.914468Z",
-      "elapsed": 0.7,
-      "searched": 1,
+      "at": "2026-10-02T16:35:23.148727Z",
+      "elapsed": 0.4,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
-      "dropped": 1,
-      "staged": 2
+      "sampled": 0,
+      "dropped": 0
     }
   },
-  "key_rr": 4,
+  "key_rr": 1,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
