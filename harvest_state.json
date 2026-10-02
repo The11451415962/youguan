@@ -31,7 +31,10 @@
       ],
       "stale_checks": 0,
       "notified": false,
-      "gate_vpm": 99.4
+      "gate_vpm": 99.4,
+      "tier": "T6",
+      "tier_locked_at": "2026-10-02T15:06:44.238443Z",
+      "promo_score": 0.93
     },
     "_-wkx3yZigg": {
       "video_id": "_-wkx3yZigg",
@@ -62,7 +65,10 @@
       ],
       "stale_checks": 0,
       "notified": false,
-      "gate_vpm": 37.5
+      "gate_vpm": 37.5,
+      "tier": "T4",
+      "tier_locked_at": "2026-10-02T15:06:44.238443Z",
+      "promo_score": 7.35
     },
     "KQdv7rSzq5U": {
       "video_id": "KQdv7rSzq5U",
@@ -89,7 +95,10 @@
       ],
       "stale_checks": 0,
       "notified": false,
-      "gate_vpm": 35.1
+      "gate_vpm": 35.1,
+      "tier": "T4",
+      "tier_locked_at": "2026-10-02T15:06:44.238443Z",
+      "promo_score": 10.43
     },
     "Pj3lgYHrw-w": {
       "video_id": "Pj3lgYHrw-w",
@@ -116,7 +125,10 @@
       ],
       "stale_checks": 0,
       "notified": false,
-      "gate_vpm": 28.3
+      "gate_vpm": 28.3,
+      "tier": "T5",
+      "tier_locked_at": "2026-10-02T15:06:44.238443Z",
+      "promo_score": 12.38
     },
     "jJjQ5AqYNu8": {
       "video_id": "jJjQ5AqYNu8",
@@ -139,7 +151,10 @@
       ],
       "stale_checks": 0,
       "notified": false,
-      "gate_vpm": 40.0
+      "gate_vpm": 40.0,
+      "tier": "T6",
+      "tier_locked_at": "2026-10-02T15:06:44.238443Z",
+      "promo_score": 10.82
     }
   },
   "notified": {},
