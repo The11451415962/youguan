@@ -3878,14 +3878,13 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T22:05:58.597923Z",
-      "elapsed": 0.4,
-      "searched": 1,
+      "at": "2026-10-02T22:10:20.791350Z",
+      "elapsed": 0.0,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 37
+      "dropped": 0
     }
   },
   "key_rr": 4,
