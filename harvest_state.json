@@ -1,14 +1,6 @@
 {
   "cursor_utc": "2026-10-02T23:00:37.346199Z",
   "staging": {
-    "mMOWAdTBfFg": {
-      "video_id": "mMOWAdTBfFg",
-      "title": "ENCONTREI O MOB MAIS RARO DO MINECRAFT!..se inscreve pf",
-      "channel_id": "UCeJ7317WodTFGDAYaxg9uhw",
-      "channel_name": "HogLupin",
-      "published_at": "2026-10-02T22:51:06Z",
-      "first_seen_at": "2026-10-02T22:55:19.067204Z"
-    },
     "QV03U0Ujnuw": {
       "video_id": "QV03U0Ujnuw",
       "title": "Minecraft Modern House Only 0.00001% player know😱 #minecraft#demonxgamerz",
@@ -820,7 +812,8 @@
     "zstqvXgDkxE": "2026-10-02T22:50:19.666558Z",
     "tjyvlUVYQ2w": "2026-10-02T22:55:19.067218Z",
     "k5j5I4aVYM0": "2026-10-02T23:00:37.801312Z",
-    "lg6R4Uqv2gY": "2026-10-02T23:00:37.801312Z"
+    "lg6R4Uqv2gY": "2026-10-02T23:00:37.801312Z",
+    "mMOWAdTBfFg": "2026-10-02T23:05:17.694252Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3714,6 +3707,10 @@
     "UC11oTbX26gLAK2lAxfwj2OA": {
       "subs": 2900000,
       "fetched_at": "2026-10-02T23:00:38.210877Z"
+    },
+    "UCeJ7317WodTFGDAYaxg9uhw": {
+      "subs": 218,
+      "fetched_at": "2026-10-02T23:05:17.787089Z"
     }
   },
   "search_log": [
@@ -4021,7 +4018,7 @@
     }
   },
   "reject_reasons": {
-    "分类不符": 123,
+    "分类不符": 124,
     "描述过长(疑口播)": 98,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 12
@@ -4029,25 +4026,24 @@
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2231,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1240,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1339,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1241,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1340,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1537,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1240
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T23:00:37.528042Z",
-      "elapsed": 1.1,
-      "searched": 1,
+      "at": "2026-10-02T23:05:17.694241Z",
+      "elapsed": 0.2,
+      "searched": 0,
       "new": 0,
-      "gated_in": 1,
+      "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 2
+      "dropped": 0
     }
   },
-  "key_rr": 1,
+  "key_rr": 3,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
