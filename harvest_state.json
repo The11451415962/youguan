@@ -1,62 +1,6 @@
 {
   "cursor_utc": "2026-10-02T18:30:30.346199Z",
   "staging": {
-    "XV1dfk4ExK4": {
-      "video_id": "XV1dfk4ExK4",
-      "title": "IShowSpeed vs Smartest Minecraft Player #minecraft #ishowspeed",
-      "channel_id": "UC74H_cLpKyclrPXuQBvOcdA",
-      "channel_name": "MellowBake",
-      "published_at": "2026-10-02T18:22:28Z",
-      "first_seen_at": "2026-10-02T18:25:19.916470Z"
-    },
-    "s7m81UZa8X0": {
-      "video_id": "s7m81UZa8X0",
-      "title": "I Should NOT Have Dug Here… 😨#minecraft #minecraftmemes #minecraftsurvival",
-      "channel_id": "UCJbe2fIu9bgkbCx7uTzMZ6g",
-      "channel_name": "Unseen Gamerz ",
-      "published_at": "2026-10-02T18:22:20Z",
-      "first_seen_at": "2026-10-02T18:25:19.916470Z"
-    },
-    "AtGlrtcLUh8": {
-      "video_id": "AtGlrtcLUh8",
-      "title": "فبديو للتوعية ان مع العسر يسرا #ماينكرافتللجوال #minecraft",
-      "channel_id": "UCLcQ-BMdjlabODPdggepF8g",
-      "channel_name": "Mr.Eroor.77",
-      "published_at": "2026-10-02T18:23:42Z",
-      "first_seen_at": "2026-10-02T18:25:19.916470Z"
-    },
-    "MeL2QPr4klM": {
-      "video_id": "MeL2QPr4klM",
-      "title": "FLY IN THE SKY☁️✨|Minecraft edit #minecraft #minecraftedit #minecraftshorts #flyinthesky",
-      "channel_id": "UCdPx4-o3QUNmPNTALczIEsw",
-      "channel_name": "LuccOnZ",
-      "published_at": "2026-10-02T18:22:55Z",
-      "first_seen_at": "2026-10-02T18:25:19.916470Z"
-    },
-    "IeccU4YPNmM": {
-      "video_id": "IeccU4YPNmM",
-      "title": "LEGAL X-RAY FOR MINECRAFT SERVERS #shorts",
-      "channel_id": "UCPTfTCpvyfC0gP-urefe53g",
-      "channel_name": "BlockBit",
-      "published_at": "2026-10-02T18:20:48Z",
-      "first_seen_at": "2026-10-02T18:25:19.916470Z"
-    },
-    "TALQfxtWoO8": {
-      "video_id": "TALQfxtWoO8",
-      "title": "killwish Finnally died #yessmartypie #kilwish #himlands #minecraftshorts #minecraft #himlandsgang",
-      "channel_id": "UChkBJFYNuyOtp5XFwney9VA",
-      "channel_name": "WARRIOR BLAZE",
-      "published_at": "2026-10-02T18:21:43Z",
-      "first_seen_at": "2026-10-02T18:25:19.916470Z"
-    },
-    "EthVBw3chkQ": {
-      "video_id": "EthVBw3chkQ",
-      "title": "When Minecraft parkour goes wrong #minecraft #minecraftshorts #funny #parkour @DocktorDanger",
-      "channel_id": "UC39tHa0nGo6I3YAjhFYy3_Q",
-      "channel_name": "Mincie-burrito",
-      "published_at": "2026-10-02T18:21:19Z",
-      "first_seen_at": "2026-10-02T18:25:19.916470Z"
-    },
     "ecw53xb1f0I": {
       "video_id": "ecw53xb1f0I",
       "title": "Testing the new wool stairs in Minecraft #shorts",
@@ -72,22 +16,6 @@
       "channel_name": "Pro Aashu",
       "published_at": "2026-10-02T18:30:06Z",
       "first_seen_at": "2026-10-02T18:30:31.200412Z"
-    },
-    "gPTHKjN5RwY": {
-      "video_id": "gPTHKjN5RwY",
-      "title": "Minecraft hacks.... #friday #minecraft",
-      "channel_id": "UCaqF-Flo0OgHnJ5BiQmgH4Q",
-      "channel_name": "FRIDAY GAMERZ",
-      "published_at": "2026-10-02T18:24:35Z",
-      "first_seen_at": "2026-10-02T18:30:31.200412Z"
-    },
-    "MzfKkIvPL9Q": {
-      "video_id": "MzfKkIvPL9Q",
-      "title": "Will The Bridge Survive? 😱 #minecraft",
-      "channel_id": "UCBi3I-uMo2noqibMQ9yuB4g",
-      "channel_name": "Yam Technology",
-      "published_at": "2026-10-02T18:24:39Z",
-      "first_seen_at": "2026-10-02T18:30:31.200412Z"
     }
   },
   "candidates": {
@@ -99,7 +27,7 @@
       "channel_subs": 12600,
       "published_at": "2026-10-02T13:30:14Z",
       "first_seen_at": "2026-10-02T13:51:04.733695Z",
-      "last_checked_at": "2026-10-02T17:30:32.391017Z",
+      "last_checked_at": "2026-10-02T18:35:18.985582Z",
       "samples": [
         {
           "t": "2026-10-02T13:51:04.733735Z",
@@ -131,6 +59,11 @@
           "t": "2026-10-02T17:30:32.391005Z",
           "views": 12913,
           "likes": 494
+        },
+        {
+          "t": "2026-10-02T18:35:18.985567Z",
+          "views": 15691,
+          "likes": 522
         }
       ],
       "stale_checks": 0,
@@ -597,7 +530,16 @@
     "4DZofYP-Y8I": "2026-10-02T18:30:31.200430Z",
     "u-kTw3pWrbQ": "2026-10-02T18:30:31.200430Z",
     "zfM3YTP_46U": "2026-10-02T18:30:31.200430Z",
-    "o6Bzz9_JWKI": "2026-10-02T18:30:31.200430Z"
+    "o6Bzz9_JWKI": "2026-10-02T18:30:31.200430Z",
+    "IeccU4YPNmM": "2026-10-02T18:35:18.570818Z",
+    "EthVBw3chkQ": "2026-10-02T18:35:18.570818Z",
+    "TALQfxtWoO8": "2026-10-02T18:35:18.570818Z",
+    "s7m81UZa8X0": "2026-10-02T18:35:18.570818Z",
+    "XV1dfk4ExK4": "2026-10-02T18:35:18.570818Z",
+    "MeL2QPr4klM": "2026-10-02T18:35:18.570818Z",
+    "AtGlrtcLUh8": "2026-10-02T18:35:18.570818Z",
+    "gPTHKjN5RwY": "2026-10-02T18:35:18.570818Z",
+    "MzfKkIvPL9Q": "2026-10-02T18:35:18.570818Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -2155,6 +2097,38 @@
     "UCtNWcO-GOBNw5NAki0SboiA": {
       "subs": 283,
       "fetched_at": "2026-10-02T18:30:31.358062Z"
+    },
+    "UCdPx4-o3QUNmPNTALczIEsw": {
+      "subs": 70,
+      "fetched_at": "2026-10-02T18:35:18.730455Z"
+    },
+    "UCPTfTCpvyfC0gP-urefe53g": {
+      "subs": 39,
+      "fetched_at": "2026-10-02T18:35:18.730455Z"
+    },
+    "UC39tHa0nGo6I3YAjhFYy3_Q": {
+      "subs": 50,
+      "fetched_at": "2026-10-02T18:35:18.730455Z"
+    },
+    "UChkBJFYNuyOtp5XFwney9VA": {
+      "subs": 112,
+      "fetched_at": "2026-10-02T18:35:18.730455Z"
+    },
+    "UC74H_cLpKyclrPXuQBvOcdA": {
+      "subs": 16400,
+      "fetched_at": "2026-10-02T18:35:18.730455Z"
+    },
+    "UCLcQ-BMdjlabODPdggepF8g": {
+      "subs": 266,
+      "fetched_at": "2026-10-02T18:35:18.730455Z"
+    },
+    "UCaqF-Flo0OgHnJ5BiQmgH4Q": {
+      "subs": 794,
+      "fetched_at": "2026-10-02T18:35:18.730455Z"
+    },
+    "UCJbe2fIu9bgkbCx7uTzMZ6g": {
+      "subs": 655,
+      "fetched_at": "2026-10-02T18:35:18.730455Z"
     }
   },
   "search_log": [
@@ -2382,7 +2356,7 @@
     }
   },
   "reject_reasons": {
-    "分类不符": 73,
+    "分类不符": 74,
     "描述过长(疑口播)": 54,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 5
@@ -2390,25 +2364,24 @@
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1018,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 720,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 720,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 819,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 721,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 721,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 820,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 621
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T18:30:30.879253Z",
-      "elapsed": 0.6,
-      "searched": 1,
+      "at": "2026-10-02T18:35:18.570808Z",
+      "elapsed": 0.4,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
-      "dropped": 0,
-      "staged": 5
+      "sampled": 1,
+      "dropped": 0
     }
   },
-  "key_rr": 1,
+  "key_rr": 4,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
