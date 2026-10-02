@@ -569,12 +569,12 @@
   },
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T13:20:24.984640Z",
-      "elapsed": 0.7,
-      "searched": 1,
-      "new": 3,
-      "gated_in": 3,
-      "sampled": 2,
+      "at": "2026-10-02T13:25:20.998774Z",
+      "elapsed": 0.0,
+      "searched": 0,
+      "new": 0,
+      "gated_in": 0,
+      "sampled": 0,
       "dropped": 0
     }
   },
