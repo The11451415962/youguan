@@ -1,6 +1,31 @@
 {
-  "cursor_utc": "2026-10-02T13:38:46.302058Z",
-  "staging": {},
+  "cursor_utc": "2026-10-02T13:50:25.302058Z",
+  "staging": {
+    "0QMvQ28vuGA": {
+      "video_id": "0QMvQ28vuGA",
+      "title": "how to make end portal #minecraft #shorts",
+      "channel_id": "UC4P0UTU_UCMXzhUGo8FVxMw",
+      "channel_name": "EDGEMINER ",
+      "published_at": "2026-10-02T13:45:02Z",
+      "first_seen_at": "2026-10-02T13:50:26.139196Z"
+    },
+    "nosn0h_T0q0": {
+      "video_id": "nosn0h_T0q0",
+      "title": "İşimden Nefret Ediyorum 🥀 #2  #minecraft #shorts",
+      "channel_id": "UCAmYyZOREoaFl2zJqF7qWqg",
+      "channel_name": "_BnMuz",
+      "published_at": "2026-10-02T13:43:02Z",
+      "first_seen_at": "2026-10-02T13:50:26.139196Z"
+    },
+    "sVQeMgLj7-w": {
+      "video_id": "sVQeMgLj7-w",
+      "title": "Is the dimension worth the hype? #minecraft #minecraftshorts",
+      "channel_id": "UC1aifxZYvHDMrNCvJRk6q8A",
+      "channel_name": "The Gaming Guitarist99 Plus",
+      "published_at": "2026-10-02T13:41:00Z",
+      "first_seen_at": "2026-10-02T13:50:26.139196Z"
+    }
+  },
   "candidates": {
     "CI6H9p6_3aQ": {
       "video_id": "CI6H9p6_3aQ",
@@ -80,7 +105,8 @@
     "xu4acGw7rgg": "2026-10-02T13:48:46.735411Z",
     "ZyZQjrQkDvE": "2026-10-02T13:48:46.735411Z",
     "qgTXLAT6cK4": "2026-10-02T13:48:46.735411Z",
-    "-qNHCw_5zzA": "2026-10-02T13:48:46.735411Z"
+    "-qNHCw_5zzA": "2026-10-02T13:48:46.735411Z",
+    "KJgcDxg3Ggw": "2026-10-02T13:50:26.139210Z"
   },
   "channels": {
     "UCekm2lG7IxwhnLwRKHHHEBQ": {
@@ -238,6 +264,10 @@
     "UCgXRB2YQdem-9Sxr09DOa4Q": {
       "subs": 394,
       "fetched_at": "2026-10-02T13:48:47.072473Z"
+    },
+    "UCDmsAka9Rm1lAbIe7BkjN0g": {
+      "subs": 8050,
+      "fetched_at": "2026-10-02T13:50:26.279959Z"
     }
   },
   "search_log": [
@@ -245,13 +275,18 @@
       "at": "2026-10-02T13:48:46.302058Z",
       "results": 40,
       "span_minutes": 20.0
+    },
+    {
+      "at": "2026-10-02T13:50:25.793344Z",
+      "results": 4,
+      "span_minutes": 11.65
     }
   ],
   "hourly_density": {
     "21": {
-      "results": 40,
-      "span": 20.0,
-      "n": 1
+      "results": 44,
+      "span": 31.65,
+      "n": 2
     }
   },
   "reject_reasons": {
@@ -260,22 +295,24 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 100,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 101,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 100,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T13:48:46.302058Z",
-      "elapsed": 0.9,
+      "at": "2026-10-02T13:50:25.793344Z",
+      "elapsed": 0.6,
       "searched": 1,
       "new": 0,
-      "gated_in": 2,
+      "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 40
+      "staged": 4
     }
   },
-  "key_rr": 3
+  "key_rr": 1
 }
