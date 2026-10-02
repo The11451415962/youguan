@@ -194,11 +194,11 @@
   },
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T13:07:27.393950Z",
-      "elapsed": 0.6,
-      "searched": 1,
-      "new": 2,
-      "gated_in": 2,
+      "at": "2026-10-02T13:08:08.555173Z",
+      "elapsed": 0.0,
+      "searched": 0,
+      "new": 0,
+      "gated_in": 0,
       "sampled": 0,
       "dropped": 0
     }
