@@ -1,14 +1,6 @@
 {
   "cursor_utc": "2026-10-02T22:45:20.346199Z",
   "staging": {
-    "zstqvXgDkxE": {
-      "video_id": "zstqvXgDkxE",
-      "title": "QUAL VOU ESCOLHER PRA ACHAR? #minecraft",
-      "channel_id": "UChNUvlso0qH1s1OQuAZjkJQ",
-      "channel_name": "CREEPER AZUL",
-      "published_at": "2026-10-02T22:37:01Z",
-      "first_seen_at": "2026-10-02T22:40:21.276326Z"
-    },
     "tjyvlUVYQ2w": {
       "video_id": "tjyvlUVYQ2w",
       "title": "ima be real im tryna make some pennies yo #minecraft #gaming #youngsheldon",
@@ -784,7 +776,8 @@
     "0aGpY4y62YA": "2026-10-02T22:45:20.661708Z",
     "wtKibTZAi3Q": "2026-10-02T22:45:20.661708Z",
     "eTsKCELcuf0": "2026-10-02T22:45:20.661708Z",
-    "-Rdb__Y36DU": "2026-10-02T22:45:20.661708Z"
+    "-Rdb__Y36DU": "2026-10-02T22:45:20.661708Z",
+    "zstqvXgDkxE": "2026-10-02T22:50:19.666558Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3980,22 +3973,21 @@
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1239,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1338,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1437,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1238
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1239
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T22:45:20.384223Z",
-      "elapsed": 0.6,
-      "searched": 1,
+      "at": "2026-10-02T22:50:19.666546Z",
+      "elapsed": 0.1,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 1
+      "dropped": 0
     }
   },
-  "key_rr": 4,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
