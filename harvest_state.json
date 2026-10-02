@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T18:40:19.346199Z",
+  "cursor_utc": "2026-10-02T18:45:23.346199Z",
   "staging": {
     "W2jtllAuNPU": {
       "video_id": "W2jtllAuNPU",
@@ -17,45 +17,13 @@
       "published_at": "2026-10-02T18:36:15Z",
       "first_seen_at": "2026-10-02T18:40:20.580443Z"
     },
-    "xRXxHshyTDg": {
-      "video_id": "xRXxHshyTDg",
-      "title": "SKĄD ON MA TAKIE OWCE?! 🐑 #minecraft #shorts",
-      "channel_id": "UCgDQSLmn6Zr3ot-TaUIXiiA",
-      "channel_name": "Overr",
-      "published_at": "2026-10-02T18:30:32Z",
-      "first_seen_at": "2026-10-02T18:40:20.580443Z"
-    },
-    "IlwED2Vp7B8": {
-      "video_id": "IlwED2Vp7B8",
-      "title": "Herobrine Minecraft&#39;ta Koltuk Düğmesine Bastı AMA... 😱 #shorts",
-      "channel_id": "UCfDs33BdjZzgIKBBtEkHM6Q",
-      "channel_name": "YAV Clips",
-      "published_at": "2026-10-02T18:31:33Z",
-      "first_seen_at": "2026-10-02T18:40:20.580443Z"
-    },
-    "Ec4UFEsnjSk": {
-      "video_id": "Ec4UFEsnjSk",
-      "title": "Ellie: ¡La Mejor Superviviente que tendrás y mejor compañera! #minecraft #gameplay",
-      "channel_id": "UC6-WfpZ-uKOxlOEf4xPJ7LA",
-      "channel_name": "Roxytuber ",
-      "published_at": "2026-10-02T18:30:33Z",
-      "first_seen_at": "2026-10-02T18:40:20.580443Z"
-    },
-    "h5zIKF3TqUk": {
-      "video_id": "h5zIKF3TqUk",
-      "title": "Ejder Meyvesini Tüküren Kızı Herobrine Minecraft&#39;ta Buldu! 😱 #shorts",
-      "channel_id": "UCfDs33BdjZzgIKBBtEkHM6Q",
-      "channel_name": "YAV Clips",
-      "published_at": "2026-10-02T18:30:51Z",
-      "first_seen_at": "2026-10-02T18:40:20.580443Z"
-    },
-    "gEjjSrUFi4c": {
-      "video_id": "gEjjSrUFi4c",
-      "title": "Bro Really Needed Those Diamonds! 😭💎 #shorts #minecraft",
-      "channel_id": "UC3B--ae4snsUjnONNhX1kOg",
-      "channel_name": "Yleveldaily",
-      "published_at": "2026-10-02T18:30:50Z",
-      "first_seen_at": "2026-10-02T18:40:20.580443Z"
+    "hMvzGi_hnvY": {
+      "video_id": "hMvzGi_hnvY",
+      "title": "WHAT DID THE ALIENS DO TO HIM 😭 #minecraft #minecrafthorror #gaming #horror #minecraftshorts",
+      "channel_id": "UCz7KmczgYYoZiZqlqCpVx-g",
+      "channel_name": "Floppy Friends",
+      "published_at": "2026-10-02T18:42:10Z",
+      "first_seen_at": "2026-10-02T18:45:24.007039Z"
     }
   },
   "candidates": {
@@ -581,7 +549,12 @@
     "gPTHKjN5RwY": "2026-10-02T18:35:18.570818Z",
     "MzfKkIvPL9Q": "2026-10-02T18:35:18.570818Z",
     "ecw53xb1f0I": "2026-10-02T18:40:20.580461Z",
-    "PVd5vvYJ1b4": "2026-10-02T18:40:20.580461Z"
+    "PVd5vvYJ1b4": "2026-10-02T18:40:20.580461Z",
+    "xRXxHshyTDg": "2026-10-02T18:45:24.007055Z",
+    "Ec4UFEsnjSk": "2026-10-02T18:45:24.007055Z",
+    "gEjjSrUFi4c": "2026-10-02T18:45:24.007055Z",
+    "h5zIKF3TqUk": "2026-10-02T18:45:24.007055Z",
+    "IlwED2Vp7B8": "2026-10-02T18:45:24.007055Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -2179,6 +2152,18 @@
     "UCFkMhUloCqDbHREE5D6x4pw": {
       "subs": 9640,
       "fetched_at": "2026-10-02T18:40:20.770047Z"
+    },
+    "UC6-WfpZ-uKOxlOEf4xPJ7LA": {
+      "subs": 2110,
+      "fetched_at": "2026-10-02T18:45:24.176716Z"
+    },
+    "UC3B--ae4snsUjnONNhX1kOg": {
+      "subs": 1200,
+      "fetched_at": "2026-10-02T18:45:24.176716Z"
+    },
+    "UCfDs33BdjZzgIKBBtEkHM6Q": {
+      "subs": 221000,
+      "fetched_at": "2026-10-02T18:45:24.176716Z"
     }
   },
   "search_log": [
@@ -2376,6 +2361,11 @@
       "at": "2026-10-02T18:40:20.269182Z",
       "results": 7,
       "span_minutes": 9.816666666666666
+    },
+    {
+      "at": "2026-10-02T18:45:23.798005Z",
+      "results": 1,
+      "span_minutes": 5.066666666666666
     }
   ],
   "hourly_density": {
@@ -2405,14 +2395,14 @@
       "n": 8
     },
     "2": {
-      "results": 95,
-      "span": 39.7,
-      "n": 5
+      "results": 96,
+      "span": 44.766666666666666,
+      "n": 6
     }
   },
   "reject_reasons": {
     "分类不符": 74,
-    "描述过长(疑口播)": 54,
+    "描述过长(疑口播)": 56,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 5
   },
@@ -2420,24 +2410,24 @@
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1019,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 722,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 721,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 820,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 721
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 821,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 821,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 722
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T18:40:20.269182Z",
-      "elapsed": 0.7,
+      "at": "2026-10-02T18:45:23.798005Z",
+      "elapsed": 0.5,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 7
+      "staged": 1
     }
   },
-  "key_rr": 2,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
