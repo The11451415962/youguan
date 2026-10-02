@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T13:15:21.644255Z",
+  "cursor_utc": "2026-10-02T13:20:24.644255Z",
   "candidates": {
     "yPY666jlGyI": {
       "video_id": "yPY666jlGyI",
@@ -9,11 +9,15 @@
       "channel_subs": 131000,
       "published_at": "2026-10-02T13:00:06Z",
       "first_seen_at": "2026-10-02T13:07:27.959644Z",
-      "last_checked_at": "2026-10-02T13:07:27.959644Z",
+      "last_checked_at": "2026-10-02T13:20:25.657254Z",
       "samples": [
         {
           "t": "2026-10-02T13:07:27.959644Z",
           "views": 187
+        },
+        {
+          "t": "2026-10-02T13:20:25.657229Z",
+          "views": 539
         }
       ],
       "stale_checks": 0,
@@ -27,11 +31,15 @@
       "channel_subs": 6630,
       "published_at": "2026-10-02T13:00:13Z",
       "first_seen_at": "2026-10-02T13:07:27.959714Z",
-      "last_checked_at": "2026-10-02T13:07:27.959714Z",
+      "last_checked_at": "2026-10-02T13:20:25.657267Z",
       "samples": [
         {
           "t": "2026-10-02T13:07:27.959714Z",
           "views": 184
+        },
+        {
+          "t": "2026-10-02T13:20:25.657264Z",
+          "views": 353
         }
       ],
       "stale_checks": 0,
@@ -270,6 +278,60 @@
       ],
       "stale_checks": 0,
       "notified": false
+    },
+    "ZNQgv0VLwOA": {
+      "video_id": "ZNQgv0VLwOA",
+      "title": "My second base got griefed… 💔 | QFIE SMP 🥀 #QFIESMP #Minecraft #MinecraftSMP #Shorts #gaminglive",
+      "channel_id": "UCPCvtuc0Wo936EhrHyr0yYQ",
+      "channel_name": "vexlore",
+      "channel_subs": 55,
+      "published_at": "2026-10-02T13:18:12Z",
+      "first_seen_at": "2026-10-02T13:20:25.514307Z",
+      "last_checked_at": "2026-10-02T13:20:25.514307Z",
+      "samples": [
+        {
+          "t": "2026-10-02T13:20:25.514307Z",
+          "views": 0
+        }
+      ],
+      "stale_checks": 0,
+      "notified": false
+    },
+    "ergfoD9BkZQ": {
+      "video_id": "ergfoD9BkZQ",
+      "title": "😂water bucket challenge Minecraft #viral",
+      "channel_id": "UC9y2RWFXzEvXHGzS3LTObCg",
+      "channel_name": "RAFI TOP SHOT Gaming",
+      "channel_subs": 607,
+      "published_at": "2026-10-02T13:15:40Z",
+      "first_seen_at": "2026-10-02T13:20:25.514324Z",
+      "last_checked_at": "2026-10-02T13:20:25.514324Z",
+      "samples": [
+        {
+          "t": "2026-10-02T13:20:25.514324Z",
+          "views": 1
+        }
+      ],
+      "stale_checks": 0,
+      "notified": false
+    },
+    "ovFapzN5HWY": {
+      "video_id": "ovFapzN5HWY",
+      "title": "تجارب ماين كرافت..!😂🔥 #minecraft #ماين_كرافت",
+      "channel_id": "UCFhVP-35Tz0ByhTYn4LfHFw",
+      "channel_name": "jamal",
+      "channel_subs": 15500,
+      "published_at": "2026-10-02T13:15:45Z",
+      "first_seen_at": "2026-10-02T13:20:25.514335Z",
+      "last_checked_at": "2026-10-02T13:20:25.514335Z",
+      "samples": [
+        {
+          "t": "2026-10-02T13:20:25.514335Z",
+          "views": 31
+        }
+      ],
+      "stale_checks": 0,
+      "notified": false
     }
   },
   "notified": {},
@@ -449,6 +511,18 @@
     "UCz51Z5GbBZCrDozgNjbS0KA": {
       "subs": 3620,
       "fetched_at": "2026-10-02T13:15:22.650200Z"
+    },
+    "UCPCvtuc0Wo936EhrHyr0yYQ": {
+      "subs": 55,
+      "fetched_at": "2026-10-02T13:20:25.390299Z"
+    },
+    "UC9y2RWFXzEvXHGzS3LTObCg": {
+      "subs": 607,
+      "fetched_at": "2026-10-02T13:20:25.390299Z"
+    },
+    "UCFhVP-35Tz0ByhTYn4LfHFw": {
+      "subs": 15500,
+      "fetched_at": "2026-10-02T13:20:25.390299Z"
     }
   },
   "search_log": [
@@ -466,6 +540,11 @@
       "at": "2026-10-02T13:15:22.086545Z",
       "results": 13,
       "span_minutes": 7.916666666666667
+    },
+    {
+      "at": "2026-10-02T13:20:24.984640Z",
+      "results": 3,
+      "span_minutes": 5.05
     }
   ],
   "hourly_density": {
@@ -475,29 +554,29 @@
       "n": 2
     },
     "21": {
-      "results": 13,
-      "span": 7.916666666666667,
-      "n": 1
+      "results": 16,
+      "span": 12.966666666666667,
+      "n": 2
     }
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 101,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 101,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 2,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 102,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 102,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 3,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 101,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 101
   },
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T13:15:22.086545Z",
+      "at": "2026-10-02T13:20:24.984640Z",
       "elapsed": 0.7,
       "searched": 1,
-      "new": 13,
-      "gated_in": 13,
-      "sampled": 0,
+      "new": 3,
+      "gated_in": 3,
+      "sampled": 2,
       "dropped": 0
     }
   },
-  "key_rr": 4
+  "key_rr": 3
 }
