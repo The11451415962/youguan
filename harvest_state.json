@@ -1,31 +1,6 @@
 {
-  "cursor_utc": "2026-10-02T19:45:23.346199Z",
-  "staging": {
-    "5tkg9-z0EUk": {
-      "video_id": "5tkg9-z0EUk",
-      "title": "The Oldest Minecraft Was Almost Empty 🤯 #shorts",
-      "channel_id": "UCd8aX6Kj1s_4O3hNIIqkaiQ",
-      "channel_name": "GameChroniq",
-      "published_at": "2026-10-02T19:39:43Z",
-      "first_seen_at": "2026-10-02T19:40:24.195358Z"
-    },
-    "ho5J1dwmlFE": {
-      "video_id": "ho5J1dwmlFE",
-      "title": "warp me in plastic ! minecraft",
-      "channel_id": "UCGLih9PjVbw--GG_ot8AQAA",
-      "channel_name": "LegoMC",
-      "published_at": "2026-10-02T19:37:52Z",
-      "first_seen_at": "2026-10-02T19:40:24.195358Z"
-    },
-    "XTkLsQvUAfo": {
-      "video_id": "XTkLsQvUAfo",
-      "title": "Новые магические зачарования в Minecraft Bedrock 1.26.40",
-      "channel_id": "UCv13mdmS3vZqlUBdHY30R1w",
-      "channel_name": "Asam Ty",
-      "published_at": "2026-10-02T19:36:28Z",
-      "first_seen_at": "2026-10-02T19:40:24.195358Z"
-    }
-  },
+  "cursor_utc": "2026-10-02T19:50:23.346199Z",
+  "staging": {},
   "candidates": {
     "KQdv7rSzq5U": {
       "video_id": "KQdv7rSzq5U",
@@ -612,7 +587,10 @@
     "w120GzxBlRg": "2026-10-02T19:45:24.111188Z",
     "EAAiftLhjYc": "2026-10-02T19:45:24.111188Z",
     "MUZzoqwN4L4": "2026-10-02T19:45:24.111188Z",
-    "NcZSR8jkeXk": "2026-10-02T19:45:24.111188Z"
+    "NcZSR8jkeXk": "2026-10-02T19:45:24.111188Z",
+    "XTkLsQvUAfo": "2026-10-02T19:50:23.890568Z",
+    "ho5J1dwmlFE": "2026-10-02T19:50:23.890568Z",
+    "5tkg9-z0EUk": "2026-10-02T19:50:23.890568Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -2630,6 +2608,18 @@
     "UCwl_ryWrfO4duWSNBt5uoeA": {
       "subs": 456,
       "fetched_at": "2026-10-02T19:45:24.283966Z"
+    },
+    "UCGLih9PjVbw--GG_ot8AQAA": {
+      "subs": 10200,
+      "fetched_at": "2026-10-02T19:50:24.040565Z"
+    },
+    "UCd8aX6Kj1s_4O3hNIIqkaiQ": {
+      "subs": 16,
+      "fetched_at": "2026-10-02T19:50:24.040565Z"
+    },
+    "UCv13mdmS3vZqlUBdHY30R1w": {
+      "subs": 0,
+      "fetched_at": "2026-10-02T19:50:24.040565Z"
     }
   },
   "search_log": [
@@ -2872,6 +2862,11 @@
       "at": "2026-10-02T19:45:23.839643Z",
       "results": 0,
       "span_minutes": 5.0
+    },
+    {
+      "at": "2026-10-02T19:50:23.658849Z",
+      "results": 0,
+      "span_minutes": 5.0
     }
   ],
   "hourly_density": {
@@ -2907,29 +2902,29 @@
     },
     "3": {
       "results": 99,
-      "span": 44.78333333333333,
-      "n": 6
+      "span": 49.78333333333333,
+      "n": 7
     }
   },
   "reject_reasons": {
-    "分类不符": 86,
-    "描述过长(疑口播)": 70,
+    "分类不符": 88,
+    "描述过长(疑口播)": 71,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 7
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1323,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1324,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 927,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1026,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 827,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 827
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 927,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 828
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T19:45:23.839643Z",
-      "elapsed": 0.6,
+      "at": "2026-10-02T19:50:23.658849Z",
+      "elapsed": 0.5,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
@@ -2938,7 +2933,7 @@
       "staged": 0
     }
   },
-  "key_rr": 3,
+  "key_rr": 1,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
