@@ -1,23 +1,6 @@
 {
   "cursor_utc": "2026-10-02T13:51:46.346199Z",
-  "staging": {
-    "0QMvQ28vuGA": {
-      "video_id": "0QMvQ28vuGA",
-      "title": "how to make end portal #minecraft #shorts",
-      "channel_id": "UC4P0UTU_UCMXzhUGo8FVxMw",
-      "channel_name": "EDGEMINER ",
-      "published_at": "2026-10-02T13:45:02Z",
-      "first_seen_at": "2026-10-02T13:51:46.853078Z"
-    },
-    "nosn0h_T0q0": {
-      "video_id": "nosn0h_T0q0",
-      "title": "İşimden Nefret Ediyorum 🥀 #2  #minecraft #shorts",
-      "channel_id": "UCAmYyZOREoaFl2zJqF7qWqg",
-      "channel_name": "_BnMuz",
-      "published_at": "2026-10-02T13:43:02Z",
-      "first_seen_at": "2026-10-02T13:51:46.853078Z"
-    }
-  },
+  "staging": {},
   "candidates": {
     "VEH9fRSoR_U": {
       "video_id": "VEH9fRSoR_U",
@@ -100,7 +83,9 @@
     "90c1_oy4oz8": "2026-10-02T13:51:04.733735Z",
     "-qNHCw_5zzA": "2026-10-02T13:51:04.733735Z",
     "KJgcDxg3Ggw": "2026-10-02T13:51:04.733735Z",
-    "sVQeMgLj7-w": "2026-10-02T13:51:04.733735Z"
+    "sVQeMgLj7-w": "2026-10-02T13:51:04.733735Z",
+    "nosn0h_T0q0": "2026-10-02T13:55:21.457330Z",
+    "0QMvQ28vuGA": "2026-10-02T13:55:21.457330Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -270,6 +255,14 @@
     "UCg32xKH50bWVY-UZMhI9g2g": {
       "subs": 828,
       "fetched_at": "2026-10-02T13:51:05.025707Z"
+    },
+    "UC4P0UTU_UCMXzhUGo8FVxMw": {
+      "subs": 18100,
+      "fetched_at": "2026-10-02T13:55:21.616835Z"
+    },
+    "UCAmYyZOREoaFl2zJqF7qWqg": {
+      "subs": 303,
+      "fetched_at": "2026-10-02T13:55:21.616835Z"
     }
   },
   "search_log": [
@@ -297,23 +290,23 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 100,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 101,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 100
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 100,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T13:51:46.510549Z",
+      "at": "2026-10-02T13:55:21.457317Z",
       "elapsed": 0.3,
-      "searched": 1,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 2
+      "dropped": 0
     }
   },
-  "key_rr": 4
+  "key_rr": 1
 }
