@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T17:55:21.346199Z",
+  "cursor_utc": "2026-10-02T18:00:37.346199Z",
   "staging": {},
   "candidates": {
     "_-wkx3yZigg": {
@@ -1856,6 +1856,11 @@
       "at": "2026-10-02T17:55:22.265563Z",
       "results": 0,
       "span_minutes": 9.983333333333333
+    },
+    {
+      "at": "2026-10-02T18:00:38.040297Z",
+      "results": 0,
+      "span_minutes": 5.266666666666667
     }
   ],
   "hourly_density": {
@@ -1881,8 +1886,8 @@
     },
     "1": {
       "results": 78,
-      "span": 54.7,
-      "n": 7
+      "span": 59.96666666666667,
+      "n": 8
     }
   },
   "reject_reasons": {
@@ -1896,23 +1901,23 @@
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 817,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 718,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 718,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 618,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 718,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 519
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T17:55:22.265563Z",
-      "elapsed": 0.6,
+      "at": "2026-10-02T18:00:38.040297Z",
+      "elapsed": 0.3,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
+      "sampled": 0,
       "dropped": 0,
       "staged": 0
     }
   },
-  "key_rr": 3,
+  "key_rr": 4,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
