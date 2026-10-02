@@ -1,68 +1,7 @@
 {
   "cursor_utc": "2026-10-02T20:00:37.346199Z",
   "staging": {},
-  "candidates": {
-    "KQdv7rSzq5U": {
-      "video_id": "KQdv7rSzq5U",
-      "title": "Gissa Ordet I Minecraft!",
-      "channel_id": "UCZ37YDUDMqTuj-OSiqeVg1w",
-      "channel_name": "Grodan Gamer ",
-      "channel_subs": 25300,
-      "published_at": "2026-10-02T14:00:39Z",
-      "first_seen_at": "2026-10-02T14:10:22.637052Z",
-      "last_checked_at": "2026-10-02T20:00:37.840011Z",
-      "samples": [
-        {
-          "t": "2026-10-02T14:15:23.903136Z",
-          "views": 518
-        },
-        {
-          "t": "2026-10-02T14:40:24.643861Z",
-          "views": 2609
-        },
-        {
-          "t": "2026-10-02T15:00:43.463195Z",
-          "views": 4237
-        },
-        {
-          "t": "2026-10-02T15:25:21.481175Z",
-          "views": 4824,
-          "likes": 118
-        },
-        {
-          "t": "2026-10-02T15:45:24.974656Z",
-          "views": 5132,
-          "likes": 129
-        },
-        {
-          "t": "2026-10-02T16:50:24.525834Z",
-          "views": 7180,
-          "likes": 152
-        },
-        {
-          "t": "2026-10-02T17:55:22.846819Z",
-          "views": 9021,
-          "likes": 191
-        },
-        {
-          "t": "2026-10-02T19:00:37.337205Z",
-          "views": 11942,
-          "likes": 209
-        },
-        {
-          "t": "2026-10-02T20:00:37.839995Z",
-          "views": 16566,
-          "likes": 228
-        }
-      ],
-      "stale_checks": 0,
-      "notified": false,
-      "gate_vpm": 35.1,
-      "tier": "T4",
-      "tier_locked_at": "2026-10-02T15:06:44.238443Z",
-      "promo_score": 10.43
-    }
-  },
+  "candidates": {},
   "notified": {
     "MHMgXmR_djs": "2026-10-02T17:05:22.651108Z"
   },
@@ -595,7 +534,8 @@
     "NcZSR8jkeXk": "2026-10-02T19:45:24.111188Z",
     "XTkLsQvUAfo": "2026-10-02T19:50:23.890568Z",
     "ho5J1dwmlFE": "2026-10-02T19:50:23.890568Z",
-    "5tkg9-z0EUk": "2026-10-02T19:50:23.890568Z"
+    "5tkg9-z0EUk": "2026-10-02T19:50:23.890568Z",
+    "KQdv7rSzq5U": "2026-10-02T20:05:20.367723Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -2933,14 +2873,13 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T20:00:37.393426Z",
-      "elapsed": 0.4,
-      "searched": 1,
+      "at": "2026-10-02T20:05:20.367694Z",
+      "elapsed": 0.0,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
-      "dropped": 0,
-      "staged": 0
+      "sampled": 0,
+      "dropped": 1
     }
   },
   "key_rr": 3,
