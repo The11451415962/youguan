@@ -1,6 +1,15 @@
 {
-  "cursor_utc": "2026-10-02T21:30:29.346199Z",
-  "staging": {},
+  "cursor_utc": "2026-10-02T21:40:20.346199Z",
+  "staging": {
+    "JZ690gj3v10": {
+      "video_id": "JZ690gj3v10",
+      "title": "MINECRAFT EDIT #shorts #minecraft #edit",
+      "channel_id": "UCNb-Rybv-3b8Ima6enzFNdA",
+      "channel_name": "EITOR CRAFT:A LENDA",
+      "published_at": "2026-10-02T21:36:57Z",
+      "first_seen_at": "2026-10-02T21:40:21.270570Z"
+    }
+  },
   "candidates": {},
   "notified": {
     "MHMgXmR_djs": "2026-10-02T17:05:22.651108Z",
@@ -3242,11 +3251,6 @@
   },
   "search_log": [
     {
-      "at": "2026-10-02T15:07:32.586389Z",
-      "results": 34,
-      "span_minutes": 6.85
-    },
-    {
       "at": "2026-10-02T15:15:29.101171Z",
       "results": 10,
       "span_minutes": 7.65
@@ -3490,6 +3494,11 @@
       "at": "2026-10-02T21:30:29.615437Z",
       "results": 2,
       "span_minutes": 10.166666666666666
+    },
+    {
+      "at": "2026-10-02T21:40:20.967937Z",
+      "results": 1,
+      "span_minutes": 9.85
     }
   ],
   "hourly_density": {
@@ -3534,9 +3543,9 @@
       "n": 8
     },
     "5": {
-      "results": 50,
-      "span": 29.833333333333336,
-      "n": 3
+      "results": 51,
+      "span": 39.68333333333334,
+      "n": 4
     }
   },
   "reject_reasons": {
@@ -3547,7 +3556,7 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1827,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1927,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1035,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1233,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1134,
@@ -3556,16 +3565,17 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T21:35:19.669086Z",
+      "at": "2026-10-02T21:40:20.967937Z",
       "elapsed": 0.3,
-      "searched": 0,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 1
     }
   },
-  "key_rr": 0,
+  "key_rr": 1,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
