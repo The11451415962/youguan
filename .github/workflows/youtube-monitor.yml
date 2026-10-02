@@ -45,10 +45,13 @@ jobs:
 
       - name: 运行（全天打捞 + 频道监控）
         env:
-          # ---- API 钥匙：3 把并行，各自 10,000 点/天 ----
+          # ---- API 钥匙：每把独立项目 = 各自 10,000 点/天 ----
+          # 想要更多额度就继续加 YOUTUBE_API_KEY_6、_7 …（脚本最多认到 _10）
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YOUTUBE_API_KEY_2: ${{ secrets.YOUTUBE_API_KEY_2 }}
           YOUTUBE_API_KEY_3: ${{ secrets.YOUTUBE_API_KEY_3 }}
+          YOUTUBE_API_KEY_4: ${{ secrets.YOUTUBE_API_KEY_4 }}
+          YOUTUBE_API_KEY_5: ${{ secrets.YOUTUBE_API_KEY_5 }}
 
           # ---- 邮件 ----
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
