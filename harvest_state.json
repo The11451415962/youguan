@@ -1,54 +1,6 @@
 {
   "cursor_utc": "2026-10-02T14:20:24.346199Z",
   "staging": {
-    "WUuWgIxKtN8": {
-      "video_id": "WUuWgIxKtN8",
-      "title": "The best enchantments in Minecraft🔥 #shorts  #gaming",
-      "channel_id": "UCR1nd7t4JwO5PEjtEiEhpVg",
-      "channel_name": "AltShadow",
-      "published_at": "2026-10-02T14:13:36Z",
-      "first_seen_at": "2026-10-02T14:15:23.903119Z"
-    },
-    "FtrVZnPhzhs": {
-      "video_id": "FtrVZnPhzhs",
-      "title": "Ranking Funny Minecraft 💀😭😂",
-      "channel_id": "UCu_5c9dSSS4rWHm6pPIJPWQ",
-      "channel_name": "MorrowVoid",
-      "published_at": "2026-10-02T14:12:36Z",
-      "first_seen_at": "2026-10-02T14:15:23.903119Z"
-    },
-    "1VUzB9ff84I": {
-      "video_id": "1VUzB9ff84I",
-      "title": "TROVO SUBITO UN GLITCH su MINECRAFT DUNGEONS 2😂 #shorts",
-      "channel_id": "UCmS7FcnWcGO9Kd_zoBwxRrA",
-      "channel_name": "Rumensky99",
-      "published_at": "2026-10-02T14:12:42Z",
-      "first_seen_at": "2026-10-02T14:15:23.903119Z"
-    },
-    "qq7lW6-AqrI": {
-      "video_id": "qq7lW6-AqrI",
-      "title": "VERY Toxic Yaoi/Yuri  #minecraft",
-      "channel_id": "UCss3BhrjqIJZ0i9T_2GzlgA",
-      "channel_name": "PAPERouo",
-      "published_at": "2026-10-02T14:12:18Z",
-      "first_seen_at": "2026-10-02T14:15:23.903119Z"
-    },
-    "OiN8i9tr3SU": {
-      "video_id": "OiN8i9tr3SU",
-      "title": "Minecraft on @Raminopp face pixel art #minecraft #trending #viralshort",
-      "channel_id": "UCD9WRdEfrnys0QUe32qsX6w",
-      "channel_name": "“Dey Gamer”",
-      "published_at": "2026-10-02T14:11:25Z",
-      "first_seen_at": "2026-10-02T14:15:23.903119Z"
-    },
-    "VEXFrMDl1oA": {
-      "video_id": "VEXFrMDl1oA",
-      "title": "Minecraft’s Most FORGOTTEN Item… #minecraft",
-      "channel_id": "UC5K4huzfMeVStWU6nI4_hdA",
-      "channel_name": "MainTwo",
-      "published_at": "2026-10-02T14:12:14Z",
-      "first_seen_at": "2026-10-02T14:15:23.903119Z"
-    },
     "_BbXYFjvdlU": {
       "video_id": "_BbXYFjvdlU",
       "title": "#Nisul #minecraft #minecraftbedrock #servidorminecraft #minecraftpe #mcpe #gaming #shorts",
@@ -256,7 +208,13 @@
     "FbvLCBDU-OE": "2026-10-02T14:20:24.836753Z",
     "ax2my8oYzDw": "2026-10-02T14:20:24.836753Z",
     "v-DAwf-Wagg": "2026-10-02T14:20:24.836753Z",
-    "ke7k9az1hx4": "2026-10-02T14:20:24.836753Z"
+    "ke7k9az1hx4": "2026-10-02T14:20:24.836753Z",
+    "OiN8i9tr3SU": "2026-10-02T14:25:19.164033Z",
+    "VEXFrMDl1oA": "2026-10-02T14:25:19.164033Z",
+    "qq7lW6-AqrI": "2026-10-02T14:25:19.164033Z",
+    "FtrVZnPhzhs": "2026-10-02T14:25:19.164033Z",
+    "1VUzB9ff84I": "2026-10-02T14:25:19.164033Z",
+    "WUuWgIxKtN8": "2026-10-02T14:25:19.164033Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -614,6 +572,30 @@
     "UCgehfc90Xyfh5aJOuYRYS5w": {
       "subs": 353,
       "fetched_at": "2026-10-02T14:20:25.125886Z"
+    },
+    "UCss3BhrjqIJZ0i9T_2GzlgA": {
+      "subs": 15200,
+      "fetched_at": "2026-10-02T14:25:19.360260Z"
+    },
+    "UCu_5c9dSSS4rWHm6pPIJPWQ": {
+      "subs": 1730,
+      "fetched_at": "2026-10-02T14:25:19.360260Z"
+    },
+    "UCD9WRdEfrnys0QUe32qsX6w": {
+      "subs": 5040,
+      "fetched_at": "2026-10-02T14:25:19.360260Z"
+    },
+    "UC5K4huzfMeVStWU6nI4_hdA": {
+      "subs": 3,
+      "fetched_at": "2026-10-02T14:25:19.360260Z"
+    },
+    "UCmS7FcnWcGO9Kd_zoBwxRrA": {
+      "subs": 5080,
+      "fetched_at": "2026-10-02T14:25:19.360260Z"
+    },
+    "UCR1nd7t4JwO5PEjtEiEhpVg": {
+      "subs": 95,
+      "fetched_at": "2026-10-02T14:25:19.360260Z"
     }
   },
   "search_log": [
@@ -661,13 +643,13 @@
     }
   },
   "reject_reasons": {
-    "分类不符": 15,
-    "描述过长(疑口播)": 17
+    "分类不符": 16,
+    "描述过长(疑口播)": 18
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 102,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 102,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 103,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 103,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 201,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 201,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 3
@@ -675,15 +657,14 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T14:20:24.548302Z",
-      "elapsed": 0.7,
-      "searched": 1,
+      "at": "2026-10-02T14:25:19.164020Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
-      "gated_in": 1,
+      "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 4
+      "dropped": 0
     }
   },
-  "key_rr": 0
+  "key_rr": 2
 }
