@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T17:40:20.346199Z",
+  "cursor_utc": "2026-10-02T17:45:22.346199Z",
   "staging": {
     "EesS5NLXHQo": {
       "video_id": "EesS5NLXHQo",
@@ -17,45 +17,13 @@
       "published_at": "2026-10-02T17:38:55Z",
       "first_seen_at": "2026-10-02T17:40:21.422773Z"
     },
-    "-CTeQnUrRxk": {
-      "video_id": "-CTeQnUrRxk",
-      "title": "There Is MORE MATH TNT In This Mod #moddedminecraft #minecraft #gaming",
-      "channel_id": "UCwbRD9NkWagzOYTZ6rba59w",
-      "channel_name": "Kaos",
-      "published_at": "2026-10-02T17:33:24Z",
-      "first_seen_at": "2026-10-02T17:40:21.422773Z"
-    },
-    "Q9eWlRoBQ54": {
-      "video_id": "Q9eWlRoBQ54",
-      "title": "DRDONUT UNDER WATER WORLD CHALLENGE #shorts #minecraft #drdonutt",
-      "channel_id": "UCCTha469iyN8KBPy2QBCX5w",
-      "channel_name": "DrDonutShorts",
-      "published_at": "2026-10-02T17:31:08Z",
-      "first_seen_at": "2026-10-02T17:40:21.422773Z"
-    },
-    "pf4qPkftaTo": {
-      "video_id": "pf4qPkftaTo",
-      "title": "GRIF NA SERWERZE JEST CORAZ WIĘKSZY 🚨 #minecraft #shorts",
-      "channel_id": "UCgDQSLmn6Zr3ot-TaUIXiiA",
-      "channel_name": "Overr",
-      "published_at": "2026-10-02T17:32:15Z",
-      "first_seen_at": "2026-10-02T17:40:21.422773Z"
-    },
-    "32Gu6pBKurQ": {
-      "video_id": "32Gu6pBKurQ",
-      "title": "0.0001% chance",
-      "channel_id": "UC0UetqANVOipDeOLx08dffg",
-      "channel_name": "Basicking",
-      "published_at": "2026-10-02T17:30:37Z",
-      "first_seen_at": "2026-10-02T17:40:21.422773Z"
-    },
-    "Fs8gAgYM4-4": {
-      "video_id": "Fs8gAgYM4-4",
-      "title": "THIS OLD TREND but it’s MINECRAFT 💀😎 #shorts",
-      "channel_id": "UC9JLbIF9QXlDjGeDOt7Q_Jw",
-      "channel_name": "Amiraft",
-      "published_at": "2026-10-02T17:30:36Z",
-      "first_seen_at": "2026-10-02T17:40:21.422773Z"
+    "pg2j4Y--Wyg": {
+      "video_id": "pg2j4Y--Wyg",
+      "title": "Pack Review [Fusion 16x | Tag 543] #minecraft #pvp #bedwars",
+      "channel_id": "UCOi-IrdRwGqrNZiGNleIQyQ",
+      "channel_name": "S11one",
+      "published_at": "2026-10-02T17:40:56Z",
+      "first_seen_at": "2026-10-02T17:45:23.280284Z"
     }
   },
   "candidates": {
@@ -475,7 +443,12 @@
     "6XKJcs5K_Z8": "2026-10-02T17:35:22.263969Z",
     "IzVTJHYLWxk": "2026-10-02T17:35:22.263969Z",
     "KBWwS9w7Mzw": "2026-10-02T17:40:21.422794Z",
-    "tTS41VSgso4": "2026-10-02T17:40:21.422794Z"
+    "tTS41VSgso4": "2026-10-02T17:40:21.422794Z",
+    "Fs8gAgYM4-4": "2026-10-02T17:45:23.280299Z",
+    "32Gu6pBKurQ": "2026-10-02T17:45:23.280299Z",
+    "Q9eWlRoBQ54": "2026-10-02T17:45:23.280299Z",
+    "pf4qPkftaTo": "2026-10-02T17:45:23.280299Z",
+    "-CTeQnUrRxk": "2026-10-02T17:45:23.280299Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -1701,6 +1674,26 @@
     "UCkTji8RaVodQQw3uIHQ_jwA": {
       "subs": 31700,
       "fetched_at": "2026-10-02T17:40:21.549376Z"
+    },
+    "UC9JLbIF9QXlDjGeDOt7Q_Jw": {
+      "subs": 15200,
+      "fetched_at": "2026-10-02T17:45:23.415111Z"
+    },
+    "UC0UetqANVOipDeOLx08dffg": {
+      "subs": 55300,
+      "fetched_at": "2026-10-02T17:45:23.415111Z"
+    },
+    "UCCTha469iyN8KBPy2QBCX5w": {
+      "subs": 54500,
+      "fetched_at": "2026-10-02T17:45:23.415111Z"
+    },
+    "UCgDQSLmn6Zr3ot-TaUIXiiA": {
+      "subs": 49600,
+      "fetched_at": "2026-10-02T17:45:23.415111Z"
+    },
+    "UCwbRD9NkWagzOYTZ6rba59w": {
+      "subs": 809,
+      "fetched_at": "2026-10-02T17:45:23.415111Z"
     }
   },
   "search_log": [
@@ -1858,6 +1851,11 @@
       "at": "2026-10-02T17:40:21.128061Z",
       "results": 7,
       "span_minutes": 9.816666666666666
+    },
+    {
+      "at": "2026-10-02T17:45:23.001127Z",
+      "results": 1,
+      "span_minutes": 5.033333333333333
     }
   ],
   "hourly_density": {
@@ -1882,39 +1880,39 @@
       "n": 7
     },
     "1": {
-      "results": 77,
-      "span": 39.68333333333334,
-      "n": 5
+      "results": 78,
+      "span": 44.71666666666667,
+      "n": 6
     }
   },
   "reject_reasons": {
     "分类不符": 60,
-    "描述过长(疑口播)": 43,
+    "描述过长(疑口播)": 45,
     "标题含(twitch)": 2,
     "直播/切片(twitch.tv)": 4
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 815,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 716,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 816,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 717,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 716,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 617,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 319
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 419
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T17:40:21.128061Z",
+      "at": "2026-10-02T17:45:23.001127Z",
       "elapsed": 0.5,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 7
+      "staged": 1
     }
   },
-  "key_rr": 4,
+  "key_rr": 2,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
