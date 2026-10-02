@@ -1,54 +1,6 @@
 {
-  "cursor_utc": "2026-10-02T22:25:18.346199Z",
+  "cursor_utc": "2026-10-02T22:30:29.346199Z",
   "staging": {
-    "W6m-rT_pqTs": {
-      "video_id": "W6m-rT_pqTs",
-      "title": "#gaming #minecraft #shorts Wemmbu Edit",
-      "channel_id": "UCwvoFFbaamfYbq9CrO9Gt9w",
-      "channel_name": "Kryven",
-      "published_at": "2026-10-02T22:18:58Z",
-      "first_seen_at": "2026-10-02T22:20:21.107199Z"
-    },
-    "_eycW8yt9as": {
-      "video_id": "_eycW8yt9as",
-      "title": "6.Den čo plním vaše chalanges. #mcrybar #minecraft  #gaming  #funy",
-      "channel_id": "UC4w4e01yt77FguC7hCYk64w",
-      "channel_name": "ItzJazzyn",
-      "published_at": "2026-10-02T22:19:03Z",
-      "first_seen_at": "2026-10-02T22:20:21.107199Z"
-    },
-    "83ZE8E41I6Y": {
-      "video_id": "83ZE8E41I6Y",
-      "title": "minecraft grass block",
-      "channel_id": "UCTQwmZWmX5dQXa9W2WAHFPQ",
-      "channel_name": "someone random ",
-      "published_at": "2026-10-02T22:18:43Z",
-      "first_seen_at": "2026-10-02T22:20:21.107199Z"
-    },
-    "dYwpuxgHAIo": {
-      "video_id": "dYwpuxgHAIo",
-      "title": "How You Gonna Win Spear Mace? Just Fly...  #minecraft#1sv1#1v1 #gaming#pvp#viral#mincraftpvp#shorts",
-      "channel_id": "UCSzLzPt_nBuK3UHO1TzQdFg",
-      "channel_name": "Nox3n",
-      "published_at": "2026-10-02T22:18:46Z",
-      "first_seen_at": "2026-10-02T22:20:21.107199Z"
-    },
-    "i3OzuMhYINU": {
-      "video_id": "i3OzuMhYINU",
-      "title": "SPEDRUNING A COMPASS #Minecraft #MinecraftSpeedrun #CompassSpeedrun #MinecraftChallenge #Speedrun",
-      "channel_id": "UCTH34Gx6hEux_o6xMmBMf2A",
-      "channel_name": "crazypotatoguy",
-      "published_at": "2026-10-02T22:17:15Z",
-      "first_seen_at": "2026-10-02T22:20:21.107199Z"
-    },
-    "7vVblMPRxLw": {
-      "video_id": "7vVblMPRxLw",
-      "title": "#minecraft #gaming #fyp #shorts #ai #animation",
-      "channel_id": "UCoq_oAIoTOEd08gAPgg6yEA",
-      "channel_name": "Smarty Minecraft ",
-      "published_at": "2026-10-02T22:17:05Z",
-      "first_seen_at": "2026-10-02T22:20:21.107199Z"
-    },
     "vhPMGAWPseA": {
       "video_id": "vhPMGAWPseA",
       "title": "Keep inventory just isn&#39;t for everyone  #minecraft #minecraftshorts",
@@ -89,13 +41,37 @@
       "published_at": "2026-10-02T22:20:43Z",
       "first_seen_at": "2026-10-02T22:25:19.411852Z"
     },
-    "JVSQpXQB4kE": {
-      "video_id": "JVSQpXQB4kE",
-      "title": "DO NOT LET A CREEPER EXPLODE ON YOU..... #minecraft #minecraftmemes",
-      "channel_id": "UC1FMiMq_JA3Pg5tnD5MyLsg",
-      "channel_name": "Sunless",
-      "published_at": "2026-10-02T22:20:29Z",
-      "first_seen_at": "2026-10-02T22:25:19.411852Z"
+    "di7RvbfYiHo": {
+      "video_id": "di7RvbfYiHo",
+      "title": "Dr Donut&#39;s Parents Kicked Him out🤬 #minecraft",
+      "channel_id": "UCRrA9wSwNHt4a2uvUNBDaqA",
+      "channel_name": "BlockyDonut",
+      "published_at": "2026-10-02T22:30:01Z",
+      "first_seen_at": "2026-10-02T22:30:30.479561Z"
+    },
+    "Z5cCzrI6F-o": {
+      "video_id": "Z5cCzrI6F-o",
+      "title": "acho que é um pouco realista #minecraft #naoflopa #fy #thefreakcircus",
+      "channel_id": "UCDPFNHQT8QVhIvodSi2sbzg",
+      "channel_name": "LOBO2K",
+      "published_at": "2026-10-02T22:27:18Z",
+      "first_seen_at": "2026-10-02T22:30:30.479561Z"
+    },
+    "vYp3SksM6Xk": {
+      "video_id": "vYp3SksM6Xk",
+      "title": "Una buena partida con un buen amigo #universocraft #destruyeelnexus #minecraft #pvp",
+      "channel_id": "UCUaF48VM8cIGFKvyiC9_1qw",
+      "channel_name": "Alextron_x",
+      "published_at": "2026-10-02T22:27:44Z",
+      "first_seen_at": "2026-10-02T22:30:30.479561Z"
+    },
+    "V2OlyjSp-zs": {
+      "video_id": "V2OlyjSp-zs",
+      "title": "Video simples: Quando amigo volta do nether!!  #minecraft #memes",
+      "channel_id": "UCPIPEKSwuyOJX7ZTWjTOscg",
+      "channel_name": "CriativoVip",
+      "published_at": "2026-10-02T22:26:26Z",
+      "first_seen_at": "2026-10-02T22:30:30.479561Z"
     }
   },
   "candidates": {},
@@ -843,7 +819,14 @@
     "pyH8CMp7pRc": "2026-10-02T22:25:19.411868Z",
     "oXwiD5CDnL0": "2026-10-02T22:25:19.411868Z",
     "LRzK5XU_47A": "2026-10-02T22:25:19.411868Z",
-    "DQQPeio5aHA": "2026-10-02T22:25:19.411868Z"
+    "DQQPeio5aHA": "2026-10-02T22:25:19.411868Z",
+    "7vVblMPRxLw": "2026-10-02T22:30:30.479580Z",
+    "i3OzuMhYINU": "2026-10-02T22:30:30.479580Z",
+    "83ZE8E41I6Y": "2026-10-02T22:30:30.479580Z",
+    "dYwpuxgHAIo": "2026-10-02T22:30:30.479580Z",
+    "W6m-rT_pqTs": "2026-10-02T22:30:30.479580Z",
+    "_eycW8yt9as": "2026-10-02T22:30:30.479580Z",
+    "JVSQpXQB4kE": "2026-10-02T22:30:30.479580Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3637,14 +3620,37 @@
     "UCCFwLZ8nqBZrLfRyieQS8pg": {
       "subs": 60,
       "fetched_at": "2026-10-02T22:25:19.637218Z"
+    },
+    "UC1FMiMq_JA3Pg5tnD5MyLsg": {
+      "subs": 90,
+      "fetched_at": "2026-10-02T22:30:30.605311Z"
+    },
+    "UCoq_oAIoTOEd08gAPgg6yEA": {
+      "subs": 115,
+      "fetched_at": "2026-10-02T22:30:30.605311Z"
+    },
+    "UCwvoFFbaamfYbq9CrO9Gt9w": {
+      "subs": 560,
+      "fetched_at": "2026-10-02T22:30:30.605311Z"
+    },
+    "UCTH34Gx6hEux_o6xMmBMf2A": {
+      "subs": 267,
+      "fetched_at": "2026-10-02T22:30:30.605311Z"
+    },
+    "UCTQwmZWmX5dQXa9W2WAHFPQ": {
+      "subs": 5410,
+      "fetched_at": "2026-10-02T22:30:30.605311Z"
+    },
+    "UCSzLzPt_nBuK3UHO1TzQdFg": {
+      "subs": 1440,
+      "fetched_at": "2026-10-02T22:30:30.605311Z"
+    },
+    "UC4w4e01yt77FguC7hCYk64w": {
+      "subs": 6,
+      "fetched_at": "2026-10-02T22:30:30.605311Z"
     }
   },
   "search_log": [
-    {
-      "at": "2026-10-02T16:10:24.644482Z",
-      "results": 47,
-      "span_minutes": 9.733333333333333
-    },
     {
       "at": "2026-10-02T16:20:21.615624Z",
       "results": 12,
@@ -3889,6 +3895,11 @@
       "at": "2026-10-02T22:25:19.131952Z",
       "results": 6,
       "span_minutes": 5.45
+    },
+    {
+      "at": "2026-10-02T22:30:30.185824Z",
+      "results": 4,
+      "span_minutes": 5.183333333333334
     }
   ],
   "hourly_density": {
@@ -3938,39 +3949,39 @@
       "n": 7
     },
     "6": {
-      "results": 74,
-      "span": 24.683333333333334,
-      "n": 4
+      "results": 78,
+      "span": 29.866666666666667,
+      "n": 5
     }
   },
   "reject_reasons": {
-    "分类不符": 120,
+    "分类不符": 122,
     "描述过长(疑口播)": 94,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 11
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2128,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2129,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1138,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1336,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1236,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1236
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1336,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1237
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T22:25:19.131952Z",
-      "elapsed": 0.7,
+      "at": "2026-10-02T22:30:30.185824Z",
+      "elapsed": 0.5,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 6
+      "staged": 4
     }
   },
-  "key_rr": 3,
+  "key_rr": 1,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
