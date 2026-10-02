@@ -16,62 +16,6 @@
       "channel_name": "AKELU RAJA",
       "published_at": "2026-10-02T15:29:28Z",
       "first_seen_at": "2026-10-02T15:30:31.438934Z"
-    },
-    "hbSUQPfGgtY": {
-      "video_id": "hbSUQPfGgtY",
-      "title": "Caballero corrompido (Experto) #minecraft",
-      "channel_id": "UCYtqDhfiJoA7F-Th9Oad81g",
-      "channel_name": "Jeriko Gamer",
-      "published_at": "2026-10-02T15:24:52Z",
-      "first_seen_at": "2026-10-02T15:30:31.438934Z"
-    },
-    "zPxTv8GMjn8": {
-      "video_id": "zPxTv8GMjn8",
-      "title": "THE OTHER SIDE: WATCH EPISODE 2 [Minecraft Animated Series]",
-      "channel_id": "UCP-0pRE_L9obaWDU4A7gqCg",
-      "channel_name": "Bluemator",
-      "published_at": "2026-10-02T15:24:00Z",
-      "first_seen_at": "2026-10-02T15:30:31.438934Z"
-    },
-    "J81LFfZ_nlc": {
-      "video_id": "J81LFfZ_nlc",
-      "title": "Michael Jackson Edit🔥#edit #shorts #memes #viral #xh  #michaeljackson #edit #music #aura #minecraft",
-      "channel_id": "UCkKK_ad1E23lB8eH4GtGzGA",
-      "channel_name": "Normal Steve",
-      "published_at": "2026-10-02T15:22:44Z",
-      "first_seen_at": "2026-10-02T15:30:31.438934Z"
-    },
-    "kDt7Fr-ELXs": {
-      "video_id": "kDt7Fr-ELXs",
-      "title": "Minecraft&#39;ta HER BLOK KIRDIĞIMDA 4 ASKER SPAWN OLUYOR!? 😭🥀",
-      "channel_id": "UC_tPnV4cegpXLj_dUwgRnjw",
-      "channel_name": "begede",
-      "published_at": "2026-10-02T15:21:19Z",
-      "first_seen_at": "2026-10-02T15:30:31.438934Z"
-    },
-    "vX8cd2_5DmY": {
-      "video_id": "vX8cd2_5DmY",
-      "title": "Qui est Baba ?! Panique totale en plein jeu 😱🤣 #yassouu__ #minecraft #gaming #fyp",
-      "channel_id": "UCDzDjaCqmXQiK_0FRU7tpRQ",
-      "channel_name": "B_nair (Minecraft)",
-      "published_at": "2026-10-02T15:21:14Z",
-      "first_seen_at": "2026-10-02T15:30:31.438934Z"
-    },
-    "3WHTeZxhxsg": {
-      "video_id": "3WHTeZxhxsg",
-      "title": "The perfect gift for a Minecraft fan!😱🌳 LINK IN BIO!🤯❤️ #minecraft #nostalgia #minecraftnostalgia",
-      "channel_id": "UCGzSyODQ7ojhkETprNk5qbw",
-      "channel_name": "Pixel Projector",
-      "published_at": "2026-10-02T15:21:51Z",
-      "first_seen_at": "2026-10-02T15:30:31.438934Z"
-    },
-    "Aoe0uvMgNHE": {
-      "video_id": "Aoe0uvMgNHE",
-      "title": "Minecraft Kolayca Uzun Menzilli TNT Silahı Yapmak !!!",
-      "channel_id": "UCUXAAB9rZnhCqtK3_HabsMw",
-      "channel_name": "Oxelate",
-      "published_at": "2026-10-02T15:22:13Z",
-      "first_seen_at": "2026-10-02T15:30:31.438934Z"
     }
   },
   "candidates": {
@@ -225,12 +169,17 @@
       "tier_locked_at": "2026-10-02T15:25:20.936111Z",
       "published_at": "2026-10-02T15:13:28Z",
       "first_seen_at": "2026-10-02T15:15:29.382466Z",
-      "last_checked_at": "2026-10-02T15:25:20.936111Z",
+      "last_checked_at": "2026-10-02T15:35:21.784545Z",
       "samples": [
         {
           "t": "2026-10-02T15:25:20.936111Z",
           "views": 347,
           "likes": 2
+        },
+        {
+          "t": "2026-10-02T15:35:21.784528Z",
+          "views": 2491,
+          "likes": 21
         }
       ],
       "stale_checks": 0,
@@ -399,7 +348,14 @@
     "srt8V9LOtz0": "2026-10-02T15:30:31.438955Z",
     "T6ax94Jg7Oo": "2026-10-02T15:30:31.438955Z",
     "mOU-os0dIF8": "2026-10-02T15:30:31.438955Z",
-    "VEH9fRSoR_U": "2026-10-02T15:30:31.720605Z"
+    "VEH9fRSoR_U": "2026-10-02T15:30:31.720605Z",
+    "vX8cd2_5DmY": "2026-10-02T15:35:21.211032Z",
+    "kDt7Fr-ELXs": "2026-10-02T15:35:21.211032Z",
+    "3WHTeZxhxsg": "2026-10-02T15:35:21.211032Z",
+    "Aoe0uvMgNHE": "2026-10-02T15:35:21.211032Z",
+    "J81LFfZ_nlc": "2026-10-02T15:35:21.211032Z",
+    "zPxTv8GMjn8": "2026-10-02T15:35:21.211032Z",
+    "hbSUQPfGgtY": "2026-10-02T15:35:21.211032Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -1017,6 +973,34 @@
     "UCyH1rDsNyOmuY-VmFcARfRg": {
       "subs": 1290,
       "fetched_at": "2026-10-02T15:30:31.597671Z"
+    },
+    "UCYtqDhfiJoA7F-Th9Oad81g": {
+      "subs": 505,
+      "fetched_at": "2026-10-02T15:35:21.461267Z"
+    },
+    "UCGzSyODQ7ojhkETprNk5qbw": {
+      "subs": 35700,
+      "fetched_at": "2026-10-02T15:35:21.461267Z"
+    },
+    "UCP-0pRE_L9obaWDU4A7gqCg": {
+      "subs": 31,
+      "fetched_at": "2026-10-02T15:35:21.461267Z"
+    },
+    "UCUXAAB9rZnhCqtK3_HabsMw": {
+      "subs": 33,
+      "fetched_at": "2026-10-02T15:35:21.461267Z"
+    },
+    "UCkKK_ad1E23lB8eH4GtGzGA": {
+      "subs": 756,
+      "fetched_at": "2026-10-02T15:35:21.461267Z"
+    },
+    "UCDzDjaCqmXQiK_0FRU7tpRQ": {
+      "subs": 614,
+      "fetched_at": "2026-10-02T15:35:21.461267Z"
+    },
+    "UC_tPnV4cegpXLj_dUwgRnjw": {
+      "subs": 89300,
+      "fetched_at": "2026-10-02T15:35:21.461267Z"
     }
   },
   "search_log": [
@@ -1114,7 +1098,7 @@
     }
   },
   "reject_reasons": {
-    "分类不符": 27,
+    "分类不符": 30,
     "描述过长(疑口播)": 25,
     "标题含(twitch)": 1,
     "直播/切片(twitch.tv)": 1
@@ -1123,24 +1107,23 @@
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 209,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 209,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 505,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 406,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 208
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 506,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 407,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 209
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T15:30:31.181431Z",
-      "elapsed": 0.5,
-      "searched": 1,
+      "at": "2026-10-02T15:35:21.211020Z",
+      "elapsed": 0.6,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
-      "dropped": 1,
-      "staged": 9
+      "sampled": 1,
+      "dropped": 0
     }
   },
-  "key_rr": 2,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
