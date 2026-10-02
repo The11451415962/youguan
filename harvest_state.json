@@ -40,30 +40,6 @@
       "channel_name": "Goro",
       "published_at": "2026-10-02T23:25:24Z",
       "first_seen_at": "2026-10-02T23:30:29.274939Z"
-    },
-    "exXyFCF29wA": {
-      "video_id": "exXyFCF29wA",
-      "title": "DragonLordDarkdra gets trapped in a backrooms loop! #fearnightfall #minecraft #backrooms #vtuber",
-      "channel_id": "UCNcOAzERHHrhluqCLYMaQ7g",
-      "channel_name": "G'DayVT",
-      "published_at": "2026-10-02T23:23:03Z",
-      "first_seen_at": "2026-10-02T23:30:29.274939Z"
-    },
-    "dvaV86YpXIA": {
-      "video_id": "dvaV86YpXIA",
-      "title": "MINECRAFT PORTAL IN REAL LIFE?! 😱 #trending #foryou",
-      "channel_id": "UC97dlsPjQkO2zHgAWvUG3lw",
-      "channel_name": "Bloxyyy",
-      "published_at": "2026-10-02T23:22:57Z",
-      "first_seen_at": "2026-10-02T23:30:29.274939Z"
-    },
-    "nncXEtU88AQ": {
-      "video_id": "nncXEtU88AQ",
-      "title": "Ranking Best MINECRAFT Moments #minecraft #gameplay #funny",
-      "channel_id": "UCh7k56P3ogLfCSjRJCqJbJw",
-      "channel_name": "SpideyRanks",
-      "published_at": "2026-10-02T23:22:50Z",
-      "first_seen_at": "2026-10-02T23:30:29.274939Z"
     }
   },
   "candidates": {
@@ -926,7 +902,10 @@
     "Iy-Y_BihFWw": "2026-10-02T23:30:29.274961Z",
     "e1u3Fn2-m0c": "2026-10-02T23:30:29.274961Z",
     "u50jm2lTCfQ": "2026-10-02T23:30:29.274961Z",
-    "yXYbMM8CU6U": "2026-10-02T23:30:29.274961Z"
+    "yXYbMM8CU6U": "2026-10-02T23:30:29.274961Z",
+    "nncXEtU88AQ": "2026-10-02T23:35:15.977099Z",
+    "dvaV86YpXIA": "2026-10-02T23:35:15.977099Z",
+    "exXyFCF29wA": "2026-10-02T23:35:15.977099Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -4040,6 +4019,18 @@
     "UCRtxeTlDUK-OmB6qfBOyZxA": {
       "subs": 93,
       "fetched_at": "2026-10-02T23:30:29.406539Z"
+    },
+    "UCNcOAzERHHrhluqCLYMaQ7g": {
+      "subs": 27,
+      "fetched_at": "2026-10-02T23:35:16.106642Z"
+    },
+    "UC97dlsPjQkO2zHgAWvUG3lw": {
+      "subs": 4,
+      "fetched_at": "2026-10-02T23:35:16.106642Z"
+    },
+    "UCh7k56P3ogLfCSjRJCqJbJw": {
+      "subs": 5910,
+      "fetched_at": "2026-10-02T23:35:16.106642Z"
     }
   },
   "search_log": [
@@ -4362,23 +4353,22 @@
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2432,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1343,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1343,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1639,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1243
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1640,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1244
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T23:30:29.009889Z",
-      "elapsed": 0.5,
-      "searched": 1,
+      "at": "2026-10-02T23:35:15.977089Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 8
+      "dropped": 0
     }
   },
-  "key_rr": 3,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
