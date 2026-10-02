@@ -460,6 +460,7 @@ def fetch_details(pool, video_ids):
                 "made_for_kids": bool(sn.get("madeForKids")),
                 "category_id": str(sn.get("categoryId", "") or ""),
                 "description": (sn.get("description") or ""),
+                "tags": sn.get("tags") or [],
                 "default_audio_language": sn.get("defaultAudioLanguage", ""),
             }
     return out
@@ -526,28 +527,58 @@ def age_minutes(published_at):
 
 
 def title_ok(title, cfg=None):
-    """标题是否真的在讲 Minecraft。
+    """标题是否真的在讲 Minecraft —— 按「完整词 + 出处」判断。
 
-    按**完整词**匹配而不是子串匹配 —— 子串会放进
-    "Mike Tomlin Playing Minecraft"、"How to Fix Corrupted Data on PS5 Minecraft"
-    这类只蹭关键词的视频。
+    关键区分：**正文提到** vs **仅 hashtag 提到**。
+
+    实测发现 `#minecraft` 是被滥用最严重的标签：
+    "Daddy Pig Drinks George's Potion #peppapig #minecraft #animation"
+    这种小猪佩奇视频挂 #minecraft 纯粹为了蹭流量。
+
+    规则：
+      - 正文（去掉 hashtag）里出现 minecraft 系列词 → 通过
+      - 只在 hashtag 里出现 → 至少 2 个 minecraft 系 hashtag 才算数
     """
     cfg = cfg or CFG
-    t = (title or "").lower()
-    if not t:
+    raw = (title or "").lower()
+    if not raw:
         return False
-    # 拆成词（保留 hashtag 的 # 前缀）
-    words = set(re.findall(r"#?[\w\u4e00-\u9fff]+", t))
-    for k in cfg["title_keywords"]:
-        k = k.lower()
-        if k in words:
+
+    words = [k.lower() for k in cfg["title_keywords"]]
+    strong = [w for w in words if "minecraft" in w or w in ("maizen", "verity")]
+
+    hashtags = re.findall(r"#[\w\u4e00-\u9fff]+", raw)
+    body = re.sub(r"#[\w\u4e00-\u9fff]+", " ", raw)
+    body_words = set(re.findall(r"[\w\u4e00-\u9fff]+", body))
+
+    for k in strong:
+        kk = k.lstrip("#")
+        if kk in body_words:
             return True
-    # 允许带空格的短语（如 "minecraft shorts"）
-    for k in cfg["title_keywords"]:
-        k = k.lower()
-        if " " in k and k in t:
+        if " " in kk and kk in body:
             return True
-    return False
+
+    mc_tags = [h for h in hashtags if "minecraft" in h or h in ("#maizen", "#verity")]
+    return len(mc_tags) >= 2
+
+
+def weak_title_ok(d, cfg=None):
+    """标题只有 1 个 minecraft hashtag 时的补救判定。
+
+    针对「标题是外语、看不出 Minecraft、但内容确实是」的情况
+    （实测：阿拉伯语/俄语的 Minecraft 短视频，标题正文是母语）。
+    额外要求：分类是 Gaming + 官方 tags 里有 minecraft 系标签。
+    小猪佩奇那种分类是 Animation、tags 只有 peppa，会被拦住。
+    """
+    cfg = cfg or CFG
+    title = (d.get("title") or "").lower()
+    hashtags = re.findall(r"#[\w\u4e00-\u9fff]+", title)
+    if not any("minecraft" in h or h in ("#maizen", "#verity") for h in hashtags):
+        return False
+    if str(d.get("category_id") or "") != "20":       # 必须是 Gaming
+        return False
+    tags = " ".join(str(t).lower() for t in (d.get("tags") or []))
+    return "minecraft" in tags or "майнкрафт" in tags or "ماينكرافت" in tags
 
 
 def sample_interval_minutes(age):
@@ -822,7 +853,8 @@ def _evaluate_staging(pool, state, stats):
         if not (0 < d["duration"] <= CFG["max_duration"]):
             gated_dur = drop(gated_dur)
             continue
-        if not title_ok(title):
+        # 标题判定：主规则从严；外语标题的合法内容用弱规则补救
+        if not title_ok(title) and not weak_title_ok(d):
             gated_title = drop(gated_title)
             continue
         ok, why = content_ok(d)
