@@ -1,21 +1,45 @@
 {
-  "cursor_utc": "2026-10-02T15:30:30.346199Z",
+  "cursor_utc": "2026-10-02T15:40:22.346199Z",
   "staging": {
-    "BH7XJvid2FM": {
-      "video_id": "BH7XJvid2FM",
-      "title": "Iron Golem Remembers His Past. 🥺 #trending #minecraft #shorts",
-      "channel_id": "UCm0uMuUqa8WgLDHmW2fYlnA",
-      "channel_name": "Dilshad Gamerz",
-      "published_at": "2026-10-02T15:30:04Z",
-      "first_seen_at": "2026-10-02T15:30:31.438934Z"
+    "GIAFiGrevVE": {
+      "video_id": "GIAFiGrevVE",
+      "title": "#lego #minecraft #short #games #creative",
+      "channel_id": "UCvgsHrvKHDUBOwhCskP7tlA",
+      "channel_name": "Raffif Rakhis",
+      "published_at": "2026-10-02T15:35:22Z",
+      "first_seen_at": "2026-10-02T15:40:23.336125Z"
     },
-    "VTTpjErPjdc": {
-      "video_id": "VTTpjErPjdc",
-      "title": "This video&#39;s Minecraft biggener #minecraft",
-      "channel_id": "UCIYQtk1ySOV2KwCBxff_kAQ",
-      "channel_name": "AKELU RAJA",
-      "published_at": "2026-10-02T15:29:28Z",
-      "first_seen_at": "2026-10-02T15:30:31.438934Z"
+    "Y9KRn1jUExk": {
+      "video_id": "Y9KRn1jUExk",
+      "title": "#minecraft primeiro dia jogando kkk",
+      "channel_id": "UCfXuJ-v39lhOOXxSUhO-4RQ",
+      "channel_name": "LINKIN Rei ",
+      "published_at": "2026-10-02T15:30:31Z",
+      "first_seen_at": "2026-10-02T15:40:23.336125Z"
+    },
+    "wdDPOv_elTM": {
+      "video_id": "wdDPOv_elTM",
+      "title": "Torre da Maldade! 22 #minecraft",
+      "channel_id": "UCJbMDKgB9YnqaNLkXKFusEQ",
+      "channel_name": "Matoshi",
+      "published_at": "2026-10-02T15:30:35Z",
+      "first_seen_at": "2026-10-02T15:40:23.336125Z"
+    },
+    "0KzeNFSDpuo": {
+      "video_id": "0KzeNFSDpuo",
+      "title": "JERRY BEING WEIRD FOR 30 SECONDS... #minecraft #horror #scary #shorts #usa",
+      "channel_id": "UCU7fhkn4aVVXh3vCO3YrJng",
+      "channel_name": "Wayle Minecraft",
+      "published_at": "2026-10-02T15:30:36Z",
+      "first_seen_at": "2026-10-02T15:40:23.336125Z"
+    },
+    "DOS4SbGhXno": {
+      "video_id": "DOS4SbGhXno",
+      "title": "se as ferramentas pudessem falar!  #minecraft #minecraftbuilding #minecraftbedrock #shorts",
+      "channel_id": "UCRgwQkLI7cRzd6z687uo_ng",
+      "channel_name": "LUDDY_GAMER",
+      "published_at": "2026-10-02T15:30:37Z",
+      "first_seen_at": "2026-10-02T15:40:23.336125Z"
     }
   },
   "candidates": {
@@ -101,7 +125,7 @@
       "channel_subs": 555000,
       "published_at": "2026-10-02T14:05:24Z",
       "first_seen_at": "2026-10-02T14:10:22.637052Z",
-      "last_checked_at": "2026-10-02T15:15:30.013156Z",
+      "last_checked_at": "2026-10-02T15:40:23.639752Z",
       "samples": [
         {
           "t": "2026-10-02T14:20:24.836753Z",
@@ -119,6 +143,11 @@
           "t": "2026-10-02T15:15:30.013138Z",
           "views": 8358,
           "likes": 383
+        },
+        {
+          "t": "2026-10-02T15:40:23.639730Z",
+          "views": 9331,
+          "likes": 448
         }
       ],
       "stale_checks": 0,
@@ -136,7 +165,7 @@
       "channel_subs": 3930000,
       "published_at": "2026-10-02T14:30:08Z",
       "first_seen_at": "2026-10-02T14:30:54.229434Z",
-      "last_checked_at": "2026-10-02T15:15:30.013165Z",
+      "last_checked_at": "2026-10-02T15:40:23.639765Z",
       "samples": [
         {
           "t": "2026-10-02T14:40:23.875630Z",
@@ -150,6 +179,11 @@
           "t": "2026-10-02T15:15:30.013162Z",
           "views": 11093,
           "likes": 312
+        },
+        {
+          "t": "2026-10-02T15:40:23.639761Z",
+          "views": 13824,
+          "likes": 427
         }
       ],
       "stale_checks": 0,
@@ -355,7 +389,9 @@
     "Aoe0uvMgNHE": "2026-10-02T15:35:21.211032Z",
     "J81LFfZ_nlc": "2026-10-02T15:35:21.211032Z",
     "zPxTv8GMjn8": "2026-10-02T15:35:21.211032Z",
-    "hbSUQPfGgtY": "2026-10-02T15:35:21.211032Z"
+    "hbSUQPfGgtY": "2026-10-02T15:35:21.211032Z",
+    "VTTpjErPjdc": "2026-10-02T15:40:23.336146Z",
+    "BH7XJvid2FM": "2026-10-02T15:40:23.336146Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -1001,6 +1037,14 @@
     "UC_tPnV4cegpXLj_dUwgRnjw": {
       "subs": 89300,
       "fetched_at": "2026-10-02T15:35:21.461267Z"
+    },
+    "UCIYQtk1ySOV2KwCBxff_kAQ": {
+      "subs": 132,
+      "fetched_at": "2026-10-02T15:40:23.441466Z"
+    },
+    "UCm0uMuUqa8WgLDHmW2fYlnA": {
+      "subs": 164000,
+      "fetched_at": "2026-10-02T15:40:23.441466Z"
     }
   },
   "search_log": [
@@ -1078,6 +1122,11 @@
       "at": "2026-10-02T15:30:31.181431Z",
       "results": 9,
       "span_minutes": 10.033333333333333
+    },
+    {
+      "at": "2026-10-02T15:40:23.062103Z",
+      "results": 5,
+      "span_minutes": 9.866666666666667
     }
   ],
   "hourly_density": {
@@ -1092,9 +1141,9 @@
       "n": 8
     },
     "23": {
-      "results": 61,
-      "span": 29.816666666666663,
-      "n": 4
+      "results": 66,
+      "span": 39.68333333333333,
+      "n": 5
     }
   },
   "reject_reasons": {
@@ -1105,25 +1154,26 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 209,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 209,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 506,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 407,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 309,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 210,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 507,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 408,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 209
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T15:35:21.211020Z",
+      "at": "2026-10-02T15:40:23.062103Z",
       "elapsed": 0.6,
-      "searched": 0,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
-      "dropped": 0
+      "sampled": 2,
+      "dropped": 0,
+      "staged": 5
     }
   },
-  "key_rr": 0,
+  "key_rr": 4,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
