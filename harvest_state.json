@@ -1,6 +1,31 @@
 {
-  "cursor_utc": "2026-10-02T16:50:23.346199Z",
-  "staging": {},
+  "cursor_utc": "2026-10-02T17:00:39.346199Z",
+  "staging": {
+    "26YzhXI_TRs": {
+      "video_id": "26YzhXI_TRs",
+      "title": "Я не смог его спасти... #minecraft #майнкрафт #shorts",
+      "channel_id": "UCwMB-kUgPhDn2d7CjrBu-Ww",
+      "channel_name": "БМ Майнкрафт",
+      "published_at": "2026-10-02T16:53:10Z",
+      "first_seen_at": "2026-10-02T17:00:40.192631Z"
+    },
+    "0tzb678W0lo": {
+      "video_id": "0tzb678W0lo",
+      "title": "I build Steve. #lego #legobuild #legominifigures #legominecraft",
+      "channel_id": "UCXe1F9iE3Fdi0qRI6a2fZhg",
+      "channel_name": "Builder Works ",
+      "published_at": "2026-10-02T16:50:46Z",
+      "first_seen_at": "2026-10-02T17:00:40.192631Z"
+    },
+    "M1z6YSVTniY": {
+      "video_id": "M1z6YSVTniY",
+      "title": "La nouvelle dimension de Minecraft ? #minecraft",
+      "channel_id": "UCq4q6lmqP1JKG_7JZVnSprw",
+      "channel_name": "LebuigzzMC",
+      "published_at": "2026-10-02T16:51:13Z",
+      "first_seen_at": "2026-10-02T17:00:40.192631Z"
+    }
+  },
   "candidates": {
     "_-wkx3yZigg": {
       "video_id": "_-wkx3yZigg",
@@ -1462,6 +1487,11 @@
       "at": "2026-10-02T16:50:24.011630Z",
       "results": 0,
       "span_minutes": 10.016666666666667
+    },
+    {
+      "at": "2026-10-02T17:00:39.875777Z",
+      "results": 3,
+      "span_minutes": 10.266666666666667
     }
   ],
   "hourly_density": {
@@ -1481,9 +1511,9 @@
       "n": 8
     },
     "0": {
-      "results": 68,
-      "span": 49.71666666666666,
-      "n": 6
+      "results": 71,
+      "span": 59.98333333333333,
+      "n": 7
     }
   },
   "reject_reasons": {
@@ -1496,23 +1526,24 @@
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 613,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 514,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 513,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 613,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 612,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 315
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T16:55:18.951097Z",
-      "elapsed": 0.0,
-      "searched": 0,
+      "at": "2026-10-02T17:00:39.875777Z",
+      "elapsed": 0.3,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 3
     }
   },
-  "key_rr": 2,
+  "key_rr": 3,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
