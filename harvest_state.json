@@ -33,14 +33,6 @@
       "published_at": "2026-10-02T21:18:15Z",
       "first_seen_at": "2026-10-02T21:20:20.228595Z"
     },
-    "Z64aZ3SNx_E": {
-      "video_id": "Z64aZ3SNx_E",
-      "title": "5 Minecraft Facts You Probably Didn’t Know 🤯 #minecraft",
-      "channel_id": "UCShOFpB3BZm88Ogxevx-2VA",
-      "channel_name": "Vall2r",
-      "published_at": "2026-10-02T21:15:17Z",
-      "first_seen_at": "2026-10-02T21:20:20.228595Z"
-    },
     "qb3kD4-uJH8": {
       "video_id": "qb3kD4-uJH8",
       "title": "Spikes Minecraft Challenge",
@@ -57,14 +49,6 @@
       "published_at": "2026-10-02T21:15:26Z",
       "first_seen_at": "2026-10-02T21:20:20.228595Z"
     },
-    "lH-VtgE7rcQ": {
-      "video_id": "lH-VtgE7rcQ",
-      "title": "pov: jogar Minecraft com amigos #foryou #animation #minecraft #viraalvideo #amigos",
-      "channel_id": "UCIimOA4ehFkdXq-xOqXTUxg",
-      "channel_name": "Cooki3.Chocollato",
-      "published_at": "2026-10-02T21:14:53Z",
-      "first_seen_at": "2026-10-02T21:20:20.228595Z"
-    },
     "5IADq5Mf-Gw": {
       "video_id": "5IADq5Mf-Gw",
       "title": "No wayyy #gaming #gamingshorts #minecraft #minecraftshorts",
@@ -79,38 +63,6 @@
       "channel_id": "UCPvj741AxJvAlYd29jiaiaQ",
       "channel_name": "The Craft",
       "published_at": "2026-10-02T21:15:24Z",
-      "first_seen_at": "2026-10-02T21:20:20.228595Z"
-    },
-    "dLgGeJO6Byc": {
-      "video_id": "dLgGeJO6Byc",
-      "title": "The New Dimension Mod Mielon&#39;s The Sift #minecraft",
-      "channel_id": "UCeYrKtcoFbEgfyPXGCA040w",
-      "channel_name": "Vraqqon_mc",
-      "published_at": "2026-10-02T21:13:15Z",
-      "first_seen_at": "2026-10-02T21:20:20.228595Z"
-    },
-    "cu7ax3qbU-k": {
-      "video_id": "cu7ax3qbU-k",
-      "title": "Fazendo melhorias que a mojang não fez no Minecraft",
-      "channel_id": "UCYwDuJ79xliRu6E8e-NoiIA",
-      "channel_name": "Verd",
-      "published_at": "2026-10-02T21:13:40Z",
-      "first_seen_at": "2026-10-02T21:20:20.228595Z"
-    },
-    "hmkabEva-ls": {
-      "video_id": "hmkabEva-ls",
-      "title": "Hate when this happens, right guys?",
-      "channel_id": "UCHOIlYT8960XdHY5FixdpJQ",
-      "channel_name": "KingElliot",
-      "published_at": "2026-10-02T21:11:07Z",
-      "first_seen_at": "2026-10-02T21:20:20.228595Z"
-    },
-    "97-ySHg3v78": {
-      "video_id": "97-ySHg3v78",
-      "title": "#minecraft #mobilelegends لي يحب انمي ناروتو يحط اشتراك🫠",
-      "channel_id": "UCvQLVxBG9LSOUoSnRlu3yvw",
-      "channel_name": "DIBALA_100K",
-      "published_at": "2026-10-02T21:11:04Z",
       "first_seen_at": "2026-10-02T21:20:20.228595Z"
     }
   },
@@ -777,7 +729,13 @@
     "Bt6nkM6UerE": "2026-10-02T21:20:20.228629Z",
     "GGcwWKJbgTc": "2026-10-02T21:20:20.228629Z",
     "0ijQWoPIZ9g": "2026-10-02T21:20:20.228629Z",
-    "jl7WfPN5vyw": "2026-10-02T21:20:20.228629Z"
+    "jl7WfPN5vyw": "2026-10-02T21:20:20.228629Z",
+    "97-ySHg3v78": "2026-10-02T21:25:18.667743Z",
+    "hmkabEva-ls": "2026-10-02T21:25:18.667743Z",
+    "dLgGeJO6Byc": "2026-10-02T21:25:18.667743Z",
+    "cu7ax3qbU-k": "2026-10-02T21:25:18.667743Z",
+    "lH-VtgE7rcQ": "2026-10-02T21:25:18.667743Z",
+    "Z64aZ3SNx_E": "2026-10-02T21:25:18.667743Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3271,6 +3229,30 @@
     "UCbbwi_MJ03x_uDBZkQQIiYA": {
       "subs": 134,
       "fetched_at": "2026-10-02T21:20:20.377694Z"
+    },
+    "UCShOFpB3BZm88Ogxevx-2VA": {
+      "subs": 26,
+      "fetched_at": "2026-10-02T21:25:18.831220Z"
+    },
+    "UCeYrKtcoFbEgfyPXGCA040w": {
+      "subs": 1710,
+      "fetched_at": "2026-10-02T21:25:18.831220Z"
+    },
+    "UCIimOA4ehFkdXq-xOqXTUxg": {
+      "subs": 12,
+      "fetched_at": "2026-10-02T21:25:18.831220Z"
+    },
+    "UCHOIlYT8960XdHY5FixdpJQ": {
+      "subs": 944,
+      "fetched_at": "2026-10-02T21:25:18.831220Z"
+    },
+    "UCYwDuJ79xliRu6E8e-NoiIA": {
+      "subs": 341000,
+      "fetched_at": "2026-10-02T21:25:18.831220Z"
+    },
+    "UCvQLVxBG9LSOUoSnRlu3yvw": {
+      "subs": 60,
+      "fetched_at": "2026-10-02T21:25:18.831220Z"
     }
   },
   "search_log": [
@@ -3573,7 +3555,7 @@
     }
   },
   "reject_reasons": {
-    "分类不符": 106,
+    "分类不符": 108,
     "描述过长(疑口播)": 79,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 8
@@ -3583,23 +3565,22 @@
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1727,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1034,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1232,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1132,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1033
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1133,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1034
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T21:20:19.890927Z",
-      "elapsed": 0.6,
-      "searched": 1,
+      "at": "2026-10-02T21:25:18.667731Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 14
+      "dropped": 0
     }
   },
-  "key_rr": 3,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
