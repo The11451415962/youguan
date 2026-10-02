@@ -1,31 +1,6 @@
 {
-  "cursor_utc": "2026-10-02T21:55:17.346199Z",
-  "staging": {
-    "hQ-Z5Kwyt3w": {
-      "video_id": "hQ-Z5Kwyt3w",
-      "title": "Beating Underwater Minecraft with Farex and Purrfectttt",
-      "channel_id": "UCPYZ-R5LQGMeU7QikgxmH8Q",
-      "channel_name": "DrDonut",
-      "published_at": "2026-10-02T21:48:37Z",
-      "first_seen_at": "2026-10-02T21:55:18.411954Z"
-    },
-    "MUJVhGPtLDA": {
-      "video_id": "MUJVhGPtLDA",
-      "title": "Minecraft Crimson Warrior #minecraft  #legominecraft   #minecraftlego  #lego   #games",
-      "channel_id": "UCNFZIfo37qKzDL4gmU3sMEg",
-      "channel_name": "Stud Built",
-      "published_at": "2026-10-02T21:47:13Z",
-      "first_seen_at": "2026-10-02T21:55:18.411954Z"
-    },
-    "PXD4lGKvHl4": {
-      "video_id": "PXD4lGKvHl4",
-      "title": "TODO LO QUE DIGO DESAPARECE EN MINECRAFT",
-      "channel_id": "UCGplclmNmk8heP5HQbhzQng",
-      "channel_name": "Tonacho",
-      "published_at": "2026-10-02T21:45:39Z",
-      "first_seen_at": "2026-10-02T21:55:18.411954Z"
-    }
-  },
+  "cursor_utc": "2026-10-02T22:00:37.346199Z",
+  "staging": {},
   "candidates": {},
   "notified": {
     "MHMgXmR_djs": "2026-10-02T17:05:22.651108Z",
@@ -706,7 +681,10 @@
     "vAF_aDaDaKg": "2026-10-02T21:30:29.968516Z",
     "Nd9Vq5P47Z8": "2026-10-02T21:35:19.669098Z",
     "HSN-4QdwSo0": "2026-10-02T21:35:19.669098Z",
-    "JZ690gj3v10": "2026-10-02T21:50:20.033085Z"
+    "JZ690gj3v10": "2026-10-02T21:50:20.033085Z",
+    "PXD4lGKvHl4": "2026-10-02T22:00:38.200448Z",
+    "MUJVhGPtLDA": "2026-10-02T22:00:38.200448Z",
+    "hQ-Z5Kwyt3w": "2026-10-02T22:00:38.200448Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3268,14 +3246,21 @@
     "UCNb-Rybv-3b8Ima6enzFNdA": {
       "subs": 156,
       "fetched_at": "2026-10-02T21:50:20.174653Z"
+    },
+    "UCGplclmNmk8heP5HQbhzQng": {
+      "subs": 770000,
+      "fetched_at": "2026-10-02T22:00:38.404258Z"
+    },
+    "UCPYZ-R5LQGMeU7QikgxmH8Q": {
+      "subs": 2810000,
+      "fetched_at": "2026-10-02T22:00:38.404258Z"
+    },
+    "UCNFZIfo37qKzDL4gmU3sMEg": {
+      "subs": 5110,
+      "fetched_at": "2026-10-02T22:00:38.404258Z"
     }
   },
   "search_log": [
-    {
-      "at": "2026-10-02T15:30:31.181431Z",
-      "results": 9,
-      "span_minutes": 10.033333333333333
-    },
     {
       "at": "2026-10-02T15:40:23.062103Z",
       "results": 5,
@@ -3520,6 +3505,11 @@
       "at": "2026-10-02T21:55:18.115025Z",
       "results": 3,
       "span_minutes": 9.916666666666666
+    },
+    {
+      "at": "2026-10-02T22:00:37.833256Z",
+      "results": 0,
+      "span_minutes": 5.333333333333333
     }
   ],
   "hourly_density": {
@@ -3565,8 +3555,8 @@
     },
     "5": {
       "results": 54,
-      "span": 54.63333333333333,
-      "n": 6
+      "span": 59.96666666666667,
+      "n": 7
     }
   },
   "reject_reasons": {
@@ -3577,26 +3567,26 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1927,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1135,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1234,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2027,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1136,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1235,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1135,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1135
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T21:55:18.115025Z",
-      "elapsed": 0.3,
+      "at": "2026-10-02T22:00:37.833256Z",
+      "elapsed": 0.7,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 3
+      "staged": 0
     }
   },
-  "key_rr": 0,
+  "key_rr": 3,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
