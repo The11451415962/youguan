@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T19:50:23.346199Z",
+  "cursor_utc": "2026-10-02T20:00:37.346199Z",
   "staging": {},
   "candidates": {
     "KQdv7rSzq5U": {
@@ -10,7 +10,7 @@
       "channel_subs": 25300,
       "published_at": "2026-10-02T14:00:39Z",
       "first_seen_at": "2026-10-02T14:10:22.637052Z",
-      "last_checked_at": "2026-10-02T19:00:37.337212Z",
+      "last_checked_at": "2026-10-02T20:00:37.840011Z",
       "samples": [
         {
           "t": "2026-10-02T14:15:23.903136Z",
@@ -48,6 +48,11 @@
           "t": "2026-10-02T19:00:37.337205Z",
           "views": 11942,
           "likes": 209
+        },
+        {
+          "t": "2026-10-02T20:00:37.839995Z",
+          "views": 16566,
+          "likes": 228
         }
       ],
       "stale_checks": 0,
@@ -2867,6 +2872,11 @@
       "at": "2026-10-02T19:50:23.658849Z",
       "results": 0,
       "span_minutes": 5.0
+    },
+    {
+      "at": "2026-10-02T20:00:37.393426Z",
+      "results": 0,
+      "span_minutes": 10.233333333333333
     }
   ],
   "hourly_density": {
@@ -2902,8 +2912,8 @@
     },
     "3": {
       "results": 99,
-      "span": 49.78333333333333,
-      "n": 7
+      "span": 60.016666666666666,
+      "n": 8
     }
   },
   "reject_reasons": {
@@ -2915,24 +2925,25 @@
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1324,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 927,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1026,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1027,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1027,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 927,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 828
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T19:55:22.130366Z",
-      "elapsed": 0.0,
-      "searched": 0,
+      "at": "2026-10-02T20:00:37.393426Z",
+      "elapsed": 0.4,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
-      "dropped": 0
+      "sampled": 1,
+      "dropped": 0,
+      "staged": 0
     }
   },
-  "key_rr": 1,
+  "key_rr": 3,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
