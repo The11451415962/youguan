@@ -1,31 +1,6 @@
 {
   "cursor_utc": "2026-10-02T17:00:39.346199Z",
-  "staging": {
-    "26YzhXI_TRs": {
-      "video_id": "26YzhXI_TRs",
-      "title": "Я не смог его спасти... #minecraft #майнкрафт #shorts",
-      "channel_id": "UCwMB-kUgPhDn2d7CjrBu-Ww",
-      "channel_name": "БМ Майнкрафт",
-      "published_at": "2026-10-02T16:53:10Z",
-      "first_seen_at": "2026-10-02T17:00:40.192631Z"
-    },
-    "0tzb678W0lo": {
-      "video_id": "0tzb678W0lo",
-      "title": "I build Steve. #lego #legobuild #legominifigures #legominecraft",
-      "channel_id": "UCXe1F9iE3Fdi0qRI6a2fZhg",
-      "channel_name": "Builder Works ",
-      "published_at": "2026-10-02T16:50:46Z",
-      "first_seen_at": "2026-10-02T17:00:40.192631Z"
-    },
-    "M1z6YSVTniY": {
-      "video_id": "M1z6YSVTniY",
-      "title": "La nouvelle dimension de Minecraft ? #minecraft",
-      "channel_id": "UCq4q6lmqP1JKG_7JZVnSprw",
-      "channel_name": "LebuigzzMC",
-      "published_at": "2026-10-02T16:51:13Z",
-      "first_seen_at": "2026-10-02T17:00:40.192631Z"
-    }
-  },
+  "staging": {},
   "candidates": {
     "_-wkx3yZigg": {
       "video_id": "_-wkx3yZigg",
@@ -115,52 +90,11 @@
       "tier": "T4",
       "tier_locked_at": "2026-10-02T15:06:44.238443Z",
       "promo_score": 10.43
-    },
-    "MHMgXmR_djs": {
-      "video_id": "MHMgXmR_djs",
-      "title": "minecraft'ta verity ne gördü..🤯",
-      "channel_id": "UChlHu91lAhEgqW4Oz29C4-Q",
-      "channel_name": "Neandor",
-      "channel_subs": 910,
-      "tier": "T2",
-      "tier_locked_at": "2026-10-02T15:25:20.936111Z",
-      "published_at": "2026-10-02T15:13:28Z",
-      "first_seen_at": "2026-10-02T15:15:29.382466Z",
-      "last_checked_at": "2026-10-02T16:45:21.782419Z",
-      "samples": [
-        {
-          "t": "2026-10-02T15:25:20.936111Z",
-          "views": 347,
-          "likes": 2
-        },
-        {
-          "t": "2026-10-02T15:35:21.784528Z",
-          "views": 2491,
-          "likes": 21
-        },
-        {
-          "t": "2026-10-02T16:00:43.972121Z",
-          "views": 3843,
-          "likes": 124
-        },
-        {
-          "t": "2026-10-02T16:25:18.518367Z",
-          "views": 4570,
-          "likes": 129
-        },
-        {
-          "t": "2026-10-02T16:45:21.782401Z",
-          "views": 4959,
-          "likes": 132
-        }
-      ],
-      "stale_checks": 0,
-      "notified": false,
-      "gate_vpm": 29.2,
-      "promo_score": 7.99
     }
   },
-  "notified": {},
+  "notified": {
+    "MHMgXmR_djs": "2026-10-02T17:05:22.651108Z"
+  },
   "rejected": {
     "poiimL49qk0": "2026-10-02T13:51:04.733735Z",
     "KNk3hjb5L68": "2026-10-02T13:51:04.733735Z",
@@ -406,7 +340,10 @@
     "_DEiKvfpbRY": "2026-10-02T16:35:23.148736Z",
     "lRFIFQrQ2lo": "2026-10-02T16:35:23.148736Z",
     "BzKOU9OswC8": "2026-10-02T16:40:22.820706Z",
-    "abHPNlsLpeQ": "2026-10-02T16:40:22.820706Z"
+    "abHPNlsLpeQ": "2026-10-02T16:40:22.820706Z",
+    "0tzb678W0lo": "2026-10-02T17:05:22.131016Z",
+    "M1z6YSVTniY": "2026-10-02T17:05:22.131016Z",
+    "26YzhXI_TRs": "2026-10-02T17:05:22.131016Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -1360,6 +1297,14 @@
     "UCi_Fwxrij1eC7xNJpj5Y3nw": {
       "subs": 7060,
       "fetched_at": "2026-10-02T16:40:22.954629Z"
+    },
+    "UCXe1F9iE3Fdi0qRI6a2fZhg": {
+      "subs": 18,
+      "fetched_at": "2026-10-02T17:05:22.357537Z"
+    },
+    "UCq4q6lmqP1JKG_7JZVnSprw": {
+      "subs": 6860,
+      "fetched_at": "2026-10-02T17:05:22.357537Z"
     }
   },
   "search_log": [
@@ -1524,32 +1469,32 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 613,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 614,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 514,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 613,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 612,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 315
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 613,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 316
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T17:00:39.875777Z",
-      "elapsed": 0.3,
-      "searched": 1,
+      "at": "2026-10-02T17:05:22.131004Z",
+      "elapsed": 5.4,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
+      "sampled": 1,
       "dropped": 0,
-      "staged": 3
+      "alerts": 1
     }
   },
-  "key_rr": 3,
+  "key_rr": 1,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
         29.19
       ],
-      "alerted": 0,
+      "alerted": 1,
       "promoted": 0
     }
   }
