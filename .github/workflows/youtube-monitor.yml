@@ -10,6 +10,9 @@ concurrency:
   group: youtube-monitor-group
   cancel-in-progress: true
 
+permissions:
+  contents: write        # 需要把状态文件提交回仓库
+
 jobs:
   run-monitor:
     runs-on: ubuntu-latest
@@ -23,25 +26,24 @@ jobs:
         with:
           python-version: '3.12'
 
+      # 状态不再用 actions/cache：cache 命中主键时不会写新缓存，
+      # 导致「时间片游标永远停在同一个位置」。改成提交回仓库，最可靠。
+      - name: 恢复状态
+        run: |
+          git config user.name  "harvest-bot"
+          git config user.email "harvest-bot@users.noreply.github.com"
+          for f in harvest_state.json history.json radar_state.json; do
+            if git show HEAD:"$f" > "$f" 2>/dev/null; then
+              echo "  ✓ 从仓库恢复 $f ($(wc -c < "$f") bytes)"
+            else
+              echo "  - 仓库里还没有 $f"
+            fi
+          done
+
       - name: 安装依赖
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
-      # 固定 cache key：每次运行都命中同一个缓存并原地更新。
-      # 原来用 ${{ github.run_id }} 会每 5 分钟创建一个新缓存，
-      # 一天 288 个，很快撞上仓库 10GB 缓存上限。
-      - name: 恢复状态
-        uses: actions/cache@v4
-        with:
-          path: |
-            history.json
-            radar_state.json
-            harvest_state.json
-          key: yt-monitor-state-v4
-          restore-keys: |
-            yt-monitor-state-v4
-            yt-monitor-history-
 
       - name: 运行（全天打捞 + 频道监控）
         env:
@@ -64,11 +66,25 @@ jobs:
 
           # ---- 运行模式 ----
           # harvest = 只跑全天打捞（推荐：配额全给采集层）
-          # all     = 打捞 + 频道监控（频道监控另分走一部分配额）
+          # all     = 打捞 + 频道监控
           HARVEST_MODE: 'harvest'
         run: |
-          set -e
           if [ "$HARVEST_MODE" = "all" ]; then
             python yt_monitor.py --radar-only || true
           fi
           python harvest_daemon.py --once
+
+      # always() 保证即使上一步失败也会保存状态 —— 否则游标会退回去重复扫
+      - name: 保存状态
+        if: always()
+        run: |
+          git add -f harvest_state.json 2>/dev/null || true
+          [ -f history.json ] && git add -f history.json 2>/dev/null || true
+          [ -f radar_state.json ] && git add -f radar_state.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "状态无变化，跳过提交"
+          else
+            git commit -q -m "chore(state): 打捞状态 $(date -u +'%Y-%m-%dT%H:%M:%SZ') [skip ci]"
+            git pull --rebase --autostash -q origin main || true
+            git push -q origin HEAD:main && echo "✓ 状态已提交" || echo "✗ 提交失败"
+          fi
