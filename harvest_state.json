@@ -1,22 +1,6 @@
 {
-  "cursor_utc": "2026-10-02T18:45:23.346199Z",
+  "cursor_utc": "2026-10-02T18:50:23.346199Z",
   "staging": {
-    "W2jtllAuNPU": {
-      "video_id": "W2jtllAuNPU",
-      "title": "Opening New Minecraft Toy Packet 🤤 #shorts #asmr #toys #toysunboxing",
-      "channel_id": "UCkTlzrrmAGA_cRKWCJkaJiw",
-      "channel_name": "CLIPSFALL STUDIOS",
-      "published_at": "2026-10-02T18:39:37Z",
-      "first_seen_at": "2026-10-02T18:40:20.580443Z"
-    },
-    "1RykWbwSO1I": {
-      "video_id": "1RykWbwSO1I",
-      "title": "This drowned zombie is PARTYING HARD! | Minecraft: Stack Locked 🔒 #shorts #minecraftshorts",
-      "channel_id": "UCKjfM1672DaOhq37Le2mAKg",
-      "channel_name": "XP While They Sleep",
-      "published_at": "2026-10-02T18:36:15Z",
-      "first_seen_at": "2026-10-02T18:40:20.580443Z"
-    },
     "hMvzGi_hnvY": {
       "video_id": "hMvzGi_hnvY",
       "title": "WHAT DID THE ALIENS DO TO HIM 😭 #minecraft #minecrafthorror #gaming #horror #minecraftshorts",
@@ -24,6 +8,22 @@
       "channel_name": "Floppy Friends",
       "published_at": "2026-10-02T18:42:10Z",
       "first_seen_at": "2026-10-02T18:45:24.007039Z"
+    },
+    "bSD1MwHZwFw": {
+      "video_id": "bSD1MwHZwFw",
+      "title": "Mom1 Feedback #minecraft #minecraftsurvivalseriesepisode1 #gaming #survival #minecraftbuilding",
+      "channel_id": "UCvmP1UzMIWMM7UE70PUQ3kw",
+      "channel_name": "Playful Digital Learning",
+      "published_at": "2026-10-02T18:47:45Z",
+      "first_seen_at": "2026-10-02T18:50:23.868215Z"
+    },
+    "x_ygKp8UM5M": {
+      "video_id": "x_ygKp8UM5M",
+      "title": "ADIVINA el BLOQUE con BLUEY NOOB vs PRO en MINECRAFT 🎮 #shorts #tiktok #minecraft #minecraftshorts",
+      "channel_id": "UCfBXbAv66bkwdAjP4tCqMsg",
+      "channel_name": "Danycopetin",
+      "published_at": "2026-10-02T18:45:30Z",
+      "first_seen_at": "2026-10-02T18:50:23.868215Z"
     }
   },
   "candidates": {
@@ -554,7 +554,9 @@
     "Ec4UFEsnjSk": "2026-10-02T18:45:24.007055Z",
     "gEjjSrUFi4c": "2026-10-02T18:45:24.007055Z",
     "h5zIKF3TqUk": "2026-10-02T18:45:24.007055Z",
-    "IlwED2Vp7B8": "2026-10-02T18:45:24.007055Z"
+    "IlwED2Vp7B8": "2026-10-02T18:45:24.007055Z",
+    "1RykWbwSO1I": "2026-10-02T18:50:23.868232Z",
+    "W2jtllAuNPU": "2026-10-02T18:50:23.868232Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -2164,6 +2166,14 @@
     "UCfDs33BdjZzgIKBBtEkHM6Q": {
       "subs": 221000,
       "fetched_at": "2026-10-02T18:45:24.176716Z"
+    },
+    "UCkTlzrrmAGA_cRKWCJkaJiw": {
+      "subs": 274,
+      "fetched_at": "2026-10-02T18:50:24.062615Z"
+    },
+    "UCKjfM1672DaOhq37Le2mAKg": {
+      "subs": 58,
+      "fetched_at": "2026-10-02T18:50:24.062615Z"
     }
   },
   "search_log": [
@@ -2366,6 +2376,11 @@
       "at": "2026-10-02T18:45:23.798005Z",
       "results": 1,
       "span_minutes": 5.066666666666666
+    },
+    {
+      "at": "2026-10-02T18:50:23.509688Z",
+      "results": 2,
+      "span_minutes": 5.0
     }
   ],
   "hourly_density": {
@@ -2395,39 +2410,39 @@
       "n": 8
     },
     "2": {
-      "results": 96,
-      "span": 44.766666666666666,
-      "n": 6
+      "results": 98,
+      "span": 49.766666666666666,
+      "n": 7
     }
   },
   "reject_reasons": {
     "分类不符": 74,
-    "描述过长(疑口播)": 56,
+    "描述过长(疑口播)": 57,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 5
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1019,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 722,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 821,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1119,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 723,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 822,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 821,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 722
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T18:45:23.798005Z",
-      "elapsed": 0.5,
+      "at": "2026-10-02T18:50:23.509688Z",
+      "elapsed": 0.7,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 1
+      "staged": 2
     }
   },
-  "key_rr": 0,
+  "key_rr": 3,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
