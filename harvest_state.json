@@ -16,30 +16,6 @@
       "channel_name": "ClippedbyTen",
       "published_at": "2026-10-02T17:28:47Z",
       "first_seen_at": "2026-10-02T17:30:32.026261Z"
-    },
-    "IzVTJHYLWxk": {
-      "video_id": "IzVTJHYLWxk",
-      "title": "Minecraft em 2012 batia diferente...",
-      "channel_id": "UCdbOve4BH9cTziTUWufqraA",
-      "channel_name": "Listtrah",
-      "published_at": "2026-10-02T17:24:19Z",
-      "first_seen_at": "2026-10-02T17:30:32.026261Z"
-    },
-    "HxowGpGRnng": {
-      "video_id": "HxowGpGRnng",
-      "title": "duvidoidoidoido  #minecraft #memes",
-      "channel_id": "UCn4y4WI25ZAdaSQgtIEdd6A",
-      "channel_name": "D1pir0naa",
-      "published_at": "2026-10-02T17:22:22Z",
-      "first_seen_at": "2026-10-02T17:30:32.026261Z"
-    },
-    "6XKJcs5K_Z8": {
-      "video_id": "6XKJcs5K_Z8",
-      "title": "Mike Tomlin is a huge Minecraft guy",
-      "channel_id": "UCG9SFCw9Tacq5np_cGwOKOQ",
-      "channel_name": "CoastLife",
-      "published_at": "2026-10-02T17:24:07Z",
-      "first_seen_at": "2026-10-02T17:30:32.026261Z"
     }
   },
   "candidates": {
@@ -454,7 +430,10 @@
     "OPUNoZZW3OE": "2026-10-02T17:30:32.026283Z",
     "Hf24Pj5oOE8": "2026-10-02T17:30:32.026283Z",
     "GKDrEp2S4IA": "2026-10-02T17:30:32.026283Z",
-    "4swjqjJwTGw": "2026-10-02T17:30:32.026283Z"
+    "4swjqjJwTGw": "2026-10-02T17:30:32.026283Z",
+    "HxowGpGRnng": "2026-10-02T17:35:22.263969Z",
+    "6XKJcs5K_Z8": "2026-10-02T17:35:22.263969Z",
+    "IzVTJHYLWxk": "2026-10-02T17:35:22.263969Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -1660,6 +1639,18 @@
     "UCIWGdiubvuJTPBWQMT7VQKg": {
       "subs": 6,
       "fetched_at": "2026-10-02T17:30:32.172690Z"
+    },
+    "UCn4y4WI25ZAdaSQgtIEdd6A": {
+      "subs": 878,
+      "fetched_at": "2026-10-02T17:35:22.427197Z"
+    },
+    "UCdbOve4BH9cTziTUWufqraA": {
+      "subs": 602,
+      "fetched_at": "2026-10-02T17:35:22.427197Z"
+    },
+    "UCG9SFCw9Tacq5np_cGwOKOQ": {
+      "subs": 1180,
+      "fetched_at": "2026-10-02T17:35:22.427197Z"
     }
   },
   "search_log": [
@@ -1842,33 +1833,32 @@
     }
   },
   "reject_reasons": {
-    "分类不符": 58,
+    "分类不符": 59,
     "描述过长(疑口播)": 42,
     "标题含(twitch)": 2,
     "直播/切片(twitch.tv)": 4
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 814,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 815,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 616,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 715,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 616,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 318
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 319
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T17:30:31.739553Z",
-      "elapsed": 0.7,
-      "searched": 1,
+      "at": "2026-10-02T17:35:22.263958Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
-      "dropped": 0,
-      "staged": 6
+      "sampled": 0,
+      "dropped": 0
     }
   },
-  "key_rr": 4,
+  "key_rr": 1,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
