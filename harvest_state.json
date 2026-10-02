@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T13:51:46.346199Z",
+  "cursor_utc": "2026-10-02T14:00:39.346199Z",
   "staging": {},
   "candidates": {
     "VEH9fRSoR_U": {
@@ -275,13 +275,18 @@
       "at": "2026-10-02T13:51:46.510549Z",
       "results": 2,
       "span_minutes": 10.7
+    },
+    {
+      "at": "2026-10-02T14:00:40.336768Z",
+      "results": 0,
+      "span_minutes": 8.883333333333333
     }
   ],
   "hourly_density": {
     "21": {
       "results": 45,
-      "span": 30.7,
-      "n": 2
+      "span": 39.58333333333333,
+      "n": 3
     }
   },
   "reject_reasons": {
@@ -291,7 +296,7 @@
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 101,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 101,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 100,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1
@@ -299,14 +304,15 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T13:55:21.457317Z",
+      "at": "2026-10-02T14:00:40.336768Z",
       "elapsed": 0.3,
-      "searched": 0,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 0
     }
   },
-  "key_rr": 1
+  "key_rr": 2
 }
