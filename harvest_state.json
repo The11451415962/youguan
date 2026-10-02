@@ -1,6 +1,23 @@
 {
-  "cursor_utc": "2026-10-02T13:41:04.346199Z",
-  "staging": {},
+  "cursor_utc": "2026-10-02T13:51:46.346199Z",
+  "staging": {
+    "0QMvQ28vuGA": {
+      "video_id": "0QMvQ28vuGA",
+      "title": "how to make end portal #minecraft #shorts",
+      "channel_id": "UC4P0UTU_UCMXzhUGo8FVxMw",
+      "channel_name": "EDGEMINER ",
+      "published_at": "2026-10-02T13:45:02Z",
+      "first_seen_at": "2026-10-02T13:51:46.853078Z"
+    },
+    "nosn0h_T0q0": {
+      "video_id": "nosn0h_T0q0",
+      "title": "İşimden Nefret Ediyorum 🥀 #2  #minecraft #shorts",
+      "channel_id": "UCAmYyZOREoaFl2zJqF7qWqg",
+      "channel_name": "_BnMuz",
+      "published_at": "2026-10-02T13:43:02Z",
+      "first_seen_at": "2026-10-02T13:51:46.853078Z"
+    }
+  },
   "candidates": {
     "VEH9fRSoR_U": {
       "video_id": "VEH9fRSoR_U",
@@ -260,13 +277,18 @@
       "at": "2026-10-02T13:51:04.346199Z",
       "results": 43,
       "span_minutes": 20.0
+    },
+    {
+      "at": "2026-10-02T13:51:46.510549Z",
+      "results": 2,
+      "span_minutes": 10.7
     }
   ],
   "hourly_density": {
     "21": {
-      "results": 43,
-      "span": 20.0,
-      "n": 1
+      "results": 45,
+      "span": 30.7,
+      "n": 2
     }
   },
   "reject_reasons": {
@@ -277,20 +299,21 @@
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 100,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 100
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T13:51:04.346199Z",
-      "elapsed": 0.8,
+      "at": "2026-10-02T13:51:46.510549Z",
+      "elapsed": 0.3,
       "searched": 1,
       "new": 0,
-      "gated_in": 2,
+      "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 43
+      "staged": 2
     }
   },
-  "key_rr": 3
+  "key_rr": 4
 }
