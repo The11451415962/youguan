@@ -1,6 +1,39 @@
 {
-  "cursor_utc": "2026-10-02T23:45:22.346199Z",
-  "staging": {},
+  "cursor_utc": "2026-10-02T23:55:17.346199Z",
+  "staging": {
+    "MDVnrser3_U": {
+      "video_id": "MDVnrser3_U",
+      "title": "KYA kar lenge bhai .#minecraft #ben10 #pilliboomalu",
+      "channel_id": "UCyJkFyR3HSBh4jH4gRSIyQA",
+      "channel_name": "Matiks ",
+      "published_at": "2026-10-02T23:48:36Z",
+      "first_seen_at": "2026-10-02T23:55:17.829639Z"
+    },
+    "Z3G6Cwrs3cM": {
+      "video_id": "Z3G6Cwrs3cM",
+      "title": "Minecraft Discrimina #minecraft #shorts #humor",
+      "channel_id": "UCsgvTsbmvPHGyM32ZtkYU8A",
+      "channel_name": "KayserShortsMC",
+      "published_at": "2026-10-02T23:46:26Z",
+      "first_seen_at": "2026-10-02T23:55:17.829639Z"
+    },
+    "Npzjq3RfReI": {
+      "video_id": "Npzjq3RfReI",
+      "title": "O ESPANTALHO MAIS MACABRO DO MINECRAFT… #shorts #analoghorror #minecraft",
+      "channel_id": "UCd9eDwMEiUqobOIp_7XW-eg",
+      "channel_name": "RONARE YT",
+      "published_at": "2026-10-02T23:47:15Z",
+      "first_seen_at": "2026-10-02T23:55:17.829639Z"
+    },
+    "ifFm8knl8LU": {
+      "video_id": "ifFm8knl8LU",
+      "title": "Arena baru nih - Arrow toss part 8",
+      "channel_id": "UCbFpGwH1FvX04kx1E2qNpDg",
+      "channel_name": "Leastreak",
+      "published_at": "2026-10-02T23:45:36Z",
+      "first_seen_at": "2026-10-02T23:55:17.829639Z"
+    }
+  },
   "candidates": {
     "hJqbA5DVb_w": {
       "video_id": "hJqbA5DVb_w",
@@ -4040,11 +4073,6 @@
   },
   "search_log": [
     {
-      "at": "2026-10-02T17:40:21.128061Z",
-      "results": 7,
-      "span_minutes": 9.816666666666666
-    },
-    {
       "at": "2026-10-02T17:45:23.001127Z",
       "results": 1,
       "span_minutes": 5.033333333333333
@@ -4288,6 +4316,11 @@
       "at": "2026-10-02T23:45:22.761722Z",
       "results": 0,
       "span_minutes": 5.05
+    },
+    {
+      "at": "2026-10-02T23:55:17.521838Z",
+      "results": 4,
+      "span_minutes": 9.916666666666666
     }
   ],
   "hourly_density": {
@@ -4342,9 +4375,9 @@
       "n": 9
     },
     "7": {
-      "results": 70,
-      "span": 44.75,
-      "n": 6
+      "results": 74,
+      "span": 54.666666666666664,
+      "n": 7
     }
   },
   "reject_reasons": {
@@ -4357,23 +4390,24 @@
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2533,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1345,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1344,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1444,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1641,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1344
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T23:50:18.460199Z",
-      "elapsed": 0.0,
-      "searched": 0,
+      "at": "2026-10-02T23:55:17.521838Z",
+      "elapsed": 0.3,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 4
     }
   },
-  "key_rr": 2,
+  "key_rr": 3,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
