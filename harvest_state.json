@@ -762,14 +762,13 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T15:00:42.335006Z",
-      "elapsed": 1.1,
-      "searched": 1,
+      "at": "2026-10-02T15:05:39.918686Z",
+      "elapsed": 0.0,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 3,
-      "dropped": 0,
-      "staged": 0
+      "sampled": 0,
+      "dropped": 0
     }
   },
   "key_rr": 1
