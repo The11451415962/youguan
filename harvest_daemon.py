@@ -166,13 +166,29 @@ class KeyPool:
                 return self.clients[key], key
         return None, None
 
-    def mark_dead(self, key):
-        """服务端说这把钥匙没配额了 —— 今日不再使用。"""
+    def mark_quota_error(self, key):
+        """收到配额相关错误。
+
+        注意：Google 有时对**突发频率**也返回 quota/429，那是一次性的，
+        不代表当日额度用完。所以先记一次「软失败」，连续两次才停用，
+        避免误杀一把还有额度的钥匙。
+        """
+        fails = self.state.setdefault("key_quota_fails", {})
+        fails[key] = int(fails.get(key, 0)) + 1
+        if fails[key] >= 2:
+            self.retire(key)
+        else:
+            print(f"     [!] 钥匙 {key[:8]}… 报配额错误（第 {fails[key]} 次），"
+                  f"再撞一次就停用")
+        return fails[key] >= 2
+
+    def retire(self, key):
+        """停用一把钥匙（今日不再使用）。"""
         self.dead.add(key)
         usage = self.state.setdefault("key_usage", {})
         usage["_dead"] = sorted(self.dead)
-        usage[key] = CFG["daily_budget_per_key"]      # 记账上也标满，避免再被挑中
-        print(f"     [!] 钥匙 {key[:8]}… 今日配额耗尽，已停用（剩 {len(self.keys)-len(self.dead)} 把可用）")
+        usage[key] = CFG["daily_budget_per_key"]      # 记账上标满，避免再被挑中
+        print(f"     [!] 钥匙 {key[:8]}… 已停用（可用 {len(self.alive())}/{len(self.keys)} 把）")
 
     def alive(self):
         return [k for k in self.keys if k not in self.dead]
@@ -355,7 +371,10 @@ def do_search(pool, state, after, before):
             msg = f"{type(e).__name__}: {str(e)[:160]}"
             last_err = msg
             if _is_quota_error(msg):
-                pool.mark_dead(key)          # 这把废了，换下一把
+                retired = pool.mark_quota_error(key)   # 连续两次才停用，防误杀
+                if retired:
+                    continue
+                # 软失败：也换一把试，但别把这把判死
                 continue
             if "429" in msg or "403" in msg or "500" in msg or "503" in msg:
                 continue                     # 临时故障，也换一把试试
