@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T16:18:16.346199Z",
+  "cursor_utc": "2026-10-02T16:25:17.346199Z",
   "staging": {
     "K8hJsLWWsX0": {
       "video_id": "K8hJsLWWsX0",
@@ -57,22 +57,6 @@
       "published_at": "2026-10-02T16:15:33Z",
       "first_seen_at": "2026-10-02T16:20:21.981237Z"
     },
-    "Snl-thvpa2g": {
-      "video_id": "Snl-thvpa2g",
-      "title": "Explotamos todo el Nether  #minecraft #minecraftmemes #shorts #voz #core #minecraftshorts",
-      "channel_id": "UCsj6-ow2aEIfnHz5b_KgMpA",
-      "channel_name": "Skeleyx",
-      "published_at": "2026-10-02T16:14:23Z",
-      "first_seen_at": "2026-10-02T16:20:21.981237Z"
-    },
-    "D-qhAgWG0a8": {
-      "video_id": "D-qhAgWG0a8",
-      "title": "PRUEBO A VERITY EN MINECRAFT 😨💀 #minecraft",
-      "channel_id": "UCzzdqvl0-YY0CI_KBgrRjMg",
-      "channel_name": "Soobmc",
-      "published_at": "2026-10-02T16:15:10Z",
-      "first_seen_at": "2026-10-02T16:20:21.981237Z"
-    },
     "vA76yYabt40": {
       "video_id": "vA76yYabt40",
       "title": "POV: You Made a Realistic Aquarium in Minecraft",
@@ -81,21 +65,61 @@
       "published_at": "2026-10-02T16:15:42Z",
       "first_seen_at": "2026-10-02T16:20:21.981237Z"
     },
-    "LeqnPulTNYk": {
-      "video_id": "LeqnPulTNYk",
-      "title": "hahahahahahahaha 🤣 _ Minecraft Animation #minecraft",
-      "channel_id": "UCfqRB8Jv_rOQB_5ljiDzVuQ",
-      "channel_name": "Minecraft Daily ",
-      "published_at": "2026-10-02T16:13:25Z",
-      "first_seen_at": "2026-10-02T16:20:21.981237Z"
+    "lRFIFQrQ2lo": {
+      "video_id": "lRFIFQrQ2lo",
+      "title": "Minecraft Inspired LED Room Decor 🌟",
+      "channel_id": "UC7FmjTo-Z-52NAhM7VFITaQ",
+      "channel_name": "MrSONN",
+      "published_at": "2026-10-02T16:24:04Z",
+      "first_seen_at": "2026-10-02T16:25:17.988912Z"
     },
-    "S9Ns89fQfQQ": {
-      "video_id": "S9Ns89fQfQQ",
-      "title": "Building a Fantasy Cottage in Minecraft 🌿",
-      "channel_id": "UClAPjqvLP5Ny0CkwX5iPWGw",
-      "channel_name": "Xavzo",
-      "published_at": "2026-10-02T16:10:50Z",
-      "first_seen_at": "2026-10-02T16:20:21.981237Z"
+    "fAixbLpSzuY": {
+      "video_id": "fAixbLpSzuY",
+      "title": "Peak Minecraft villager gameplay 😂#minecraft #funny #shorts #villagers",
+      "channel_id": "UC_r3yGPHyeKI2nG2j5Wd1jw",
+      "channel_name": "TMooose",
+      "published_at": "2026-10-02T16:20:26Z",
+      "first_seen_at": "2026-10-02T16:25:17.988912Z"
+    },
+    "_DEiKvfpbRY": {
+      "video_id": "_DEiKvfpbRY",
+      "title": "Flugmaschiene Minecraft Redstone Totorial",
+      "channel_id": "UCBw_-UQNkpXnMeMo0uRHvvQ",
+      "channel_name": "TheRealFinnTV",
+      "published_at": "2026-10-02T16:20:57Z",
+      "first_seen_at": "2026-10-02T16:25:17.988912Z"
+    },
+    "BFvxGeW9hXc": {
+      "video_id": "BFvxGeW9hXc",
+      "title": "Minecraft Elytra in Skyrim Looks Unreal",
+      "channel_id": "UCziHbwtJe-UK2ytZfX99Zkw",
+      "channel_name": "Side Quest Chaos",
+      "published_at": "2026-10-02T16:20:54Z",
+      "first_seen_at": "2026-10-02T16:25:17.988912Z"
+    },
+    "NJx8Pm0OFx0": {
+      "video_id": "NJx8Pm0OFx0",
+      "title": "Minecraft Cool Mods part 1",
+      "channel_id": "UCo03B7gNOS6ubCztlbJHkPQ",
+      "channel_name": "Dasbro MC",
+      "published_at": "2026-10-02T16:19:21Z",
+      "first_seen_at": "2026-10-02T16:25:17.988912Z"
+    },
+    "tJxrl5CJSYA": {
+      "video_id": "tJxrl5CJSYA",
+      "title": "I tried the Spongebob Texture Pack for PvP... #minecraft #shorts #gaming",
+      "channel_id": "UCYblfjBd9wjmJFqCVXB8qNw",
+      "channel_name": "Dᴏɴɴᴇʀ ",
+      "published_at": "2026-10-02T16:19:09Z",
+      "first_seen_at": "2026-10-02T16:25:17.988912Z"
+    },
+    "3Vv5R2v3MF4": {
+      "video_id": "3Vv5R2v3MF4",
+      "title": "#shorts #minecraft #рекомендации #майнкрафт",
+      "channel_id": "UCgRUYkZfxl4Fe__GwICDodw",
+      "channel_name": "LoTiK",
+      "published_at": "2026-10-02T16:20:10Z",
+      "first_seen_at": "2026-10-02T16:25:17.988912Z"
     }
   },
   "candidates": {
@@ -186,7 +210,7 @@
       "channel_subs": 3930000,
       "published_at": "2026-10-02T14:30:08Z",
       "first_seen_at": "2026-10-02T14:30:54.229434Z",
-      "last_checked_at": "2026-10-02T16:00:43.972116Z",
+      "last_checked_at": "2026-10-02T16:25:18.518359Z",
       "samples": [
         {
           "t": "2026-10-02T14:40:23.875630Z",
@@ -210,6 +234,11 @@
           "t": "2026-10-02T16:00:43.972113Z",
           "views": 14671,
           "likes": 486
+        },
+        {
+          "t": "2026-10-02T16:25:18.518341Z",
+          "views": 15260,
+          "likes": 542
         }
       ],
       "stale_checks": 0,
@@ -229,7 +258,7 @@
       "tier_locked_at": "2026-10-02T15:25:20.936111Z",
       "published_at": "2026-10-02T15:13:28Z",
       "first_seen_at": "2026-10-02T15:15:29.382466Z",
-      "last_checked_at": "2026-10-02T16:00:43.972123Z",
+      "last_checked_at": "2026-10-02T16:25:18.518371Z",
       "samples": [
         {
           "t": "2026-10-02T15:25:20.936111Z",
@@ -245,6 +274,11 @@
           "t": "2026-10-02T16:00:43.972121Z",
           "views": 3843,
           "likes": 124
+        },
+        {
+          "t": "2026-10-02T16:25:18.518367Z",
+          "views": 4570,
+          "likes": 129
         }
       ],
       "stale_checks": 0,
@@ -477,7 +511,11 @@
     "C54PuI8t0ss": "2026-10-02T16:20:21.981258Z",
     "b3llNRfFgTM": "2026-10-02T16:20:21.981258Z",
     "IPQU3CbLP0s": "2026-10-02T16:20:21.981258Z",
-    "qSkmnvJ6QeE": "2026-10-02T16:20:21.981258Z"
+    "qSkmnvJ6QeE": "2026-10-02T16:20:21.981258Z",
+    "S9Ns89fQfQQ": "2026-10-02T16:25:17.988931Z",
+    "LeqnPulTNYk": "2026-10-02T16:25:17.988931Z",
+    "Snl-thvpa2g": "2026-10-02T16:25:17.988931Z",
+    "D-qhAgWG0a8": "2026-10-02T16:25:17.988931Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -1347,6 +1385,22 @@
     "UCngqqX9CpYBA64N2skPRTIw": {
       "subs": 820,
       "fetched_at": "2026-10-02T16:20:22.397399Z"
+    },
+    "UClAPjqvLP5Ny0CkwX5iPWGw": {
+      "subs": 573,
+      "fetched_at": "2026-10-02T16:25:18.121845Z"
+    },
+    "UCzzdqvl0-YY0CI_KBgrRjMg": {
+      "subs": 7510,
+      "fetched_at": "2026-10-02T16:25:18.121845Z"
+    },
+    "UCsj6-ow2aEIfnHz5b_KgMpA": {
+      "subs": 776,
+      "fetched_at": "2026-10-02T16:25:18.121845Z"
+    },
+    "UCfqRB8Jv_rOQB_5ljiDzVuQ": {
+      "subs": 11400,
+      "fetched_at": "2026-10-02T16:25:18.121845Z"
     }
   },
   "search_log": [
@@ -1454,6 +1508,11 @@
       "at": "2026-10-02T16:20:21.615624Z",
       "results": 12,
       "span_minutes": 7.866666666666666
+    },
+    {
+      "at": "2026-10-02T16:25:17.663757Z",
+      "results": 7,
+      "span_minutes": 7.016666666666667
     }
   ],
   "hourly_density": {
@@ -1473,39 +1532,39 @@
       "n": 8
     },
     "0": {
-      "results": 59,
-      "span": 17.599999999999998,
-      "n": 2
+      "results": 66,
+      "span": 24.616666666666664,
+      "n": 3
     }
   },
   "reject_reasons": {
     "分类不符": 42,
-    "描述过长(疑口播)": 31,
+    "描述过长(疑口播)": 32,
     "标题含(twitch)": 2,
     "直播/切片(twitch.tv)": 1
   },
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 412,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 312,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 510,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 609,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 312
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 412,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 511,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 610,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 313
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T16:20:21.615624Z",
-      "elapsed": 1.0,
+      "at": "2026-10-02T16:25:17.663757Z",
+      "elapsed": 0.9,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
+      "sampled": 2,
       "dropped": 0,
-      "staged": 12
+      "staged": 7
     }
   },
-  "key_rr": 1,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
