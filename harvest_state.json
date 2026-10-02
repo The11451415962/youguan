@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T22:40:20.346199Z",
+  "cursor_utc": "2026-10-02T22:45:20.346199Z",
   "staging": {
     "zstqvXgDkxE": {
       "video_id": "zstqvXgDkxE",
@@ -9,45 +9,13 @@
       "published_at": "2026-10-02T22:37:01Z",
       "first_seen_at": "2026-10-02T22:40:21.276326Z"
     },
-    "-Rdb__Y36DU": {
-      "video_id": "-Rdb__Y36DU",
-      "title": "How high could you climb on this Cobblemon server? #cobblemon #minecraft #pixelmonnews",
-      "channel_id": "UCQVgWIrj26cMFgRfq3dlr_w",
-      "channel_name": "Pokekingdoms",
-      "published_at": "2026-10-02T22:30:38Z",
-      "first_seen_at": "2026-10-02T22:40:21.276326Z"
-    },
-    "0aGpY4y62YA": {
-      "video_id": "0aGpY4y62YA",
-      "title": "Ele perdeu 5 ANOS de Minecraft em segundos!",
-      "channel_id": "UCIJQj94uX9In8eNnyZfmm_Q",
-      "channel_name": "Jaquix Games",
-      "published_at": "2026-10-02T22:30:31Z",
-      "first_seen_at": "2026-10-02T22:40:21.276326Z"
-    },
-    "YudkG35cYyU": {
-      "video_id": "YudkG35cYyU",
-      "title": "ELE VIU ISSO NA FOTO… 💀",
-      "channel_id": "UCuNmw5LhLz-5QaI0vEo_JoQ",
-      "channel_name": "Death",
-      "published_at": "2026-10-02T22:30:29Z",
-      "first_seen_at": "2026-10-02T22:40:21.276326Z"
-    },
-    "eTsKCELcuf0": {
-      "video_id": "eTsKCELcuf0",
-      "title": "HOW TO MAKE A POKE-BALL IN MINECRAFT #minecraft #minecraftshorts #minecraftmemes",
-      "channel_id": "UCusHbSK8snZhUrR8h78lLmw",
-      "channel_name": "JUSTVORTEX4201",
-      "published_at": "2026-10-02T22:30:34Z",
-      "first_seen_at": "2026-10-02T22:40:21.276326Z"
-    },
-    "wtKibTZAi3Q": {
-      "video_id": "wtKibTZAi3Q",
-      "title": "クリーパー耐久チャレンジをしてみた結果...!【マインクラフト】#minecraft",
-      "channel_id": "UC7EAR3erIqSbymYSFl2mb4Q",
-      "channel_name": "ふぁいりー",
-      "published_at": "2026-10-02T22:30:32Z",
-      "first_seen_at": "2026-10-02T22:40:21.276326Z"
+    "tjyvlUVYQ2w": {
+      "video_id": "tjyvlUVYQ2w",
+      "title": "ima be real im tryna make some pennies yo #minecraft #gaming #youngsheldon",
+      "channel_id": "UChP3Vh_uGTZb9ijfMUfmA5g",
+      "channel_name": "ImJustAnOtaku",
+      "published_at": "2026-10-02T22:42:43Z",
+      "first_seen_at": "2026-10-02T22:45:20.661696Z"
     }
   },
   "candidates": {},
@@ -811,7 +779,12 @@
     "V2OlyjSp-zs": "2026-10-02T22:40:21.276350Z",
     "Z5cCzrI6F-o": "2026-10-02T22:40:21.276350Z",
     "vYp3SksM6Xk": "2026-10-02T22:40:21.276350Z",
-    "di7RvbfYiHo": "2026-10-02T22:40:21.276350Z"
+    "di7RvbfYiHo": "2026-10-02T22:40:21.276350Z",
+    "YudkG35cYyU": "2026-10-02T22:45:20.661708Z",
+    "0aGpY4y62YA": "2026-10-02T22:45:20.661708Z",
+    "wtKibTZAi3Q": "2026-10-02T22:45:20.661708Z",
+    "eTsKCELcuf0": "2026-10-02T22:45:20.661708Z",
+    "-Rdb__Y36DU": "2026-10-02T22:45:20.661708Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3669,14 +3642,29 @@
     "UCPIPEKSwuyOJX7ZTWjTOscg": {
       "subs": 3390,
       "fetched_at": "2026-10-02T22:40:21.416926Z"
+    },
+    "UC7EAR3erIqSbymYSFl2mb4Q": {
+      "subs": 838,
+      "fetched_at": "2026-10-02T22:45:20.815230Z"
+    },
+    "UCQVgWIrj26cMFgRfq3dlr_w": {
+      "subs": 68,
+      "fetched_at": "2026-10-02T22:45:20.815230Z"
+    },
+    "UCuNmw5LhLz-5QaI0vEo_JoQ": {
+      "subs": 3730,
+      "fetched_at": "2026-10-02T22:45:20.815230Z"
+    },
+    "UCIJQj94uX9In8eNnyZfmm_Q": {
+      "subs": 15200,
+      "fetched_at": "2026-10-02T22:45:20.815230Z"
+    },
+    "UCusHbSK8snZhUrR8h78lLmw": {
+      "subs": 131000,
+      "fetched_at": "2026-10-02T22:45:20.815230Z"
     }
   },
   "search_log": [
-    {
-      "at": "2026-10-02T16:25:17.663757Z",
-      "results": 7,
-      "span_minutes": 7.016666666666667
-    },
     {
       "at": "2026-10-02T16:30:30.914468Z",
       "results": 2,
@@ -3921,6 +3909,11 @@
       "at": "2026-10-02T22:40:20.912906Z",
       "results": 6,
       "span_minutes": 9.85
+    },
+    {
+      "at": "2026-10-02T22:45:20.384223Z",
+      "results": 1,
+      "span_minutes": 5.0
     }
   ],
   "hourly_density": {
@@ -3970,13 +3963,13 @@
       "n": 7
     },
     "6": {
-      "results": 84,
-      "span": 39.71666666666667,
-      "n": 6
+      "results": 85,
+      "span": 44.71666666666667,
+      "n": 7
     }
   },
   "reject_reasons": {
-    "分类不符": 122,
+    "分类不符": 123,
     "描述过长(疑口播)": 97,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 12
@@ -3984,25 +3977,25 @@
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2130,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1139,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1337,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1436,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1239,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1338,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1437,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1238
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T22:40:20.912906Z",
+      "at": "2026-10-02T22:45:20.384223Z",
       "elapsed": 0.6,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 6
+      "staged": 1
     }
   },
-  "key_rr": 1,
+  "key_rr": 4,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
