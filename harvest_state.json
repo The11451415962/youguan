@@ -1,15 +1,6 @@
 {
-  "cursor_utc": "2026-10-02T14:40:23.346199Z",
-  "staging": {
-    "kkfgsNBcKvQ": {
-      "video_id": "kkfgsNBcKvQ",
-      "title": "Tutte le età in Minecraft?! 😰 #minecraft",
-      "channel_id": "UCNJH2nkNeoJ_cJxCMxFhbGw",
-      "channel_name": "Kasp",
-      "published_at": "2026-10-02T14:33:30Z",
-      "first_seen_at": "2026-10-02T14:40:23.875617Z"
-    }
-  },
+  "cursor_utc": "2026-10-02T14:45:24.346199Z",
+  "staging": {},
   "candidates": {
     "VEH9fRSoR_U": {
       "video_id": "VEH9fRSoR_U",
@@ -236,7 +227,8 @@
     "gxPZOcmwQaA": "2026-10-02T14:35:23.384380Z",
     "CVYVtPTrxk4": "2026-10-02T14:35:23.384380Z",
     "Pw7SpjGQvW4": "2026-10-02T14:40:23.875630Z",
-    "CcJn99AoH04": "2026-10-02T14:40:23.875630Z"
+    "CcJn99AoH04": "2026-10-02T14:40:23.875630Z",
+    "kkfgsNBcKvQ": "2026-10-02T14:45:25.567802Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -650,6 +642,10 @@
     "UCCNpFnGrt8Hc3S3EqlzWcag": {
       "subs": 15,
       "fetched_at": "2026-10-02T14:40:23.998898Z"
+    },
+    "UCNJH2nkNeoJ_cJxCMxFhbGw": {
+      "subs": 63700,
+      "fetched_at": "2026-10-02T14:45:25.664491Z"
     }
   },
   "search_log": [
@@ -692,6 +688,11 @@
       "at": "2026-10-02T14:40:23.554692Z",
       "results": 1,
       "span_minutes": 9.5
+    },
+    {
+      "at": "2026-10-02T14:45:25.175252Z",
+      "results": 0,
+      "span_minutes": 5.016666666666667
     }
   ],
   "hourly_density": {
@@ -702,8 +703,8 @@
     },
     "22": {
       "results": 65,
-      "span": 39.733333333333334,
-      "n": 5
+      "span": 44.75,
+      "n": 6
     }
   },
   "reject_reasons": {
@@ -714,22 +715,22 @@
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 105,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 105,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 302,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 302,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 5
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 402,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 303,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 6
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T14:40:23.554692Z",
-      "elapsed": 1.1,
+      "at": "2026-10-02T14:45:25.175252Z",
+      "elapsed": 0.6,
       "searched": 1,
       "new": 0,
-      "gated_in": 1,
-      "sampled": 3,
+      "gated_in": 0,
+      "sampled": 0,
       "dropped": 0,
-      "staged": 1
+      "staged": 0
     }
   },
-  "key_rr": 2
+  "key_rr": 0
 }
