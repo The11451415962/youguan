@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T20:40:22.346199Z",
+  "cursor_utc": "2026-10-02T20:45:22.346199Z",
   "staging": {
     "fI9Kv-GLbtQ": {
       "video_id": "fI9Kv-GLbtQ",
@@ -17,64 +17,56 @@
       "published_at": "2026-10-02T20:37:51Z",
       "first_seen_at": "2026-10-02T20:40:22.616016Z"
     },
-    "60L4IrsnRhw": {
-      "video_id": "60L4IrsnRhw",
-      "title": "Minecraft players, you need to see THE SIFT #minecraft #gaming #portal #shorts",
-      "channel_id": "UChw-fTB7h2zbm74XlflpO_w",
-      "channel_name": "AI Minecraft",
-      "published_at": "2026-10-02T20:33:24Z",
-      "first_seen_at": "2026-10-02T20:40:22.616016Z"
+    "bdeUiuNwlGY": {
+      "video_id": "bdeUiuNwlGY",
+      "title": "Rimuru finds Jinwoo Sung in Minecraft (MCAnime: Part 2)",
+      "channel_id": "UCiVOP63A2ltMSjYjXBicFSA",
+      "channel_name": "itsbrando",
+      "published_at": "2026-10-02T20:43:27Z",
+      "first_seen_at": "2026-10-02T20:45:23.399096Z"
     },
+    "sw0zEsVLLos": {
+      "video_id": "sw0zEsVLLos",
+      "title": "Así es la NUEVA DIMENSIÓN SECRETA en Minecraft 🌀 #minecraft",
+      "channel_id": "UCud9A79W0lfEoRKjZRSyapA",
+      "channel_name": "ANDREUI Y MISA",
+      "published_at": "2026-10-02T20:42:09Z",
+      "first_seen_at": "2026-10-02T20:45:23.399096Z"
+    },
+    "nDfQwMrmbjs": {
+      "video_id": "nDfQwMrmbjs",
+      "title": "EL MOD NECESARIO PARA HACER CINEMATICAS #minecraft",
+      "channel_id": "UChApXqnqDpdzR-T8Q2Lg7yQ",
+      "channel_name": "fiorella3 SP",
+      "published_at": "2026-10-02T20:40:30Z",
+      "first_seen_at": "2026-10-02T20:45:23.399096Z"
+    }
+  },
+  "candidates": {
     "Go7Qt32Eu0E": {
       "video_id": "Go7Qt32Eu0E",
       "title": "POCOYO Y MARIANA #shorts #minecraft  #robux #roblox #pocoyo",
       "channel_id": "UCvt8h7epszz7q0WeBshm2-A",
       "channel_name": "Dannika",
+      "channel_subs": 5290000,
+      "tier": "T6",
+      "tier_locked_at": "2026-10-02T20:45:23.399113Z",
       "published_at": "2026-10-02T20:33:44Z",
-      "first_seen_at": "2026-10-02T20:40:22.616016Z"
-    },
-    "Ynosw2wfX_Y": {
-      "video_id": "Ynosw2wfX_Y",
-      "title": "Batman: 👍",
-      "channel_id": "UCC29GM1Fxr37upmFzMglXiA",
-      "channel_name": "JonnPlay",
-      "published_at": "2026-10-02T20:30:35Z",
-      "first_seen_at": "2026-10-02T20:40:22.616016Z"
-    },
-    "aDjof1ZykAY": {
-      "video_id": "aDjof1ZykAY",
-      "title": "When You know Your Cooked.. #minecraft",
-      "channel_id": "UCZk4ZCQKlrRzjwUySB7mXUA",
-      "channel_name": "MC Thunder Gamer",
-      "published_at": "2026-10-02T20:30:37Z",
-      "first_seen_at": "2026-10-02T20:40:22.616016Z"
-    },
-    "6HycaITSDGk": {
-      "video_id": "6HycaITSDGk",
-      "title": "25,000 Kills To Break One Seal On This Minecraft Prison Server",
-      "channel_id": "UCHNM0Wtr9J1Xk2F4J_2hjdg",
-      "channel_name": "Ancients | Minecraft Prison Server",
-      "published_at": "2026-10-02T20:30:39Z",
-      "first_seen_at": "2026-10-02T20:40:22.616016Z"
-    },
-    "Dwgkl_ttGdU": {
-      "video_id": "Dwgkl_ttGdU",
-      "title": "INTENTANDO ADOPTAR UN SULFUR EN MINECRAFT",
-      "channel_id": "UCMfGvdhBzytI0a57i7QHHAw",
-      "channel_name": "Netroruz",
-      "published_at": "2026-10-02T20:30:30Z",
-      "first_seen_at": "2026-10-02T20:40:22.616016Z"
-    },
-    "I9W706puoOM": {
-      "video_id": "I9W706puoOM",
-      "title": "¡Los MEJORES SHADERS de Minecraft para GAMA BAJA! 🚀🎮",
-      "channel_id": "UCJkNQpk6CE2A6NcvqbkHLWg",
-      "channel_name": "zKana",
-      "published_at": "2026-10-02T20:31:05Z",
-      "first_seen_at": "2026-10-02T20:40:22.616016Z"
+      "first_seen_at": "2026-10-02T20:40:22.616016Z",
+      "last_checked_at": "2026-10-02T20:45:23.399113Z",
+      "samples": [
+        {
+          "t": "2026-10-02T20:45:23.399113Z",
+          "views": 31860,
+          "likes": 1151
+        }
+      ],
+      "stale_checks": 0,
+      "notified": false,
+      "gate_vpm": 2732.0,
+      "promo_score": 50.08
     }
   },
-  "candidates": {},
   "notified": {
     "MHMgXmR_djs": "2026-10-02T17:05:22.651108Z"
   },
@@ -689,7 +681,13 @@
     "4bhpyMsSE9Y": "2026-10-02T20:40:22.616077Z",
     "mF8EEalSoBM": "2026-10-02T20:40:22.616077Z",
     "AwGwyE1NqNA": "2026-10-02T20:40:22.616077Z",
-    "RmovYffyWlA": "2026-10-02T20:40:22.616077Z"
+    "RmovYffyWlA": "2026-10-02T20:40:22.616077Z",
+    "Dwgkl_ttGdU": "2026-10-02T20:45:23.399113Z",
+    "Ynosw2wfX_Y": "2026-10-02T20:45:23.399113Z",
+    "aDjof1ZykAY": "2026-10-02T20:45:23.399113Z",
+    "6HycaITSDGk": "2026-10-02T20:45:23.399113Z",
+    "I9W706puoOM": "2026-10-02T20:45:23.399113Z",
+    "60L4IrsnRhw": "2026-10-02T20:45:23.399113Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3011,14 +3009,33 @@
     "UCqXtW7pj_CmVRVdEWi6JT1Q": {
       "subs": 21,
       "fetched_at": "2026-10-02T20:40:22.785951Z"
+    },
+    "UCHNM0Wtr9J1Xk2F4J_2hjdg": {
+      "subs": 116,
+      "fetched_at": "2026-10-02T20:45:23.554479Z"
+    },
+    "UCvt8h7epszz7q0WeBshm2-A": {
+      "subs": 5290000,
+      "fetched_at": "2026-10-02T20:45:23.554479Z"
+    },
+    "UCZk4ZCQKlrRzjwUySB7mXUA": {
+      "subs": 36700,
+      "fetched_at": "2026-10-02T20:45:23.554479Z"
+    },
+    "UCJkNQpk6CE2A6NcvqbkHLWg": {
+      "subs": 210,
+      "fetched_at": "2026-10-02T20:45:23.554479Z"
+    },
+    "UCMfGvdhBzytI0a57i7QHHAw": {
+      "subs": 10400,
+      "fetched_at": "2026-10-02T20:45:23.554479Z"
+    },
+    "UChw-fTB7h2zbm74XlflpO_w": {
+      "subs": 64,
+      "fetched_at": "2026-10-02T20:45:23.554479Z"
     }
   },
   "search_log": [
-    {
-      "at": "2026-10-02T14:20:24.548302Z",
-      "results": 4,
-      "span_minutes": 5.016666666666667
-    },
     {
       "at": "2026-10-02T14:30:53.895787Z",
       "results": 8,
@@ -3263,6 +3280,11 @@
       "at": "2026-10-02T20:40:22.377957Z",
       "results": 9,
       "span_minutes": 9.9
+    },
+    {
+      "at": "2026-10-02T20:45:23.060675Z",
+      "results": 3,
+      "span_minutes": 5.0
     }
   ],
   "hourly_density": {
@@ -3302,45 +3324,52 @@
       "n": 8
     },
     "4": {
-      "results": 90,
-      "span": 39.75,
-      "n": 5
+      "results": 93,
+      "span": 44.75,
+      "n": 6
     }
   },
   "reject_reasons": {
     "分类不符": 102,
-    "描述过长(疑口播)": 76,
+    "描述过长(疑口播)": 77,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 8
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1327,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1030,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1228,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1427,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1031,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1229,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1030,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1030
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T20:40:22.377957Z",
+      "at": "2026-10-02T20:45:23.060675Z",
       "elapsed": 0.6,
       "searched": 1,
       "new": 0,
-      "gated_in": 0,
+      "gated_in": 1,
       "sampled": 0,
       "dropped": 0,
-      "staged": 9
+      "staged": 3
     }
   },
-  "key_rr": 0,
+  "key_rr": 3,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
         29.19
       ],
       "alerted": 1,
+      "promoted": 0
+    },
+    "T6": {
+      "vpm_samples": [
+        2732.02
+      ],
+      "alerted": 0,
       "promoted": 0
     }
   }
