@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T22:55:18.346199Z",
+  "cursor_utc": "2026-10-02T23:00:37.346199Z",
   "staging": {
     "mMOWAdTBfFg": {
       "video_id": "mMOWAdTBfFg",
@@ -9,32 +9,48 @@
       "published_at": "2026-10-02T22:51:06Z",
       "first_seen_at": "2026-10-02T22:55:19.067204Z"
     },
-    "k5j5I4aVYM0": {
-      "video_id": "k5j5I4aVYM0",
-      "title": "Minecraft In Minecraft Passthrough Mod",
-      "channel_id": "UCy2iJsztygshUfb5k_GifHw",
-      "channel_name": "Dycer",
-      "published_at": "2026-10-02T22:45:20Z",
-      "first_seen_at": "2026-10-02T22:55:19.067204Z"
+    "QV03U0Ujnuw": {
+      "video_id": "QV03U0Ujnuw",
+      "title": "Minecraft Modern House Only 0.00001% player know😱 #minecraft#demonxgamerz",
+      "channel_id": "UCkQzQeU2xzcQDR2qv3u7TjA",
+      "channel_name": "DEMONxGAMERZ",
+      "published_at": "2026-10-02T23:00:05Z",
+      "first_seen_at": "2026-10-02T23:00:37.801297Z"
     },
-    "lg6R4Uqv2gY": {
-      "video_id": "lg6R4Uqv2gY",
-      "title": "Báo Thù Tôi Nổ Tung Nhà Em Gái Trong Minecraft 🤣 #shorts",
-      "channel_id": "UC11oTbX26gLAK2lAxfwj2OA",
-      "channel_name": "Hoàng ACC",
-      "published_at": "2026-10-02T22:45:26Z",
-      "first_seen_at": "2026-10-02T22:55:19.067204Z"
-    },
-    "hJqbA5DVb_w": {
-      "video_id": "hJqbA5DVb_w",
-      "title": "JJ sister &amp; JJ Wall Playing Behind the Scenes 📷- Minecraft Shorts Animation  #trending #shorts #fyp",
-      "channel_id": "UCqv3DLNEshyYObSCEiPizZw",
-      "channel_name": "Meme Craft",
-      "published_at": "2026-10-02T22:45:25Z",
-      "first_seen_at": "2026-10-02T22:55:19.067204Z"
+    "byuSHb1pH6g": {
+      "video_id": "byuSHb1pH6g",
+      "title": "#minecraft",
+      "channel_id": "UCQXjpihKef8Z7SnNVJTuYgA",
+      "channel_name": "Minecraft Lego Slime",
+      "published_at": "2026-10-02T22:58:03Z",
+      "first_seen_at": "2026-10-02T23:00:37.801297Z"
     }
   },
-  "candidates": {},
+  "candidates": {
+    "hJqbA5DVb_w": {
+      "video_id": "hJqbA5DVb_w",
+      "title": "JJ sister & JJ Wall Playing Behind the Scenes 📷- Minecraft Shorts Animation  #trending #shorts #fyp",
+      "channel_id": "UCqv3DLNEshyYObSCEiPizZw",
+      "channel_name": "Meme Craft",
+      "channel_subs": 1140,
+      "tier": "T3",
+      "tier_locked_at": "2026-10-02T23:00:37.801312Z",
+      "published_at": "2026-10-02T22:45:25Z",
+      "first_seen_at": "2026-10-02T22:55:19.067204Z",
+      "last_checked_at": "2026-10-02T23:00:37.801312Z",
+      "samples": [
+        {
+          "t": "2026-10-02T23:00:37.801312Z",
+          "views": 647,
+          "likes": 7
+        }
+      ],
+      "stale_checks": 0,
+      "notified": false,
+      "gate_vpm": 42.5,
+      "promo_score": 7.83
+    }
+  },
   "notified": {
     "MHMgXmR_djs": "2026-10-02T17:05:22.651108Z",
     "Go7Qt32Eu0E": "2026-10-02T21:00:42.148048Z"
@@ -802,7 +818,9 @@
     "eTsKCELcuf0": "2026-10-02T22:45:20.661708Z",
     "-Rdb__Y36DU": "2026-10-02T22:45:20.661708Z",
     "zstqvXgDkxE": "2026-10-02T22:50:19.666558Z",
-    "tjyvlUVYQ2w": "2026-10-02T22:55:19.067218Z"
+    "tjyvlUVYQ2w": "2026-10-02T22:55:19.067218Z",
+    "k5j5I4aVYM0": "2026-10-02T23:00:37.801312Z",
+    "lg6R4Uqv2gY": "2026-10-02T23:00:37.801312Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3684,14 +3702,21 @@
     "UChP3Vh_uGTZb9ijfMUfmA5g": {
       "subs": 13200,
       "fetched_at": "2026-10-02T22:55:19.174054Z"
+    },
+    "UCqv3DLNEshyYObSCEiPizZw": {
+      "subs": 1140,
+      "fetched_at": "2026-10-02T23:00:38.210877Z"
+    },
+    "UCy2iJsztygshUfb5k_GifHw": {
+      "subs": 1210,
+      "fetched_at": "2026-10-02T23:00:38.210877Z"
+    },
+    "UC11oTbX26gLAK2lAxfwj2OA": {
+      "subs": 2900000,
+      "fetched_at": "2026-10-02T23:00:38.210877Z"
     }
   },
   "search_log": [
-    {
-      "at": "2026-10-02T16:40:22.533702Z",
-      "results": 0,
-      "span_minutes": 9.866666666666667
-    },
     {
       "at": "2026-10-02T16:50:24.011630Z",
       "results": 0,
@@ -3936,6 +3961,11 @@
       "at": "2026-10-02T22:55:18.723154Z",
       "results": 4,
       "span_minutes": 9.966666666666667
+    },
+    {
+      "at": "2026-10-02T23:00:37.528042Z",
+      "results": 2,
+      "span_minutes": 5.316666666666666
     }
   ],
   "hourly_density": {
@@ -3985,39 +4015,39 @@
       "n": 7
     },
     "6": {
-      "results": 89,
-      "span": 54.68333333333334,
-      "n": 8
+      "results": 91,
+      "span": 60.0,
+      "n": 9
     }
   },
   "reject_reasons": {
     "分类不符": 123,
-    "描述过长(疑口播)": 97,
+    "描述过长(疑口播)": 98,
     "标题含(twitch)": 3,
     "直播/切片(twitch.tv)": 12
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2230,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2231,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1240,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1339,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1437,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1239
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1537,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1240
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T22:55:18.723154Z",
-      "elapsed": 0.6,
+      "at": "2026-10-02T23:00:37.528042Z",
+      "elapsed": 1.1,
       "searched": 1,
       "new": 0,
-      "gated_in": 0,
+      "gated_in": 1,
       "sampled": 0,
       "dropped": 0,
-      "staged": 4
+      "staged": 2
     }
   },
-  "key_rr": 3,
+  "key_rr": 1,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
@@ -4031,6 +4061,13 @@
         2732.02
       ],
       "alerted": 1,
+      "promoted": 0
+    },
+    "T3": {
+      "vpm_samples": [
+        42.49
+      ],
+      "alerted": 0,
       "promoted": 0
     }
   }
