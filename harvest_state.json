@@ -1,33 +1,27 @@
 {
-  "cursor_utc": "2026-10-02T20:55:18.346199Z",
-  "staging": {},
-  "candidates": {
-    "Go7Qt32Eu0E": {
-      "video_id": "Go7Qt32Eu0E",
-      "title": "POCOYO Y MARIANA #shorts #minecraft  #robux #roblox #pocoyo",
-      "channel_id": "UCvt8h7epszz7q0WeBshm2-A",
-      "channel_name": "Dannika",
-      "channel_subs": 5290000,
-      "tier": "T6",
-      "tier_locked_at": "2026-10-02T20:45:23.399113Z",
-      "published_at": "2026-10-02T20:33:44Z",
-      "first_seen_at": "2026-10-02T20:40:22.616016Z",
-      "last_checked_at": "2026-10-02T20:45:23.399113Z",
-      "samples": [
-        {
-          "t": "2026-10-02T20:45:23.399113Z",
-          "views": 31860,
-          "likes": 1151
-        }
-      ],
-      "stale_checks": 0,
-      "notified": false,
-      "gate_vpm": 2732.0,
-      "promo_score": 50.08
+  "cursor_utc": "2026-10-02T21:00:39.346199Z",
+  "staging": {
+    "Za8jiTAe_Vs": {
+      "video_id": "Za8jiTAe_Vs",
+      "title": "🔥 CHEGOU MEU ATTACK SHARK X-11! 😱 | O MOUSE QUE EU TANTO ESPERAVA",
+      "channel_id": "UCi_Icd31c9AnO0jkro5rO9w",
+      "channel_name": "HING4MES",
+      "published_at": "2026-10-02T21:00:18Z",
+      "first_seen_at": "2026-10-02T21:00:41.249347Z"
+    },
+    "xlr8DLdBfdI": {
+      "video_id": "xlr8DLdBfdI",
+      "title": "Minecraft Shorts in 2021 Be Like 🥀",
+      "channel_id": "UCSXum4hJVuIepJPhpfQM9sg",
+      "channel_name": "Rainbow Noob",
+      "published_at": "2026-10-02T20:56:25Z",
+      "first_seen_at": "2026-10-02T21:00:41.249347Z"
     }
   },
+  "candidates": {},
   "notified": {
-    "MHMgXmR_djs": "2026-10-02T17:05:22.651108Z"
+    "MHMgXmR_djs": "2026-10-02T17:05:22.651108Z",
+    "Go7Qt32Eu0E": "2026-10-02T21:00:42.148048Z"
   },
   "rejected": {
     "poiimL49qk0": "2026-10-02T13:51:04.733735Z",
@@ -3021,11 +3015,6 @@
   },
   "search_log": [
     {
-      "at": "2026-10-02T14:40:23.554692Z",
-      "results": 1,
-      "span_minutes": 9.5
-    },
-    {
       "at": "2026-10-02T14:45:25.175252Z",
       "results": 0,
       "span_minutes": 5.016666666666667
@@ -3269,6 +3258,11 @@
       "at": "2026-10-02T20:55:19.048465Z",
       "results": 0,
       "span_minutes": 9.933333333333334
+    },
+    {
+      "at": "2026-10-02T21:00:40.240347Z",
+      "results": 2,
+      "span_minutes": 5.35
     }
   ],
   "hourly_density": {
@@ -3308,9 +3302,9 @@
       "n": 8
     },
     "4": {
-      "results": 93,
-      "span": 54.68333333333334,
-      "n": 7
+      "results": 95,
+      "span": 60.03333333333334,
+      "n": 8
     }
   },
   "reject_reasons": {
@@ -3324,23 +3318,24 @@
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1527,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1032,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1230,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1031,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1031
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1131,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1032
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T20:55:19.048465Z",
-      "elapsed": 0.6,
+      "at": "2026-10-02T21:00:40.240347Z",
+      "elapsed": 5.2,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
+      "sampled": 1,
       "dropped": 0,
-      "staged": 0
+      "staged": 2,
+      "alerts": 1
     }
   },
-  "key_rr": 3,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
@@ -3353,7 +3348,7 @@
       "vpm_samples": [
         2732.02
       ],
-      "alerted": 0,
+      "alerted": 1,
       "promoted": 0
     }
   }
