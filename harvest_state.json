@@ -96,7 +96,7 @@
       "tier_locked_at": "2026-10-02T15:25:20.936111Z",
       "published_at": "2026-10-02T15:13:28Z",
       "first_seen_at": "2026-10-02T15:15:29.382466Z",
-      "last_checked_at": "2026-10-02T16:25:18.518371Z",
+      "last_checked_at": "2026-10-02T16:45:21.782419Z",
       "samples": [
         {
           "t": "2026-10-02T15:25:20.936111Z",
@@ -117,6 +117,11 @@
           "t": "2026-10-02T16:25:18.518367Z",
           "views": 4570,
           "likes": 129
+        },
+        {
+          "t": "2026-10-02T16:45:21.782401Z",
+          "views": 4959,
+          "likes": 132
         }
       ],
       "stale_checks": 0,
@@ -1483,22 +1488,21 @@
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 513,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 513,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 612,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 314
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 315
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T16:40:22.533702Z",
-      "elapsed": 0.6,
-      "searched": 1,
+      "at": "2026-10-02T16:45:21.639179Z",
+      "elapsed": 0.1,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
-      "dropped": 0,
-      "staged": 0
+      "sampled": 1,
+      "dropped": 0
     }
   },
-  "key_rr": 4,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
