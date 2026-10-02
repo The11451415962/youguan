@@ -1,23 +1,6 @@
 {
-  "cursor_utc": "2026-10-02T14:55:19.346199Z",
-  "staging": {
-    "BRq0suqYM38": {
-      "video_id": "BRq0suqYM38",
-      "title": "JAK USTAWIĆ MIKROFON? 🤔",
-      "channel_id": "UC1z5WAcPpsosDfDthTuc5iQ",
-      "channel_name": "julesgranie",
-      "published_at": "2026-10-02T14:48:36Z",
-      "first_seen_at": "2026-10-02T14:55:19.879440Z"
-    },
-    "xzgRZeUhsOA": {
-      "video_id": "xzgRZeUhsOA",
-      "title": "obuna boling #minecraft #rekkkkkk #smartphone",
-      "channel_id": "UCxqGfXplVDxDw5tkSAWsn4Q",
-      "channel_name": "tayzerbe",
-      "published_at": "2026-10-02T14:45:49Z",
-      "first_seen_at": "2026-10-02T14:55:19.879440Z"
-    }
-  },
+  "cursor_utc": "2026-10-02T15:00:41.346199Z",
+  "staging": {},
   "candidates": {
     "VEH9fRSoR_U": {
       "video_id": "VEH9fRSoR_U",
@@ -27,7 +10,7 @@
       "channel_subs": 3930000,
       "published_at": "2026-10-02T13:30:06Z",
       "first_seen_at": "2026-10-02T13:51:04.733695Z",
-      "last_checked_at": "2026-10-02T14:40:24.643847Z",
+      "last_checked_at": "2026-10-02T15:00:43.463149Z",
       "samples": [
         {
           "t": "2026-10-02T13:51:04.733735Z",
@@ -40,6 +23,10 @@
         {
           "t": "2026-10-02T14:40:24.643823Z",
           "views": 8221
+        },
+        {
+          "t": "2026-10-02T15:00:43.463126Z",
+          "views": 9394
         }
       ],
       "stale_checks": 0,
@@ -54,7 +41,7 @@
       "channel_subs": 12600,
       "published_at": "2026-10-02T13:30:14Z",
       "first_seen_at": "2026-10-02T13:51:04.733695Z",
-      "last_checked_at": "2026-10-02T14:40:24.643857Z",
+      "last_checked_at": "2026-10-02T15:00:43.463183Z",
       "samples": [
         {
           "t": "2026-10-02T13:51:04.733735Z",
@@ -67,6 +54,10 @@
         {
           "t": "2026-10-02T14:40:24.643855Z",
           "views": 4584
+        },
+        {
+          "t": "2026-10-02T15:00:43.463179Z",
+          "views": 4974
         }
       ],
       "stale_checks": 0,
@@ -81,7 +72,7 @@
       "channel_subs": 25300,
       "published_at": "2026-10-02T14:00:39Z",
       "first_seen_at": "2026-10-02T14:10:22.637052Z",
-      "last_checked_at": "2026-10-02T14:40:24.643862Z",
+      "last_checked_at": "2026-10-02T15:00:43.463198Z",
       "samples": [
         {
           "t": "2026-10-02T14:15:23.903136Z",
@@ -90,6 +81,10 @@
         {
           "t": "2026-10-02T14:40:24.643861Z",
           "views": 2609
+        },
+        {
+          "t": "2026-10-02T15:00:43.463195Z",
+          "views": 4237
         }
       ],
       "stale_checks": 0,
@@ -253,7 +248,9 @@
     "CVYVtPTrxk4": "2026-10-02T14:35:23.384380Z",
     "Pw7SpjGQvW4": "2026-10-02T14:40:23.875630Z",
     "CcJn99AoH04": "2026-10-02T14:40:23.875630Z",
-    "kkfgsNBcKvQ": "2026-10-02T14:45:25.567802Z"
+    "kkfgsNBcKvQ": "2026-10-02T14:45:25.567802Z",
+    "xzgRZeUhsOA": "2026-10-02T15:00:42.636482Z",
+    "BRq0suqYM38": "2026-10-02T15:00:42.636482Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -671,6 +668,14 @@
     "UCNJH2nkNeoJ_cJxCMxFhbGw": {
       "subs": 63700,
       "fetched_at": "2026-10-02T14:45:25.664491Z"
+    },
+    "UC1z5WAcPpsosDfDthTuc5iQ": {
+      "subs": 94500,
+      "fetched_at": "2026-10-02T15:00:42.770492Z"
+    },
+    "UCxqGfXplVDxDw5tkSAWsn4Q": {
+      "subs": 12,
+      "fetched_at": "2026-10-02T15:00:42.770492Z"
     }
   },
   "search_log": [
@@ -723,6 +728,11 @@
       "at": "2026-10-02T14:55:19.598444Z",
       "results": 2,
       "span_minutes": 9.916666666666666
+    },
+    {
+      "at": "2026-10-02T15:00:42.335006Z",
+      "results": 0,
+      "span_minutes": 5.366666666666666
     }
   ],
   "hourly_density": {
@@ -733,8 +743,8 @@
     },
     "22": {
       "results": 67,
-      "span": 54.666666666666664,
-      "n": 7
+      "span": 60.03333333333333,
+      "n": 8
     }
   },
   "reject_reasons": {
@@ -743,24 +753,24 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 205,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 206,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 106,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 402,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 303,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 6
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 502,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 304,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 7
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T14:55:19.598444Z",
-      "elapsed": 0.5,
+      "at": "2026-10-02T15:00:42.335006Z",
+      "elapsed": 1.1,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 2,
+      "sampled": 3,
       "dropped": 0,
-      "staged": 2
+      "staged": 0
     }
   },
-  "key_rr": 2
+  "key_rr": 1
 }
