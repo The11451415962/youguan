@@ -48,10 +48,9 @@ STATE_PATH = BASE / "harvest_state.json"
 # ---------------------------------------------------------------------------
 CFG = {
     # ---- 切片 ----
-    "target_results_per_search": 38,   # 每次搜索期望拿到的结果数（留出余量，避免打满 50）
-    "min_slice_seconds": 300,          # 切片最短 5 分钟（高峰期）
-    "max_slice_seconds": 1800,         # 切片最长 30 分钟（低谷期）
-    "spacing_seconds": 90,             # 相邻两次搜索之间的最小间隔（避免打爆）
+    "target_results_per_search": 38,   # 每次搜索期望拿到的结果数（留 24% 余量，避免打满 50）
+    "min_slice_seconds": 300,          # 切片最短 5 分钟（对齐 cron-job.org 触发频率）
+    "max_slice_seconds": 1800,         # 切片最长 30 分钟（深夜低谷期）
 
     # ---- 门槛 ----
     "max_duration": 61,                # 只收 Shorts
@@ -70,12 +69,12 @@ CFG = {
     "drop_if_stale_checks": 3,         # 连续 N 次检查几乎不涨 → 扔
 
     # ---- 配额 ----
-    "daily_budget_per_key": 9500,      # 单把钥匙每天最多用多少点
-    "reserve_for_observation": 0.45,   # 给观察层预留的配额比例
+    "daily_budget_per_key": 9500,      # 单把钥匙每天最多用多少点（留 500 点余量）
+    "max_keys": 10,                    # 最多认几把钥匙（YOUTUBE_API_KEY, _2 .. _10）
 
     # ---- 运行 ----
     "loop_sleep_seconds": 20,          # 主循环空转间隔
-    "max_cycle_seconds": 240,          # 单个周期最长耗时，防止堆积
+    "slice_lookahead_hours": 2,        # 用接下来几小时的历史密度估切片宽度
 }
 
 
@@ -110,11 +109,12 @@ class KeyPool:
         k = os.getenv("YOUTUBE_API_KEY", "").strip()
         if k and not k.startswith("YOUR_"):
             keys.append(k)
-        # 后面的（_2 .. _10）以及 SEARCH 备用
-        for i in range(2, 11):
+        # 后面的（_2 .. _max_keys）
+        for i in range(2, CFG["max_keys"] + 1):
             k = os.getenv(f"YOUTUBE_API_KEY_{i}", "").strip()
             if k and not k.startswith("YOUR_") and k not in keys:
                 keys.append(k)
+        # SEARCH 那把作为补充
         k = os.getenv("YOUTUBE_API_KEY_SEARCH", "").strip()
         if k and not k.startswith("YOUR_") and k not in keys:
             keys.append(k)
@@ -169,6 +169,7 @@ DEFAULT_STATE = {
     "rejected": {},              # video_id -> 时间
     "channels": {},              # channel_id -> {subs, fetched_at}
     "search_log": [],            # 最近若干次搜索的结果数（用于估算密度）
+    "hourly_density": {},        # 小时 -> {results, span, n}，供次日同时段预测
     "key_usage": {},
     "stats": {},
 }
@@ -229,23 +230,50 @@ def estimate_density(state, window=12):
     log = state.get("search_log") or []
     log = log[-window:]
     if not log:
-        return 1.5          # 没有数据时用保守默认值（约每 10 分钟 15 条）
+        return 1.9          # 没有数据时用实测均值（约 19 条/10 分钟）
     total_results, total_span = 0, 0.0
     for e in log:
         total_results += e.get("results", 0)
         total_span += max(0.1, e.get("span_minutes", 0))
     if total_span <= 0:
-        return 1.5
+        return 1.9
     return max(0.05, total_results / total_span)
 
 
-def next_slice_seconds(state):
-    """按密度决定下一个时间片多宽，并留安全余量。"""
-    density = estimate_density(state)                 # 条/分钟
+def record_hourly(state, when, results, span_minutes):
+    """按小时累计「结果数 / 时间跨度」，供次日同时段预测。"""
+    hourly = state.setdefault("hourly_density", {})
+    key = str(when.astimezone(BJT).hour)
+    e = hourly.setdefault(key, {"results": 0, "span": 0.0, "n": 0})
+    e["results"] += results
+    e["span"] += span_minutes
+    e["n"] += 1
+
+
+def hourly_density(state, when):
+    """取该小时历史密度；没有样本返回 None。"""
+    e = (state.get("hourly_density") or {}).get(str(when.astimezone(BJT).hour))
+    if not e or e.get("span", 0) <= 0:
+        return None
+    return e["results"] / e["span"]
+
+
+def next_slice_seconds(state, when=None):
+    """按密度决定下一个时间片多宽，并留安全余量。
+
+    优先用「该小时的历史密度」（次日同时段更准），退回到最近窗口的滚动密度。
+    """
+    when = when or now_utc()
+    density = hourly_density(state, when)
+    source = "同小时历史"
+    if density is None:
+        density = estimate_density(state)
+        source = "滚动窗口"
+
     target = CFG["target_results_per_search"]
     ideal = (target / density) * 60                   # 秒
     sec = int(max(CFG["min_slice_seconds"], min(CFG["max_slice_seconds"], ideal)))
-    return sec, density
+    return sec, density, source
 
 
 # ---------------------------------------------------------------------------
@@ -477,10 +505,10 @@ def cycle(pool, state, dry_run=False):
 
     gap = (now - cursor).total_seconds()
     if gap >= CFG["min_slice_seconds"]:
-        sec, density = next_slice_seconds(state)
+        sec, density, source = next_slice_seconds(state, cursor)
         before = min(now, cursor + timedelta(seconds=sec))
         print(f"  [采集] {bjt_str(cursor)} → {bjt_str(before)}  "
-              f"({sec//60}分{sec%60}秒, 估密度 {density:.2f} 条/分)")
+              f"({sec//60}分{sec%60}秒, 密度 {density:.2f} 条/分, 来源:{source})")
 
         if dry_run:
             state["cursor_utc"] = iso_z(before)
@@ -500,6 +528,7 @@ def cycle(pool, state, dry_run=False):
                     "span_minutes": sec / 60.0,
                 })
                 state["search_log"] = state["search_log"][-50:]
+                record_hourly(state, cursor, len(items), sec / 60.0)
                 print(f"  [采集] 拿到 {len(items)} 条  (key {key[:8]}…)")
                 if len(items) >= 48:
                     print(f"  [采集] ⚠ 打满上限，下一片自动收窄")
