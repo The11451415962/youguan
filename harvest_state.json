@@ -24,46 +24,6 @@
       "channel_name": "Endless Edit",
       "published_at": "2026-10-02T14:28:26Z",
       "first_seen_at": "2026-10-02T14:30:54.229434Z"
-    },
-    "gxPZOcmwQaA": {
-      "video_id": "gxPZOcmwQaA",
-      "title": "Yılların intikamı alındı #minecraft",
-      "channel_id": "UCMWRgAVoaRXBOK2YaVMFfYw",
-      "channel_name": "Temca",
-      "published_at": "2026-10-02T14:22:57Z",
-      "first_seen_at": "2026-10-02T14:30:54.229434Z"
-    },
-    "CVYVtPTrxk4": {
-      "video_id": "CVYVtPTrxk4",
-      "title": "🔥 Minecraft PC Setup Build 🖥️🎮 |#minecraft #minecraftshorts",
-      "channel_id": "UC1NMr6wMTPW2d8e-WTe7L2w",
-      "channel_name": "IT'S FEELORA",
-      "published_at": "2026-10-02T14:24:00Z",
-      "first_seen_at": "2026-10-02T14:30:54.229434Z"
-    },
-    "LaqoLDxs6bM": {
-      "video_id": "LaqoLDxs6bM",
-      "title": "Pov: You Have Different Pc as GOAT #cristianoronaldogoat #cristiano #minecraft #minecraftshorts",
-      "channel_id": "UCQJ6ni4ypMpju58TbCToLMw",
-      "channel_name": "IT'S FLEET OG",
-      "published_at": "2026-10-02T14:21:42Z",
-      "first_seen_at": "2026-10-02T14:30:54.229434Z"
-    },
-    "XczNTb23ya0": {
-      "video_id": "XczNTb23ya0",
-      "title": "Маленький Житель Попал в Другое Измерение!😨 #shorts #шортс #майнкрафт #minecraft #житель #мем",
-      "channel_id": "UCnVcxx5RZhYu6G8aC22ZVdw",
-      "channel_name": "ЛИСФОКС МАЙНКРАФТ",
-      "published_at": "2026-10-02T14:22:18Z",
-      "first_seen_at": "2026-10-02T14:30:54.229434Z"
-    },
-    "8Oaq_cmaEf0": {
-      "video_id": "8Oaq_cmaEf0",
-      "title": "LEGO Minecraft Delivery Arrives! 🚚🧱 #shorts  #legocity #lego #legoadventure #legominecraft",
-      "channel_id": "UC3hHF0T-iWrkmyi5eN80qTA",
-      "channel_name": "LEGO Stories Kids",
-      "published_at": "2026-10-02T14:21:24Z",
-      "first_seen_at": "2026-10-02T14:30:54.229434Z"
     }
   },
   "candidates": {
@@ -254,7 +214,12 @@
     "p3zyqhDDfZg": "2026-10-02T14:30:54.229449Z",
     "cWQC9qlI9Gc": "2026-10-02T14:30:54.229449Z",
     "6udMGK4bJ0g": "2026-10-02T14:30:54.229449Z",
-    "_BbXYFjvdlU": "2026-10-02T14:30:54.229449Z"
+    "_BbXYFjvdlU": "2026-10-02T14:30:54.229449Z",
+    "8Oaq_cmaEf0": "2026-10-02T14:35:23.384380Z",
+    "LaqoLDxs6bM": "2026-10-02T14:35:23.384380Z",
+    "XczNTb23ya0": "2026-10-02T14:35:23.384380Z",
+    "gxPZOcmwQaA": "2026-10-02T14:35:23.384380Z",
+    "CVYVtPTrxk4": "2026-10-02T14:35:23.384380Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -648,6 +613,22 @@
     "UC3TpaPYQGoWOgLjcpITD3SQ": {
       "subs": 185,
       "fetched_at": "2026-10-02T14:30:54.371823Z"
+    },
+    "UC3hHF0T-iWrkmyi5eN80qTA": {
+      "subs": 20,
+      "fetched_at": "2026-10-02T14:35:23.557828Z"
+    },
+    "UCMWRgAVoaRXBOK2YaVMFfYw": {
+      "subs": 133,
+      "fetched_at": "2026-10-02T14:35:23.557828Z"
+    },
+    "UCQJ6ni4ypMpju58TbCToLMw": {
+      "subs": 258,
+      "fetched_at": "2026-10-02T14:35:23.557828Z"
+    },
+    "UC1NMr6wMTPW2d8e-WTe7L2w": {
+      "subs": 18000,
+      "fetched_at": "2026-10-02T14:35:23.557828Z"
     }
   },
   "search_log": [
@@ -700,29 +681,28 @@
     }
   },
   "reject_reasons": {
-    "分类不符": 17,
-    "描述过长(疑口播)": 19
+    "分类不符": 18,
+    "描述过长(疑口播)": 20
   },
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 104,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 103,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 301,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 104,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 302,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 202,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 4
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T14:30:53.895787Z",
-      "elapsed": 0.7,
-      "searched": 1,
+      "at": "2026-10-02T14:35:23.384366Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
-      "dropped": 0,
-      "staged": 8
+      "sampled": 0,
+      "dropped": 0
     }
   },
-  "key_rr": 1
+  "key_rr": 3
 }
