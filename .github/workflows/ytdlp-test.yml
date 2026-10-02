@@ -1,0 +1,51 @@
+name: yt-dlp 音频验证
+
+# 独立测试工作流：验证 GitHub Actions 机房 IP 能否下载 YouTube 音频。
+# 这是人声检测方案的 Go/No-Go 测试，不影响正式打捞流程。
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-ytdlp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装 ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+
+      - name: 安装 yt-dlp
+        run: |
+          python -m pip install --upgrade pip
+          pip install -U yt-dlp
+
+      - name: 环境信息
+        run: |
+          echo "=== 公网 IP（判断是否机房 IP）==="
+          curl -s --max-time 10 https://api.ipify.org || echo "(取不到)"
+          echo ""
+          echo "=== 工具版本 ==="
+          yt-dlp --version
+          ffmpeg -version 2>&1 | head -1
+
+      - name: 运行下载验证
+        run: python test_ytdlp.py --seconds 15 --attempts 4
+
+      - name: 上传结果
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ytdlp-test-result
+          path: ytdlp_test_result.json
+          if-no-files-found: warn
