@@ -1,23 +1,6 @@
 {
   "cursor_utc": "2026-10-02T21:30:29.346199Z",
-  "staging": {
-    "HSN-4QdwSo0": {
-      "video_id": "HSN-4QdwSo0",
-      "title": "Minecraft Moment #shorts #minecraft",
-      "channel_id": "UCNoy5Uyxip2wizJVyI_lX6g",
-      "channel_name": "gurgenaa",
-      "published_at": "2026-10-02T21:23:14Z",
-      "first_seen_at": "2026-10-02T21:30:29.968500Z"
-    },
-    "Nd9Vq5P47Z8": {
-      "video_id": "Nd9Vq5P47Z8",
-      "title": "ZEREI MINECRAFT EM 12 MINUTOS",
-      "channel_id": "UCZhWpfBwq-fYiN27PaZnuXw",
-      "channel_name": "Pecanha",
-      "published_at": "2026-10-02T21:22:13Z",
-      "first_seen_at": "2026-10-02T21:30:29.968500Z"
-    }
-  },
+  "staging": {},
   "candidates": {},
   "notified": {
     "MHMgXmR_djs": "2026-10-02T17:05:22.651108Z",
@@ -695,7 +678,9 @@
     "pLRQ-IcVC0E": "2026-10-02T21:30:29.968516Z",
     "ln-dnEgmUfg": "2026-10-02T21:30:29.968516Z",
     "5GmbNPPbYvk": "2026-10-02T21:30:29.968516Z",
-    "vAF_aDaDaKg": "2026-10-02T21:30:29.968516Z"
+    "vAF_aDaDaKg": "2026-10-02T21:30:29.968516Z",
+    "Nd9Vq5P47Z8": "2026-10-02T21:35:19.669098Z",
+    "HSN-4QdwSo0": "2026-10-02T21:35:19.669098Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3245,6 +3230,14 @@
     "UCKkI_nVQJp_F9CvFvbko8kA": {
       "subs": 97,
       "fetched_at": "2026-10-02T21:30:30.129455Z"
+    },
+    "UCZhWpfBwq-fYiN27PaZnuXw": {
+      "subs": 159000,
+      "fetched_at": "2026-10-02T21:35:19.821460Z"
+    },
+    "UCNoy5Uyxip2wizJVyI_lX6g": {
+      "subs": 29,
+      "fetched_at": "2026-10-02T21:35:19.821460Z"
     }
   },
   "search_log": [
@@ -3557,23 +3550,22 @@
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1827,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1035,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1233,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1133,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1034
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1134,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1035
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T21:30:29.615437Z",
-      "elapsed": 0.6,
-      "searched": 1,
+      "at": "2026-10-02T21:35:19.669086Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 2
+      "dropped": 0
     }
   },
-  "key_rr": 3,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
