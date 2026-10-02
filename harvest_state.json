@@ -1,13 +1,37 @@
 {
-  "cursor_utc": "2026-10-02T22:45:20.346199Z",
+  "cursor_utc": "2026-10-02T22:55:18.346199Z",
   "staging": {
-    "tjyvlUVYQ2w": {
-      "video_id": "tjyvlUVYQ2w",
-      "title": "ima be real im tryna make some pennies yo #minecraft #gaming #youngsheldon",
-      "channel_id": "UChP3Vh_uGTZb9ijfMUfmA5g",
-      "channel_name": "ImJustAnOtaku",
-      "published_at": "2026-10-02T22:42:43Z",
-      "first_seen_at": "2026-10-02T22:45:20.661696Z"
+    "mMOWAdTBfFg": {
+      "video_id": "mMOWAdTBfFg",
+      "title": "ENCONTREI O MOB MAIS RARO DO MINECRAFT!..se inscreve pf",
+      "channel_id": "UCeJ7317WodTFGDAYaxg9uhw",
+      "channel_name": "HogLupin",
+      "published_at": "2026-10-02T22:51:06Z",
+      "first_seen_at": "2026-10-02T22:55:19.067204Z"
+    },
+    "k5j5I4aVYM0": {
+      "video_id": "k5j5I4aVYM0",
+      "title": "Minecraft In Minecraft Passthrough Mod",
+      "channel_id": "UCy2iJsztygshUfb5k_GifHw",
+      "channel_name": "Dycer",
+      "published_at": "2026-10-02T22:45:20Z",
+      "first_seen_at": "2026-10-02T22:55:19.067204Z"
+    },
+    "lg6R4Uqv2gY": {
+      "video_id": "lg6R4Uqv2gY",
+      "title": "Báo Thù Tôi Nổ Tung Nhà Em Gái Trong Minecraft 🤣 #shorts",
+      "channel_id": "UC11oTbX26gLAK2lAxfwj2OA",
+      "channel_name": "Hoàng ACC",
+      "published_at": "2026-10-02T22:45:26Z",
+      "first_seen_at": "2026-10-02T22:55:19.067204Z"
+    },
+    "hJqbA5DVb_w": {
+      "video_id": "hJqbA5DVb_w",
+      "title": "JJ sister &amp; JJ Wall Playing Behind the Scenes 📷- Minecraft Shorts Animation  #trending #shorts #fyp",
+      "channel_id": "UCqv3DLNEshyYObSCEiPizZw",
+      "channel_name": "Meme Craft",
+      "published_at": "2026-10-02T22:45:25Z",
+      "first_seen_at": "2026-10-02T22:55:19.067204Z"
     }
   },
   "candidates": {},
@@ -777,7 +801,8 @@
     "wtKibTZAi3Q": "2026-10-02T22:45:20.661708Z",
     "eTsKCELcuf0": "2026-10-02T22:45:20.661708Z",
     "-Rdb__Y36DU": "2026-10-02T22:45:20.661708Z",
-    "zstqvXgDkxE": "2026-10-02T22:50:19.666558Z"
+    "zstqvXgDkxE": "2026-10-02T22:50:19.666558Z",
+    "tjyvlUVYQ2w": "2026-10-02T22:55:19.067218Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3655,14 +3680,13 @@
     "UCusHbSK8snZhUrR8h78lLmw": {
       "subs": 131000,
       "fetched_at": "2026-10-02T22:45:20.815230Z"
+    },
+    "UChP3Vh_uGTZb9ijfMUfmA5g": {
+      "subs": 13200,
+      "fetched_at": "2026-10-02T22:55:19.174054Z"
     }
   },
   "search_log": [
-    {
-      "at": "2026-10-02T16:30:30.914468Z",
-      "results": 2,
-      "span_minutes": 5.216666666666667
-    },
     {
       "at": "2026-10-02T16:40:22.533702Z",
       "results": 0,
@@ -3907,6 +3931,11 @@
       "at": "2026-10-02T22:45:20.384223Z",
       "results": 1,
       "span_minutes": 5.0
+    },
+    {
+      "at": "2026-10-02T22:55:18.723154Z",
+      "results": 4,
+      "span_minutes": 9.966666666666667
     }
   ],
   "hourly_density": {
@@ -3956,9 +3985,9 @@
       "n": 7
     },
     "6": {
-      "results": 85,
-      "span": 44.71666666666667,
-      "n": 7
+      "results": 89,
+      "span": 54.68333333333334,
+      "n": 8
     }
   },
   "reject_reasons": {
@@ -3969,25 +3998,26 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2130,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1239,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1338,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2230,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1240,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1339,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1437,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1239
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T22:50:19.666546Z",
-      "elapsed": 0.1,
-      "searched": 0,
+      "at": "2026-10-02T22:55:18.723154Z",
+      "elapsed": 0.6,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 4
     }
   },
-  "key_rr": 0,
+  "key_rr": 3,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
