@@ -54,9 +54,34 @@ CFG = {
 
     # ---- 门槛 ----
     "max_duration": 61,                # 只收 Shorts
-    "title_keywords": ["minecraft", "maizen", "verity", "aphmau", "jj"],
-    "gate_min_views_per_min": 20,      # 第一道门槛：播放/分钟
-    "gate_min_age_minutes": 8,         # 太新的不判（计数还没更新）
+    # 标题必须包含其中**至少一个完整词**（按词匹配，不是子串匹配）
+    # 用词匹配是为了拦掉 "minecraft" 出现在无关语境里的视频（例如 "Mike Tomlin"）
+    "title_keywords": ["#minecraft", "minecraft", "minecraftmemes", "minecraftshorts",
+                       "maizen", "verity", "#mc", "mc"],
+    "title_allow_hashtag": True,       # 允许 #minecraft 这种 hashtag 形式也算命中
+    # 频道订阅门槛：低于这个数不进池
+    # 理由：小号的「高播放/订阅比」往往是分母太小造成的假象，
+    #       而你要的是「量已经验证过」的视频，订阅数是最便宜的确定性代理指标
+    "min_channel_subs": 10_000,
+
+    # ---- 内容形态过滤（拦「跑题」和「有人声口播」）----
+    # 允许的分类。实测池内跑题视频集中在 Travel/People&Blogs；
+    # 而真正在爆的几乎都在 Gaming。
+    # 1=Film&Animation（MAIZEN 那类动画） 20=Gaming 24=Entertainment 23=Comedy
+    "allow_categories": ["1", "20", "23", "24"],
+    # 描述超过这个长度视为「讲解/口播型」→ 大概率有人声，不适合直接搬运。
+    # 实测：纯视觉梗的描述长度是 0~300；口播型是 700~4300。
+    "max_description_chars": 400,
+    # 描述里出现这些词 = 直播/切片/转载，一律不要
+    "banned_desc_markers": ["twitch.tv", "kick.com", "live stream", "直播", "clip:"],
+    # 标题里出现这些词 = 直播切片或合集，不要
+    "banned_title_markers": ["live stream", "stream highlight", "twitch", "full video", "compilation"],
+
+    # ---- 播放速度门槛 ----
+    "gate_min_views_per_min": 25,
+    "gate_min_age_minutes": 10,        # 到这个年龄才用门槛判定
+    "staging_max_age_minutes": 90,     # 观察区里超过这个年龄还没过门槛就扔掉
+    "staging_max_size": 3000,          # 观察区上限（只存极简字段，开销很小）
 
     # ---- 观察 ----
     "sample_schedule": [               # (年龄上限分钟, 采样间隔分钟)
@@ -209,13 +234,16 @@ class KeyPool:
 
 DEFAULT_STATE = {
     "cursor_utc": None,          # 上次扫到哪个时刻
-    "candidates": {},            # video_id -> 候选记录
+    "staging": {},               # 观察区：已登记但还没够年龄判定的视频（只存元信息）
+    "candidates": {},            # video_id -> 候选记录（过了门槛，值得采样）
     "notified": {},              # video_id -> 时间
     "rejected": {},              # video_id -> 时间
     "channels": {},              # channel_id -> {subs, fetched_at}
     "search_log": [],            # 最近若干次搜索的结果数（用于估算密度）
     "hourly_density": {},        # 小时 -> {results, span, n}，供次日同时段预测
+    "reject_reasons": {},        # 拒绝原因统计，用于调参
     "key_usage": {},
+    "key_quota_fails": {},
     "stats": {},
 }
 
@@ -427,6 +455,12 @@ def fetch_details(pool, video_ids):
                 "duration": parse_duration(cd.get("duration", "")),
                 "title": sn.get("title", ""),
                 "published_at": sn.get("publishedAt", ""),
+                # 有字幕 ≈ 大概率有人声（口播/解说）；纯视觉内容通常没有字幕
+                "has_captions": (cd.get("caption") == "true"),
+                "made_for_kids": bool(sn.get("madeForKids")),
+                "category_id": str(sn.get("categoryId", "") or ""),
+                "description": (sn.get("description") or ""),
+                "default_audio_language": sn.get("defaultAudioLanguage", ""),
             }
     return out
 
@@ -492,9 +526,28 @@ def age_minutes(published_at):
 
 
 def title_ok(title, cfg=None):
-    keys = (cfg or CFG)["title_keywords"]
+    """标题是否真的在讲 Minecraft。
+
+    按**完整词**匹配而不是子串匹配 —— 子串会放进
+    "Mike Tomlin Playing Minecraft"、"How to Fix Corrupted Data on PS5 Minecraft"
+    这类只蹭关键词的视频。
+    """
+    cfg = cfg or CFG
     t = (title or "").lower()
-    return any(k in t for k in keys)
+    if not t:
+        return False
+    # 拆成词（保留 hashtag 的 # 前缀）
+    words = set(re.findall(r"#?[\w\u4e00-\u9fff]+", t))
+    for k in cfg["title_keywords"]:
+        k = k.lower()
+        if k in words:
+            return True
+    # 允许带空格的短语（如 "minecraft shorts"）
+    for k in cfg["title_keywords"]:
+        k = k.lower()
+        if " " in k and k in t:
+            return True
+    return False
 
 
 def sample_interval_minutes(age):
@@ -629,6 +682,9 @@ def cycle(pool, state, dry_run=False):
         print(f"  [采集] 距下一片还差 {int((CFG['min_slice_seconds']-gap)/60)} 分"
               f"（游标 {bjt_str(cursor)}）")
 
+    # ①·补 判定观察区里够年龄的视频（真正的门槛在这里生效）
+    _evaluate_staging(pool, state, stats)
+
     # ② 观察：给到期的候选采样
     _sample_due(pool, state, stats)
 
@@ -643,70 +699,172 @@ def cycle(pool, state, dry_run=False):
     return stats
 
 
+def content_ok(d, cfg=None):
+    """内容形态是否合格。返回 (是否通过, 拒绝原因)。
+
+    拦三类：
+      - 跑题：分类不在白名单（实测跑题的集中在 Travel/People&Blogs）
+      - 口播/讲解：描述过长（实测纯视觉梗 0~300 字，口播型 700~4300 字）
+      - 直播切片/转载：描述或标题里带直播平台标记
+    """
+    cfg = cfg or CFG
+    cat = str(d.get("category_id") or "")
+    if cat and cfg["allow_categories"] and cat not in cfg["allow_categories"]:
+        return False, "分类不符"
+
+    desc = (d.get("description") or "").lower()
+    if len(desc) > cfg["max_description_chars"]:
+        return False, "描述过长(疑口播)"
+
+    title = (d.get("title") or "").lower()
+    for m in cfg["banned_desc_markers"]:
+        if m in desc:
+            return False, f"直播/切片({m})"
+    for m in cfg["banned_title_markers"]:
+        if m in title:
+            return False, f"标题含({m})"
+    return True, None
+
+
 def _ingest(pool, state, items, stats):
-    """把搜索结果做初筛后入池。"""
+    """把搜索结果的**元信息**登记进「观察区」。
+
+    注意：这一步**不发详情请求、不做门槛判定**，因为刚发布的视频播放量必然很低，
+    此刻判定必然误放。只登记元信息（几乎零成本），等它长到
+    gate_min_age_minutes 之后再由 _evaluate_staging() 统一判定。
+    """
+    staging = state.setdefault("staging", {})
     pool_c = state["candidates"]
-    fresh = []
+    now_iso = iso_z(now_utc())
+    added = 0
+
     for it in items:
         vid = it["video_id"]
-        if vid in pool_c or vid in state["notified"] or vid in state.get("rejected", {}):
+        if (vid in pool_c or vid in staging
+                or vid in state["notified"] or vid in state.get("rejected", {})):
             continue
-        fresh.append(it)
+        staging[vid] = {
+            "video_id": vid,
+            "title": it.get("title", ""),
+            "channel_id": it.get("channel_id", ""),
+            "channel_name": it.get("channel_name", ""),
+            "published_at": it.get("published_at", ""),
+            "first_seen_at": now_iso,
+        }
+        added += 1
 
-    if not fresh:
-        print("  [入池] 全部是已见过的")
+    state["staging"] = staging
+    stats["staged"] = added
+    print(f"  [登记] 观察区新增 {added} 条（区内存 {len(staging)} 条，待判定）")
+
+
+def _evaluate_staging(pool, state, stats):
+    """把观察区里「够年龄」的视频按门槛判定，通过才进候选池。
+
+    这是整套漏斗的真正闸门：决定哪些视频值得花观察配额去跟踪。
+    """
+    staging = state.setdefault("staging", {})
+    pool_c = state["candidates"]
+    if not staging:
         return
 
-    details = fetch_details(pool, [f["video_id"] for f in fresh])
-    subs_map = fetch_channel_subs(pool, state, [d.get("channel_id") for d in fresh])
+    now = now_utc()
+    # ① 先淘汰观察区里的过期项（从没长起来的）
+    expired = 0
+    for vid, e in list(staging.items()):
+        age = age_minutes(e.get("published_at"))
+        if age > CFG["staging_max_age_minutes"]:
+            del staging[vid]
+            state["rejected"][vid] = iso_z(now)
+            expired += 1
+    if expired:
+        print(f"  [登记] 观察区清理 {expired} 条（超过 {CFG['staging_max_age_minutes']} 分钟仍未判定进池）")
 
-    added = skipped_dur = skipped_title = skipped_views = 0
-    for f in fresh:
-        vid = f["video_id"]
+    # ② 挑出够年龄的，批量取详情
+    due = [vid for vid, e in staging.items()
+           if age_minutes(e.get("published_at")) >= CFG["gate_min_age_minutes"]]
+    if not due:
+        return
+
+    # 观察区太大时只判最老的一批，避免一次请求太多
+    due.sort(key=lambda v: staging[v].get("published_at") or "")
+    due = due[:500]
+
+    details = fetch_details(pool, due)
+    subs_map = fetch_channel_subs(pool, state, [
+        (details.get(v, {}) or staging[v]).get("channel_id") or staging[v].get("channel_id", "")
+        for v in due])
+
+    promoted = gated_views = gated_dur = gated_title = gated_subs = gated_content = 0
+    for vid in due:
+        e = staging.get(vid)
         d = details.get(vid)
-        if not d:
+        if e is None:
             continue
-        if not (0 < d["duration"] <= CFG["max_duration"]):
-            skipped_dur += 1
-            continue
-        title = d.get("title") or f.get("title", "")
-        if not title_ok(title):
-            skipped_title += 1
-            state["rejected"][vid] = iso_z(now_utc())
+        if d is None:                      # 取不到（被删/私享）→ 扔掉
+            del staging[vid]
+            state["rejected"][vid] = iso_z(now)
             continue
 
-        pub = d.get("published_at") or f.get("published_at", "")
+        title = d.get("title") or e.get("title", "")
+        pub = d.get("published_at") or e.get("published_at", "")
         age = age_minutes(pub)
-        views = d["views"]
+        views = int(d["views"])
         vpm = views / age if age > 0.5 else 0
+        subs = subs_map.get(d.get("channel_id") or e.get("channel_id", ""), 0)
 
-        # 第一道门槛：太新不判；到年龄了还没量就扔
-        if age >= CFG["gate_min_age_minutes"] and vpm < CFG["gate_min_views_per_min"]:
-            skipped_views += 1
-            state["rejected"][vid] = iso_z(now_utc())
+        def drop(reason_counter):
+            del staging[vid]
+            state["rejected"][vid] = iso_z(now)
+            return reason_counter + 1
+
+        # 判定顺序：先做最便宜的排除，再做需要计算的
+        if not (0 < d["duration"] <= CFG["max_duration"]):
+            gated_dur = drop(gated_dur)
+            continue
+        if not title_ok(title):
+            gated_title = drop(gated_title)
+            continue
+        ok, why = content_ok(d)
+        if not ok:
+            gated_content = drop(gated_content)
+            state.setdefault("reject_reasons", {})
+            state["reject_reasons"][why] = state["reject_reasons"].get(why, 0) + 1
+            continue
+        if subs and subs < CFG["min_channel_subs"]:
+            gated_subs = drop(gated_subs)
+            continue
+        if vpm < CFG["gate_min_views_per_min"]:
+            gated_views = drop(gated_views)
             continue
 
-        subs = subs_map.get(d.get("channel_id") or f.get("channel_id", ""), 0)
-        now_iso = iso_z(now_utc())
+        # 通过 → 进候选池
         pool_c[vid] = {
             "video_id": vid,
             "title": title,
-            "channel_id": f.get("channel_id", ""),
-            "channel_name": f.get("channel_name", ""),
+            "channel_id": e.get("channel_id", ""),
+            "channel_name": e.get("channel_name", ""),
             "channel_subs": subs,
             "published_at": pub,
-            "first_seen_at": now_iso,
-            "last_checked_at": now_iso,
-            "samples": [{"t": now_iso, "views": views}],
+            "first_seen_at": e.get("first_seen_at", iso_z(now)),
+            "last_checked_at": iso_z(now),
+            "samples": [{"t": iso_z(now), "views": views}],
             "stale_checks": 0,
             "notified": False,
+            "gate_vpm": round(vpm, 1),
         }
-        added += 1
-        stats["gated_in"] += 1
+        del staging[vid]
+        promoted += 1
+        stats["gated_in"] = stats.get("gated_in", 0) + 1
 
-    stats["new"] += added
-    print(f"  [入池] 新增 {added} | 非Shorts {skipped_dur} | 标题不符 {skipped_title} | "
-          f"无量 {skipped_views} | 池内共 {len(pool_c)}")
+    if promoted or gated_views or gated_dur or gated_title or gated_subs or gated_content:
+        print(f"  [判定] 进池 {promoted} | 订阅不足 {gated_subs} | 内容形态 {gated_content} | "
+              f"播放太慢 {gated_views} | 非Shorts {gated_dur} | 标题不符 {gated_title} | "
+              f"待判定 {len(staging)}")
+
+
+def _ingest_legacy(pool, state, items, stats):
+    """（已弃用）旧的一次性入池逻辑，保留供参考。"""
 
 
 def _sample_due(pool, state, stats):
@@ -788,6 +946,7 @@ def report(state, pool=None):
     print(f"当前状态   北京时间 {bjt_str(now_utc())}")
     print(f"{'═'*92}")
     print(f"  游标（已扫到）: {bjt_str(parse_iso(state.get('cursor_utc')) or now_utc() - timedelta(days=99))}")
+    print(f"  观察区        : {len(state.get('staging') or {})} 条（待判定）")
     print(f"  候选池        : {len(c)} 条")
     print(f"  已预警        : {len(state['notified'])} 条")
     print(f"  已淘汰        : {len(state['rejected'])} 条")
@@ -840,7 +999,10 @@ def main():
     print(f"{'═'*92}")
     print(f"  切片        : 自适应 {CFG['min_slice_seconds']//60}~{CFG['max_slice_seconds']//60} 分钟")
     print(f"  目标结果数  : {CFG['target_results_per_search']} 条/次搜索")
-    print(f"  第一道门槛  : 播放/分钟 ≥ {CFG['gate_min_views_per_min']}")
+    print(f"  门槛        : 订阅≥{CFG['min_channel_subs']:,} | "
+          f"播放/分钟≥{CFG['gate_min_views_per_min']} | "
+          f"描述≤{CFG['max_description_chars']}字 | "
+          f"分类∈{CFG['allow_categories']}")
     print(f"  采样节奏    : " + " / ".join(f"{a}分内每{b}分" for a, b in CFG["sample_schedule"]))
     print(f"  单把日上限  : {CFG['daily_budget_per_key']:,} 点")
     if pool:
