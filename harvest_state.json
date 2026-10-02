@@ -3324,15 +3324,13 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T21:00:40.240347Z",
-      "elapsed": 5.2,
-      "searched": 1,
+      "at": "2026-10-02T21:05:18.055537Z",
+      "elapsed": 0.0,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
-      "dropped": 0,
-      "staged": 2,
-      "alerts": 1
+      "sampled": 0,
+      "dropped": 0
     }
   },
   "key_rr": 0,
