@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-02T13:40:22.644255Z",
+  "cursor_utc": "2026-10-02T13:45:23.644255Z",
   "candidates": {
     "yPY666jlGyI": {
       "video_id": "yPY666jlGyI",
@@ -9,7 +9,7 @@
       "channel_subs": 131000,
       "published_at": "2026-10-02T13:00:06Z",
       "first_seen_at": "2026-10-02T13:07:27.959644Z",
-      "last_checked_at": "2026-10-02T13:20:25.657254Z",
+      "last_checked_at": "2026-10-02T13:45:24.562831Z",
       "samples": [
         {
           "t": "2026-10-02T13:07:27.959644Z",
@@ -18,6 +18,10 @@
         {
           "t": "2026-10-02T13:20:25.657229Z",
           "views": 539
+        },
+        {
+          "t": "2026-10-02T13:45:24.562814Z",
+          "views": 13811
         }
       ],
       "stale_checks": 0,
@@ -31,7 +35,7 @@
       "channel_subs": 6630,
       "published_at": "2026-10-02T13:00:13Z",
       "first_seen_at": "2026-10-02T13:07:27.959714Z",
-      "last_checked_at": "2026-10-02T13:20:25.657267Z",
+      "last_checked_at": "2026-10-02T13:45:24.562842Z",
       "samples": [
         {
           "t": "2026-10-02T13:07:27.959714Z",
@@ -40,6 +44,10 @@
         {
           "t": "2026-10-02T13:20:25.657264Z",
           "views": 353
+        },
+        {
+          "t": "2026-10-02T13:45:24.562839Z",
+          "views": 3760
         }
       ],
       "stale_checks": 0,
@@ -339,7 +347,7 @@
       "channel_subs": 55,
       "published_at": "2026-10-02T13:18:12Z",
       "first_seen_at": "2026-10-02T13:20:25.514307Z",
-      "last_checked_at": "2026-10-02T13:30:33.249940Z",
+      "last_checked_at": "2026-10-02T13:45:24.562850Z",
       "samples": [
         {
           "t": "2026-10-02T13:20:25.514307Z",
@@ -348,9 +356,13 @@
         {
           "t": "2026-10-02T13:30:33.249938Z",
           "views": 1
+        },
+        {
+          "t": "2026-10-02T13:45:24.562847Z",
+          "views": 3
         }
       ],
-      "stale_checks": 1,
+      "stale_checks": 2,
       "notified": false
     },
     "ergfoD9BkZQ": {
@@ -361,7 +373,7 @@
       "channel_subs": 607,
       "published_at": "2026-10-02T13:15:40Z",
       "first_seen_at": "2026-10-02T13:20:25.514324Z",
-      "last_checked_at": "2026-10-02T13:30:33.249945Z",
+      "last_checked_at": "2026-10-02T13:45:24.562856Z",
       "samples": [
         {
           "t": "2026-10-02T13:20:25.514324Z",
@@ -370,9 +382,13 @@
         {
           "t": "2026-10-02T13:30:33.249943Z",
           "views": 1
+        },
+        {
+          "t": "2026-10-02T13:45:24.562854Z",
+          "views": 1
         }
       ],
-      "stale_checks": 1,
+      "stale_checks": 2,
       "notified": false
     },
     "ovFapzN5HWY": {
@@ -383,7 +399,7 @@
       "channel_subs": 15500,
       "published_at": "2026-10-02T13:15:45Z",
       "first_seen_at": "2026-10-02T13:20:25.514335Z",
-      "last_checked_at": "2026-10-02T13:30:33.249950Z",
+      "last_checked_at": "2026-10-02T13:45:24.562863Z",
       "samples": [
         {
           "t": "2026-10-02T13:20:25.514335Z",
@@ -392,6 +408,10 @@
         {
           "t": "2026-10-02T13:30:33.249948Z",
           "views": 208
+        },
+        {
+          "t": "2026-10-02T13:45:24.562861Z",
+          "views": 348
         }
       ],
       "stale_checks": 0,
@@ -405,14 +425,18 @@
       "channel_subs": 129,
       "published_at": "2026-10-02T13:24:32Z",
       "first_seen_at": "2026-10-02T13:30:33.031361Z",
-      "last_checked_at": "2026-10-02T13:30:33.031361Z",
+      "last_checked_at": "2026-10-02T13:45:24.562868Z",
       "samples": [
         {
           "t": "2026-10-02T13:30:33.031361Z",
           "views": 0
+        },
+        {
+          "t": "2026-10-02T13:45:24.562866Z",
+          "views": 1
         }
       ],
-      "stale_checks": 0,
+      "stale_checks": 1,
       "notified": false
     },
     "aUL1mqwqxdc": {
@@ -423,11 +447,15 @@
       "channel_subs": 494,
       "published_at": "2026-10-02T13:22:56Z",
       "first_seen_at": "2026-10-02T13:30:33.031375Z",
-      "last_checked_at": "2026-10-02T13:30:33.031375Z",
+      "last_checked_at": "2026-10-02T13:45:24.562874Z",
       "samples": [
         {
           "t": "2026-10-02T13:30:33.031375Z",
           "views": 145
+        },
+        {
+          "t": "2026-10-02T13:45:24.562872Z",
+          "views": 339
         }
       ],
       "stale_checks": 0,
@@ -699,6 +727,11 @@
       "at": "2026-10-02T13:40:22.797516Z",
       "results": 3,
       "span_minutes": 9.85
+    },
+    {
+      "at": "2026-10-02T13:45:24.114671Z",
+      "results": 0,
+      "span_minutes": 5.016666666666667
     }
   ],
   "hourly_density": {
@@ -709,28 +742,28 @@
     },
     "21": {
       "results": 22,
-      "span": 32.93333333333334,
-      "n": 4
+      "span": 37.95,
+      "n": 5
     }
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 103,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 103,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 203,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 104,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 103,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 202,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 103
   },
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T13:40:22.797516Z",
-      "elapsed": 0.8,
+      "at": "2026-10-02T13:45:24.114671Z",
+      "elapsed": 0.4,
       "searched": 1,
-      "new": 1,
-      "gated_in": 1,
-      "sampled": 0,
+      "new": 0,
+      "gated_in": 0,
+      "sampled": 7,
       "dropped": 0
     }
   },
-  "key_rr": 0
+  "key_rr": 2
 }
