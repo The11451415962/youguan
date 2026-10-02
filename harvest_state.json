@@ -1,46 +1,6 @@
 {
   "cursor_utc": "2026-10-02T22:30:29.346199Z",
   "staging": {
-    "vhPMGAWPseA": {
-      "video_id": "vhPMGAWPseA",
-      "title": "Keep inventory just isn&#39;t for everyone  #minecraft #minecraftshorts",
-      "channel_id": "UCcgOXjrwi-SGUQuPeVPo_JA",
-      "channel_name": "Smumkey",
-      "published_at": "2026-10-02T22:23:59Z",
-      "first_seen_at": "2026-10-02T22:25:19.411852Z"
-    },
-    "JooAyR_uM34": {
-      "video_id": "JooAyR_uM34",
-      "title": "Toca Enseñarles A Los Aldeanos - Serie De Minecraft Extremo",
-      "channel_id": "UCjKK_qRYUi-Q0V14Vpx-cUA",
-      "channel_name": "electrocarlox",
-      "published_at": "2026-10-02T22:21:32Z",
-      "first_seen_at": "2026-10-02T22:25:19.411852Z"
-    },
-    "st4nUJXgZ_Y": {
-      "video_id": "st4nUJXgZ_Y",
-      "title": "¿¡SON RACI##AS?! #minecraft #viral #shorts",
-      "channel_id": "UCbObSey-qJRIvmOzOEImz4A",
-      "channel_name": "EriG71",
-      "published_at": "2026-10-02T22:21:45Z",
-      "first_seen_at": "2026-10-02T22:25:19.411852Z"
-    },
-    "pJo5lL8tt8w": {
-      "video_id": "pJo5lL8tt8w",
-      "title": "donutsmp paying per comment name 1m #minecraft #donutsmp #donutsmp",
-      "channel_id": "UCoyrQNSxQeM7pAnih0n0MwQ",
-      "channel_name": "Minecrafter1.0",
-      "published_at": "2026-10-02T22:22:28Z",
-      "first_seen_at": "2026-10-02T22:25:19.411852Z"
-    },
-    "Ig69-_WBrws": {
-      "video_id": "Ig69-_WBrws",
-      "title": "#minecraft",
-      "channel_id": "UCgHjpvy_GBH8szjcLJllpPg",
-      "channel_name": "MineDominator",
-      "published_at": "2026-10-02T22:20:43Z",
-      "first_seen_at": "2026-10-02T22:25:19.411852Z"
-    },
     "di7RvbfYiHo": {
       "video_id": "di7RvbfYiHo",
       "title": "Dr Donut&#39;s Parents Kicked Him out🤬 #minecraft",
@@ -826,7 +786,12 @@
     "dYwpuxgHAIo": "2026-10-02T22:30:30.479580Z",
     "W6m-rT_pqTs": "2026-10-02T22:30:30.479580Z",
     "_eycW8yt9as": "2026-10-02T22:30:30.479580Z",
-    "JVSQpXQB4kE": "2026-10-02T22:30:30.479580Z"
+    "JVSQpXQB4kE": "2026-10-02T22:30:30.479580Z",
+    "Ig69-_WBrws": "2026-10-02T22:35:18.252758Z",
+    "JooAyR_uM34": "2026-10-02T22:35:18.252758Z",
+    "st4nUJXgZ_Y": "2026-10-02T22:35:18.252758Z",
+    "pJo5lL8tt8w": "2026-10-02T22:35:18.252758Z",
+    "vhPMGAWPseA": "2026-10-02T22:35:18.252758Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -3648,6 +3613,26 @@
     "UC4w4e01yt77FguC7hCYk64w": {
       "subs": 6,
       "fetched_at": "2026-10-02T22:30:30.605311Z"
+    },
+    "UCcgOXjrwi-SGUQuPeVPo_JA": {
+      "subs": 3680,
+      "fetched_at": "2026-10-02T22:35:18.420300Z"
+    },
+    "UCjKK_qRYUi-Q0V14Vpx-cUA": {
+      "subs": 36,
+      "fetched_at": "2026-10-02T22:35:18.420300Z"
+    },
+    "UCoyrQNSxQeM7pAnih0n0MwQ": {
+      "subs": 10,
+      "fetched_at": "2026-10-02T22:35:18.420300Z"
+    },
+    "UCgHjpvy_GBH8szjcLJllpPg": {
+      "subs": 3,
+      "fetched_at": "2026-10-02T22:35:18.420300Z"
+    },
+    "UCbObSey-qJRIvmOzOEImz4A": {
+      "subs": 3240,
+      "fetched_at": "2026-10-02T22:35:18.420300Z"
     }
   },
   "search_log": [
@@ -3958,30 +3943,29 @@
     "分类不符": 122,
     "描述过长(疑口播)": 94,
     "标题含(twitch)": 3,
-    "直播/切片(twitch.tv)": 11
+    "直播/切片(twitch.tv)": 12
   },
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2129,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1138,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1336,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1139,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1337,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1336,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1237
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T22:30:30.185824Z",
-      "elapsed": 0.5,
-      "searched": 1,
+      "at": "2026-10-02T22:35:18.252749Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 4
+      "dropped": 0
     }
   },
-  "key_rr": 1,
+  "key_rr": 3,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
