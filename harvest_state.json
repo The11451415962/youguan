@@ -1,14 +1,6 @@
 {
   "cursor_utc": "2026-10-02T18:50:23.346199Z",
   "staging": {
-    "hMvzGi_hnvY": {
-      "video_id": "hMvzGi_hnvY",
-      "title": "WHAT DID THE ALIENS DO TO HIM 😭 #minecraft #minecrafthorror #gaming #horror #minecraftshorts",
-      "channel_id": "UCz7KmczgYYoZiZqlqCpVx-g",
-      "channel_name": "Floppy Friends",
-      "published_at": "2026-10-02T18:42:10Z",
-      "first_seen_at": "2026-10-02T18:45:24.007039Z"
-    },
     "bSD1MwHZwFw": {
       "video_id": "bSD1MwHZwFw",
       "title": "Mom1 Feedback #minecraft #minecraftsurvivalseriesepisode1 #gaming #survival #minecraftbuilding",
@@ -556,7 +548,8 @@
     "h5zIKF3TqUk": "2026-10-02T18:45:24.007055Z",
     "IlwED2Vp7B8": "2026-10-02T18:45:24.007055Z",
     "1RykWbwSO1I": "2026-10-02T18:50:23.868232Z",
-    "W2jtllAuNPU": "2026-10-02T18:50:23.868232Z"
+    "W2jtllAuNPU": "2026-10-02T18:50:23.868232Z",
+    "hMvzGi_hnvY": "2026-10-02T18:55:19.948104Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -2174,6 +2167,10 @@
     "UCKjfM1672DaOhq37Le2mAKg": {
       "subs": 58,
       "fetched_at": "2026-10-02T18:50:24.062615Z"
+    },
+    "UCz7KmczgYYoZiZqlqCpVx-g": {
+      "subs": 294,
+      "fetched_at": "2026-10-02T18:55:20.086897Z"
     }
   },
   "search_log": [
@@ -2426,23 +2423,22 @@
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1119,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 723,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 822,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 821,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 722
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 822,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 723
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T18:50:23.509688Z",
-      "elapsed": 0.7,
-      "searched": 1,
+      "at": "2026-10-02T18:55:19.948092Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 2
+      "dropped": 0
     }
   },
-  "key_rr": 3,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
