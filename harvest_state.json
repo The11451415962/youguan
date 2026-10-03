@@ -2100,14 +2100,13 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T13:30:26.963507Z",
-      "elapsed": 0.6,
-      "searched": 1,
+      "at": "2026-10-03T13:35:20.634235Z",
+      "elapsed": 0.0,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 0
+      "dropped": 0
     }
   },
   "key_rr": 3,
