@@ -1,6 +1,23 @@
 {
-  "cursor_utc": "2026-10-03T08:45:22.209235Z",
-  "staging": {},
+  "cursor_utc": "2026-10-03T08:55:19.209235Z",
+  "staging": {
+    "snqGztUHGmY": {
+      "video_id": "snqGztUHGmY",
+      "title": "Diese Sift Mythen gehen jetzt schon rum aber STIMMEN SIE AUCH??? #minecraft",
+      "channel_id": "UC2gMiqB3ReQeAr0Y69TNjbw",
+      "channel_name": "EisteeMan",
+      "published_at": "2026-10-03T08:46:21Z",
+      "first_seen_at": "2026-10-03T08:55:19.633159Z"
+    },
+    "-z4nb9B-0y8": {
+      "video_id": "-z4nb9B-0y8",
+      "title": "DARK DAY OF LILYVILLE? 😱| Lilyville Day 96",
+      "channel_id": "UCWxcAUWjF3B_S6fFLqOh7Rw",
+      "channel_name": "GamerFleet",
+      "published_at": "2026-10-03T08:46:30Z",
+      "first_seen_at": "2026-10-03T08:55:19.633159Z"
+    }
+  },
   "candidates": {},
   "notified": {},
   "rejected": {
@@ -419,6 +436,11 @@
       "at": "2026-10-03T08:45:22.385073Z",
       "results": 0,
       "span_minutes": 5.05
+    },
+    {
+      "at": "2026-10-03T08:55:19.282972Z",
+      "results": 2,
+      "span_minutes": 9.95
     }
   ],
   "hourly_density": {
@@ -428,9 +450,9 @@
       "n": 2
     },
     "16": {
-      "results": 47,
-      "span": 40.099999999999994,
-      "n": 6
+      "results": 49,
+      "span": 50.05,
+      "n": 7
     }
   },
   "reject_reasons": {
@@ -439,7 +461,7 @@
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 204,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 304,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 204,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 204,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 105,
@@ -448,14 +470,15 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T08:50:19.063695Z",
-      "elapsed": 0.2,
-      "searched": 0,
+      "at": "2026-10-03T08:55:19.633219Z",
+      "elapsed": 0.4,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 2
     }
   },
-  "key_rr": 0
+  "key_rr": 1
 }
