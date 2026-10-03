@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-03T11:55:15.209235Z",
+  "cursor_utc": "2026-10-03T12:00:41.209235Z",
   "staging": {
     "3BGRDtCSMZs": {
       "video_id": "3BGRDtCSMZs",
@@ -17,13 +17,13 @@
       "published_at": "2026-10-03T11:51:04Z",
       "first_seen_at": "2026-10-03T11:55:16.098470Z"
     },
-    "haT7wP1PFDA": {
-      "video_id": "haT7wP1PFDA",
-      "title": "Почему редстоун такой сложный? #minecraft #redstone #майнкрафт #майн",
-      "channel_id": "UCMA0pEwnwfIgscCM9XdxQIg",
-      "channel_name": "Terminateys",
-      "published_at": "2026-10-03T11:45:25Z",
-      "first_seen_at": "2026-10-03T11:55:16.098470Z"
+    "FZ3WhOK-SnU": {
+      "video_id": "FZ3WhOK-SnU",
+      "title": "AMAZING &amp; FUNNY Technoblade 👑🐷 Minecraft Candy Cutting ASMR! 🤯 #minecraft #memes",
+      "channel_id": "UCQgvhqDOBU9a7Q1agQzFh5g",
+      "channel_name": "Tru-la-la CANDY ART",
+      "published_at": "2026-10-03T11:58:48Z",
+      "first_seen_at": "2026-10-03T12:00:42.623810Z"
     }
   },
   "candidates": {
@@ -37,7 +37,7 @@
       "tier_locked_at": "2026-10-03T10:20:22.339609Z",
       "published_at": "2026-10-03T10:08:56Z",
       "first_seen_at": "2026-10-03T10:10:20.898933Z",
-      "last_checked_at": "2026-10-03T11:40:20.880663Z",
+      "last_checked_at": "2026-10-03T12:00:44.563468Z",
       "samples": [
         {
           "t": "2026-10-03T10:20:22.339609Z",
@@ -63,9 +63,14 @@
           "t": "2026-10-03T11:40:20.880641Z",
           "views": 4582,
           "likes": 31
+        },
+        {
+          "t": "2026-10-03T12:00:44.563458Z",
+          "views": 4582,
+          "likes": 30
         }
       ],
-      "stale_checks": 0,
+      "stale_checks": 1,
       "notified": false,
       "gate_vpm": 27.9,
       "promo_score": 1.44
@@ -325,7 +330,8 @@
     "ohjLgDPvZdY": "2026-10-03T11:45:21.728244Z",
     "XJyWUGlG35g": "2026-10-03T11:45:21.728244Z",
     "Ov7gTL6MQy4": "2026-10-03T11:45:21.728244Z",
-    "YtsHHwR4n-E": "2026-10-03T11:45:21.728244Z"
+    "YtsHHwR4n-E": "2026-10-03T11:45:21.728244Z",
+    "haT7wP1PFDA": "2026-10-03T12:00:42.623824Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1323,6 +1329,10 @@
     "UC6_FnZSPfb-tJOwSi1fWvGg": {
       "subs": 1020,
       "fetched_at": "2026-10-03T11:45:21.858193Z"
+    },
+    "UCMA0pEwnwfIgscCM9XdxQIg": {
+      "subs": 1190,
+      "fetched_at": "2026-10-03T12:00:42.754849Z"
     }
   },
   "search_log": [
@@ -1485,6 +1495,11 @@
       "at": "2026-10-03T11:55:15.874952Z",
       "results": 3,
       "span_minutes": 9.9
+    },
+    {
+      "at": "2026-10-03T12:00:41.768579Z",
+      "results": 1,
+      "span_minutes": 5.433333333333334
     }
   ],
   "hourly_density": {
@@ -1509,38 +1524,38 @@
       "n": 7
     },
     "19": {
-      "results": 51,
-      "span": 54.63333333333333,
-      "n": 7
+      "results": 52,
+      "span": 60.06666666666666,
+      "n": 8
     }
   },
   "reject_reasons": {
-    "描述过长(疑口播)": 39,
+    "描述过长(疑口播)": 40,
     "分类不符": 41,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-03",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 715,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 417,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 516,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1011,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 615
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 517,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 517,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1012,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 616
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T11:55:16.098581Z",
-      "elapsed": 0.2,
+      "at": "2026-10-03T12:00:44.563552Z",
+      "elapsed": 2.8,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
+      "sampled": 1,
       "dropped": 0,
-      "staged": 3
+      "staged": 1
     }
   },
-  "key_rr": 1,
+  "key_rr": 0,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
