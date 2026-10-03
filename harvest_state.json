@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-03T14:27:37.209235Z",
+  "cursor_utc": "2026-10-03T14:35:19.209235Z",
   "staging": {
     "QgxqHiKGTfU": {
       "video_id": "QgxqHiKGTfU",
@@ -9,29 +9,37 @@
       "published_at": "2026-10-03T14:25:33Z",
       "first_seen_at": "2026-10-03T14:27:37.668831Z"
     },
-    "B78vU3VRbzE": {
-      "video_id": "B78vU3VRbzE",
-      "title": "Verity and the Cursed Smile 😱 ( minecraft horror)  #verity #animation #minecraft",
-      "channel_id": "UC8RM2aw4CKUYz-3DfwxXk5Q",
-      "channel_name": "WildWord7",
-      "published_at": "2026-10-03T14:24:11Z",
-      "first_seen_at": "2026-10-03T14:27:37.668831Z"
+    "UQmlsNO2iUg": {
+      "video_id": "UQmlsNO2iUg",
+      "title": "Questi MINERALI non esistono su Minecraft… 💎 #minecraft #minecraftita #minecraftjava",
+      "channel_id": "UCGz5uVfMZJHdiRa00XxxMJw",
+      "channel_name": "SeaBlockMC",
+      "published_at": "2026-10-03T14:30:24Z",
+      "first_seen_at": "2026-10-03T14:35:19.900152Z"
     },
-    "0HNvZ59Ea6c": {
-      "video_id": "0HNvZ59Ea6c",
-      "title": "Les prochaines Grottes de Glace Minecraft #minecraft #animation",
-      "channel_id": "UCyaq0Spy4OONjPjA_0r5Xmw",
-      "channel_name": "Toilar",
-      "published_at": "2026-10-03T14:22:28Z",
-      "first_seen_at": "2026-10-03T14:27:37.668831Z"
+    "AbmN9bgxSN8": {
+      "video_id": "AbmN9bgxSN8",
+      "title": "CAIXA DE SAPATO?😳#minecraft",
+      "channel_id": "UCLqcNLVWUxly0MtB20KQT2A",
+      "channel_name": "Puro PC",
+      "published_at": "2026-10-03T14:30:31Z",
+      "first_seen_at": "2026-10-03T14:35:19.900152Z"
     },
-    "M1fyo8FcvDo": {
-      "video_id": "M1fyo8FcvDo",
-      "title": "Easy cushion sofa #minecraft #shorts",
-      "channel_id": "UCOiyGQPbD61EogpgWKaMapw",
-      "channel_name": "Game boys",
-      "published_at": "2026-10-03T14:20:45Z",
-      "first_seen_at": "2026-10-03T14:27:37.668831Z"
+    "KXvFNCnSPiI": {
+      "video_id": "KXvFNCnSPiI",
+      "title": "Insane Luck While Guessing Brands in Minecraft! 😱🔥 #minecraft #shorts",
+      "channel_id": "UCI1Mc2E_gte2JCb-PuGgUhQ",
+      "channel_name": "BYSCOOBY",
+      "published_at": "2026-10-03T14:30:09Z",
+      "first_seen_at": "2026-10-03T14:35:19.900152Z"
+    },
+    "v4Exf0Y-gNk": {
+      "video_id": "v4Exf0Y-gNk",
+      "title": "Minecraft speed run",
+      "channel_id": "UCKkIcpyiDMVo6c9Q7zMDiwg",
+      "channel_name": "«MaxVr»",
+      "published_at": "2026-10-03T14:29:15Z",
+      "first_seen_at": "2026-10-03T14:35:19.900152Z"
     }
   },
   "candidates": {
@@ -545,7 +553,10 @@
     "H9loZ_Xh3Qk": "2026-10-03T14:27:37.668850Z",
     "U6x-k0FcjQU": "2026-10-03T14:27:37.668850Z",
     "Qo0_nbsHuko": "2026-10-03T14:27:37.668850Z",
-    "EXpZubN5TOw": "2026-10-03T14:30:28.234225Z"
+    "EXpZubN5TOw": "2026-10-03T14:30:28.234225Z",
+    "M1fyo8FcvDo": "2026-10-03T14:35:19.900170Z",
+    "0HNvZ59Ea6c": "2026-10-03T14:35:19.900170Z",
+    "B78vU3VRbzE": "2026-10-03T14:35:19.900170Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -2219,14 +2230,21 @@
     "UC1QeXbtd35ynrd7LEVmczsg": {
       "subs": 186,
       "fetched_at": "2026-10-03T14:30:28.412558Z"
+    },
+    "UCyaq0Spy4OONjPjA_0r5Xmw": {
+      "subs": 1090,
+      "fetched_at": "2026-10-03T14:35:20.108945Z"
+    },
+    "UCOiyGQPbD61EogpgWKaMapw": {
+      "subs": 228,
+      "fetched_at": "2026-10-03T14:35:20.108945Z"
+    },
+    "UC8RM2aw4CKUYz-3DfwxXk5Q": {
+      "subs": 1580,
+      "fetched_at": "2026-10-03T14:35:20.108945Z"
     }
   },
   "search_log": [
-    {
-      "at": "2026-10-03T08:10:22.854501Z",
-      "results": 17,
-      "span_minutes": 5.1
-    },
     {
       "at": "2026-10-03T08:20:21.425534Z",
       "results": 20,
@@ -2471,6 +2489,11 @@
       "at": "2026-10-03T14:27:37.376871Z",
       "results": 4,
       "span_minutes": 9.5
+    },
+    {
+      "at": "2026-10-03T14:35:19.533485Z",
+      "results": 4,
+      "span_minutes": 7.7
     }
   ],
   "hourly_density": {
@@ -2510,9 +2533,9 @@
       "n": 8
     },
     "22": {
-      "results": 69,
-      "span": 27.05,
-      "n": 3
+      "results": 73,
+      "span": 34.75,
+      "n": 4
     }
   },
   "reject_reasons": {
@@ -2522,25 +2545,26 @@
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1223,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1224,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 827,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 926,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1519,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 826
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1619,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 827
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T14:30:28.544240Z",
-      "elapsed": 0.3,
-      "searched": 0,
+      "at": "2026-10-03T14:35:20.232736Z",
+      "elapsed": 0.7,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 4
     }
   },
-  "key_rr": 3,
+  "key_rr": 1,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
