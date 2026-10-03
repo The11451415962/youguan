@@ -1,22 +1,6 @@
 {
   "cursor_utc": "2026-10-03T10:30:27.209235Z",
   "staging": {
-    "Bi3mAz2OBRI": {
-      "video_id": "Bi3mAz2OBRI",
-      "title": "cantando mal e se dando bem😂 #minecraft",
-      "channel_id": "UC1qDH9or0_PEtt7hVGBBkeA",
-      "channel_name": "Minecraft Chacara Menino Campeiro",
-      "published_at": "2026-10-03T10:22:34Z",
-      "first_seen_at": "2026-10-03T10:25:19.184348Z"
-    },
-    "5qv4eeqX8gU": {
-      "video_id": "5qv4eeqX8gU",
-      "title": "paise ki grami nechi se be khao #minecraft #gaming",
-      "channel_id": "UC4msSpK6nhTXh6wPrTCdYJw",
-      "channel_name": "cubegamer",
-      "published_at": "2026-10-03T10:22:13Z",
-      "first_seen_at": "2026-10-03T10:25:19.184348Z"
-    },
     "F-IuCAwFXdI": {
       "video_id": "F-IuCAwFXdI",
       "title": "Or karo Vayde... 🤣#minecraft #gaming #minecraftmemes",
@@ -257,7 +241,9 @@
     "uxS8Q7qknvg": "2026-10-03T10:30:28.530062Z",
     "_8UvH0hCs4U": "2026-10-03T10:30:28.530062Z",
     "5ZR5RXGsYl4": "2026-10-03T10:30:28.530062Z",
-    "imsG10js-8o": "2026-10-03T10:30:28.530062Z"
+    "imsG10js-8o": "2026-10-03T10:30:28.530062Z",
+    "5qv4eeqX8gU": "2026-10-03T10:35:17.404308Z",
+    "Bi3mAz2OBRI": "2026-10-03T10:35:17.404308Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1011,6 +997,14 @@
     "UCijZ7gc_WXjYEOE-dpLieBA": {
       "subs": 7960,
       "fetched_at": "2026-10-03T10:30:28.682692Z"
+    },
+    "UC1qDH9or0_PEtt7hVGBBkeA": {
+      "subs": 3200,
+      "fetched_at": "2026-10-03T10:35:17.523431Z"
+    },
+    "UC4msSpK6nhTXh6wPrTCdYJw": {
+      "subs": 148,
+      "fetched_at": "2026-10-03T10:35:17.523431Z"
     }
   },
   "search_log": [
@@ -1155,25 +1149,24 @@
   "key_usage": {
     "_day": "2026-10-03",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 609,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 410,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 311,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 411,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 312,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 410,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 509
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T10:30:28.901061Z",
-      "elapsed": 0.7,
-      "searched": 1,
+      "at": "2026-10-03T10:35:17.626911Z",
+      "elapsed": 0.2,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
-      "dropped": 0,
-      "staged": 2
+      "sampled": 0,
+      "dropped": 0
     }
   },
-  "key_rr": 1,
+  "key_rr": 3,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
