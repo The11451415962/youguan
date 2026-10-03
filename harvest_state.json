@@ -1,6 +1,39 @@
 {
-  "cursor_utc": "2026-10-03T13:30:26.209235Z",
-  "staging": {},
+  "cursor_utc": "2026-10-03T13:40:20.209235Z",
+  "staging": {
+    "ukbqdI2R3W4": {
+      "video_id": "ukbqdI2R3W4",
+      "title": "Verity X Butter Squishy! 🙃 #asmr #minecraft #squishy",
+      "channel_id": "UC0v8oozANufc2HtM6qJKSOA",
+      "channel_name": "GoghJung Art",
+      "published_at": "2026-10-03T13:35:45Z",
+      "first_seen_at": "2026-10-03T13:40:20.777531Z"
+    },
+    "JlhMng7Z4TY": {
+      "video_id": "JlhMng7Z4TY",
+      "title": "Minecraft&#39;s Fetchprofile Command! #shorts #minecraft",
+      "channel_id": "UCpKlnn8w6AgfVILbeIElLMA",
+      "channel_name": "Spoonman14",
+      "published_at": "2026-10-03T13:30:29Z",
+      "first_seen_at": "2026-10-03T13:40:20.777531Z"
+    },
+    "9xhTqpW5OEk": {
+      "video_id": "9xhTqpW5OEk",
+      "title": "VERITY🥶BACK AGAIN☠️PART 2💥#shorts #minecraft",
+      "channel_id": "UC0b7Ct18HtY9oFfMGSC_Vkw",
+      "channel_name": "KHAQAN GAMERZ",
+      "published_at": "2026-10-03T13:30:38Z",
+      "first_seen_at": "2026-10-03T13:40:20.777531Z"
+    },
+    "ufssoux6uAw": {
+      "video_id": "ufssoux6uAw",
+      "title": "Come faccio ad avere NETHERITE INFINITA? #minecraft #shorts",
+      "channel_id": "UCbbfb2AvqcU10xfDE1D2Hmg",
+      "channel_name": "Honey Bun",
+      "published_at": "2026-10-03T13:30:29Z",
+      "first_seen_at": "2026-10-03T13:40:20.777531Z"
+    }
+  },
   "candidates": {
     "NHh2npox6S4": {
       "video_id": "NHh2npox6S4",
@@ -2045,6 +2078,11 @@
       "at": "2026-10-03T13:30:26.402488Z",
       "results": 0,
       "span_minutes": 5.166666666666667
+    },
+    {
+      "at": "2026-10-03T13:40:20.510451Z",
+      "results": 4,
+      "span_minutes": 9.9
     }
   ],
   "hourly_density": {
@@ -2079,9 +2117,9 @@
       "n": 8
     },
     "21": {
-      "results": 55,
-      "span": 29.833333333333332,
-      "n": 4
+      "results": 59,
+      "span": 39.733333333333334,
+      "n": 5
     }
   },
   "reject_reasons": {
@@ -2094,22 +2132,23 @@
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1021,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 724,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 823,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1317,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1417,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 723
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T13:35:20.634235Z",
-      "elapsed": 0.0,
-      "searched": 0,
+      "at": "2026-10-03T13:40:20.777624Z",
+      "elapsed": 0.3,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 4
     }
   },
-  "key_rr": 3,
+  "key_rr": 4,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
