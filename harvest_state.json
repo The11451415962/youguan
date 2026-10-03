@@ -1,22 +1,6 @@
 {
   "cursor_utc": "2026-10-03T08:10:22.209235Z",
   "staging": {
-    "kbNS3Iuuf7M": {
-      "video_id": "kbNS3Iuuf7M",
-      "title": "Minecraft Skins from McDonald&#39;s - Zombie Hamburglar #minecraft #mcdonalds #shorts",
-      "channel_id": "UCmjhB1a_m2AAVfm46t4KJPw",
-      "channel_name": "Xandrake's World",
-      "published_at": "2026-10-03T08:00:29Z",
-      "first_seen_at": "2026-10-03T08:05:17.734341Z"
-    },
-    "F_4QYy_D0xY": {
-      "video_id": "F_4QYy_D0xY",
-      "title": "شو بتتوقعوا طلعت شخصيات ماين كرافت من اللعبة؟🤔#halo_family #هالو_فاميلي #عمور #ماينكرافت #maincraft",
-      "channel_id": "UCYeQ0yYjnyfHVjos91RfiTw",
-      "channel_name": "HALO Family-هالو فاميلي",
-      "published_at": "2026-10-03T08:00:38Z",
-      "first_seen_at": "2026-10-03T08:05:17.734341Z"
-    },
     "DqRO9T8mG0c": {
       "video_id": "DqRO9T8mG0c",
       "title": "Gen edit #lifeisbutadream #minecraft #countryballs #minecraftshorts",
@@ -144,14 +128,6 @@
       "channel_name": "SketchyStar",
       "published_at": "2026-10-03T08:05:25Z",
       "first_seen_at": "2026-10-03T08:10:23.230025Z"
-    },
-    "ugd2BX6UY60": {
-      "video_id": "ugd2BX6UY60",
-      "title": "You’ve been asking… 👀 #game #minecraft #minecraftmemes #minefort #mc",
-      "channel_id": "UC5CK000-3uOYhLe6fusHIrw",
-      "channel_name": "Minefortcom",
-      "published_at": "2026-10-03T08:05:18Z",
-      "first_seen_at": "2026-10-03T08:10:23.230025Z"
     }
   },
   "candidates": {},
@@ -183,7 +159,10 @@
     "ZCHP94zwgk0": "2026-10-03T08:10:23.230053Z",
     "m2FMs7yN0LM": "2026-10-03T08:10:23.230053Z",
     "9brCWPKouOI": "2026-10-03T08:10:23.230053Z",
-    "sj9nuIsmXKc": "2026-10-03T08:10:23.230053Z"
+    "sj9nuIsmXKc": "2026-10-03T08:10:23.230053Z",
+    "kbNS3Iuuf7M": "2026-10-03T08:15:21.200358Z",
+    "F_4QYy_D0xY": "2026-10-03T08:15:21.200358Z",
+    "ugd2BX6UY60": "2026-10-03T08:15:21.200358Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -289,6 +268,18 @@
     "UCC68JCLJmEtv6rGyqKtdZ7A": {
       "subs": 19700,
       "fetched_at": "2026-10-03T08:10:23.403360Z"
+    },
+    "UC5CK000-3uOYhLe6fusHIrw": {
+      "subs": 22,
+      "fetched_at": "2026-10-03T08:15:21.321033Z"
+    },
+    "UCYeQ0yYjnyfHVjos91RfiTw": {
+      "subs": 300000,
+      "fetched_at": "2026-10-03T08:15:21.321033Z"
+    },
+    "UCmjhB1a_m2AAVfm46t4KJPw": {
+      "subs": 1910,
+      "fetched_at": "2026-10-03T08:15:21.321033Z"
     }
   },
   "search_log": [
@@ -322,28 +313,27 @@
   },
   "reject_reasons": {
     "描述过长(疑口播)": 5,
-    "分类不符": 2
+    "分类不符": 3
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 101,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 102,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 101,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 2,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 101,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 2
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T08:10:23.542862Z",
-      "elapsed": 0.7,
-      "searched": 1,
+      "at": "2026-10-03T08:15:21.462819Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 17
+      "dropped": 0
     }
   },
-  "key_rr": 4
+  "key_rr": 1
 }
