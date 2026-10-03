@@ -468,14 +468,13 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T09:00:36.991895Z",
-      "elapsed": 0.5,
-      "searched": 1,
+      "at": "2026-10-03T09:05:17.833673Z",
+      "elapsed": 0.0,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 0
+      "dropped": 0
     }
   },
   "key_rr": 4
