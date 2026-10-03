@@ -1,0 +1,139 @@
+{
+  "cursor_utc": "2026-10-03T07:54:00.209235Z",
+  "staging": {},
+  "candidates": {},
+  "notified": {},
+  "rejected": {
+    "Mgv5BB4eq5k": "2026-10-03T08:04:00.588219Z",
+    "hj65i3JqgO8": "2026-10-03T08:04:00.588219Z",
+    "gvjwyyEoZWw": "2026-10-03T08:04:00.588219Z",
+    "ajIl0SEbr7o": "2026-10-03T08:04:00.588219Z",
+    "zf1PnSiODsE": "2026-10-03T08:04:00.588219Z",
+    "M0o4vDlcss0": "2026-10-03T08:04:00.588219Z",
+    "B96lNPSYGxI": "2026-10-03T08:04:00.588219Z",
+    "eEi4skpvhZg": "2026-10-03T08:04:00.588219Z",
+    "KbORiv4JLwE": "2026-10-03T08:04:00.588219Z",
+    "XNHfQJ-9gbk": "2026-10-03T08:04:00.588219Z",
+    "kzy7Z3EptVQ": "2026-10-03T08:04:00.588219Z",
+    "KEcHT0C5qv8": "2026-10-03T08:04:00.588219Z",
+    "hm5950YhZYY": "2026-10-03T08:04:00.588219Z",
+    "w84fNIIyPwg": "2026-10-03T08:04:00.588219Z",
+    "AA48W9niSTM": "2026-10-03T08:04:00.588219Z",
+    "HLNs7jrZsFw": "2026-10-03T08:04:00.588219Z",
+    "pHLQBR3kWFI": "2026-10-03T08:04:00.588219Z",
+    "KpAEenxe_G4": "2026-10-03T08:04:00.588219Z",
+    "4PIjz-hem3U": "2026-10-03T08:04:00.588219Z"
+  },
+  "channels": {
+    "UCn2JX81N4Bcz_XOT6aIheaQ": {
+      "subs": 64,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCwynWg0URjYg1jMHjEnv3Fg": {
+      "subs": 1180,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCY3uEh11g_QpP656hq-6r3g": {
+      "subs": 119,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCZFRhQh3e0q7gbtvT6L-5IQ": {
+      "subs": 151,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCvtlXlkFI9j3if4_pbqzoeQ": {
+      "subs": 10300,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCqyOVPqCR1yb6qThbz4OcIw": {
+      "subs": 286,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCxt4ck1jPXTI_Xla63cQWww": {
+      "subs": 2530,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCwF6o4Yu4dC5j166fCAlgMg": {
+      "subs": 280,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCKLwt9ZiNa-HoXTQ0saAYQw": {
+      "subs": 20,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCEorBGWjDQQ0I9FQVGRT-pg": {
+      "subs": 754,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCldCI5K_HmwS_iQX7xqIlPg": {
+      "subs": 2220000,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UC3bPmdRWMYROiIhdEjQVmlQ": {
+      "subs": 15900,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCLkP0-zHYLXZ9eMpw1n7xbA": {
+      "subs": 333,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCBDMJetNt0eio5ktHQq_Y4A": {
+      "subs": 68800,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCHH52fof_QAGh_a35fRxBVQ": {
+      "subs": 103,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCMqKL6KJRLBTGXYmTlkbLsg": {
+      "subs": 3500,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UC-jvqKIiiE5l5ouDP82fqbg": {
+      "subs": 527,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCsK1-6yI1rf5L359ol-C90Q": {
+      "subs": 50,
+      "fetched_at": "2026-10-03T08:04:00.756506Z"
+    }
+  },
+  "search_log": [
+    {
+      "at": "2026-10-03T08:04:00.209235Z",
+      "results": 19,
+      "span_minutes": 20.0
+    }
+  ],
+  "hourly_density": {
+    "15": {
+      "results": 19,
+      "span": 20.0,
+      "n": 1
+    }
+  },
+  "reject_reasons": {
+    "描述过长(疑口播)": 5,
+    "分类不符": 1
+  },
+  "key_usage": {
+    "_day": "2026-10-03",
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 100,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1
+  },
+  "key_quota_fails": {},
+  "stats": {
+    "last_cycle": {
+      "at": "2026-10-03T08:04:00.922405Z",
+      "elapsed": 0.7,
+      "searched": 1,
+      "new": 0,
+      "gated_in": 0,
+      "sampled": 0,
+      "dropped": 0,
+      "staged": 19
+    }
+  },
+  "key_rr": 3
+}
