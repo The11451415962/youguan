@@ -4394,14 +4394,13 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T00:00:37.911934Z",
-      "elapsed": 2.5,
-      "searched": 1,
+      "at": "2026-10-03T00:05:19.292420Z",
+      "elapsed": 0.0,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
-      "dropped": 0,
-      "staged": 1
+      "sampled": 0,
+      "dropped": 0
     }
   },
   "key_rr": 2,
