@@ -61,8 +61,11 @@ jobs:
           # CI 直连 YouTube API（不走本地 Clash 代理）
           CLASH_PROXY_HOST: ''
           CLASH_PROXY_PORT: ''
+          # 初始化模式（手动触发时可选）：只记录已存在的视频，不发邮件
+          # 首次启用监控时必须先跑一次，否则会把所有存量视频当成新视频狂发邮件
+          INIT_MODE: ${{ inputs.init && '1' || '0' }}
         run: |
-          if [ "${{ inputs.init }}" = "true" ]; then
+          if [ "$INIT_MODE" = "1" ]; then
             echo "=== 初始化模式：只记录，不发邮件 ==="
             python yt_monitor.py --init
           else
