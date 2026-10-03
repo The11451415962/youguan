@@ -1,6 +1,47 @@
 {
-  "cursor_utc": "2026-10-03T00:40:18.346199Z",
-  "staging": {},
+  "cursor_utc": "2026-10-03T00:50:21.346199Z",
+  "staging": {
+    "q9YJ2dMciQg": {
+      "video_id": "q9YJ2dMciQg",
+      "title": "how to make a functional elevator #minecraft @brizinhueng",
+      "channel_id": "UCEMoB5wvgxoMSDcqIF-2_3w",
+      "channel_name": "MartianMC",
+      "published_at": "2026-10-03T00:46:21Z",
+      "first_seen_at": "2026-10-03T00:50:22.436252Z"
+    },
+    "g_jX5HhiaCQ": {
+      "video_id": "g_jX5HhiaCQ",
+      "title": "HEROBRINE vs Mi NOVIA: El final que nadie se esperaba #minecraftanimation #minecraft",
+      "channel_id": "UCXkJ4pEp3W9ACeMKs-Hanjg",
+      "channel_name": "betilloMC",
+      "published_at": "2026-10-03T00:46:49Z",
+      "first_seen_at": "2026-10-03T00:50:22.436252Z"
+    },
+    "IQ7wykrpFkM": {
+      "video_id": "IQ7wykrpFkM",
+      "title": "Auto xp fram 80 level in 10 second #gaming #minecraft #minecraft #gameplay #games",
+      "channel_id": "UCH_d8aWgqUyBIFgkeLIpnzg",
+      "channel_name": "Hiper.gaming.G",
+      "published_at": "2026-10-03T00:43:44Z",
+      "first_seen_at": "2026-10-03T00:50:22.436252Z"
+    },
+    "mvVXhIYnEpY": {
+      "video_id": "mvVXhIYnEpY",
+      "title": "Nueva Dimensión en #minecraft #minecraftshorts #youtubeshorts #shorts",
+      "channel_id": "UCOXmWSoPMWgkwSRvR4mFcgA",
+      "channel_name": "Zidakc",
+      "published_at": "2026-10-03T00:45:37Z",
+      "first_seen_at": "2026-10-03T00:50:22.436252Z"
+    },
+    "qyKJQyovQKM": {
+      "video_id": "qyKJQyovQKM",
+      "title": "💡 Minecraft Mein Banayi Secret Light 😱🔥 | OP Lighting Build #Minecraft #Shorts",
+      "channel_id": "UCtwCYhOUzNNsWpdxRn2IiJQ",
+      "channel_name": "krish Raj gaming 5040",
+      "published_at": "2026-10-03T00:44:52Z",
+      "first_seen_at": "2026-10-03T00:50:22.436252Z"
+    }
+  },
   "candidates": {},
   "notified": {
     "MHMgXmR_djs": "2026-10-02T17:05:22.651108Z",
@@ -4397,11 +4438,6 @@
   },
   "search_log": [
     {
-      "at": "2026-10-02T18:25:19.627463Z",
-      "results": 15,
-      "span_minutes": 8.266666666666667
-    },
-    {
       "at": "2026-10-02T18:30:30.879253Z",
       "results": 5,
       "span_minutes": 6.8
@@ -4645,6 +4681,11 @@
       "at": "2026-10-03T00:40:18.706549Z",
       "results": 6,
       "span_minutes": 9.85
+    },
+    {
+      "at": "2026-10-03T00:50:22.090325Z",
+      "results": 5,
+      "span_minutes": 10.05
     }
   ],
   "hourly_density": {
@@ -4704,9 +4745,9 @@
       "n": 8
     },
     "8": {
-      "results": 77,
-      "span": 39.68333333333334,
-      "n": 4
+      "results": 82,
+      "span": 49.733333333333334,
+      "n": 5
     }
   },
   "reject_reasons": {
@@ -4718,7 +4759,7 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2538,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2638,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1350,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1647,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 9500,
@@ -4736,17 +4777,17 @@
   },
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T00:45:24.897696Z",
-      "elapsed": 0.7,
-      "searched": 0,
+      "at": "2026-10-03T00:50:22.090325Z",
+      "elapsed": 0.3,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 1,
-      "quota_blocked": 1
+      "dropped": 0,
+      "staged": 5
     }
   },
-  "key_rr": 0,
+  "key_rr": 1,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
