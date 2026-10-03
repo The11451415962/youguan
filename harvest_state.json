@@ -1,15 +1,6 @@
 {
   "cursor_utc": "2026-10-03T01:00:33.346199Z",
-  "staging": {
-    "czPmXEMjVMI": {
-      "video_id": "czPmXEMjVMI",
-      "title": "this has to be one of the most comfortable bases in minecraft...",
-      "channel_id": "UCgPDHUMb6gkhC8A1XAOuyig",
-      "channel_name": "休息",
-      "published_at": "2026-10-03T00:53:39Z",
-      "first_seen_at": "2026-10-03T01:00:35.086886Z"
-    }
-  },
+  "staging": {},
   "candidates": {},
   "notified": {
     "MHMgXmR_djs": "2026-10-02T17:05:22.651108Z",
@@ -941,7 +932,8 @@
     "qyKJQyovQKM": "2026-10-03T00:55:17.136061Z",
     "mvVXhIYnEpY": "2026-10-03T01:00:35.086897Z",
     "q9YJ2dMciQg": "2026-10-03T01:00:35.086897Z",
-    "g_jX5HhiaCQ": "2026-10-03T01:00:35.086897Z"
+    "g_jX5HhiaCQ": "2026-10-03T01:00:35.086897Z",
+    "czPmXEMjVMI": "2026-10-03T01:05:17.995685Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -4427,6 +4419,10 @@
     "UCEMoB5wvgxoMSDcqIF-2_3w": {
       "subs": 235000,
       "fetched_at": "2026-10-03T01:00:35.212808Z"
+    },
+    "UCgPDHUMb6gkhC8A1XAOuyig": {
+      "subs": 1500,
+      "fetched_at": "2026-10-03T01:05:18.146518Z"
     }
   },
   "search_log": [
@@ -4754,9 +4750,9 @@
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2639,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1352,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1648,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1649,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 9500,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1549,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1550,
     "_dead": [
       "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY"
     ]
@@ -4770,17 +4766,16 @@
   },
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T01:00:34.073314Z",
-      "elapsed": 2.0,
-      "searched": 1,
+      "at": "2026-10-03T01:05:17.995674Z",
+      "elapsed": 0.2,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 1
+      "dropped": 0
     }
   },
-  "key_rr": 2,
+  "key_rr": 0,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
