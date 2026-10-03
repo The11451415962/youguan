@@ -1,22 +1,6 @@
 {
   "cursor_utc": "2026-10-03T12:00:41.209235Z",
   "staging": {
-    "3BGRDtCSMZs": {
-      "video_id": "3BGRDtCSMZs",
-      "title": "#shorts #minecraft #minecrafter #minecraftshorts #shortsfeed #viral #memes #minecraftmemes",
-      "channel_id": "UCO2OBz9XJIo0ttunuKU9Bxg",
-      "channel_name": "LUMA CRAFT",
-      "published_at": "2026-10-03T11:53:57Z",
-      "first_seen_at": "2026-10-03T11:55:16.098470Z"
-    },
-    "141t6fQFdU8": {
-      "video_id": "141t6fQFdU8",
-      "title": "TAG DE MI COLECCIÓN 🔥 #dragonball #minecraft #komisancantcommunicate #poppyplaytime",
-      "channel_id": "UC0IDWJ7EFIKPrbPnUjnovgA",
-      "channel_name": "LaNerea17",
-      "published_at": "2026-10-03T11:51:04Z",
-      "first_seen_at": "2026-10-03T11:55:16.098470Z"
-    },
     "FZ3WhOK-SnU": {
       "video_id": "FZ3WhOK-SnU",
       "title": "AMAZING &amp; FUNNY Technoblade 👑🐷 Minecraft Candy Cutting ASMR! 🤯 #minecraft #memes",
@@ -331,7 +315,9 @@
     "XJyWUGlG35g": "2026-10-03T11:45:21.728244Z",
     "Ov7gTL6MQy4": "2026-10-03T11:45:21.728244Z",
     "YtsHHwR4n-E": "2026-10-03T11:45:21.728244Z",
-    "haT7wP1PFDA": "2026-10-03T12:00:42.623824Z"
+    "haT7wP1PFDA": "2026-10-03T12:00:42.623824Z",
+    "141t6fQFdU8": "2026-10-03T12:05:19.997086Z",
+    "3BGRDtCSMZs": "2026-10-03T12:05:19.997086Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1333,6 +1319,14 @@
     "UCMA0pEwnwfIgscCM9XdxQIg": {
       "subs": 1190,
       "fetched_at": "2026-10-03T12:00:42.754849Z"
+    },
+    "UCO2OBz9XJIo0ttunuKU9Bxg": {
+      "subs": 109,
+      "fetched_at": "2026-10-03T12:05:20.116906Z"
+    },
+    "UC0IDWJ7EFIKPrbPnUjnovgA": {
+      "subs": 673,
+      "fetched_at": "2026-10-03T12:05:20.116906Z"
     }
   },
   "search_log": [
@@ -1531,13 +1525,13 @@
   },
   "reject_reasons": {
     "描述过长(疑口播)": 40,
-    "分类不符": 41,
+    "分类不符": 42,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 715,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 517,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 716,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 518,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 517,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1012,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 616
@@ -1545,17 +1539,16 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T12:00:44.563552Z",
-      "elapsed": 2.8,
-      "searched": 1,
+      "at": "2026-10-03T12:05:20.254952Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
-      "dropped": 0,
-      "staged": 1
+      "sampled": 0,
+      "dropped": 0
     }
   },
-  "key_rr": 0,
+  "key_rr": 2,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
