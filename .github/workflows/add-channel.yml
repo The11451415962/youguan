@@ -1,0 +1,77 @@
+name: 添加监控频道
+
+# 一键添加：在 GitHub 网页或手机上点几下就行，不需要改文件。
+# 会自动：解析链接 → 查重 → 加进 config.json → 预置历史种子（防误报）
+on:
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: '频道链接 / @handle / UCxxxx（多个用空格或换行分隔）'
+        required: true
+        type: string
+      display_name:
+        description: '自定义显示名（留空 = 用频道原名）'
+        required: false
+        type: string
+      dry_run:
+        description: '只预览不修改（勾上先看看解析对不对）'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  add-channel:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 添加频道
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          CLASH_PROXY_HOST: ''
+          CLASH_PROXY_PORT: ''
+          CHANNEL_INPUT: ${{ inputs.channel }}
+          DISPLAY_NAME: ${{ inputs.display_name }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          ARGS=""
+          [ -n "$DISPLAY_NAME" ] && ARGS="$ARGS --name \"$DISPLAY_NAME\""
+          [ "$DRY_RUN" = "true" ] && ARGS="$ARGS --dry-run"
+
+          # 把输入按空格/换行拆成多个参数
+          REFS=$(echo "$CHANNEL_INPUT" | tr '\n' ' ')
+          echo "=== 要添加的频道 ==="
+          echo "$REFS"
+          echo ""
+
+          eval python add_channel.py $ARGS $REFS
+
+      - name: 提交改动
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name  "add-channel-bot"
+          git config user.email "add-channel-bot@users.noreply.github.com"
+          # 脚本已经通过 API 推送了，这里只做兜底：如果本地有未提交的改动也一并提交
+          if ! git diff --quiet config.json history.json 2>/dev/null; then
+            git add -f config.json history.json
+            git commit -q -m "feat: 新增监控频道 [skip ci]"
+            git pull --rebase --autostash -q origin main || true
+            git push -q origin HEAD:main && echo "✓ 兜底提交完成" || echo "✗ 提交失败"
+          else
+            echo "（脚本已通过 API 直接推送，无需兜底提交）"
+          fi
