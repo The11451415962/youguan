@@ -1,6 +1,15 @@
 {
-  "cursor_utc": "2026-10-03T10:40:21.209235Z",
-  "staging": {},
+  "cursor_utc": "2026-10-03T10:50:21.209235Z",
+  "staging": {
+    "7zZ0qi0ndto": {
+      "video_id": "7zZ0qi0ndto",
+      "title": "Mod này biến Minecraft thành công viên giải trí | Nam_lười",
+      "channel_id": "UCiv2fLryrV7x5q4t6fUgOmg",
+      "channel_name": "Nam_lười",
+      "published_at": "2026-10-03T10:41:24Z",
+      "first_seen_at": "2026-10-03T10:50:21.890370Z"
+    }
+  },
   "candidates": {
     "NHh2npox6S4": {
       "video_id": "NHh2npox6S4",
@@ -1155,6 +1164,11 @@
       "at": "2026-10-03T10:40:21.279527Z",
       "results": 8,
       "span_minutes": 9.9
+    },
+    {
+      "at": "2026-10-03T10:50:21.610026Z",
+      "results": 1,
+      "span_minutes": 10.0
     }
   ],
   "hourly_density": {
@@ -1174,9 +1188,9 @@
       "n": 8
     },
     "18": {
-      "results": 55,
-      "span": 39.699999999999996,
-      "n": 5
+      "results": 56,
+      "span": 49.699999999999996,
+      "n": 6
     }
   },
   "reject_reasons": {
@@ -1189,22 +1203,23 @@
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 610,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 412,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 313,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 510,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 610,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 510
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T10:45:21.520997Z",
-      "elapsed": 0.4,
-      "searched": 0,
+      "at": "2026-10-03T10:50:21.890455Z",
+      "elapsed": 0.3,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 1
     }
   },
-  "key_rr": 3,
+  "key_rr": 4,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
