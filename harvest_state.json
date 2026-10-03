@@ -1,14 +1,6 @@
 {
   "cursor_utc": "2026-10-03T14:27:37.209235Z",
   "staging": {
-    "EXpZubN5TOw": {
-      "video_id": "EXpZubN5TOw",
-      "title": "NEW ARMOUR RECIPE?! 😱⚔️ #shorts # #minecraft #gaming",
-      "channel_id": "UC1QeXbtd35ynrd7LEVmczsg",
-      "channel_name": "Are_U_Not",
-      "published_at": "2026-10-03T14:17:41Z",
-      "first_seen_at": "2026-10-03T14:25:23.002691Z"
-    },
     "QgxqHiKGTfU": {
       "video_id": "QgxqHiKGTfU",
       "title": "Testing Every Helmet in Minecraft",
@@ -552,7 +544,8 @@
     "jeu8ETSDTuE": "2026-10-03T14:27:37.668850Z",
     "H9loZ_Xh3Qk": "2026-10-03T14:27:37.668850Z",
     "U6x-k0FcjQU": "2026-10-03T14:27:37.668850Z",
-    "Qo0_nbsHuko": "2026-10-03T14:27:37.668850Z"
+    "Qo0_nbsHuko": "2026-10-03T14:27:37.668850Z",
+    "EXpZubN5TOw": "2026-10-03T14:30:28.234225Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -2222,6 +2215,10 @@
     "UCylfTCdBgKql1VHTPeK5G_w": {
       "subs": 1890,
       "fetched_at": "2026-10-03T14:27:37.830010Z"
+    },
+    "UC1QeXbtd35ynrd7LEVmczsg": {
+      "subs": 186,
+      "fetched_at": "2026-10-03T14:30:28.412558Z"
     }
   },
   "search_log": [
@@ -2526,25 +2523,24 @@
   "key_usage": {
     "_day": "2026-10-03",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1223,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 826,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 925,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 827,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 926,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1519,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 826
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T14:27:37.954434Z",
-      "elapsed": 0.6,
-      "searched": 1,
+      "at": "2026-10-03T14:30:28.544240Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
-      "gated_in": 1,
+      "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 4
+      "dropped": 0
     }
   },
-  "key_rr": 1,
+  "key_rr": 3,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
