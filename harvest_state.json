@@ -1,13 +1,45 @@
 {
-  "cursor_utc": "2026-10-03T09:30:26.209235Z",
+  "cursor_utc": "2026-10-03T09:40:21.209235Z",
   "staging": {
-    "BE0Baibvdxs": {
-      "video_id": "BE0Baibvdxs",
-      "title": "why its so hard #minecraft #games #trending #viral #shorts",
-      "channel_id": "UCPbmIopjwRIbtdPEzJsGA8w",
-      "channel_name": "VAMPSTER GAMING",
-      "published_at": "2026-10-03T09:25:24Z",
-      "first_seen_at": "2026-10-03T09:30:27.422849Z"
+    "Rx4ZTI5gWrA": {
+      "video_id": "Rx4ZTI5gWrA",
+      "title": "Рыхлый снег может вам пригодиться! #minecraft #shorts #denqon",
+      "channel_id": "UCKv210k6vNbPR8Jwx2jINOA",
+      "channel_name": "Denqon",
+      "published_at": "2026-10-03T09:30:53Z",
+      "first_seen_at": "2026-10-03T09:40:22.110059Z"
+    },
+    "T_9Z53klvYg": {
+      "video_id": "T_9Z53klvYg",
+      "title": "BU MODU DAHA ÖNCE GÖRMEDİN!!! #minecraft",
+      "channel_id": "UCHGyzyJXbKjdYPakXnV7aBA",
+      "channel_name": "Porsuk",
+      "published_at": "2026-10-03T09:30:31Z",
+      "first_seen_at": "2026-10-03T09:40:22.110059Z"
+    },
+    "JdFPWCBvBF4": {
+      "video_id": "JdFPWCBvBF4",
+      "title": "Cracked Donut Public SMP Server Minecraft 2026",
+      "channel_id": "UC4zgPuGut1jet2QlROOI6DA",
+      "channel_name": "Clasher Network",
+      "published_at": "2026-10-03T09:30:37Z",
+      "first_seen_at": "2026-10-03T09:40:22.110059Z"
+    },
+    "TeCTyS3Obp4": {
+      "video_id": "TeCTyS3Obp4",
+      "title": "I Finally Completed My Beacon | Minecraft",
+      "channel_id": "UCMAOB6Rboim3kE-eiLIKEnQ",
+      "channel_name": "X SHADOW MAX",
+      "published_at": "2026-10-03T09:30:33Z",
+      "first_seen_at": "2026-10-03T09:40:22.110059Z"
+    },
+    "XygvouN_lu4": {
+      "video_id": "XygvouN_lu4",
+      "title": "Minecraft themed Kids bottles #funny #shorts hort",
+      "channel_id": "UCpBD7eSSQyGeX1TtEEjvsbg",
+      "channel_name": "MamaBahnja",
+      "published_at": "2026-10-03T09:30:27Z",
+      "first_seen_at": "2026-10-03T09:40:22.110059Z"
     }
   },
   "candidates": {},
@@ -153,7 +185,8 @@
     "IP0_hkChoTU": "2026-10-03T09:30:27.422858Z",
     "5WwaLoOb-Qk": "2026-10-03T09:35:19.457278Z",
     "uy7Kf5d-kCE": "2026-10-03T09:35:19.457278Z",
-    "VU2L7b8pY04": "2026-10-03T09:35:19.457278Z"
+    "VU2L7b8pY04": "2026-10-03T09:35:19.457278Z",
+    "BE0Baibvdxs": "2026-10-03T09:40:22.110078Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -707,6 +740,10 @@
     "UC5U8JkNAh0LnhNmX3vG7N0g": {
       "subs": 187000,
       "fetched_at": "2026-10-03T09:35:19.599399Z"
+    },
+    "UCPbmIopjwRIbtdPEzJsGA8w": {
+      "subs": 440,
+      "fetched_at": "2026-10-03T09:40:22.223227Z"
     }
   },
   "search_log": [
@@ -779,6 +816,11 @@
       "at": "2026-10-03T09:30:26.829207Z",
       "results": 1,
       "span_minutes": 5.166666666666667
+    },
+    {
+      "at": "2026-10-03T09:40:21.845728Z",
+      "results": 5,
+      "span_minutes": 9.916666666666666
     }
   ],
   "hourly_density": {
@@ -793,9 +835,9 @@
       "n": 8
     },
     "17": {
-      "results": 64,
-      "span": 29.833333333333332,
-      "n": 4
+      "results": 69,
+      "span": 39.75,
+      "n": 5
     }
   },
   "reject_reasons": {
@@ -805,23 +847,24 @@
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 505,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 506,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 307,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 208,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 207,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 207
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 307,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 208
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T09:35:19.722475Z",
-      "elapsed": 0.3,
-      "searched": 0,
+      "at": "2026-10-03T09:40:22.311401Z",
+      "elapsed": 0.5,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 5
     }
   },
-  "key_rr": 3
+  "key_rr": 1
 }
