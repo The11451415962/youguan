@@ -1,31 +1,6 @@
 {
-  "cursor_utc": "2026-10-03T09:55:16.209235Z",
-  "staging": {
-    "Qr7fYVJ-Sns": {
-      "video_id": "Qr7fYVJ-Sns",
-      "title": "Villagers react to drinking different potions (Villager news addon) #minecraft",
-      "channel_id": "UCb2qosfBJOkifg09gzXT4tA",
-      "channel_name": "wilsef",
-      "published_at": "2026-10-03T09:47:45Z",
-      "first_seen_at": "2026-10-03T09:55:17.410391Z"
-    },
-    "T38ntRFMfVI": {
-      "video_id": "T38ntRFMfVI",
-      "title": "Cool Rotating Armor in Minecraft....🤔 (INSANE) #minecraft #shorts",
-      "channel_id": "UCOOUuwm1HQ7CNlx25JxUm3A",
-      "channel_name": "MineLand",
-      "published_at": "2026-10-03T09:47:03Z",
-      "first_seen_at": "2026-10-03T09:55:17.410391Z"
-    },
-    "Q_kkXknBrvY": {
-      "video_id": "Q_kkXknBrvY",
-      "title": "automatic machine #minecraft #minecraftsurvival  #trending #viral #trendingshorts",
-      "channel_id": "UC_8PodAnGckEYyOzy0_dUsw",
-      "channel_name": "PENNY ON FIRE",
-      "published_at": "2026-10-03T09:45:31Z",
-      "first_seen_at": "2026-10-03T09:55:17.410391Z"
-    }
-  },
+  "cursor_utc": "2026-10-03T10:00:39.209235Z",
+  "staging": {},
   "candidates": {},
   "notified": {},
   "rejected": {
@@ -175,7 +150,10 @@
     "T_9Z53klvYg": "2026-10-03T09:45:21.965392Z",
     "TeCTyS3Obp4": "2026-10-03T09:45:21.965392Z",
     "JdFPWCBvBF4": "2026-10-03T09:45:21.965392Z",
-    "Rx4ZTI5gWrA": "2026-10-03T09:45:21.965392Z"
+    "Rx4ZTI5gWrA": "2026-10-03T09:45:21.965392Z",
+    "Q_kkXknBrvY": "2026-10-03T10:00:40.129918Z",
+    "T38ntRFMfVI": "2026-10-03T10:00:40.129918Z",
+    "Qr7fYVJ-Sns": "2026-10-03T10:00:40.129918Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -753,6 +731,18 @@
     "UC4zgPuGut1jet2QlROOI6DA": {
       "subs": 219,
       "fetched_at": "2026-10-03T09:45:22.104706Z"
+    },
+    "UC_8PodAnGckEYyOzy0_dUsw": {
+      "subs": 7770,
+      "fetched_at": "2026-10-03T10:00:40.920890Z"
+    },
+    "UCb2qosfBJOkifg09gzXT4tA": {
+      "subs": 30700,
+      "fetched_at": "2026-10-03T10:00:40.920890Z"
+    },
+    "UCOOUuwm1HQ7CNlx25JxUm3A": {
+      "subs": 5070000,
+      "fetched_at": "2026-10-03T10:00:40.920890Z"
     }
   },
   "search_log": [
@@ -840,6 +830,11 @@
       "at": "2026-10-03T09:55:17.095087Z",
       "results": 3,
       "span_minutes": 9.916666666666666
+    },
+    {
+      "at": "2026-10-03T10:00:39.594612Z",
+      "results": 0,
+      "span_minutes": 5.383333333333334
     }
   ],
   "hourly_density": {
@@ -855,35 +850,35 @@
     },
     "17": {
       "results": 72,
-      "span": 54.666666666666664,
-      "n": 7
+      "span": 60.05,
+      "n": 8
     }
   },
   "reject_reasons": {
-    "描述过长(疑口播)": 22,
+    "描述过长(疑口播)": 23,
     "分类不符": 17,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 506,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 407,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 209,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 606,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 408,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 210,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 308,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 308
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T09:55:17.410480Z",
-      "elapsed": 0.3,
+      "at": "2026-10-03T10:00:41.694275Z",
+      "elapsed": 2.1,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 3
+      "staged": 0
     }
   },
-  "key_rr": 0
+  "key_rr": 3
 }
