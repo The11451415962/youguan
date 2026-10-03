@@ -1,14 +1,6 @@
 {
   "cursor_utc": "2026-10-03T08:30:26.209235Z",
   "staging": {
-    "Dvka0a8SENs": {
-      "video_id": "Dvka0a8SENs",
-      "title": "On a SURVÉCU 100 JOURS en ULTRA HARDCORE en DUO [ FILM ] ft Jycrox  #minecraft #minecraftfrancais",
-      "channel_id": "UC8j0X487-wpdfwx9UNcCCOg",
-      "channel_name": "Kalei",
-      "published_at": "2026-10-03T08:22:14Z",
-      "first_seen_at": "2026-10-03T08:25:22.019872Z"
-    },
     "u6nMCfhfQvo": {
       "video_id": "u6nMCfhfQvo",
       "title": "チリ版マインクラフトでエンドラ討伐 #マイクラ #マインクラフト #shotrs #minecraft",
@@ -94,7 +86,8 @@
     "rAyuOliqnMk": "2026-10-03T08:30:27.004484Z",
     "UAWkmV1cNM4": "2026-10-03T08:30:27.004484Z",
     "WWU8zBjyZsk": "2026-10-03T08:30:27.004484Z",
-    "Tn06v63ZBSw": "2026-10-03T08:30:27.004484Z"
+    "Tn06v63ZBSw": "2026-10-03T08:30:27.004484Z",
+    "Dvka0a8SENs": "2026-10-03T08:35:19.980322Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -352,6 +345,10 @@
     "UC7Af1OVtYi-Sua2r4Llt-rg": {
       "subs": 106,
       "fetched_at": "2026-10-03T08:30:27.130659Z"
+    },
+    "UC8j0X487-wpdfwx9UNcCCOg": {
+      "subs": 557,
+      "fetched_at": "2026-10-03T08:35:20.091442Z"
     }
   },
   "search_log": [
@@ -399,13 +396,13 @@
     }
   },
   "reject_reasons": {
-    "描述过长(疑口播)": 11,
+    "描述过长(疑口播)": 12,
     "分类不符": 8
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 103,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 202,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 104,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 203,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 103,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 103,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 103
@@ -413,15 +410,14 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T08:30:27.228148Z",
-      "elapsed": 0.6,
-      "searched": 1,
+      "at": "2026-10-03T08:35:20.181194Z",
+      "elapsed": 0.2,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 2
+      "dropped": 0
     }
   },
-  "key_rr": 0
+  "key_rr": 2
 }
