@@ -1,21 +1,13 @@
 {
-  "cursor_utc": "2026-10-03T12:30:37.209235Z",
+  "cursor_utc": "2026-10-03T12:40:19.209235Z",
   "staging": {
-    "q61hlhZXwXU": {
-      "video_id": "q61hlhZXwXU",
-      "title": "Sourav Joshi Minecraft Village Vlog 😂 | Aaj Gaon Mein Kya Hua? | Minecraft Hindi",
-      "channel_id": "UC2GxCSpzqFkBDvbGLelphrA",
-      "channel_name": "@TitanCraft",
-      "published_at": "2026-10-03T12:30:10Z",
-      "first_seen_at": "2026-10-03T12:30:38.204165Z"
-    },
-    "rAetwndYUvM": {
-      "video_id": "rAetwndYUvM",
-      "title": "Minecraft Logic",
-      "channel_id": "UCI0TErrYJTPdIpoA87lATmg",
-      "channel_name": "NOT_Shyam",
-      "published_at": "2026-10-03T12:29:15Z",
-      "first_seen_at": "2026-10-03T12:30:38.204165Z"
+    "LGoIkwS0CLM": {
+      "video_id": "LGoIkwS0CLM",
+      "title": "Best ore in minecraft #minecraft #shortsfeed #fyp",
+      "channel_id": "UCbBJ52e_TM0mrTvgCZeo7LQ",
+      "channel_name": "The Notch ",
+      "published_at": "2026-10-03T12:31:12Z",
+      "first_seen_at": "2026-10-03T12:40:20.374623Z"
     }
   },
   "candidates": {
@@ -366,7 +358,9 @@
     "hG4X2w0tbyI": "2026-10-03T12:35:24.382977Z",
     "6_GAwyn-pCE": "2026-10-03T12:35:24.382977Z",
     "mLdvkfh_K6o": "2026-10-03T12:35:24.382977Z",
-    "EcRl-KZcaNc": "2026-10-03T12:35:24.382977Z"
+    "EcRl-KZcaNc": "2026-10-03T12:35:24.382977Z",
+    "rAetwndYUvM": "2026-10-03T12:40:20.374631Z",
+    "q61hlhZXwXU": "2026-10-03T12:40:20.374631Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1528,6 +1522,14 @@
     "UC3LV8lnFTTpsumv6pgoWpuw": {
       "subs": 986,
       "fetched_at": "2026-10-03T12:35:24.571392Z"
+    },
+    "UCI0TErrYJTPdIpoA87lATmg": {
+      "subs": 1570,
+      "fetched_at": "2026-10-03T12:40:20.493778Z"
+    },
+    "UC2GxCSpzqFkBDvbGLelphrA": {
+      "subs": 228,
+      "fetched_at": "2026-10-03T12:40:20.493778Z"
     }
   },
   "search_log": [
@@ -1715,6 +1717,11 @@
       "at": "2026-10-03T12:30:37.727591Z",
       "results": 7,
       "span_minutes": 10.266666666666667
+    },
+    {
+      "at": "2026-10-03T12:40:20.056759Z",
+      "results": 1,
+      "span_minutes": 9.7
     }
   ],
   "hourly_density": {
@@ -1744,37 +1751,38 @@
       "n": 8
     },
     "20": {
-      "results": 42,
-      "span": 29.933333333333337,
-      "n": 4
+      "results": 43,
+      "span": 39.63333333333334,
+      "n": 5
     }
   },
   "reject_reasons": {
-    "描述过长(疑口播)": 46,
+    "描述过长(疑口播)": 47,
     "分类不符": 49,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 818,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 819,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 521,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 620,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1213,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 619
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1313,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 620
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T12:35:24.706699Z",
-      "elapsed": 0.3,
-      "searched": 0,
+      "at": "2026-10-03T12:40:20.659430Z",
+      "elapsed": 0.6,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 1
     }
   },
-  "key_rr": 3,
+  "key_rr": 1,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
