@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-03T09:25:16.209235Z",
+  "cursor_utc": "2026-10-03T09:30:26.209235Z",
   "staging": {
     "5WwaLoOb-Qk": {
       "video_id": "5WwaLoOb-Qk",
@@ -25,37 +25,13 @@
       "published_at": "2026-10-03T09:23:26Z",
       "first_seen_at": "2026-10-03T09:25:16.838965Z"
     },
-    "IP0_hkChoTU": {
-      "video_id": "IP0_hkChoTU",
-      "title": "Completing The Server [Day-5}...Making The storage Area #minecraft #gaming",
-      "channel_id": "UC_BhXZvZgj_jE4U7-k-XdHA",
-      "channel_name": "Aura Gaming 369",
-      "published_at": "2026-10-03T09:19:53Z",
-      "first_seen_at": "2026-10-03T09:25:16.838965Z"
-    },
-    "EuxQSEK5hco": {
-      "video_id": "EuxQSEK5hco",
-      "title": "Lỗi Game Siêu Vô Lý Trong Minecraft 😱",
-      "channel_id": "UCrAeGbKPMnHmKxWsN7kA_Aw",
-      "channel_name": "ArisMC",
-      "published_at": "2026-10-03T09:15:26Z",
-      "first_seen_at": "2026-10-03T09:25:16.838965Z"
-    },
-    "BUnDyAkbeAA": {
-      "video_id": "BUnDyAkbeAA",
-      "title": "rank Top 7 | minecraft fastest pickaxe  | #minecraft reaction.",
-      "channel_id": "UCrP9E8taC4r2Ld5WGd0sMUg",
-      "channel_name": "ROOTURE",
-      "published_at": "2026-10-03T09:15:36Z",
-      "first_seen_at": "2026-10-03T09:25:16.838965Z"
-    },
-    "_bN7Ql_Kk_Q": {
-      "video_id": "_bN7Ql_Kk_Q",
-      "title": "#roblox #minecraft #robloxedit",
-      "channel_id": "UCaw_Z5iwpLDvcot2aLAVDDw",
-      "channel_name": "Anukool Matumma",
-      "published_at": "2026-10-03T09:15:29Z",
-      "first_seen_at": "2026-10-03T09:25:16.838965Z"
+    "BE0Baibvdxs": {
+      "video_id": "BE0Baibvdxs",
+      "title": "why its so hard #minecraft #games #trending #viral #shorts",
+      "channel_id": "UCPbmIopjwRIbtdPEzJsGA8w",
+      "channel_name": "VAMPSTER GAMING",
+      "published_at": "2026-10-03T09:25:24Z",
+      "first_seen_at": "2026-10-03T09:30:27.422849Z"
     }
   },
   "candidates": {},
@@ -194,7 +170,11 @@
     "Thctr9ywr14": "2026-10-03T09:25:16.838983Z",
     "DyaIyIjSC_E": "2026-10-03T09:25:16.838983Z",
     "CAzIWhPiKd8": "2026-10-03T09:25:16.838983Z",
-    "EW10KMpe_Q8": "2026-10-03T09:25:16.838983Z"
+    "EW10KMpe_Q8": "2026-10-03T09:25:16.838983Z",
+    "EuxQSEK5hco": "2026-10-03T09:30:27.422858Z",
+    "_bN7Ql_Kk_Q": "2026-10-03T09:30:27.422858Z",
+    "BUnDyAkbeAA": "2026-10-03T09:30:27.422858Z",
+    "IP0_hkChoTU": "2026-10-03T09:30:27.422858Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -724,6 +704,22 @@
     "UCZk3PdikV-Dgsng8KqkmUag": {
       "subs": 32,
       "fetched_at": "2026-10-03T09:25:17.041583Z"
+    },
+    "UCrP9E8taC4r2Ld5WGd0sMUg": {
+      "subs": 1520,
+      "fetched_at": "2026-10-03T09:30:27.560206Z"
+    },
+    "UCrAeGbKPMnHmKxWsN7kA_Aw": {
+      "subs": 24400,
+      "fetched_at": "2026-10-03T09:30:27.560206Z"
+    },
+    "UCaw_Z5iwpLDvcot2aLAVDDw": {
+      "subs": 4210,
+      "fetched_at": "2026-10-03T09:30:27.560206Z"
+    },
+    "UC_BhXZvZgj_jE4U7-k-XdHA": {
+      "subs": 1440,
+      "fetched_at": "2026-10-03T09:30:27.560206Z"
     }
   },
   "search_log": [
@@ -791,6 +787,11 @@
       "at": "2026-10-03T09:25:16.516665Z",
       "results": 7,
       "span_minutes": 9.85
+    },
+    {
+      "at": "2026-10-03T09:30:26.829207Z",
+      "results": 1,
+      "span_minutes": 5.166666666666667
     }
   ],
   "hourly_density": {
@@ -805,9 +806,9 @@
       "n": 8
     },
     "17": {
-      "results": 63,
-      "span": 24.666666666666664,
-      "n": 3
+      "results": 64,
+      "span": 29.833333333333332,
+      "n": 4
     }
   },
   "reject_reasons": {
@@ -817,24 +818,24 @@
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 504,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 505,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 306,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 207,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 107,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 206
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 207,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 207
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T09:25:17.200237Z",
-      "elapsed": 0.7,
+      "at": "2026-10-03T09:30:27.716822Z",
+      "elapsed": 0.9,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 7
+      "staged": 1
     }
   },
-  "key_rr": 3
+  "key_rr": 1
 }
