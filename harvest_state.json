@@ -1,21 +1,53 @@
 {
-  "cursor_utc": "2026-10-03T12:20:21.209235Z",
+  "cursor_utc": "2026-10-03T12:30:37.209235Z",
   "staging": {
-    "7w3Lm_Pdc1s": {
-      "video_id": "7w3Lm_Pdc1s",
-      "title": "Minecraft pero soy un pollo (escondite)  #minecraft #gameplay #memes #meme #humor #gaming #shorts",
-      "channel_id": "UCb9u7mz16KZ_YlGOQq_mZ2w",
-      "channel_name": "furia-felix",
-      "published_at": "2026-10-03T12:18:15Z",
-      "first_seen_at": "2026-10-03T12:20:22.076065Z"
+    "q61hlhZXwXU": {
+      "video_id": "q61hlhZXwXU",
+      "title": "Sourav Joshi Minecraft Village Vlog 😂 | Aaj Gaon Mein Kya Hua? | Minecraft Hindi",
+      "channel_id": "UC2GxCSpzqFkBDvbGLelphrA",
+      "channel_name": "@TitanCraft",
+      "published_at": "2026-10-03T12:30:10Z",
+      "first_seen_at": "2026-10-03T12:30:38.204165Z"
     },
-    "kt0E2VjoIig": {
-      "video_id": "kt0E2VjoIig",
-      "title": "Mod này biến bạn thành pháp sư bá đạo nhất Minecraft | Nam_lười",
-      "channel_id": "UCiv2fLryrV7x5q4t6fUgOmg",
-      "channel_name": "Nam_lười",
-      "published_at": "2026-10-03T12:17:32Z",
-      "first_seen_at": "2026-10-03T12:20:22.076065Z"
+    "rAetwndYUvM": {
+      "video_id": "rAetwndYUvM",
+      "title": "Minecraft Logic",
+      "channel_id": "UCI0TErrYJTPdIpoA87lATmg",
+      "channel_name": "NOT_Shyam",
+      "published_at": "2026-10-03T12:29:15Z",
+      "first_seen_at": "2026-10-03T12:30:38.204165Z"
+    },
+    "EcRl-KZcaNc": {
+      "video_id": "EcRl-KZcaNc",
+      "title": "Mipan &amp; Zuzuzu Prank Villager Untuk Mendapatkan Diamond! Minecraft",
+      "channel_id": "UCNE2TAo3T63lpBbYuI_SeRw",
+      "channel_name": "AKUDAV & AKUDAP Shorts",
+      "published_at": "2026-10-03T12:25:05Z",
+      "first_seen_at": "2026-10-03T12:30:38.204165Z"
+    },
+    "mLdvkfh_K6o": {
+      "video_id": "mLdvkfh_K6o",
+      "title": "Atun Berubah Menjadi Alien Four Arm #shorts #fyp #viral #minecraft",
+      "channel_id": "UClfw7Mx0Vmh4hDAT0STSohw",
+      "channel_name": "BANGJBLOX",
+      "published_at": "2026-10-03T12:21:37Z",
+      "first_seen_at": "2026-10-03T12:30:38.204165Z"
+    },
+    "hG4X2w0tbyI": {
+      "video_id": "hG4X2w0tbyI",
+      "title": "Bro Regretted This Immediately 💥 #shorts",
+      "channel_id": "UC3LV8lnFTTpsumv6pgoWpuw",
+      "channel_name": "Bhuvi_Vrs",
+      "published_at": "2026-10-03T12:20:44Z",
+      "first_seen_at": "2026-10-03T12:30:38.204165Z"
+    },
+    "6_GAwyn-pCE": {
+      "video_id": "6_GAwyn-pCE",
+      "title": "MINECRAFT 2014 VS 2024 #minecraft #ytshorts",
+      "channel_id": "UCV92N0SS2uf3qMd3qsbdu2A",
+      "channel_name": "DRAXON99 ",
+      "published_at": "2026-10-03T12:21:19Z",
+      "first_seen_at": "2026-10-03T12:30:38.204165Z"
     }
   },
   "candidates": {
@@ -359,7 +391,10 @@
     "3usuB8uGRg8": "2026-10-03T12:25:18.346181Z",
     "tpvqds8WPBw": "2026-10-03T12:25:18.346181Z",
     "0yZsD4qQ5Js": "2026-10-03T12:25:18.346181Z",
-    "52sBOrIAeGM": "2026-10-03T12:25:18.346181Z"
+    "52sBOrIAeGM": "2026-10-03T12:25:18.346181Z",
+    "kt0E2VjoIig": "2026-10-03T12:30:38.204181Z",
+    "7w3Lm_Pdc1s": "2026-10-03T12:30:38.204181Z",
+    "ga2rQxMpnPw": "2026-10-03T12:30:38.204181Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1497,6 +1532,14 @@
     "UCIjb0v_uoQ_CTrKS_PrqONg": {
       "subs": 1100,
       "fetched_at": "2026-10-03T12:25:18.542270Z"
+    },
+    "UCxWUem7TeWZwDOPq1e4GmKw": {
+      "subs": 1010,
+      "fetched_at": "2026-10-03T12:30:38.322878Z"
+    },
+    "UCb9u7mz16KZ_YlGOQq_mZ2w": {
+      "subs": 1390,
+      "fetched_at": "2026-10-03T12:30:38.322878Z"
     }
   },
   "search_log": [
@@ -1679,6 +1722,11 @@
       "at": "2026-10-03T12:20:21.755365Z",
       "results": 2,
       "span_minutes": 5.0
+    },
+    {
+      "at": "2026-10-03T12:30:37.727591Z",
+      "results": 7,
+      "span_minutes": 10.266666666666667
     }
   ],
   "hourly_density": {
@@ -1708,37 +1756,38 @@
       "n": 8
     },
     "20": {
-      "results": 35,
-      "span": 19.666666666666668,
-      "n": 3
+      "results": 42,
+      "span": 29.933333333333337,
+      "n": 4
     }
   },
   "reject_reasons": {
-    "描述过长(疑口播)": 45,
-    "分类不符": 48,
+    "描述过长(疑口播)": 46,
+    "分类不符": 49,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 817,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 818,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 520,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 619,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1113,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 618
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1213,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 619
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T12:25:18.690027Z",
-      "elapsed": 0.3,
-      "searched": 0,
+      "at": "2026-10-03T12:30:38.425681Z",
+      "elapsed": 0.7,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 7
     }
   },
-  "key_rr": 3,
+  "key_rr": 1,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
