@@ -8,22 +8,6 @@
       "channel_name": "Anytales",
       "published_at": "2026-10-03T11:27:57Z",
       "first_seen_at": "2026-10-03T11:30:30.222411Z"
-    },
-    "hV-Nj3I811Q": {
-      "video_id": "hV-Nj3I811Q",
-      "title": "#minecraft #minecrafttips #minecrafttricks #minecrafthacks #shorts",
-      "channel_id": "UCkrCuZaEDdQpr9aKCmhF1ng",
-      "channel_name": "vygor",
-      "published_at": "2026-10-03T11:20:43Z",
-      "first_seen_at": "2026-10-03T11:30:30.222411Z"
-    },
-    "-au4L1mpOvY": {
-      "video_id": "-au4L1mpOvY",
-      "title": "Minecraft Starter Castle! 🏯",
-      "channel_id": "UC0kdmQ9EOJNmjbzFe_GQysg",
-      "channel_name": "Zonex Lethal",
-      "published_at": "2026-10-03T11:20:45Z",
-      "first_seen_at": "2026-10-03T11:30:30.222411Z"
     }
   },
   "candidates": {
@@ -312,7 +296,9 @@
     "Kyp365P6iqw": "2026-10-03T11:25:15.700820Z",
     "6kcoUivS73U": "2026-10-03T11:25:15.700820Z",
     "9sgelcxhd7k": "2026-10-03T11:30:30.222432Z",
-    "0yr-mWYjBJQ": "2026-10-03T11:30:30.222432Z"
+    "0yr-mWYjBJQ": "2026-10-03T11:30:30.222432Z",
+    "hV-Nj3I811Q": "2026-10-03T11:35:19.110695Z",
+    "-au4L1mpOvY": "2026-10-03T11:35:19.110695Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1278,6 +1264,14 @@
     "UC_cZkqZ3PyUuiLoVB0eYMTw": {
       "subs": 179,
       "fetched_at": "2026-10-03T11:30:30.327832Z"
+    },
+    "UCkrCuZaEDdQpr9aKCmhF1ng": {
+      "subs": 9,
+      "fetched_at": "2026-10-03T11:35:19.269052Z"
+    },
+    "UC0kdmQ9EOJNmjbzFe_GQysg": {
+      "subs": 22300,
+      "fetched_at": "2026-10-03T11:35:19.269052Z"
     }
   },
   "search_log": [
@@ -1456,31 +1450,30 @@
   },
   "reject_reasons": {
     "描述过长(疑口播)": 37,
-    "分类不符": 39,
+    "分类不符": 40,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-03",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 614,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 415,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 415,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 416,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 416,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 910,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 613
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T11:30:30.418076Z",
-      "elapsed": 0.6,
-      "searched": 1,
+      "at": "2026-10-03T11:35:19.400375Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 3
+      "dropped": 0
     }
   },
-  "key_rr": 1,
+  "key_rr": 3,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
