@@ -1,23 +1,6 @@
 {
-  "cursor_utc": "2026-10-03T08:55:19.209235Z",
-  "staging": {
-    "snqGztUHGmY": {
-      "video_id": "snqGztUHGmY",
-      "title": "Diese Sift Mythen gehen jetzt schon rum aber STIMMEN SIE AUCH??? #minecraft",
-      "channel_id": "UC2gMiqB3ReQeAr0Y69TNjbw",
-      "channel_name": "EisteeMan",
-      "published_at": "2026-10-03T08:46:21Z",
-      "first_seen_at": "2026-10-03T08:55:19.633159Z"
-    },
-    "-z4nb9B-0y8": {
-      "video_id": "-z4nb9B-0y8",
-      "title": "DARK DAY OF LILYVILLE? 😱| Lilyville Day 96",
-      "channel_id": "UCWxcAUWjF3B_S6fFLqOh7Rw",
-      "channel_name": "GamerFleet",
-      "published_at": "2026-10-03T08:46:30Z",
-      "first_seen_at": "2026-10-03T08:55:19.633159Z"
-    }
-  },
+  "cursor_utc": "2026-10-03T09:00:36.209235Z",
+  "staging": {},
   "candidates": {},
   "notified": {},
   "rejected": {
@@ -96,7 +79,9 @@
     "IWNMAQZPiLE": "2026-10-03T08:45:22.652366Z",
     "064O6HRS-ZE": "2026-10-03T08:45:22.652366Z",
     "lLuTn78f_cI": "2026-10-03T08:45:22.652366Z",
-    "hWTUQPCstLs": "2026-10-03T08:50:18.834748Z"
+    "hWTUQPCstLs": "2026-10-03T08:50:18.834748Z",
+    "snqGztUHGmY": "2026-10-03T09:00:36.750059Z",
+    "-z4nb9B-0y8": "2026-10-03T09:00:36.750059Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -394,6 +379,14 @@
     "UCnLdlUtr9rqaBdrL2pcEIAg": {
       "subs": 176000,
       "fetched_at": "2026-10-03T08:50:18.953418Z"
+    },
+    "UC2gMiqB3ReQeAr0Y69TNjbw": {
+      "subs": 10800,
+      "fetched_at": "2026-10-03T09:00:36.880931Z"
+    },
+    "UCWxcAUWjF3B_S6fFLqOh7Rw": {
+      "subs": 6000000,
+      "fetched_at": "2026-10-03T09:00:36.880931Z"
     }
   },
   "search_log": [
@@ -441,6 +434,11 @@
       "at": "2026-10-03T08:55:19.282972Z",
       "results": 2,
       "span_minutes": 9.95
+    },
+    {
+      "at": "2026-10-03T09:00:36.442501Z",
+      "results": 0,
+      "span_minutes": 5.283333333333333
     }
   ],
   "hourly_density": {
@@ -451,8 +449,8 @@
     },
     "16": {
       "results": 49,
-      "span": 50.05,
-      "n": 7
+      "span": 55.33333333333333,
+      "n": 8
     }
   },
   "reject_reasons": {
@@ -462,23 +460,23 @@
   "key_usage": {
     "_day": "2026-10-03",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 304,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 204,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 204,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 105,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 304,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 205,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 106,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 105
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T08:55:19.633219Z",
-      "elapsed": 0.4,
+      "at": "2026-10-03T09:00:36.991895Z",
+      "elapsed": 0.5,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 2
+      "staged": 0
     }
   },
-  "key_rr": 1
+  "key_rr": 4
 }
