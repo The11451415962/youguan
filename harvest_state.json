@@ -1,30 +1,6 @@
 {
   "cursor_utc": "2026-10-03T09:30:26.209235Z",
   "staging": {
-    "5WwaLoOb-Qk": {
-      "video_id": "5WwaLoOb-Qk",
-      "title": "minecraft logic #minecraft #hamplu #reaction",
-      "channel_id": "UC5U8JkNAh0LnhNmX3vG7N0g",
-      "channel_name": " hamplu Gamer",
-      "published_at": "2026-10-03T09:22:55Z",
-      "first_seen_at": "2026-10-03T09:25:16.838965Z"
-    },
-    "uy7Kf5d-kCE": {
-      "video_id": "uy7Kf5d-kCE",
-      "title": "Warden fights a Tyrannosaurus #minecraft #hamplu #reaction",
-      "channel_id": "UC5U8JkNAh0LnhNmX3vG7N0g",
-      "channel_name": " hamplu Gamer",
-      "published_at": "2026-10-03T09:23:02Z",
-      "first_seen_at": "2026-10-03T09:25:16.838965Z"
-    },
-    "VU2L7b8pY04": {
-      "video_id": "VU2L7b8pY04",
-      "title": "silk touch pickaxe was Epic #minecraft",
-      "channel_id": "UCMURERx-vHTDC30vtpq8uBA",
-      "channel_name": "Techno craft gamerz0",
-      "published_at": "2026-10-03T09:23:26Z",
-      "first_seen_at": "2026-10-03T09:25:16.838965Z"
-    },
     "BE0Baibvdxs": {
       "video_id": "BE0Baibvdxs",
       "title": "why its so hard #minecraft #games #trending #viral #shorts",
@@ -174,7 +150,10 @@
     "EuxQSEK5hco": "2026-10-03T09:30:27.422858Z",
     "_bN7Ql_Kk_Q": "2026-10-03T09:30:27.422858Z",
     "BUnDyAkbeAA": "2026-10-03T09:30:27.422858Z",
-    "IP0_hkChoTU": "2026-10-03T09:30:27.422858Z"
+    "IP0_hkChoTU": "2026-10-03T09:30:27.422858Z",
+    "5WwaLoOb-Qk": "2026-10-03T09:35:19.457278Z",
+    "uy7Kf5d-kCE": "2026-10-03T09:35:19.457278Z",
+    "VU2L7b8pY04": "2026-10-03T09:35:19.457278Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -720,6 +699,14 @@
     "UC_BhXZvZgj_jE4U7-k-XdHA": {
       "subs": 1440,
       "fetched_at": "2026-10-03T09:30:27.560206Z"
+    },
+    "UCMURERx-vHTDC30vtpq8uBA": {
+      "subs": 89,
+      "fetched_at": "2026-10-03T09:35:19.599399Z"
+    },
+    "UC5U8JkNAh0LnhNmX3vG7N0g": {
+      "subs": 187000,
+      "fetched_at": "2026-10-03T09:35:19.599399Z"
     }
   },
   "search_log": [
@@ -812,30 +799,29 @@
     }
   },
   "reject_reasons": {
-    "描述过长(疑口播)": 20,
+    "描述过长(疑口播)": 21,
     "分类不符": 17,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-03",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 505,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 306,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 207,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 307,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 208,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 207,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 207
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T09:30:27.716822Z",
-      "elapsed": 0.9,
-      "searched": 1,
+      "at": "2026-10-03T09:35:19.722475Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 1
+      "dropped": 0
     }
   },
-  "key_rr": 1
+  "key_rr": 3
 }
