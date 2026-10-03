@@ -1,29 +1,13 @@
 {
-  "cursor_utc": "2026-10-03T00:50:21.346199Z",
+  "cursor_utc": "2026-10-03T01:00:33.346199Z",
   "staging": {
-    "q9YJ2dMciQg": {
-      "video_id": "q9YJ2dMciQg",
-      "title": "how to make a functional elevator #minecraft @brizinhueng",
-      "channel_id": "UCEMoB5wvgxoMSDcqIF-2_3w",
-      "channel_name": "MartianMC",
-      "published_at": "2026-10-03T00:46:21Z",
-      "first_seen_at": "2026-10-03T00:50:22.436252Z"
-    },
-    "g_jX5HhiaCQ": {
-      "video_id": "g_jX5HhiaCQ",
-      "title": "HEROBRINE vs Mi NOVIA: El final que nadie se esperaba #minecraftanimation #minecraft",
-      "channel_id": "UCXkJ4pEp3W9ACeMKs-Hanjg",
-      "channel_name": "betilloMC",
-      "published_at": "2026-10-03T00:46:49Z",
-      "first_seen_at": "2026-10-03T00:50:22.436252Z"
-    },
-    "mvVXhIYnEpY": {
-      "video_id": "mvVXhIYnEpY",
-      "title": "Nueva Dimensión en #minecraft #minecraftshorts #youtubeshorts #shorts",
-      "channel_id": "UCOXmWSoPMWgkwSRvR4mFcgA",
-      "channel_name": "Zidakc",
-      "published_at": "2026-10-03T00:45:37Z",
-      "first_seen_at": "2026-10-03T00:50:22.436252Z"
+    "czPmXEMjVMI": {
+      "video_id": "czPmXEMjVMI",
+      "title": "this has to be one of the most comfortable bases in minecraft...",
+      "channel_id": "UCgPDHUMb6gkhC8A1XAOuyig",
+      "channel_name": "休息",
+      "published_at": "2026-10-03T00:53:39Z",
+      "first_seen_at": "2026-10-03T01:00:35.086886Z"
     }
   },
   "candidates": {},
@@ -954,7 +938,10 @@
     "gTURj-ZlMbc": "2026-10-03T00:45:25.348926Z",
     "hJqbA5DVb_w": "2026-10-03T00:45:25.583746Z",
     "IQ7wykrpFkM": "2026-10-03T00:55:17.136061Z",
-    "qyKJQyovQKM": "2026-10-03T00:55:17.136061Z"
+    "qyKJQyovQKM": "2026-10-03T00:55:17.136061Z",
+    "mvVXhIYnEpY": "2026-10-03T01:00:35.086897Z",
+    "q9YJ2dMciQg": "2026-10-03T01:00:35.086897Z",
+    "g_jX5HhiaCQ": "2026-10-03T01:00:35.086897Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -4428,14 +4415,21 @@
     "UCH_d8aWgqUyBIFgkeLIpnzg": {
       "subs": 8,
       "fetched_at": "2026-10-03T00:55:17.311906Z"
+    },
+    "UCOXmWSoPMWgkwSRvR4mFcgA": {
+      "subs": 37,
+      "fetched_at": "2026-10-03T01:00:35.212808Z"
+    },
+    "UCXkJ4pEp3W9ACeMKs-Hanjg": {
+      "subs": 300000,
+      "fetched_at": "2026-10-03T01:00:35.212808Z"
+    },
+    "UCEMoB5wvgxoMSDcqIF-2_3w": {
+      "subs": 235000,
+      "fetched_at": "2026-10-03T01:00:35.212808Z"
     }
   },
   "search_log": [
-    {
-      "at": "2026-10-02T18:30:30.879253Z",
-      "results": 5,
-      "span_minutes": 6.8
-    },
     {
       "at": "2026-10-02T18:40:20.269182Z",
       "results": 7,
@@ -4680,6 +4674,11 @@
       "at": "2026-10-03T00:50:22.090325Z",
       "results": 5,
       "span_minutes": 10.05
+    },
+    {
+      "at": "2026-10-03T01:00:34.073314Z",
+      "results": 1,
+      "span_minutes": 10.2
     }
   ],
   "hourly_density": {
@@ -4739,9 +4738,9 @@
       "n": 8
     },
     "8": {
-      "results": 82,
-      "span": 49.733333333333334,
-      "n": 5
+      "results": 83,
+      "span": 59.93333333333334,
+      "n": 6
     }
   },
   "reject_reasons": {
@@ -4753,11 +4752,11 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2638,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1351,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2639,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1352,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1648,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 9500,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1449,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1549,
     "_dead": [
       "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY"
     ]
@@ -4771,16 +4770,17 @@
   },
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T00:55:17.136049Z",
-      "elapsed": 0.3,
-      "searched": 0,
+      "at": "2026-10-03T01:00:34.073314Z",
+      "elapsed": 2.0,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 1
     }
   },
-  "key_rr": 3,
+  "key_rr": 2,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
