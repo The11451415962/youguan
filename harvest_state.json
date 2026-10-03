@@ -1,22 +1,6 @@
 {
-  "cursor_utc": "2026-10-03T14:18:07.209235Z",
+  "cursor_utc": "2026-10-03T14:27:37.209235Z",
   "staging": {
-    "U6x-k0FcjQU": {
-      "video_id": "U6x-k0FcjQU",
-      "title": "Minecraftın Teknik Donusumu#youtubeshorts #ytshorts #minecraft #video",
-      "channel_id": "UCZ89wBtBCgYhGm39lh6aK8g",
-      "channel_name": "BİLGİ DEPOSU21",
-      "published_at": "2026-10-03T14:17:04Z",
-      "first_seen_at": "2026-10-03T14:25:23.002691Z"
-    },
-    "JpyfWMuosYk": {
-      "video_id": "JpyfWMuosYk",
-      "title": "Agnes from Minecraft deserves SO much credit!  #minecraft",
-      "channel_id": "UCaW8siGx8XiSTsuYNJfYquA",
-      "channel_name": "highkeyoli",
-      "published_at": "2026-10-03T14:17:20Z",
-      "first_seen_at": "2026-10-03T14:25:23.002691Z"
-    },
     "EXpZubN5TOw": {
       "video_id": "EXpZubN5TOw",
       "title": "NEW ARMOUR RECIPE?! 😱⚔️ #shorts # #minecraft #gaming",
@@ -25,29 +9,37 @@
       "published_at": "2026-10-03T14:17:41Z",
       "first_seen_at": "2026-10-03T14:25:23.002691Z"
     },
-    "Qo0_nbsHuko": {
-      "video_id": "Qo0_nbsHuko",
-      "title": "How to enable the Winter Drop in Minecraft Bedrock",
-      "channel_id": "UCbdRzJfVRe2f8GdK8XpDLLg",
-      "channel_name": "SenorFootLess",
-      "published_at": "2026-10-03T14:17:10Z",
-      "first_seen_at": "2026-10-03T14:25:23.002691Z"
+    "QgxqHiKGTfU": {
+      "video_id": "QgxqHiKGTfU",
+      "title": "Testing Every Helmet in Minecraft",
+      "channel_id": "UC2dQmUP46oNqgpPCc7leTwA",
+      "channel_name": "SHOW BLOCK MASTER",
+      "published_at": "2026-10-03T14:25:33Z",
+      "first_seen_at": "2026-10-03T14:27:37.668831Z"
     },
-    "jeu8ETSDTuE": {
-      "video_id": "jeu8ETSDTuE",
-      "title": "Agora dá pra fazer FARM sem usar FUNIL no Minecraft! 😱 #minecraft",
-      "channel_id": "UCylfTCdBgKql1VHTPeK5G_w",
-      "channel_name": "RedeDirt",
-      "published_at": "2026-10-03T14:15:25Z",
-      "first_seen_at": "2026-10-03T14:25:23.002691Z"
+    "B78vU3VRbzE": {
+      "video_id": "B78vU3VRbzE",
+      "title": "Verity and the Cursed Smile 😱 ( minecraft horror)  #verity #animation #minecraft",
+      "channel_id": "UC8RM2aw4CKUYz-3DfwxXk5Q",
+      "channel_name": "WildWord7",
+      "published_at": "2026-10-03T14:24:11Z",
+      "first_seen_at": "2026-10-03T14:27:37.668831Z"
     },
-    "H9loZ_Xh3Qk": {
-      "video_id": "H9loZ_Xh3Qk",
-      "title": "TOBIASZ ROZDAJE DARMOWE PIENIĄDZE???? #minecraft  #tobiasz #tobiaszgaming  #rapy #anarchia #rapygg",
-      "channel_id": "UCo6ijv1JR9ZjUsj0P161vUg",
-      "channel_name": "RGXx",
-      "published_at": "2026-10-03T14:16:20Z",
-      "first_seen_at": "2026-10-03T14:25:23.002691Z"
+    "0HNvZ59Ea6c": {
+      "video_id": "0HNvZ59Ea6c",
+      "title": "Les prochaines Grottes de Glace Minecraft #minecraft #animation",
+      "channel_id": "UCyaq0Spy4OONjPjA_0r5Xmw",
+      "channel_name": "Toilar",
+      "published_at": "2026-10-03T14:22:28Z",
+      "first_seen_at": "2026-10-03T14:27:37.668831Z"
+    },
+    "M1fyo8FcvDo": {
+      "video_id": "M1fyo8FcvDo",
+      "title": "Easy cushion sofa #minecraft #shorts",
+      "channel_id": "UCOiyGQPbD61EogpgWKaMapw",
+      "channel_name": "Game boys",
+      "published_at": "2026-10-03T14:20:45Z",
+      "first_seen_at": "2026-10-03T14:27:37.668831Z"
     }
   },
   "candidates": {
@@ -108,6 +100,29 @@
       "notified": false,
       "gate_vpm": 27.9,
       "promo_score": 1.44
+    },
+    "JpyfWMuosYk": {
+      "video_id": "JpyfWMuosYk",
+      "title": "Agnes from Minecraft deserves SO much credit!  #minecraft",
+      "channel_id": "UCaW8siGx8XiSTsuYNJfYquA",
+      "channel_name": "highkeyoli",
+      "channel_subs": 902000,
+      "tier": "T5",
+      "tier_locked_at": "2026-10-03T14:27:37.668850Z",
+      "published_at": "2026-10-03T14:17:20Z",
+      "first_seen_at": "2026-10-03T14:25:23.002691Z",
+      "last_checked_at": "2026-10-03T14:27:37.668850Z",
+      "samples": [
+        {
+          "t": "2026-10-03T14:27:37.668850Z",
+          "views": 4285,
+          "likes": 587
+        }
+      ],
+      "stale_checks": 0,
+      "notified": false,
+      "gate_vpm": 416.1,
+      "promo_score": 39.57
     }
   },
   "notified": {},
@@ -533,7 +548,11 @@
     "b21MTBmoq94": "2026-10-03T14:25:23.002738Z",
     "gOW_rMfAjZQ": "2026-10-03T14:25:23.002738Z",
     "5kPemtC57X0": "2026-10-03T14:25:23.002738Z",
-    "fx_xZ1iL7DM": "2026-10-03T14:25:23.002738Z"
+    "fx_xZ1iL7DM": "2026-10-03T14:25:23.002738Z",
+    "jeu8ETSDTuE": "2026-10-03T14:27:37.668850Z",
+    "H9loZ_Xh3Qk": "2026-10-03T14:27:37.668850Z",
+    "U6x-k0FcjQU": "2026-10-03T14:27:37.668850Z",
+    "Qo0_nbsHuko": "2026-10-03T14:27:37.668850Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -2183,14 +2202,29 @@
     "UCUZqyXP66Al-N032OmIM-0g": {
       "subs": 9,
       "fetched_at": "2026-10-03T14:25:23.579847Z"
+    },
+    "UCbdRzJfVRe2f8GdK8XpDLLg": {
+      "subs": 14500,
+      "fetched_at": "2026-10-03T14:27:37.830010Z"
+    },
+    "UCo6ijv1JR9ZjUsj0P161vUg": {
+      "subs": 26,
+      "fetched_at": "2026-10-03T14:27:37.830010Z"
+    },
+    "UCZ89wBtBCgYhGm39lh6aK8g": {
+      "subs": 21,
+      "fetched_at": "2026-10-03T14:27:37.830010Z"
+    },
+    "UCaW8siGx8XiSTsuYNJfYquA": {
+      "subs": 902000,
+      "fetched_at": "2026-10-03T14:27:37.830010Z"
+    },
+    "UCylfTCdBgKql1VHTPeK5G_w": {
+      "subs": 1890,
+      "fetched_at": "2026-10-03T14:27:37.830010Z"
     }
   },
   "search_log": [
-    {
-      "at": "2026-10-03T08:05:17.136039Z",
-      "results": 10,
-      "span_minutes": 11.266666666666667
-    },
     {
       "at": "2026-10-03T08:10:22.854501Z",
       "results": 17,
@@ -2435,6 +2469,11 @@
       "at": "2026-10-03T14:25:22.711385Z",
       "results": 17,
       "span_minutes": 7.75
+    },
+    {
+      "at": "2026-10-03T14:27:37.376871Z",
+      "results": 4,
+      "span_minutes": 9.5
     }
   ],
   "hourly_density": {
@@ -2474,42 +2513,49 @@
       "n": 8
     },
     "22": {
-      "results": 65,
-      "span": 17.55,
-      "n": 2
+      "results": 69,
+      "span": 27.05,
+      "n": 3
     }
   },
   "reject_reasons": {
-    "描述过长(疑口播)": 64,
+    "描述过长(疑口播)": 65,
     "分类不符": 71,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1222,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1223,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 826,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 925,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1419,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 825
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1519,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 826
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T14:25:23.744573Z",
-      "elapsed": 1.0,
+      "at": "2026-10-03T14:27:37.954434Z",
+      "elapsed": 0.6,
       "searched": 1,
       "new": 0,
-      "gated_in": 0,
+      "gated_in": 1,
       "sampled": 0,
       "dropped": 0,
-      "staged": 17
+      "staged": 4
     }
   },
-  "key_rr": 3,
+  "key_rr": 1,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
         27.87
+      ],
+      "alerted": 0,
+      "promoted": 0
+    },
+    "T5": {
+      "vpm_samples": [
+        416.05
       ],
       "alerted": 0,
       "promoted": 0
