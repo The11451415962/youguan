@@ -1773,14 +1773,13 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T12:45:21.898741Z",
-      "elapsed": 0.5,
-      "searched": 1,
+      "at": "2026-10-03T12:50:20.521044Z",
+      "elapsed": 0.0,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 0
+      "dropped": 0
     }
   },
   "key_rr": 4,
