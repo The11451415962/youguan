@@ -1,6 +1,31 @@
 {
-  "cursor_utc": "2026-10-03T11:45:21.209235Z",
-  "staging": {},
+  "cursor_utc": "2026-10-03T11:55:15.209235Z",
+  "staging": {
+    "3BGRDtCSMZs": {
+      "video_id": "3BGRDtCSMZs",
+      "title": "#shorts #minecraft #minecrafter #minecraftshorts #shortsfeed #viral #memes #minecraftmemes",
+      "channel_id": "UCO2OBz9XJIo0ttunuKU9Bxg",
+      "channel_name": "LUMA CRAFT",
+      "published_at": "2026-10-03T11:53:57Z",
+      "first_seen_at": "2026-10-03T11:55:16.098470Z"
+    },
+    "141t6fQFdU8": {
+      "video_id": "141t6fQFdU8",
+      "title": "TAG DE MI COLECCIÓN 🔥 #dragonball #minecraft #komisancantcommunicate #poppyplaytime",
+      "channel_id": "UC0IDWJ7EFIKPrbPnUjnovgA",
+      "channel_name": "LaNerea17",
+      "published_at": "2026-10-03T11:51:04Z",
+      "first_seen_at": "2026-10-03T11:55:16.098470Z"
+    },
+    "haT7wP1PFDA": {
+      "video_id": "haT7wP1PFDA",
+      "title": "Почему редстоун такой сложный? #minecraft #redstone #майнкрафт #майн",
+      "channel_id": "UCMA0pEwnwfIgscCM9XdxQIg",
+      "channel_name": "Terminateys",
+      "published_at": "2026-10-03T11:45:25Z",
+      "first_seen_at": "2026-10-03T11:55:16.098470Z"
+    }
+  },
   "candidates": {
     "NHh2npox6S4": {
       "video_id": "NHh2npox6S4",
@@ -1455,6 +1480,11 @@
       "at": "2026-10-03T11:45:21.514788Z",
       "results": 0,
       "span_minutes": 5.016666666666667
+    },
+    {
+      "at": "2026-10-03T11:55:15.874952Z",
+      "results": 3,
+      "span_minutes": 9.9
     }
   ],
   "hourly_density": {
@@ -1479,9 +1509,9 @@
       "n": 7
     },
     "19": {
-      "results": 48,
-      "span": 44.733333333333334,
-      "n": 6
+      "results": 51,
+      "span": 54.63333333333333,
+      "n": 7
     }
   },
   "reject_reasons": {
@@ -1491,7 +1521,7 @@
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 615,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 715,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 417,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 516,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1011,
@@ -1500,16 +1530,17 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T11:50:18.526992Z",
-      "elapsed": 0.0,
-      "searched": 0,
+      "at": "2026-10-03T11:55:16.098581Z",
+      "elapsed": 0.2,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 3
     }
   },
-  "key_rr": 0,
+  "key_rr": 1,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
