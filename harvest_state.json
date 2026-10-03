@@ -1,38 +1,6 @@
 {
   "cursor_utc": "2026-10-03T11:20:21.209235Z",
   "staging": {
-    "6kcoUivS73U": {
-      "video_id": "6kcoUivS73U",
-      "title": "MINECRAFT, ALE TO WY KONTROLUJECIE MNIE!",
-      "channel_id": "UC6Srcm6SFG9cFx9Jy4BYMbQ",
-      "channel_name": "Więcej Pikczu",
-      "published_at": "2026-10-03T11:13:35Z",
-      "first_seen_at": "2026-10-03T11:15:22.050650Z"
-    },
-    "Kyp365P6iqw": {
-      "video_id": "Kyp365P6iqw",
-      "title": "level 67 👀🙊 #minecraft #gaming  #TikTokGameRewards #minecraftdungeons2 #minecraftdungeonsclips",
-      "channel_id": "UCAmtnguBp5xcol5M8AndBOg",
-      "channel_name": "Captain Games",
-      "published_at": "2026-10-03T11:11:41Z",
-      "first_seen_at": "2026-10-03T11:15:22.050650Z"
-    },
-    "Cu_yrGIMGR4": {
-      "video_id": "Cu_yrGIMGR4",
-      "title": "I SAVED THE GOAL WITH THIS CLUTCH 😭💀#minecraft FULL VIDEO⬆️",
-      "channel_id": "UCyT95iXgI7PQhadVsJBXksA",
-      "channel_name": "Spiritwastaken",
-      "published_at": "2026-10-03T11:10:34Z",
-      "first_seen_at": "2026-10-03T11:15:22.050650Z"
-    },
-    "rc2_nlaHUUY": {
-      "video_id": "rc2_nlaHUUY",
-      "title": "ĐOÁN MOB MINECRAFT #3 – SIÊU KHÓ",
-      "channel_id": "UCD7hAJZzzS7ikGWUXmqLH5g",
-      "channel_name": "kngbed",
-      "published_at": "2026-10-03T11:10:37Z",
-      "first_seen_at": "2026-10-03T11:15:22.050650Z"
-    },
     "0yr-mWYjBJQ": {
       "video_id": "0yr-mWYjBJQ",
       "title": "Minecraft Ka Sabse EASY Ore Kaunsa Hai? 😱 #Minecraft #Shorts",
@@ -330,7 +298,11 @@
     "ervAK04BBX4": "2026-10-03T11:20:21.992137Z",
     "OYW47YHXtGs": "2026-10-03T11:20:21.992137Z",
     "TXrPXA2cxBA": "2026-10-03T11:20:21.992137Z",
-    "KCQ4jFtb-Rc": "2026-10-03T11:20:21.992137Z"
+    "KCQ4jFtb-Rc": "2026-10-03T11:20:21.992137Z",
+    "Cu_yrGIMGR4": "2026-10-03T11:25:15.700820Z",
+    "rc2_nlaHUUY": "2026-10-03T11:25:15.700820Z",
+    "Kyp365P6iqw": "2026-10-03T11:25:15.700820Z",
+    "6kcoUivS73U": "2026-10-03T11:25:15.700820Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1272,6 +1244,22 @@
     "UCVDMut9I5x0s6NgI2m85COA": {
       "subs": 50,
       "fetched_at": "2026-10-03T11:20:22.123129Z"
+    },
+    "UCD7hAJZzzS7ikGWUXmqLH5g": {
+      "subs": 2570,
+      "fetched_at": "2026-10-03T11:25:15.852435Z"
+    },
+    "UC6Srcm6SFG9cFx9Jy4BYMbQ": {
+      "subs": 44800,
+      "fetched_at": "2026-10-03T11:25:15.852435Z"
+    },
+    "UCyT95iXgI7PQhadVsJBXksA": {
+      "subs": 259,
+      "fetched_at": "2026-10-03T11:25:15.852435Z"
+    },
+    "UCAmtnguBp5xcol5M8AndBOg": {
+      "subs": 456,
+      "fetched_at": "2026-10-03T11:25:15.852435Z"
     }
   },
   "search_log": [
@@ -1444,32 +1432,31 @@
     }
   },
   "reject_reasons": {
-    "描述过长(疑口播)": 34,
-    "分类不符": 38,
+    "描述过长(疑口播)": 36,
+    "分类不符": 39,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-03",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 613,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 414,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 414,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 415,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 415,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 810,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 612
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T11:20:22.223457Z",
-      "elapsed": 0.5,
-      "searched": 1,
+      "at": "2026-10-03T11:25:15.955534Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 2
+      "dropped": 0
     }
   },
-  "key_rr": 1,
+  "key_rr": 3,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
