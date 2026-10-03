@@ -1,17 +1,23 @@
 name: YouTube Monitor
 
+# 频道监控：检查 11 个监控频道的新视频，发现就发 QQ 邮件。
 # 由 cron-job.org 每 5 分钟通过 API 触发 workflow_dispatch。
-# 不用 GitHub 原生 schedule：它延迟 5~30 分钟且会丢，做不到「发布后 1 小时内密集采样」。
+# 不用 GitHub 原生 schedule（延迟 5~30 分钟且会丢）。
 on:
   workflow_dispatch:
+    inputs:
+      init:
+        description: '初始化模式：只记录已存在的视频，不发邮件'
+        type: boolean
+        default: false
 
-# 上一轮没跑完就取消旧的，让最新的立刻跑，避免堆积
+# 上一轮没跑完就取消旧的，避免堆积
 concurrency:
   group: youtube-monitor-group
   cancel-in-progress: true
 
 permissions:
-  contents: write        # 需要把状态文件提交回仓库
+  contents: write        # 需要把 history.json 提交回仓库
 
 jobs:
   run-monitor:
@@ -26,17 +32,17 @@ jobs:
         with:
           python-version: '3.12'
 
-      # 状态不再用 actions/cache：cache 命中主键时不会写新缓存，
-      # 导致「时间片游标永远停在同一个位置」。改成提交回仓库，最可靠。
+      # 状态用 git 提交持久化，不用 actions/cache
+      # （cache 命中主键时不会写新缓存，曾导致状态永远不更新）
       - name: 恢复状态
         run: |
-          git config user.name  "harvest-bot"
-          git config user.email "harvest-bot@users.noreply.github.com"
-          for f in harvest_state.json history.json radar_state.json; do
+          git config user.name  "monitor-bot"
+          git config user.email "monitor-bot@users.noreply.github.com"
+          for f in history.json radar_state.json; do
             if git show HEAD:"$f" > "$f" 2>/dev/null; then
               echo "  ✓ 从仓库恢复 $f ($(wc -c < "$f") bytes)"
             else
-              echo "  - 仓库里还没有 $f"
+              echo "  - 仓库里没有 $f（首次运行会自动生成）"
             fi
           done
 
@@ -45,46 +51,34 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 运行（全天打捞 + 频道监控）
+      - name: 检查频道更新
         env:
-          # ---- API 钥匙：每把独立项目 = 各自 10,000 点/天 ----
-          # 想要更多额度就继续加 YOUTUBE_API_KEY_6、_7 …（脚本最多认到 _10）
+          # 敏感信息由 GitHub Secrets 注入，脚本内 os.getenv() 优先读取
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_API_KEY_2: ${{ secrets.YOUTUBE_API_KEY_2 }}
-          YOUTUBE_API_KEY_3: ${{ secrets.YOUTUBE_API_KEY_3 }}
-          YOUTUBE_API_KEY_4: ${{ secrets.YOUTUBE_API_KEY_4 }}
-          YOUTUBE_API_KEY_5: ${{ secrets.YOUTUBE_API_KEY_5 }}
-
-          # ---- 邮件 ----
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           SMTP_SENDER: ${{ secrets.SMTP_SENDER }}
           NOTIFICATION_RECIPIENT: ${{ secrets.NOTIFICATION_RECIPIENT }}
-
-          # ---- CI 直连（不走本地 Clash 代理）----
+          # CI 直连 YouTube API（不走本地 Clash 代理）
           CLASH_PROXY_HOST: ''
           CLASH_PROXY_PORT: ''
-
-          # ---- 运行模式 ----
-          # harvest = 只跑全天打捞（推荐：配额全给采集层）
-          # all     = 打捞 + 频道监控
-          HARVEST_MODE: 'harvest'
         run: |
-          if [ "$HARVEST_MODE" = "all" ]; then
-            python yt_monitor.py --radar-only || true
+          if [ "${{ inputs.init }}" = "true" ]; then
+            echo "=== 初始化模式：只记录，不发邮件 ==="
+            python yt_monitor.py --init
+          else
+            python yt_monitor.py
           fi
-          python harvest_daemon.py --once
 
-      # always() 保证即使上一步失败也会保存状态 —— 否则游标会退回去重复扫
+      # always() 保证即使检查失败也保存状态
       - name: 保存状态
         if: always()
         run: |
-          git add -f harvest_state.json 2>/dev/null || true
           [ -f history.json ] && git add -f history.json 2>/dev/null || true
           [ -f radar_state.json ] && git add -f radar_state.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "状态无变化，跳过提交"
           else
-            git commit -q -m "chore(state): 打捞状态 $(date -u +'%Y-%m-%dT%H:%M:%SZ') [skip ci]"
+            git commit -q -m "chore(history): 更新已通知记录 $(date -u +'%Y-%m-%dT%H:%M:%SZ') [skip ci]"
             git pull --rebase --autostash -q origin main || true
             git push -q origin HEAD:main && echo "✓ 状态已提交" || echo "✗ 提交失败"
           fi
