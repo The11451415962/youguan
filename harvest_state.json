@@ -1,6 +1,31 @@
 {
-  "cursor_utc": "2026-10-03T09:45:21.209235Z",
-  "staging": {},
+  "cursor_utc": "2026-10-03T09:55:16.209235Z",
+  "staging": {
+    "Qr7fYVJ-Sns": {
+      "video_id": "Qr7fYVJ-Sns",
+      "title": "Villagers react to drinking different potions (Villager news addon) #minecraft",
+      "channel_id": "UCb2qosfBJOkifg09gzXT4tA",
+      "channel_name": "wilsef",
+      "published_at": "2026-10-03T09:47:45Z",
+      "first_seen_at": "2026-10-03T09:55:17.410391Z"
+    },
+    "T38ntRFMfVI": {
+      "video_id": "T38ntRFMfVI",
+      "title": "Cool Rotating Armor in Minecraft....🤔 (INSANE) #minecraft #shorts",
+      "channel_id": "UCOOUuwm1HQ7CNlx25JxUm3A",
+      "channel_name": "MineLand",
+      "published_at": "2026-10-03T09:47:03Z",
+      "first_seen_at": "2026-10-03T09:55:17.410391Z"
+    },
+    "Q_kkXknBrvY": {
+      "video_id": "Q_kkXknBrvY",
+      "title": "automatic machine #minecraft #minecraftsurvival  #trending #viral #trendingshorts",
+      "channel_id": "UC_8PodAnGckEYyOzy0_dUsw",
+      "channel_name": "PENNY ON FIRE",
+      "published_at": "2026-10-03T09:45:31Z",
+      "first_seen_at": "2026-10-03T09:55:17.410391Z"
+    }
+  },
   "candidates": {},
   "notified": {},
   "rejected": {
@@ -810,6 +835,11 @@
       "at": "2026-10-03T09:45:21.702455Z",
       "results": 0,
       "span_minutes": 5.0
+    },
+    {
+      "at": "2026-10-03T09:55:17.095087Z",
+      "results": 3,
+      "span_minutes": 9.916666666666666
     }
   ],
   "hourly_density": {
@@ -824,9 +854,9 @@
       "n": 8
     },
     "17": {
-      "results": 69,
-      "span": 44.75,
-      "n": 6
+      "results": 72,
+      "span": 54.666666666666664,
+      "n": 7
     }
   },
   "reject_reasons": {
@@ -840,19 +870,20 @@
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 407,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 209,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 308,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 208
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 308
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T09:50:19.760012Z",
-      "elapsed": 0.0,
-      "searched": 0,
+      "at": "2026-10-03T09:55:17.410480Z",
+      "elapsed": 0.3,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 3
     }
   },
-  "key_rr": 4
+  "key_rr": 0
 }
