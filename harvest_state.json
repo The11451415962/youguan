@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-03T01:15:20.346199Z",
+  "cursor_utc": "2026-10-03T01:24:32.346199Z",
   "staging": {},
   "candidates": {},
   "notified": {
@@ -994,7 +994,51 @@
     "UY-ofSul3jg": "2026-10-03T01:25:15.858930Z",
     "iJIf68EwMv8": "2026-10-03T01:25:15.858930Z",
     "-nqGFiCkA3c": "2026-10-03T01:25:15.858930Z",
-    "UxTtAp7X1eA": "2026-10-03T01:25:15.858930Z"
+    "UxTtAp7X1eA": "2026-10-03T01:25:15.858930Z",
+    "-Etusyjoo2Y": "2026-10-03T08:00:36.049541Z",
+    "vwB3zbRF6xs": "2026-10-03T08:00:36.049541Z",
+    "zB69FMwV0lw": "2026-10-03T08:00:36.049541Z",
+    "BZf-1g4apWw": "2026-10-03T08:00:36.049541Z",
+    "oV-VMCnniwA": "2026-10-03T08:00:36.049541Z",
+    "wRZNb0LrbH4": "2026-10-03T08:00:36.049541Z",
+    "E0_uPRg1rdc": "2026-10-03T08:00:36.049541Z",
+    "hA8FfFvURe0": "2026-10-03T08:00:36.049541Z",
+    "eYgyZ4Ekmr4": "2026-10-03T08:00:36.049541Z",
+    "FY1s5FqX2ek": "2026-10-03T08:00:36.049541Z",
+    "fQn_KBuB518": "2026-10-03T08:00:36.049541Z",
+    "fGy8AXe1_pA": "2026-10-03T08:00:36.049541Z",
+    "SUYl8HvanB0": "2026-10-03T08:00:36.049541Z",
+    "NGbSshGoVWI": "2026-10-03T08:00:36.049541Z",
+    "VuD8MJ9JMEM": "2026-10-03T08:00:36.049541Z",
+    "fJG4Nx7OA1k": "2026-10-03T08:00:36.049541Z",
+    "J9HDO3m6V0M": "2026-10-03T08:00:36.049541Z",
+    "FxquXttet60": "2026-10-03T08:00:36.049541Z",
+    "2qpBgL1JcQU": "2026-10-03T08:00:36.049541Z",
+    "9UodNtT9ztQ": "2026-10-03T08:00:36.049541Z",
+    "FfxC0T8eyLc": "2026-10-03T08:00:36.049541Z",
+    "6VZfajBmzsg": "2026-10-03T08:00:36.049541Z",
+    "vSV_cUw_dvw": "2026-10-03T08:00:36.049541Z",
+    "bNpo-HTDvQ4": "2026-10-03T08:00:36.049541Z",
+    "Gq90v76-Dw0": "2026-10-03T08:00:36.049541Z",
+    "KEvM02EFzyE": "2026-10-03T08:00:36.049541Z",
+    "UJ4L7UBGH4c": "2026-10-03T08:00:36.049541Z",
+    "qAeUg8fL_W0": "2026-10-03T08:00:36.049541Z",
+    "fgSvlpQz7HE": "2026-10-03T08:00:36.049541Z",
+    "1qoq_4WLLOA": "2026-10-03T08:00:36.049541Z",
+    "ABWOa7KAlF4": "2026-10-03T08:00:36.049541Z",
+    "qpnmtTZcgk0": "2026-10-03T08:00:36.049541Z",
+    "vTXvgVhCPUM": "2026-10-03T08:00:36.049541Z",
+    "M29ooBNwFgM": "2026-10-03T08:00:36.049541Z",
+    "aGQWwf7wqtc": "2026-10-03T08:00:36.049541Z",
+    "4hmgPllYESQ": "2026-10-03T08:00:36.049541Z",
+    "US2fNX8oEjQ": "2026-10-03T08:00:36.049541Z",
+    "IM9oAA4Vbr0": "2026-10-03T08:00:36.049541Z",
+    "DcNMQrYVgvU": "2026-10-03T08:00:36.049541Z",
+    "o22Z4EaoMAU": "2026-10-03T08:00:36.049541Z",
+    "ttB8XfVBvYk": "2026-10-03T08:00:36.049541Z",
+    "EKGEPScQ7_o": "2026-10-03T08:00:36.049541Z",
+    "Wchksc40i_8": "2026-10-03T08:00:36.049541Z",
+    "0sRah0xBN3k": "2026-10-03T08:00:36.049541Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -4580,11 +4624,6 @@
   },
   "search_log": [
     {
-      "at": "2026-10-02T18:50:23.509688Z",
-      "results": 2,
-      "span_minutes": 5.0
-    },
-    {
       "at": "2026-10-02T19:00:36.413418Z",
       "results": 5,
       "span_minutes": 10.216666666666667
@@ -4828,6 +4867,11 @@
       "at": "2026-10-03T01:15:20.573398Z",
       "results": 11,
       "span_minutes": 5.016666666666667
+    },
+    {
+      "at": "2026-10-03T08:00:35.686255Z",
+      "results": 44,
+      "span_minutes": 9.2
     }
   ],
   "hourly_density": {
@@ -4892,9 +4936,9 @@
       "n": 6
     },
     "9": {
-      "results": 61,
-      "span": 14.783333333333335,
-      "n": 2
+      "results": 105,
+      "span": 23.983333333333334,
+      "n": 3
     }
   },
   "reject_reasons": {
@@ -4905,19 +4949,8 @@
     "直播/切片(kick.com)": 1
   },
   "key_usage": {
-    "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 9500,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 9500,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 9500,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 9500,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 9500,
-    "_dead": [
-      "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g",
-      "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY",
-      "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw",
-      "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c",
-      "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs"
-    ]
+    "_day": "2026-10-03",
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 100
   },
   "key_quota_fails": {
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 2,
@@ -4928,17 +4961,17 @@
   },
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T07:55:15.911971Z",
-      "elapsed": 0.0,
-      "searched": 0,
+      "at": "2026-10-03T08:00:35.686255Z",
+      "elapsed": 0.4,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "quota_blocked": 1
+      "staged": 44
     }
   },
-  "key_rr": 0,
+  "key_rr": 1,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
