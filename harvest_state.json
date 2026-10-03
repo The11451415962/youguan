@@ -64,22 +64,6 @@
       "channel_name": "Kienami",
       "published_at": "2026-10-03T00:26:30Z",
       "first_seen_at": "2026-10-03T00:30:28.042485Z"
-    },
-    "LfLyULVjd10": {
-      "video_id": "LfLyULVjd10",
-      "title": "mc.amber-survival.ru #рекомендации #minecraft #копиярв #funtime #shorts #копияфантайм",
-      "channel_id": "UCq3Hh_fkjxiVmzOx1UvrtEQ",
-      "channel_name": "Creamy_milk",
-      "published_at": "2026-10-03T00:24:17Z",
-      "first_seen_at": "2026-10-03T00:30:28.042485Z"
-    },
-    "pm-l_k0qmL8": {
-      "video_id": "pm-l_k0qmL8",
-      "title": "#MINECRAFT::vcs conhecem?? #fypシ #kpop #straykids #desflopacomu #bts #viral #vaiprafycaramba #fypシ",
-      "channel_id": "UCOMuvmvZRMdnJ7lorp8EO2A",
-      "channel_name": "☆apenas_uma_stayy🐾",
-      "published_at": "2026-10-03T00:22:44Z",
-      "first_seen_at": "2026-10-03T00:30:28.042485Z"
     }
   },
   "candidates": {
@@ -1035,7 +1019,9 @@
     "w3_BqkE7LMk": "2026-10-03T00:30:28.042504Z",
     "OySUCDBEJ7g": "2026-10-03T00:30:28.042504Z",
     "6R6MoNq6kI8": "2026-10-03T00:30:28.042504Z",
-    "CY_sqiaL79M": "2026-10-03T00:30:28.042504Z"
+    "CY_sqiaL79M": "2026-10-03T00:30:28.042504Z",
+    "pm-l_k0qmL8": "2026-10-03T00:35:17.562513Z",
+    "LfLyULVjd10": "2026-10-03T00:35:17.562513Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -4437,6 +4423,14 @@
     "UC-NLH__-VT1c-nKqdxREFqQ": {
       "subs": 93,
       "fetched_at": "2026-10-03T00:30:28.235732Z"
+    },
+    "UCq3Hh_fkjxiVmzOx1UvrtEQ": {
+      "subs": 2030,
+      "fetched_at": "2026-10-03T00:35:17.696736Z"
+    },
+    "UCOMuvmvZRMdnJ7lorp8EO2A": {
+      "subs": 1730,
+      "fetched_at": "2026-10-03T00:35:17.696736Z"
     }
   },
   "search_log": [
@@ -4763,25 +4757,24 @@
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2537,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1348,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1645,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1349,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1646,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1843,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1348
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T00:30:27.738861Z",
-      "elapsed": 0.6,
-      "searched": 1,
+      "at": "2026-10-03T00:35:17.562501Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 10
+      "dropped": 0
     }
   },
-  "key_rr": 1,
+  "key_rr": 3,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
