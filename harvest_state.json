@@ -1,15 +1,6 @@
 {
   "cursor_utc": "2026-10-03T10:50:21.209235Z",
-  "staging": {
-    "7zZ0qi0ndto": {
-      "video_id": "7zZ0qi0ndto",
-      "title": "Mod này biến Minecraft thành công viên giải trí | Nam_lười",
-      "channel_id": "UCiv2fLryrV7x5q4t6fUgOmg",
-      "channel_name": "Nam_lười",
-      "published_at": "2026-10-03T10:41:24Z",
-      "first_seen_at": "2026-10-03T10:50:21.890370Z"
-    }
-  },
+  "staging": {},
   "candidates": {
     "NHh2npox6S4": {
       "video_id": "NHh2npox6S4",
@@ -21,7 +12,7 @@
       "tier_locked_at": "2026-10-03T10:20:22.339609Z",
       "published_at": "2026-10-03T10:08:56Z",
       "first_seen_at": "2026-10-03T10:10:20.898933Z",
-      "last_checked_at": "2026-10-03T10:30:28.900964Z",
+      "last_checked_at": "2026-10-03T10:55:18.368345Z",
       "samples": [
         {
           "t": "2026-10-03T10:20:22.339609Z",
@@ -32,6 +23,11 @@
           "t": "2026-10-03T10:30:28.900944Z",
           "views": 1232,
           "likes": 11
+        },
+        {
+          "t": "2026-10-03T10:55:18.368320Z",
+          "views": 3894,
+          "likes": 26
         }
       ],
       "stale_checks": 0,
@@ -245,7 +241,8 @@
     "dfFJGga0uJQ": "2026-10-03T10:45:21.155564Z",
     "O9M5K4873Rs": "2026-10-03T10:45:21.155564Z",
     "fapOfSSJGsM": "2026-10-03T10:45:21.155564Z",
-    "A_Wx1m83mtE": "2026-10-03T10:45:21.155564Z"
+    "A_Wx1m83mtE": "2026-10-03T10:45:21.155564Z",
+    "7zZ0qi0ndto": "2026-10-03T10:55:17.989184Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1047,6 +1044,10 @@
     "UCa3UgPTarq3fUAxpOwMtu7Q": {
       "subs": 26300,
       "fetched_at": "2026-10-03T10:45:21.385297Z"
+    },
+    "UCiv2fLryrV7x5q4t6fUgOmg": {
+      "subs": 5520,
+      "fetched_at": "2026-10-03T10:55:18.133384Z"
     }
   },
   "search_log": [
@@ -1195,31 +1196,30 @@
   },
   "reject_reasons": {
     "描述过长(疑口播)": 32,
-    "分类不符": 30,
+    "分类不符": 31,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 610,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 412,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 611,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 413,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 313,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 610,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 510
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 511
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T10:50:21.890455Z",
-      "elapsed": 0.3,
-      "searched": 1,
+      "at": "2026-10-03T10:55:18.368487Z",
+      "elapsed": 0.4,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
-      "dropped": 0,
-      "staged": 1
+      "sampled": 1,
+      "dropped": 0
     }
   },
-  "key_rr": 4,
+  "key_rr": 2,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
