@@ -17,28 +17,12 @@
       "published_at": "2026-10-03T00:46:49Z",
       "first_seen_at": "2026-10-03T00:50:22.436252Z"
     },
-    "IQ7wykrpFkM": {
-      "video_id": "IQ7wykrpFkM",
-      "title": "Auto xp fram 80 level in 10 second #gaming #minecraft #minecraft #gameplay #games",
-      "channel_id": "UCH_d8aWgqUyBIFgkeLIpnzg",
-      "channel_name": "Hiper.gaming.G",
-      "published_at": "2026-10-03T00:43:44Z",
-      "first_seen_at": "2026-10-03T00:50:22.436252Z"
-    },
     "mvVXhIYnEpY": {
       "video_id": "mvVXhIYnEpY",
       "title": "Nueva Dimensión en #minecraft #minecraftshorts #youtubeshorts #shorts",
       "channel_id": "UCOXmWSoPMWgkwSRvR4mFcgA",
       "channel_name": "Zidakc",
       "published_at": "2026-10-03T00:45:37Z",
-      "first_seen_at": "2026-10-03T00:50:22.436252Z"
-    },
-    "qyKJQyovQKM": {
-      "video_id": "qyKJQyovQKM",
-      "title": "💡 Minecraft Mein Banayi Secret Light 😱🔥 | OP Lighting Build #Minecraft #Shorts",
-      "channel_id": "UCtwCYhOUzNNsWpdxRn2IiJQ",
-      "channel_name": "krish Raj gaming 5040",
-      "published_at": "2026-10-03T00:44:52Z",
       "first_seen_at": "2026-10-03T00:50:22.436252Z"
     }
   },
@@ -968,7 +952,9 @@
     "0CecSSd9ph4": "2026-10-03T00:45:25.348926Z",
     "MWBi4cUhoJ0": "2026-10-03T00:45:25.348926Z",
     "gTURj-ZlMbc": "2026-10-03T00:45:25.348926Z",
-    "hJqbA5DVb_w": "2026-10-03T00:45:25.583746Z"
+    "hJqbA5DVb_w": "2026-10-03T00:45:25.583746Z",
+    "IQ7wykrpFkM": "2026-10-03T00:55:17.136061Z",
+    "qyKJQyovQKM": "2026-10-03T00:55:17.136061Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -4434,6 +4420,14 @@
     "UCczDMd495KNmbKqtdyNTqAQ": {
       "subs": 107,
       "fetched_at": "2026-10-03T00:45:25.483044Z"
+    },
+    "UCtwCYhOUzNNsWpdxRn2IiJQ": {
+      "subs": 48,
+      "fetched_at": "2026-10-03T00:55:17.311906Z"
+    },
+    "UCH_d8aWgqUyBIFgkeLIpnzg": {
+      "subs": 8,
+      "fetched_at": "2026-10-03T00:55:17.311906Z"
     }
   },
   "search_log": [
@@ -4751,7 +4745,7 @@
     }
   },
   "reject_reasons": {
-    "分类不符": 149,
+    "分类不符": 151,
     "描述过长(疑口播)": 106,
     "标题含(twitch)": 4,
     "直播/切片(twitch.tv)": 16,
@@ -4760,8 +4754,8 @@
   "key_usage": {
     "_day": "2026-10-02",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2638,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1350,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1647,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1351,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1648,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 9500,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1449,
     "_dead": [
@@ -4777,17 +4771,16 @@
   },
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T00:50:22.090325Z",
+      "at": "2026-10-03T00:55:17.136049Z",
       "elapsed": 0.3,
-      "searched": 1,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 5
+      "dropped": 0
     }
   },
-  "key_rr": 1,
+  "key_rr": 3,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
