@@ -1215,14 +1215,13 @@
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T11:00:38.057699Z",
-      "elapsed": 0.3,
-      "searched": 1,
+      "at": "2026-10-03T11:05:20.484560Z",
+      "elapsed": 0.0,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 0
+      "dropped": 0
     }
   },
   "key_rr": 3,
