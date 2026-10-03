@@ -27,21 +27,81 @@
 import argparse
 import base64
 import json
+import os
 import re
+import ssl
 import subprocess
 import sys
+import urllib.error
+import urllib.parse
+import urllib.request
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-
-sys.path.insert(0, ".")
-from yt_collect import build_client
 
 REPO = "The11451415962/youguan"
 BRANCH = "main"
 BASE = Path(__file__).parent
 BJT = timezone(timedelta(hours=8))
+API_ROOT = "https://www.googleapis.com/youtube/v3"
 
 SEED_VIDEOS = 30        # 每个新频道预置多少条历史（防止把存量当新视频）
+
+
+# ---------------------------------------------------------------------------
+# YouTube API 客户端（自带，不依赖任何其它脚本）
+# ---------------------------------------------------------------------------
+
+class YT:
+    def __init__(self, key):
+        self.key = key
+        self.quota_used = 0
+        host = os.getenv("CLASH_PROXY_HOST", "").strip()
+        port = os.getenv("CLASH_PROXY_PORT", "").strip()
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        handlers = [urllib.request.HTTPSHandler(context=ctx)]
+        if host and port:
+            proxy = f"http://{host}:{port}"
+            handlers.insert(0, urllib.request.ProxyHandler({"http": proxy, "https": proxy}))
+            print(f"[i] 走代理 {proxy}")
+        else:
+            print("[i] 直连模式（无代理）")
+        self.opener = urllib.request.build_opener(*handlers)
+
+    def get(self, endpoint, params, cost=1):
+        params = dict(params)
+        params["key"] = self.key
+        url = f"{API_ROOT}/{endpoint}?" + urllib.parse.urlencode(params)
+        try:
+            with self.opener.open(
+                    urllib.request.Request(url, headers={"User-Agent": "add-channel/1.0"}),
+                    timeout=30) as r:
+                self.quota_used += cost
+                return json.loads(r.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            body = e.read().decode("utf-8", "ignore")
+            try:
+                err = json.loads(body)["error"]
+                reason = (err.get("errors") or [{}])[0].get("reason", "")
+                raise RuntimeError(f"HTTP {e.code} [{reason}] {err.get('message','')[:160]}") from None
+            except (json.JSONDecodeError, KeyError):
+                raise RuntimeError(f"HTTP {e.code}: {body[:160]}") from None
+
+
+def build_api():
+    # 本地运行时从 .env 读钥匙（CI 里由 Secrets 注入环境变量）
+    try:
+        from dotenv import load_dotenv
+        load_dotenv(BASE / ".env")
+    except ImportError:
+        pass
+    key = (os.getenv("YOUTUBE_API_KEY_SEARCH") or os.getenv("YOUTUBE_API_KEY") or "").strip()
+    if not key or key.startswith("YOUR_"):
+        print("[×] 没有可用的 YouTube API Key（检查 .env 的 YOUTUBE_API_KEY）")
+        sys.exit(1)
+    print(f"[i] 使用 Key: {key[:8]}…{key[-4:]}")
+    return YT(key)
 
 
 def gh(*a, input_data=None):
@@ -152,16 +212,7 @@ def main():
     ap.add_argument("--no-push", action="store_true", help="只改本地文件，不推远端")
     args = ap.parse_args()
 
-    api_key_ok = True
-    try:
-        api = build_client()
-    except SystemExit:
-        api_key_ok = False
-        api = None
-
-    if not api_key_ok:
-        print("[×] 没有可用的 API Key（检查 .env 的 YOUTUBE_API_KEY）")
-        sys.exit(1)
+    api = build_api()
 
     # 拉远端配置和历史
     cfg, err = gh_json("config.json")
