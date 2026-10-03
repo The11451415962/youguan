@@ -1,15 +1,6 @@
 {
-  "cursor_utc": "2026-10-03T12:40:19.209235Z",
-  "staging": {
-    "LGoIkwS0CLM": {
-      "video_id": "LGoIkwS0CLM",
-      "title": "Best ore in minecraft #minecraft #shortsfeed #fyp",
-      "channel_id": "UCbBJ52e_TM0mrTvgCZeo7LQ",
-      "channel_name": "The Notch ",
-      "published_at": "2026-10-03T12:31:12Z",
-      "first_seen_at": "2026-10-03T12:40:20.374623Z"
-    }
-  },
+  "cursor_utc": "2026-10-03T12:45:21.209235Z",
+  "staging": {},
   "candidates": {
     "NHh2npox6S4": {
       "video_id": "NHh2npox6S4",
@@ -360,7 +351,8 @@
     "mLdvkfh_K6o": "2026-10-03T12:35:24.382977Z",
     "EcRl-KZcaNc": "2026-10-03T12:35:24.382977Z",
     "rAetwndYUvM": "2026-10-03T12:40:20.374631Z",
-    "q61hlhZXwXU": "2026-10-03T12:40:20.374631Z"
+    "q61hlhZXwXU": "2026-10-03T12:40:20.374631Z",
+    "LGoIkwS0CLM": "2026-10-03T12:45:21.659621Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1530,6 +1522,10 @@
     "UC2GxCSpzqFkBDvbGLelphrA": {
       "subs": 228,
       "fetched_at": "2026-10-03T12:40:20.493778Z"
+    },
+    "UCbBJ52e_TM0mrTvgCZeo7LQ": {
+      "subs": 305,
+      "fetched_at": "2026-10-03T12:45:21.791619Z"
     }
   },
   "search_log": [
@@ -1722,6 +1718,11 @@
       "at": "2026-10-03T12:40:20.056759Z",
       "results": 1,
       "span_minutes": 9.7
+    },
+    {
+      "at": "2026-10-03T12:45:21.389122Z",
+      "results": 0,
+      "span_minutes": 5.033333333333333
     }
   ],
   "hourly_density": {
@@ -1752,37 +1753,37 @@
     },
     "20": {
       "results": 43,
-      "span": 39.63333333333334,
-      "n": 5
+      "span": 44.66666666666667,
+      "n": 6
     }
   },
   "reject_reasons": {
     "描述过长(疑口播)": 47,
-    "分类不符": 49,
+    "分类不符": 50,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-03",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 819,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 521,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 620,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1313,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 621,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 621,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1314,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 620
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T12:40:20.659430Z",
-      "elapsed": 0.6,
+      "at": "2026-10-03T12:45:21.898741Z",
+      "elapsed": 0.5,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 1
+      "staged": 0
     }
   },
-  "key_rr": 1,
+  "key_rr": 4,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
