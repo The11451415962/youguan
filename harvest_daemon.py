@@ -373,12 +373,21 @@ class KeyPool:
         return fails[key] >= 2
 
     def retire(self, key):
-        """停用一把钥匙（今日不再使用）。"""
+        """停用一把钥匙（今日不再使用）。
+
+        注意：**不再把用量写成 9,500**。之前那么写是为了防止它再被挑中，
+        但那会污染整个配额记账 —— 每停用一把就虚增 9,500 点，
+        导致「剩余配额」完全是假的。现在用 dead 集合来排除，用量保持真实值。
+        """
         self.dead.add(key)
         usage = self.state.setdefault("key_usage", {})
         usage["_dead"] = sorted(self.dead)
-        usage[key] = CFG["daily_budget_per_key"]      # 记账上标满，避免再被挑中
-        print(f"     [!] 钥匙 {key[:8]}… 已停用（可用 {len(self.alive())}/{len(self.keys)} 把）")
+        print(f"     [!] 钥匙 {key[:8]}… 已停用（真实已用 {self.used(key):,} 点，"
+              f"可用 {len(self.alive())}/{len(self.keys)} 把）")
+
+    def all_dead(self):
+        """所有钥匙今日都已停用 —— 再跑也没有意义。"""
+        return len(self.alive()) == 0
 
     def alive(self):
         return [k for k in self.keys if k not in self.dead]
@@ -847,7 +856,32 @@ def cycle(pool, state, dry_run=False):
     started = time.time()
     stats = {"searched": 0, "new": 0, "gated_in": 0, "sampled": 0, "dropped": 0}
 
-    # ① 采集：往前推进切片
+    # 所有钥匙今日都停用了 —— 直接跳过采集，不要每 5 分钟空转撞 429
+    if pool is not None and pool.all_dead():
+        print(f"  [采集] {len(pool.keys)} 把钥匙今日全部耗尽，跳过采集（等配额重置）")
+        stats["quota_dead"] = 1
+    else:
+        _do_cycle_collect(pool, state, stats, dry_run)
+
+    # ①·补 判定观察区里够年龄的视频（真正的门槛在这里生效）
+    _evaluate_staging(pool, state, stats)
+
+    # ② 观察：给到期的候选采样
+    _sample_due(pool, state, stats)
+
+    # ③ 清理
+    _prune(state, stats)
+
+    state["stats"]["last_cycle"] = {
+        "at": iso_z(now_utc()),
+        "elapsed": round(time.time() - started, 1),
+        **stats,
+    }
+    return stats
+
+
+def _do_cycle_collect(pool, state, stats, dry_run):
+    """采集部分：推进时间片。"""
     cursor = parse_iso(state.get("cursor_utc"))
     now = now_utc()
     if cursor is None or cursor > now:
@@ -900,22 +934,6 @@ def cycle(pool, state, dry_run=False):
     else:
         print(f"  [采集] 距下一片还差 {int((CFG['min_slice_seconds']-gap)/60)} 分"
               f"（游标 {bjt_str(cursor)}）")
-
-    # ①·补 判定观察区里够年龄的视频（真正的门槛在这里生效）
-    _evaluate_staging(pool, state, stats)
-
-    # ② 观察：给到期的候选采样
-    _sample_due(pool, state, stats)
-
-    # ③ 清理
-    _prune(state, stats)
-
-    state["stats"]["last_cycle"] = {
-        "at": iso_z(now),
-        "elapsed": round(time.time() - started, 1),
-        **stats,
-    }
-    return stats
 
 
 def content_ok(d, cfg=None):
