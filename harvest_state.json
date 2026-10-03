@@ -1,6 +1,39 @@
 {
-  "cursor_utc": "2026-10-03T12:45:21.209235Z",
-  "staging": {},
+  "cursor_utc": "2026-10-03T12:55:18.209235Z",
+  "staging": {
+    "IqLbOl76mCI": {
+      "video_id": "IqLbOl76mCI",
+      "title": "Nokia and minecraft aura #usa #shorts",
+      "channel_id": "UCFZwaLuX-Q4dIgFuNNf4g9w",
+      "channel_name": "MemeMerica",
+      "published_at": "2026-10-03T12:51:46Z",
+      "first_seen_at": "2026-10-03T12:55:19.379686Z"
+    },
+    "V-gD8Ur3hd4": {
+      "video_id": "V-gD8Ur3hd4",
+      "title": "Didn’t want the loot anyway…. #minecraft #minecraftshorts",
+      "channel_id": "UCjF7lh-UE4b5yK08IiXTlhA",
+      "channel_name": "KBdoesMinecraft",
+      "published_at": "2026-10-03T12:47:26Z",
+      "first_seen_at": "2026-10-03T12:55:19.379686Z"
+    },
+    "z5VPRGeOAD0": {
+      "video_id": "z5VPRGeOAD0",
+      "title": "Phân Tích Thái Cực #shorts #minecraft",
+      "channel_id": "UClZG58UPbwQ1jNjdALO-BUg",
+      "channel_name": "CaptainBee Mc",
+      "published_at": "2026-10-03T12:46:53Z",
+      "first_seen_at": "2026-10-03T12:55:19.379686Z"
+    },
+    "xmt5WSqlvSo": {
+      "video_id": "xmt5WSqlvSo",
+      "title": "Minecraft: But Verity Is Shocked when We are Rocked. 💀🔥 #shorts #minecraft",
+      "channel_id": "UCajWX4gMIzcYkK9YYRUMRbA",
+      "channel_name": "MR NAIM",
+      "published_at": "2026-10-03T12:45:31Z",
+      "first_seen_at": "2026-10-03T12:55:19.379686Z"
+    }
+  },
   "candidates": {
     "NHh2npox6S4": {
       "video_id": "NHh2npox6S4",
@@ -1723,6 +1756,11 @@
       "at": "2026-10-03T12:45:21.389122Z",
       "results": 0,
       "span_minutes": 5.033333333333333
+    },
+    {
+      "at": "2026-10-03T12:55:19.073090Z",
+      "results": 4,
+      "span_minutes": 9.95
     }
   ],
   "hourly_density": {
@@ -1752,9 +1790,9 @@
       "n": 8
     },
     "20": {
-      "results": 43,
-      "span": 44.66666666666667,
-      "n": 6
+      "results": 47,
+      "span": 54.616666666666674,
+      "n": 7
     }
   },
   "reject_reasons": {
@@ -1768,21 +1806,22 @@
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 621,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 621,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1314,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 620
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 720
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T12:50:20.521044Z",
-      "elapsed": 0.0,
-      "searched": 0,
+      "at": "2026-10-03T12:55:19.379786Z",
+      "elapsed": 0.3,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0
+      "dropped": 0,
+      "staged": 4
     }
   },
-  "key_rr": 4,
+  "key_rr": 0,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
