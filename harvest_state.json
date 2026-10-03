@@ -16,38 +16,6 @@
       "channel_name": "NOT_Shyam",
       "published_at": "2026-10-03T12:29:15Z",
       "first_seen_at": "2026-10-03T12:30:38.204165Z"
-    },
-    "EcRl-KZcaNc": {
-      "video_id": "EcRl-KZcaNc",
-      "title": "Mipan &amp; Zuzuzu Prank Villager Untuk Mendapatkan Diamond! Minecraft",
-      "channel_id": "UCNE2TAo3T63lpBbYuI_SeRw",
-      "channel_name": "AKUDAV & AKUDAP Shorts",
-      "published_at": "2026-10-03T12:25:05Z",
-      "first_seen_at": "2026-10-03T12:30:38.204165Z"
-    },
-    "mLdvkfh_K6o": {
-      "video_id": "mLdvkfh_K6o",
-      "title": "Atun Berubah Menjadi Alien Four Arm #shorts #fyp #viral #minecraft",
-      "channel_id": "UClfw7Mx0Vmh4hDAT0STSohw",
-      "channel_name": "BANGJBLOX",
-      "published_at": "2026-10-03T12:21:37Z",
-      "first_seen_at": "2026-10-03T12:30:38.204165Z"
-    },
-    "hG4X2w0tbyI": {
-      "video_id": "hG4X2w0tbyI",
-      "title": "Bro Regretted This Immediately 💥 #shorts",
-      "channel_id": "UC3LV8lnFTTpsumv6pgoWpuw",
-      "channel_name": "Bhuvi_Vrs",
-      "published_at": "2026-10-03T12:20:44Z",
-      "first_seen_at": "2026-10-03T12:30:38.204165Z"
-    },
-    "6_GAwyn-pCE": {
-      "video_id": "6_GAwyn-pCE",
-      "title": "MINECRAFT 2014 VS 2024 #minecraft #ytshorts",
-      "channel_id": "UCV92N0SS2uf3qMd3qsbdu2A",
-      "channel_name": "DRAXON99 ",
-      "published_at": "2026-10-03T12:21:19Z",
-      "first_seen_at": "2026-10-03T12:30:38.204165Z"
     }
   },
   "candidates": {
@@ -394,7 +362,11 @@
     "52sBOrIAeGM": "2026-10-03T12:25:18.346181Z",
     "kt0E2VjoIig": "2026-10-03T12:30:38.204181Z",
     "7w3Lm_Pdc1s": "2026-10-03T12:30:38.204181Z",
-    "ga2rQxMpnPw": "2026-10-03T12:30:38.204181Z"
+    "ga2rQxMpnPw": "2026-10-03T12:30:38.204181Z",
+    "hG4X2w0tbyI": "2026-10-03T12:35:24.382977Z",
+    "6_GAwyn-pCE": "2026-10-03T12:35:24.382977Z",
+    "mLdvkfh_K6o": "2026-10-03T12:35:24.382977Z",
+    "EcRl-KZcaNc": "2026-10-03T12:35:24.382977Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1540,6 +1512,22 @@
     "UCb9u7mz16KZ_YlGOQq_mZ2w": {
       "subs": 1390,
       "fetched_at": "2026-10-03T12:30:38.322878Z"
+    },
+    "UCV92N0SS2uf3qMd3qsbdu2A": {
+      "subs": 1090,
+      "fetched_at": "2026-10-03T12:35:24.571392Z"
+    },
+    "UCNE2TAo3T63lpBbYuI_SeRw": {
+      "subs": 2540000,
+      "fetched_at": "2026-10-03T12:35:24.571392Z"
+    },
+    "UClfw7Mx0Vmh4hDAT0STSohw": {
+      "subs": 5570000,
+      "fetched_at": "2026-10-03T12:35:24.571392Z"
+    },
+    "UC3LV8lnFTTpsumv6pgoWpuw": {
+      "subs": 986,
+      "fetched_at": "2026-10-03T12:35:24.571392Z"
     }
   },
   "search_log": [
@@ -1769,25 +1757,24 @@
   "key_usage": {
     "_day": "2026-10-03",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 818,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 520,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 619,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 521,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 620,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1213,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 619
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T12:30:38.425681Z",
-      "elapsed": 0.7,
-      "searched": 1,
+      "at": "2026-10-03T12:35:24.706699Z",
+      "elapsed": 0.3,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 7
+      "dropped": 0
     }
   },
-  "key_rr": 1,
+  "key_rr": 3,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
