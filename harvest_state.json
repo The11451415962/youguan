@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-03T10:25:18.209235Z",
+  "cursor_utc": "2026-10-03T10:30:27.209235Z",
   "staging": {
     "Bi3mAz2OBRI": {
       "video_id": "Bi3mAz2OBRI",
@@ -17,69 +17,21 @@
       "published_at": "2026-10-03T10:22:13Z",
       "first_seen_at": "2026-10-03T10:25:19.184348Z"
     },
-    "imsG10js-8o": {
-      "video_id": "imsG10js-8o",
-      "title": "Minecraft Funny Tips and Tricks 😂 #minecraft #shorts",
-      "channel_id": "UCB9XaxuHQAgn0l8qA1e8lcA",
-      "channel_name": "its catsky yt",
-      "published_at": "2026-10-03T10:20:21Z",
-      "first_seen_at": "2026-10-03T10:25:19.184348Z"
+    "F-IuCAwFXdI": {
+      "video_id": "F-IuCAwFXdI",
+      "title": "Or karo Vayde... 🤣#minecraft #gaming #minecraftmemes",
+      "channel_id": "UCXRgtKncAQIdnZHaTeqi1JA",
+      "channel_name": "CreeperAce ",
+      "published_at": "2026-10-03T10:27:08Z",
+      "first_seen_at": "2026-10-03T10:30:28.530044Z"
     },
-    "5ZR5RXGsYl4": {
-      "video_id": "5ZR5RXGsYl4",
-      "title": "Tôi thử chơi bản mod dưa hấu 🍉#shorts #minecraft",
-      "channel_id": "UCTfRhQ0UiNuXBsuxPUnILZg",
-      "channel_name": "Cá Nướng MC",
-      "published_at": "2026-10-03T10:18:44Z",
-      "first_seen_at": "2026-10-03T10:25:19.184348Z"
-    },
-    "9x9rM2TcEcc": {
-      "video_id": "9x9rM2TcEcc",
-      "title": "Fariis47 🔥 #minecraft #ماينكرافت",
-      "channel_id": "UCijZ7gc_WXjYEOE-dpLieBA",
-      "channel_name": "Povod",
-      "published_at": "2026-10-03T10:15:51Z",
-      "first_seen_at": "2026-10-03T10:25:19.184348Z"
-    },
-    "_8UvH0hCs4U": {
-      "video_id": "_8UvH0hCs4U",
-      "title": "Buron có vũ khí mạnh nhất Minecraft",
-      "channel_id": "UCO4YLd17gALapIYxyY-PU2w",
-      "channel_name": "Oops Zeros",
-      "published_at": "2026-10-03T10:17:25Z",
-      "first_seen_at": "2026-10-03T10:25:19.184348Z"
-    },
-    "jtG8otpoFDQ": {
-      "video_id": "jtG8otpoFDQ",
-      "title": "Minecraft Singleplayer mit Gustaf #minecraft #caravas #challenge",
-      "channel_id": "UC4UDgtqBSQZ4yk7H_sEiFWA",
-      "channel_name": "Caravas",
-      "published_at": "2026-10-03T10:15:35Z",
-      "first_seen_at": "2026-10-03T10:25:19.184348Z"
-    },
-    "aVfBrRogVzQ": {
-      "video_id": "aVfBrRogVzQ",
-      "title": "Which Minecraft Shader is ACTUALLY the Best? 🤯#minecraft #shorts #minecraftshaders",
-      "channel_id": "UCNpOMnw85lGmx30hG7ArcnQ",
-      "channel_name": "dobar ",
-      "published_at": "2026-10-03T10:16:40Z",
-      "first_seen_at": "2026-10-03T10:25:19.184348Z"
-    },
-    "uxS8Q7qknvg": {
-      "video_id": "uxS8Q7qknvg",
-      "title": "Trying to Beat Minecraft by Only Gambling",
-      "channel_id": "UC6KDePyRnTj5EIUcJvCXVmQ",
-      "channel_name": "EvanavE",
-      "published_at": "2026-10-03T10:16:44Z",
-      "first_seen_at": "2026-10-03T10:25:19.184348Z"
-    },
-    "YF8lCvGW1dE": {
-      "video_id": "YF8lCvGW1dE",
-      "title": "Best minecraft server of 2026 waveSMP Cracked",
-      "channel_id": "UC7W5UqeHwN31rE0YLlq7VkQ",
-      "channel_name": "KillStealerz",
-      "published_at": "2026-10-03T10:15:32Z",
-      "first_seen_at": "2026-10-03T10:25:19.184348Z"
+    "c7HhSldNV_E": {
+      "video_id": "c7HhSldNV_E",
+      "title": "Built 4 Different Iron Golems in Minecraft! 🤯🔥",
+      "channel_id": "UCLridR8NKS4l6y-xhwJIIcw",
+      "channel_name": "Minecraft S5 Minecraft S5",
+      "published_at": "2026-10-03T10:27:02Z",
+      "first_seen_at": "2026-10-03T10:30:28.530044Z"
     }
   },
   "candidates": {
@@ -93,12 +45,17 @@
       "tier_locked_at": "2026-10-03T10:20:22.339609Z",
       "published_at": "2026-10-03T10:08:56Z",
       "first_seen_at": "2026-10-03T10:10:20.898933Z",
-      "last_checked_at": "2026-10-03T10:20:22.339609Z",
+      "last_checked_at": "2026-10-03T10:30:28.900964Z",
       "samples": [
         {
           "t": "2026-10-03T10:20:22.339609Z",
           "views": 319,
           "likes": 1
+        },
+        {
+          "t": "2026-10-03T10:30:28.900944Z",
+          "views": 1232,
+          "likes": 11
         }
       ],
       "stale_checks": 0,
@@ -292,7 +249,15 @@
     "eIK_j1OHQ74": "2026-10-03T10:25:19.184368Z",
     "2liJUyyEeUg": "2026-10-03T10:25:19.184368Z",
     "Q710BMGbi70": "2026-10-03T10:25:19.184368Z",
-    "SHzWEeKPSsI": "2026-10-03T10:25:19.184368Z"
+    "SHzWEeKPSsI": "2026-10-03T10:25:19.184368Z",
+    "YF8lCvGW1dE": "2026-10-03T10:30:28.530062Z",
+    "jtG8otpoFDQ": "2026-10-03T10:30:28.530062Z",
+    "9x9rM2TcEcc": "2026-10-03T10:30:28.530062Z",
+    "aVfBrRogVzQ": "2026-10-03T10:30:28.530062Z",
+    "uxS8Q7qknvg": "2026-10-03T10:30:28.530062Z",
+    "_8UvH0hCs4U": "2026-10-03T10:30:28.530062Z",
+    "5ZR5RXGsYl4": "2026-10-03T10:30:28.530062Z",
+    "imsG10js-8o": "2026-10-03T10:30:28.530062Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1014,6 +979,38 @@
     "UCcW1wkjWSBra8mqJYHNmtYA": {
       "subs": 275,
       "fetched_at": "2026-10-03T10:25:19.351765Z"
+    },
+    "UC7W5UqeHwN31rE0YLlq7VkQ": {
+      "subs": 6350,
+      "fetched_at": "2026-10-03T10:30:28.682692Z"
+    },
+    "UCNpOMnw85lGmx30hG7ArcnQ": {
+      "subs": 60,
+      "fetched_at": "2026-10-03T10:30:28.682692Z"
+    },
+    "UCB9XaxuHQAgn0l8qA1e8lcA": {
+      "subs": 353,
+      "fetched_at": "2026-10-03T10:30:28.682692Z"
+    },
+    "UCTfRhQ0UiNuXBsuxPUnILZg": {
+      "subs": 3560,
+      "fetched_at": "2026-10-03T10:30:28.682692Z"
+    },
+    "UC6KDePyRnTj5EIUcJvCXVmQ": {
+      "subs": 17800,
+      "fetched_at": "2026-10-03T10:30:28.682692Z"
+    },
+    "UCO4YLd17gALapIYxyY-PU2w": {
+      "subs": 4270000,
+      "fetched_at": "2026-10-03T10:30:28.682692Z"
+    },
+    "UC4UDgtqBSQZ4yk7H_sEiFWA": {
+      "subs": 446000,
+      "fetched_at": "2026-10-03T10:30:28.682692Z"
+    },
+    "UCijZ7gc_WXjYEOE-dpLieBA": {
+      "subs": 7960,
+      "fetched_at": "2026-10-03T10:30:28.682692Z"
     }
   },
   "search_log": [
@@ -1121,6 +1118,11 @@
       "at": "2026-10-03T10:25:18.880431Z",
       "results": 10,
       "span_minutes": 9.883333333333333
+    },
+    {
+      "at": "2026-10-03T10:30:28.195852Z",
+      "results": 2,
+      "span_minutes": 5.15
     }
   ],
   "hourly_density": {
@@ -1140,38 +1142,38 @@
       "n": 8
     },
     "18": {
-      "results": 45,
-      "span": 24.65,
-      "n": 3
+      "results": 47,
+      "span": 29.799999999999997,
+      "n": 4
     }
   },
   "reject_reasons": {
     "描述过长(疑口播)": 30,
-    "分类不符": 27,
+    "分类不符": 28,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 608,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 609,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 410,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 211,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 409,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 508
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 311,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 410,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 509
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T10:25:19.491284Z",
-      "elapsed": 0.6,
+      "at": "2026-10-03T10:30:28.901061Z",
+      "elapsed": 0.7,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
+      "sampled": 1,
       "dropped": 0,
-      "staged": 10
+      "staged": 2
     }
   },
-  "key_rr": 2,
+  "key_rr": 1,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
