@@ -104,17 +104,63 @@ def build_api():
     return YT(key)
 
 
-def gh(*a, input_data=None):
+# ---------------------------------------------------------------------------
+# GitHub API（用 GITHUB_TOKEN，不依赖 gh CLI —— CI 里没有 gh 的认证）
+# ---------------------------------------------------------------------------
+
+def _gh_headers():
+    tok = (os.getenv("GH_TOKEN") or os.getenv("GITHUB_TOKEN") or "").strip()
+    h = {"Accept": "application/vnd.github+json",
+         "X-GitHub-Api-Version": "2022-11-28",
+         "User-Agent": "add-channel/1.0"}
+    if tok:
+        h["Authorization"] = f"Bearer {tok}"
+    return h
+
+
+def _gh_request(method, url, body=None, raw=False):
+    data = json.dumps(body).encode("utf-8") if body is not None else None
+    req = urllib.request.Request(url, data=data, headers=_gh_headers(), method=method)
+    if body is not None:
+        req.add_header("Content-Type", "application/json")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            payload = r.read()
+            return (payload.decode("utf-8") if raw else json.loads(payload)), None
+    except urllib.error.HTTPError as e:
+        detail = e.read().decode("utf-8", "ignore")[:200]
+        return None, f"HTTP {e.code}: {detail}"
+    except Exception as e:
+        return None, f"{type(e).__name__}: {str(e)[:150]}"
+
+
+def _gh_cli(*a, input_data=None):
+    """本地兜底：用 gh CLI（如果装了且已登录）。"""
     p = subprocess.run(["gh", *a], capture_output=True, text=True,
                        encoding="utf-8", errors="replace", input=input_data)
     return (p.stdout, None) if p.returncode == 0 else (None, (p.stderr or "").strip())
 
 
-def gh_json(path):
-    out, err = gh("api", f"repos/{REPO}/contents/{path}",
-                  "-H", "Accept: application/vnd.github.raw")
-    if err:
-        return None, err
+def file_url(path):
+    return f"https://api.github.com/repos/{REPO}/contents/{path}"
+
+
+def gh_json(path, ref=None):
+    """读仓库里的 JSON 文件。优先用 REST API，失败再退回 gh CLI。"""
+    url = file_url(path) + (f"?ref={ref}" if ref else "")
+    body, err = _gh_request("GET", url)
+    if not err:
+        import base64 as _b64
+        try:
+            content = _b64.b64decode(body["content"]).decode("utf-8")
+            return json.loads(content), None
+        except Exception as e:
+            return None, f"解码失败: {e}"
+    # 退回 gh CLI（本地开发用）
+    out, cli_err = _gh_cli("api", f"repos/{REPO}/contents/{path}",
+                           "-H", "Accept: application/vnd.github.raw")
+    if cli_err:
+        return None, f"API: {err} / CLI: {cli_err[:120]}"
     try:
         return json.loads(out), None
     except json.JSONDecodeError as e:
@@ -122,16 +168,27 @@ def gh_json(path):
 
 
 def put_file(path, content, message):
-    out, err = gh("api", f"repos/{REPO}/contents/{path}")
-    sha = json.loads(out)["sha"] if not err else None
+    """写入仓库文件。优先 REST API，失败退回 gh CLI。"""
+    import base64 as _b64
+    # 取当前 sha（文件不存在则为 None）
+    meta, _ = _gh_request("GET", file_url(path) + f"?ref={BRANCH}")
+    sha = meta.get("sha") if meta else None
     body = {"message": message,
-            "content": base64.b64encode(content.encode("utf-8")).decode(),
+            "content": _b64.b64encode(content.encode("utf-8")).decode(),
             "branch": BRANCH}
     if sha:
         body["sha"] = sha
-    _, err = gh("api", "-X", "PUT", f"repos/{REPO}/contents/{path}",
-                "--input", "-", input_data=json.dumps(body))
-    return (True, None) if not err else (False, err)
+
+    _, err = _gh_request("PUT", file_url(path), body)
+    if not err:
+        return True, None
+
+    # 退回 gh CLI
+    _, cli_err = _gh_cli("api", "-X", "PUT", f"repos/{REPO}/contents/{path}",
+                         "--input", "-", input_data=json.dumps(body))
+    if cli_err:
+        return False, f"API: {err} / CLI: {cli_err[:120]}"
+    return True, None
 
 
 def parse_ref(text):
