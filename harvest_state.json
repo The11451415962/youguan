@@ -1,15 +1,6 @@
 {
   "cursor_utc": "2026-10-03T13:00:36.209235Z",
-  "staging": {
-    "IqLbOl76mCI": {
-      "video_id": "IqLbOl76mCI",
-      "title": "Nokia and minecraft aura #usa #shorts",
-      "channel_id": "UCFZwaLuX-Q4dIgFuNNf4g9w",
-      "channel_name": "MemeMerica",
-      "published_at": "2026-10-03T12:51:46Z",
-      "first_seen_at": "2026-10-03T12:55:19.379686Z"
-    }
-  },
+  "staging": {},
   "candidates": {
     "NHh2npox6S4": {
       "video_id": "NHh2npox6S4",
@@ -21,7 +12,7 @@
       "tier_locked_at": "2026-10-03T10:20:22.339609Z",
       "published_at": "2026-10-03T10:08:56Z",
       "first_seen_at": "2026-10-03T10:10:20.898933Z",
-      "last_checked_at": "2026-10-03T12:00:44.563468Z",
+      "last_checked_at": "2026-10-03T13:05:21.934604Z",
       "samples": [
         {
           "t": "2026-10-03T10:20:22.339609Z",
@@ -52,9 +43,14 @@
           "t": "2026-10-03T12:00:44.563458Z",
           "views": 4582,
           "likes": 30
+        },
+        {
+          "t": "2026-10-03T13:05:21.934579Z",
+          "views": 4767,
+          "likes": 30
         }
       ],
-      "stale_checks": 1,
+      "stale_checks": 0,
       "notified": false,
       "gate_vpm": 27.9,
       "promo_score": 1.44
@@ -364,7 +360,8 @@
     "LGoIkwS0CLM": "2026-10-03T12:45:21.659621Z",
     "xmt5WSqlvSo": "2026-10-03T13:00:37.514738Z",
     "z5VPRGeOAD0": "2026-10-03T13:00:37.514738Z",
-    "V-gD8Ur3hd4": "2026-10-03T13:00:37.514738Z"
+    "V-gD8Ur3hd4": "2026-10-03T13:00:37.514738Z",
+    "IqLbOl76mCI": "2026-10-03T13:05:19.700931Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1550,6 +1547,10 @@
     "UCajWX4gMIzcYkK9YYRUMRbA": {
       "subs": 161000,
       "fetched_at": "2026-10-03T13:00:37.661557Z"
+    },
+    "UCFZwaLuX-Q4dIgFuNNf4g9w": {
+      "subs": 5,
+      "fetched_at": "2026-10-03T13:05:19.825857Z"
     }
   },
   "search_log": [
@@ -1798,26 +1799,25 @@
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 919,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 920,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 622,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 622,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1314,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 720
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1315,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 721
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T13:00:37.841935Z",
-      "elapsed": 0.9,
-      "searched": 1,
+      "at": "2026-10-03T13:05:21.934726Z",
+      "elapsed": 2.2,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
-      "dropped": 0,
-      "staged": 0
+      "sampled": 1,
+      "dropped": 0
     }
   },
-  "key_rr": 3,
+  "key_rr": 1,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
