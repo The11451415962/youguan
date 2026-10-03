@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-03T10:50:21.209235Z",
+  "cursor_utc": "2026-10-03T11:00:37.209235Z",
   "staging": {},
   "candidates": {
     "NHh2npox6S4": {
@@ -1170,6 +1170,11 @@
       "at": "2026-10-03T10:50:21.610026Z",
       "results": 1,
       "span_minutes": 10.0
+    },
+    {
+      "at": "2026-10-03T11:00:37.796662Z",
+      "results": 0,
+      "span_minutes": 10.266666666666667
     }
   ],
   "hourly_density": {
@@ -1190,8 +1195,8 @@
     },
     "18": {
       "results": 56,
-      "span": 49.699999999999996,
-      "n": 6
+      "span": 59.96666666666666,
+      "n": 7
     }
   },
   "reject_reasons": {
@@ -1203,23 +1208,24 @@
     "_day": "2026-10-03",
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 611,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 413,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 313,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 413,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 610,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 511
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T10:55:18.368487Z",
-      "elapsed": 0.4,
-      "searched": 0,
+      "at": "2026-10-03T11:00:38.057699Z",
+      "elapsed": 0.3,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 1,
-      "dropped": 0
+      "sampled": 0,
+      "dropped": 0,
+      "staged": 0
     }
   },
-  "key_rr": 2,
+  "key_rr": 3,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
