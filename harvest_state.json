@@ -1,37 +1,13 @@
 {
-  "cursor_utc": "2026-10-02T23:55:17.346199Z",
+  "cursor_utc": "2026-10-03T00:00:37.346199Z",
   "staging": {
-    "MDVnrser3_U": {
-      "video_id": "MDVnrser3_U",
-      "title": "KYA kar lenge bhai .#minecraft #ben10 #pilliboomalu",
-      "channel_id": "UCyJkFyR3HSBh4jH4gRSIyQA",
-      "channel_name": "Matiks ",
-      "published_at": "2026-10-02T23:48:36Z",
-      "first_seen_at": "2026-10-02T23:55:17.829639Z"
-    },
-    "Z3G6Cwrs3cM": {
-      "video_id": "Z3G6Cwrs3cM",
-      "title": "Minecraft Discrimina #minecraft #shorts #humor",
-      "channel_id": "UCsgvTsbmvPHGyM32ZtkYU8A",
-      "channel_name": "KayserShortsMC",
-      "published_at": "2026-10-02T23:46:26Z",
-      "first_seen_at": "2026-10-02T23:55:17.829639Z"
-    },
-    "Npzjq3RfReI": {
-      "video_id": "Npzjq3RfReI",
-      "title": "O ESPANTALHO MAIS MACABRO DO MINECRAFT… #shorts #analoghorror #minecraft",
-      "channel_id": "UCd9eDwMEiUqobOIp_7XW-eg",
-      "channel_name": "RONARE YT",
-      "published_at": "2026-10-02T23:47:15Z",
-      "first_seen_at": "2026-10-02T23:55:17.829639Z"
-    },
-    "ifFm8knl8LU": {
-      "video_id": "ifFm8knl8LU",
-      "title": "Arena baru nih - Arrow toss part 8",
-      "channel_id": "UCbFpGwH1FvX04kx1E2qNpDg",
-      "channel_name": "Leastreak",
-      "published_at": "2026-10-02T23:45:36Z",
-      "first_seen_at": "2026-10-02T23:55:17.829639Z"
+    "m6Ig3KR7uvE": {
+      "video_id": "m6Ig3KR7uvE",
+      "title": "minecraft meme",
+      "channel_id": "UCKtm4ZgufnneiIwYrpxDtgw",
+      "channel_name": "AyankJAM88",
+      "published_at": "2026-10-02T23:57:47Z",
+      "first_seen_at": "2026-10-03T00:00:38.309150Z"
     }
   },
   "candidates": {
@@ -45,7 +21,7 @@
       "tier_locked_at": "2026-10-02T23:00:37.801312Z",
       "published_at": "2026-10-02T22:45:25Z",
       "first_seen_at": "2026-10-02T22:55:19.067204Z",
-      "last_checked_at": "2026-10-02T23:40:20.301149Z",
+      "last_checked_at": "2026-10-03T00:00:40.456174Z",
       "samples": [
         {
           "t": "2026-10-02T23:00:37.801312Z",
@@ -61,6 +37,11 @@
           "t": "2026-10-02T23:40:20.301130Z",
           "views": 1407,
           "likes": 14
+        },
+        {
+          "t": "2026-10-03T00:00:40.456154Z",
+          "views": 1481,
+          "likes": 16
         }
       ],
       "stale_checks": 0,
@@ -911,7 +892,11 @@
     "hWUNWrjzcak": "2026-10-02T23:45:23.017711Z",
     "GEKUAfLbOLI": "2026-10-02T23:45:23.017711Z",
     "vGFV1shm74k": "2026-10-02T23:45:23.017711Z",
-    "hB3CCwgXlAk": "2026-10-02T23:45:23.017711Z"
+    "hB3CCwgXlAk": "2026-10-02T23:45:23.017711Z",
+    "ifFm8knl8LU": "2026-10-03T00:00:38.309166Z",
+    "Z3G6Cwrs3cM": "2026-10-03T00:00:38.309166Z",
+    "Npzjq3RfReI": "2026-10-03T00:00:38.309166Z",
+    "MDVnrser3_U": "2026-10-03T00:00:38.309166Z"
   },
   "channels": {
     "UCBFNak4Z5o9zHjzalNzMi3g": {
@@ -4069,14 +4054,21 @@
     "UCXX3TVG-251mdVdDmZSrhXQ": {
       "subs": 59,
       "fetched_at": "2026-10-02T23:45:23.145648Z"
+    },
+    "UCd9eDwMEiUqobOIp_7XW-eg": {
+      "subs": 475000,
+      "fetched_at": "2026-10-03T00:00:38.484567Z"
+    },
+    "UCyJkFyR3HSBh4jH4gRSIyQA": {
+      "subs": 45,
+      "fetched_at": "2026-10-03T00:00:38.484567Z"
+    },
+    "UCbFpGwH1FvX04kx1E2qNpDg": {
+      "subs": 375,
+      "fetched_at": "2026-10-03T00:00:38.484567Z"
     }
   },
   "search_log": [
-    {
-      "at": "2026-10-02T17:45:23.001127Z",
-      "results": 1,
-      "span_minutes": 5.033333333333333
-    },
     {
       "at": "2026-10-02T17:55:22.265563Z",
       "results": 0,
@@ -4321,6 +4313,11 @@
       "at": "2026-10-02T23:55:17.521838Z",
       "results": 4,
       "span_minutes": 9.916666666666666
+    },
+    {
+      "at": "2026-10-03T00:00:37.911934Z",
+      "results": 1,
+      "span_minutes": 5.333333333333333
     }
   ],
   "hourly_density": {
@@ -4375,9 +4372,9 @@
       "n": 9
     },
     "7": {
-      "results": 74,
-      "span": 54.666666666666664,
-      "n": 7
+      "results": 75,
+      "span": 60.0,
+      "n": 8
     }
   },
   "reject_reasons": {
@@ -4388,26 +4385,26 @@
   },
   "key_usage": {
     "_day": "2026-10-02",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2533,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1345,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 2534,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1346,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1444,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1641,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1344
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1741,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1345
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-02T23:55:17.521838Z",
-      "elapsed": 0.3,
+      "at": "2026-10-03T00:00:37.911934Z",
+      "elapsed": 2.5,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
+      "sampled": 1,
       "dropped": 0,
-      "staged": 4
+      "staged": 1
     }
   },
-  "key_rr": 3,
+  "key_rr": 2,
   "tier_stats": {
     "T2": {
       "vpm_samples": [
