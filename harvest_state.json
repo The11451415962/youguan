@@ -1,13 +1,45 @@
 {
-  "cursor_utc": "2026-10-03T11:30:29.209235Z",
+  "cursor_utc": "2026-10-03T11:40:20.209235Z",
   "staging": {
-    "8H1xfUtMPjI": {
-      "video_id": "8H1xfUtMPjI",
-      "title": "This Minecraft Trick Might Get PATCHED 😳🔥 #Minecraft #Shorts",
-      "channel_id": "UCsTtP2UnP-X2EdqnkWqsLKQ",
-      "channel_name": "Anytales",
-      "published_at": "2026-10-03T11:27:57Z",
-      "first_seen_at": "2026-10-03T11:30:30.222411Z"
+    "XJyWUGlG35g": {
+      "video_id": "XJyWUGlG35g",
+      "title": "रेयर सीड 😱।gaming shorts। minecraft #shorts ।",
+      "channel_id": "UC6_FnZSPfb-tJOwSi1fWvGg",
+      "channel_name": "Vikas Choudhary. 🤠",
+      "published_at": "2026-10-03T11:30:37Z",
+      "first_seen_at": "2026-10-03T11:40:20.541996Z"
+    },
+    "iRJkNf68K3Y": {
+      "video_id": "iRJkNf68K3Y",
+      "title": "Lỡ Thức Khuya Cày Nhạc Jack Và Cái Kết #minecraft #memes #haomeme",
+      "channel_id": "UCRWJABi3Kv8bYS35PqHIWNQ",
+      "channel_name": "Hào Meme",
+      "published_at": "2026-10-03T11:30:34Z",
+      "first_seen_at": "2026-10-03T11:40:20.541996Z"
+    },
+    "Ov7gTL6MQy4": {
+      "video_id": "Ov7gTL6MQy4",
+      "title": "Minecraft ke kush mast bed ke disines 🤯",
+      "channel_id": "UC0iOASPn7DeYJSVY6pR2nNA",
+      "channel_name": "Nayan_boy",
+      "published_at": "2026-10-03T11:32:10Z",
+      "first_seen_at": "2026-10-03T11:40:20.541996Z"
+    },
+    "YtsHHwR4n-E": {
+      "video_id": "YtsHHwR4n-E",
+      "title": "Proboiz AURA🤯 #viral #minecraft #gaming #aura #proboiz95 #views #roasting",
+      "channel_id": "UCXeQEGNSr5DnJt_i0SupVqA",
+      "channel_name": "GOJO_EDITZ",
+      "published_at": "2026-10-03T11:32:15Z",
+      "first_seen_at": "2026-10-03T11:40:20.541996Z"
+    },
+    "ohjLgDPvZdY": {
+      "video_id": "ohjLgDPvZdY",
+      "title": "The Most ILLOGICAL Rule in Minecraft! 😂🔥 #minecraft #minecraftshorts #gaming",
+      "channel_id": "UCAQT1UyCtLh33KEhTKaNCPA",
+      "channel_name": "NTH gamerz",
+      "published_at": "2026-10-03T11:30:34Z",
+      "first_seen_at": "2026-10-03T11:40:20.541996Z"
     }
   },
   "candidates": {
@@ -21,7 +53,7 @@
       "tier_locked_at": "2026-10-03T10:20:22.339609Z",
       "published_at": "2026-10-03T10:08:56Z",
       "first_seen_at": "2026-10-03T10:10:20.898933Z",
-      "last_checked_at": "2026-10-03T11:15:22.567130Z",
+      "last_checked_at": "2026-10-03T11:40:20.880663Z",
       "samples": [
         {
           "t": "2026-10-03T10:20:22.339609Z",
@@ -41,6 +73,11 @@
         {
           "t": "2026-10-03T11:15:22.567116Z",
           "views": 4502,
+          "likes": 31
+        },
+        {
+          "t": "2026-10-03T11:40:20.880641Z",
+          "views": 4582,
           "likes": 31
         }
       ],
@@ -298,7 +335,8 @@
     "9sgelcxhd7k": "2026-10-03T11:30:30.222432Z",
     "0yr-mWYjBJQ": "2026-10-03T11:30:30.222432Z",
     "hV-Nj3I811Q": "2026-10-03T11:35:19.110695Z",
-    "-au4L1mpOvY": "2026-10-03T11:35:19.110695Z"
+    "-au4L1mpOvY": "2026-10-03T11:35:19.110695Z",
+    "8H1xfUtMPjI": "2026-10-03T11:40:20.542016Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1272,6 +1310,10 @@
     "UC0kdmQ9EOJNmjbzFe_GQysg": {
       "subs": 22300,
       "fetched_at": "2026-10-03T11:35:19.269052Z"
+    },
+    "UCsTtP2UnP-X2EdqnkWqsLKQ": {
+      "subs": 251,
+      "fetched_at": "2026-10-03T11:40:20.659774Z"
     }
   },
   "search_log": [
@@ -1419,6 +1461,11 @@
       "at": "2026-10-03T11:30:29.828078Z",
       "results": 3,
       "span_minutes": 10.133333333333333
+    },
+    {
+      "at": "2026-10-03T11:40:20.248945Z",
+      "results": 5,
+      "span_minutes": 9.85
     }
   ],
   "hourly_density": {
@@ -1443,37 +1490,38 @@
       "n": 7
     },
     "19": {
-      "results": 43,
-      "span": 29.866666666666667,
-      "n": 4
+      "results": 48,
+      "span": 39.71666666666667,
+      "n": 5
     }
   },
   "reject_reasons": {
-    "描述过长(疑口播)": 37,
+    "描述过长(疑口播)": 38,
     "分类不符": 40,
     "标题含(twitch)": 1
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 614,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 416,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 615,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 417,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 416,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 910,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 613
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1010,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 614
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T11:35:19.400375Z",
-      "elapsed": 0.3,
-      "searched": 0,
+      "at": "2026-10-03T11:40:20.880776Z",
+      "elapsed": 0.6,
+      "searched": 1,
       "new": 0,
       "gated_in": 0,
-      "sampled": 0,
-      "dropped": 0
+      "sampled": 1,
+      "dropped": 0,
+      "staged": 5
     }
   },
-  "key_rr": 3,
+  "key_rr": 2,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
