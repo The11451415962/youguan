@@ -1,6 +1,71 @@
 {
-  "cursor_utc": "2026-10-03T07:54:00.209235Z",
-  "staging": {},
+  "cursor_utc": "2026-10-03T08:05:16.209235Z",
+  "staging": {
+    "cyuwLvMBOvM": {
+      "video_id": "cyuwLvMBOvM",
+      "title": "Twin yellow labubu and spongebob nano blovk bs minecraft#shorts",
+      "channel_id": "UCrss_WDPkjg25UcqFUsywrA",
+      "channel_name": "Walking emarantau",
+      "published_at": "2026-10-03T08:00:01Z",
+      "first_seen_at": "2026-10-03T08:05:17.734341Z"
+    },
+    "9brCWPKouOI": {
+      "video_id": "9brCWPKouOI",
+      "title": "bu nasıl bozulmak ya... #minecraft #shorts",
+      "channel_id": "UCC68JCLJmEtv6rGyqKtdZ7A",
+      "channel_name": "ZAG",
+      "published_at": "2026-10-03T08:00:05Z",
+      "first_seen_at": "2026-10-03T08:05:17.734341Z"
+    },
+    "kbNS3Iuuf7M": {
+      "video_id": "kbNS3Iuuf7M",
+      "title": "Minecraft Skins from McDonald&#39;s - Zombie Hamburglar #minecraft #mcdonalds #shorts",
+      "channel_id": "UCmjhB1a_m2AAVfm46t4KJPw",
+      "channel_name": "Xandrake's World",
+      "published_at": "2026-10-03T08:00:29Z",
+      "first_seen_at": "2026-10-03T08:05:17.734341Z"
+    },
+    "ZCHP94zwgk0": {
+      "video_id": "ZCHP94zwgk0",
+      "title": "【マイクラ】奈落を埋める　season４　#2苦戦中　#shorts　#ゲーム実況",
+      "channel_id": "UCublwA8VOqQu12-DDK1cgtA",
+      "channel_name": "こもどキャンバス",
+      "published_at": "2026-10-03T08:00:01Z",
+      "first_seen_at": "2026-10-03T08:05:17.734341Z"
+    },
+    "m2FMs7yN0LM": {
+      "video_id": "m2FMs7yN0LM",
+      "title": "ﾀﾋの雪合戦 #マイクラ #minecraft",
+      "channel_id": "UCnEzslBi-tJAtqSakZpNKOA",
+      "channel_name": "たのさばさん【ゲーム解説】",
+      "published_at": "2026-10-03T08:00:04Z",
+      "first_seen_at": "2026-10-03T08:05:17.734341Z"
+    },
+    "sj9nuIsmXKc": {
+      "video_id": "sj9nuIsmXKc",
+      "title": "よくないわー　#minecraft #マイクラ #vtuber #ゲーム実況 #切り抜き #shorts",
+      "channel_id": "UCm9jBfiiZg-x2uWWac3giEw",
+      "channel_name": "おはなちゃん",
+      "published_at": "2026-10-03T08:00:12Z",
+      "first_seen_at": "2026-10-03T08:05:17.734341Z"
+    },
+    "F_4QYy_D0xY": {
+      "video_id": "F_4QYy_D0xY",
+      "title": "شو بتتوقعوا طلعت شخصيات ماين كرافت من اللعبة؟🤔#halo_family #هالو_فاميلي #عمور #ماينكرافت #maincraft",
+      "channel_id": "UCYeQ0yYjnyfHVjos91RfiTw",
+      "channel_name": "HALO Family-هالو فاميلي",
+      "published_at": "2026-10-03T08:00:38Z",
+      "first_seen_at": "2026-10-03T08:05:17.734341Z"
+    },
+    "NhX2i3kIsu4": {
+      "video_id": "NhX2i3kIsu4",
+      "title": "Je ne l’avais pas branché 👀! #minecraft #drôle #humour",
+      "channel_id": "UCko_IXAZKuwhhOoYtLp5Tug",
+      "channel_name": "CrachBug",
+      "published_at": "2026-10-03T07:57:42Z",
+      "first_seen_at": "2026-10-03T08:05:17.734341Z"
+    }
+  },
   "candidates": {},
   "notified": {},
   "rejected": {
@@ -22,7 +87,9 @@
     "HLNs7jrZsFw": "2026-10-03T08:04:00.588219Z",
     "pHLQBR3kWFI": "2026-10-03T08:04:00.588219Z",
     "KpAEenxe_G4": "2026-10-03T08:04:00.588219Z",
-    "4PIjz-hem3U": "2026-10-03T08:04:00.588219Z"
+    "4PIjz-hem3U": "2026-10-03T08:04:00.588219Z",
+    "hNgI3W66iGs": "2026-10-03T08:05:17.734361Z",
+    "IEggZOiMr8A": "2026-10-03T08:05:17.734361Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -96,6 +163,14 @@
     "UCsK1-6yI1rf5L359ol-C90Q": {
       "subs": 50,
       "fetched_at": "2026-10-03T08:04:00.756506Z"
+    },
+    "UCN6wgPu-J3b2t2iJXy3R9Vw": {
+      "subs": 3570,
+      "fetched_at": "2026-10-03T08:05:17.894778Z"
+    },
+    "UC5wa8EmJNLGwvZe6Qk6LK7g": {
+      "subs": 60100,
+      "fetched_at": "2026-10-03T08:05:17.894778Z"
     }
   },
   "search_log": [
@@ -103,13 +178,18 @@
       "at": "2026-10-03T08:04:00.209235Z",
       "results": 19,
       "span_minutes": 20.0
+    },
+    {
+      "at": "2026-10-03T08:05:17.136039Z",
+      "results": 10,
+      "span_minutes": 11.266666666666667
     }
   ],
   "hourly_density": {
     "15": {
-      "results": 19,
-      "span": 20.0,
-      "n": 1
+      "results": 29,
+      "span": 31.266666666666666,
+      "n": 2
     }
   },
   "reject_reasons": {
@@ -118,22 +198,24 @@
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 100,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 101,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 1,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 1,
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 100,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 1
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T08:04:00.922405Z",
-      "elapsed": 0.7,
+      "at": "2026-10-03T08:05:18.044954Z",
+      "elapsed": 0.9,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 19
+      "staged": 10
     }
   },
-  "key_rr": 3
+  "key_rr": 1
 }
