@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-03T13:40:20.209235Z",
+  "cursor_utc": "2026-10-03T13:45:24.209235Z",
   "staging": {
     "ukbqdI2R3W4": {
       "video_id": "ukbqdI2R3W4",
@@ -7,30 +7,6 @@
       "channel_id": "UC0v8oozANufc2HtM6qJKSOA",
       "channel_name": "GoghJung Art",
       "published_at": "2026-10-03T13:35:45Z",
-      "first_seen_at": "2026-10-03T13:40:20.777531Z"
-    },
-    "JlhMng7Z4TY": {
-      "video_id": "JlhMng7Z4TY",
-      "title": "Minecraft&#39;s Fetchprofile Command! #shorts #minecraft",
-      "channel_id": "UCpKlnn8w6AgfVILbeIElLMA",
-      "channel_name": "Spoonman14",
-      "published_at": "2026-10-03T13:30:29Z",
-      "first_seen_at": "2026-10-03T13:40:20.777531Z"
-    },
-    "9xhTqpW5OEk": {
-      "video_id": "9xhTqpW5OEk",
-      "title": "VERITY🥶BACK AGAIN☠️PART 2💥#shorts #minecraft",
-      "channel_id": "UC0b7Ct18HtY9oFfMGSC_Vkw",
-      "channel_name": "KHAQAN GAMERZ",
-      "published_at": "2026-10-03T13:30:38Z",
-      "first_seen_at": "2026-10-03T13:40:20.777531Z"
-    },
-    "ufssoux6uAw": {
-      "video_id": "ufssoux6uAw",
-      "title": "Come faccio ad avere NETHERITE INFINITA? #minecraft #shorts",
-      "channel_id": "UCbbfb2AvqcU10xfDE1D2Hmg",
-      "channel_name": "Honey Bun",
-      "published_at": "2026-10-03T13:30:29Z",
       "first_seen_at": "2026-10-03T13:40:20.777531Z"
     }
   },
@@ -449,7 +425,10 @@
     "9cvGqzaVjhI": "2026-10-03T13:30:26.681103Z",
     "hOrxGLkh7mE": "2026-10-03T13:30:26.681103Z",
     "BSRDc-729zw": "2026-10-03T13:30:26.681103Z",
-    "nttkxotUd64": "2026-10-03T13:30:26.681103Z"
+    "nttkxotUd64": "2026-10-03T13:30:26.681103Z",
+    "JlhMng7Z4TY": "2026-10-03T13:45:25.176080Z",
+    "ufssoux6uAw": "2026-10-03T13:45:25.176080Z",
+    "9xhTqpW5OEk": "2026-10-03T13:45:25.176080Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -1851,6 +1830,18 @@
     "UCRYKp_vv-4VGxnsNJadXSKA": {
       "subs": 34,
       "fetched_at": "2026-10-03T13:30:26.832457Z"
+    },
+    "UCpKlnn8w6AgfVILbeIElLMA": {
+      "subs": 2900,
+      "fetched_at": "2026-10-03T13:45:25.375884Z"
+    },
+    "UCbbfb2AvqcU10xfDE1D2Hmg": {
+      "subs": 791,
+      "fetched_at": "2026-10-03T13:45:25.375884Z"
+    },
+    "UC0b7Ct18HtY9oFfMGSC_Vkw": {
+      "subs": 33000,
+      "fetched_at": "2026-10-03T13:45:25.375884Z"
     }
   },
   "search_log": [
@@ -2083,6 +2074,11 @@
       "at": "2026-10-03T13:40:20.510451Z",
       "results": 4,
       "span_minutes": 9.9
+    },
+    {
+      "at": "2026-10-03T13:45:24.838033Z",
+      "results": 0,
+      "span_minutes": 5.066666666666666
     }
   ],
   "hourly_density": {
@@ -2118,8 +2114,8 @@
     },
     "21": {
       "results": 59,
-      "span": 39.733333333333334,
-      "n": 5
+      "span": 44.8,
+      "n": 6
     }
   },
   "reject_reasons": {
@@ -2129,26 +2125,26 @@
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1021,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 724,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 1022,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 725,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 823,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 1417,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 723
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 823
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T13:40:20.777624Z",
-      "elapsed": 0.3,
+      "at": "2026-10-03T13:45:25.551354Z",
+      "elapsed": 0.7,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 4
+      "staged": 0
     }
   },
-  "key_rr": 4,
+  "key_rr": 2,
   "tier_stats": {
     "T3": {
       "vpm_samples": [
