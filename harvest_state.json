@@ -1,5 +1,5 @@
 {
-  "cursor_utc": "2026-10-03T08:40:19.209235Z",
+  "cursor_utc": "2026-10-03T08:45:22.209235Z",
   "staging": {
     "hWTUQPCstLs": {
       "video_id": "hWTUQPCstLs",
@@ -7,54 +7,6 @@
       "channel_id": "UCnLdlUtr9rqaBdrL2pcEIAg",
       "channel_name": "Фидж",
       "published_at": "2026-10-03T08:37:07Z",
-      "first_seen_at": "2026-10-03T08:40:19.898203Z"
-    },
-    "lLuTn78f_cI": {
-      "video_id": "lLuTn78f_cI",
-      "title": "Lego High Speed Passenger Train Minecraft Steve Travel",
-      "channel_id": "UCeLeIi2MrJx3D_im9CVPyAQ",
-      "channel_name": "Supercar Nadille",
-      "published_at": "2026-10-03T08:33:36Z",
-      "first_seen_at": "2026-10-03T08:40:19.898203Z"
-    },
-    "064O6HRS-ZE": {
-      "video_id": "064O6HRS-ZE",
-      "title": "Spiderman TNT! #minecraft",
-      "channel_id": "UC2bilDDi2S22345ekpjVPvA",
-      "channel_name": "Cuty Block",
-      "published_at": "2026-10-03T08:32:34Z",
-      "first_seen_at": "2026-10-03T08:40:19.898203Z"
-    },
-    "IWNMAQZPiLE": {
-      "video_id": "IWNMAQZPiLE",
-      "title": "Sinh Tồn Bất Ổn Cùng Thằng Cốt NewBie - Tập 17 #shorts",
-      "channel_id": "UCqlPSzYAkDQDEx0f5GX1JLg",
-      "channel_name": "Bin Creeper",
-      "published_at": "2026-10-03T08:31:40Z",
-      "first_seen_at": "2026-10-03T08:40:19.898203Z"
-    },
-    "8KepJOPz7BQ": {
-      "video_id": "8KepJOPz7BQ",
-      "title": "NETHER VS OVERWORLD - Part 2 🔥⚔️ #minecraft",
-      "channel_id": "UCgIsqRvx8LBfyYWUjJdBmTg",
-      "channel_name": "RayzeOP",
-      "published_at": "2026-10-03T08:30:39Z",
-      "first_seen_at": "2026-10-03T08:40:19.898203Z"
-    },
-    "NHESfUgexIY": {
-      "video_id": "NHESfUgexIY",
-      "title": "家族で1番おもしろい人は？ #マイクラ #shorts",
-      "channel_id": "UCU3xdLHLO_aUerrdpmfNgpw",
-      "channel_name": "柑星タケシ‼️",
-      "published_at": "2026-10-03T08:30:39Z",
-      "first_seen_at": "2026-10-03T08:40:19.898203Z"
-    },
-    "F6Ez7AD4WQU": {
-      "video_id": "F6Ez7AD4WQU",
-      "title": "i hope 🙏 it&#39;s working 🥀 #minecraftshorts #minecraftmemes #games",
-      "channel_id": "UCPKeynOtQKMfiJwExa5NUYQ",
-      "channel_name": "Harioxen Gamer ",
-      "published_at": "2026-10-03T08:30:32Z",
       "first_seen_at": "2026-10-03T08:40:19.898203Z"
     }
   },
@@ -129,7 +81,13 @@
     "Tn06v63ZBSw": "2026-10-03T08:30:27.004484Z",
     "Dvka0a8SENs": "2026-10-03T08:35:19.980322Z",
     "gtYbTGYlMoE": "2026-10-03T08:40:19.898234Z",
-    "u6nMCfhfQvo": "2026-10-03T08:40:19.898234Z"
+    "u6nMCfhfQvo": "2026-10-03T08:40:19.898234Z",
+    "F6Ez7AD4WQU": "2026-10-03T08:45:22.652366Z",
+    "8KepJOPz7BQ": "2026-10-03T08:45:22.652366Z",
+    "NHESfUgexIY": "2026-10-03T08:45:22.652366Z",
+    "IWNMAQZPiLE": "2026-10-03T08:45:22.652366Z",
+    "064O6HRS-ZE": "2026-10-03T08:45:22.652366Z",
+    "lLuTn78f_cI": "2026-10-03T08:45:22.652366Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -399,6 +357,30 @@
     "UC-2Tvo-ql0BoNUnNVh2UIbw": {
       "subs": 13200,
       "fetched_at": "2026-10-03T08:40:20.036938Z"
+    },
+    "UCeLeIi2MrJx3D_im9CVPyAQ": {
+      "subs": 183000,
+      "fetched_at": "2026-10-03T08:45:22.914321Z"
+    },
+    "UC2bilDDi2S22345ekpjVPvA": {
+      "subs": 906000,
+      "fetched_at": "2026-10-03T08:45:22.914321Z"
+    },
+    "UCqlPSzYAkDQDEx0f5GX1JLg": {
+      "subs": 285000,
+      "fetched_at": "2026-10-03T08:45:22.914321Z"
+    },
+    "UCU3xdLHLO_aUerrdpmfNgpw": {
+      "subs": 33100,
+      "fetched_at": "2026-10-03T08:45:22.914321Z"
+    },
+    "UCPKeynOtQKMfiJwExa5NUYQ": {
+      "subs": 31600,
+      "fetched_at": "2026-10-03T08:45:22.914321Z"
+    },
+    "UCgIsqRvx8LBfyYWUjJdBmTg": {
+      "subs": 3370,
+      "fetched_at": "2026-10-03T08:45:22.914321Z"
     }
   },
   "search_log": [
@@ -436,6 +418,11 @@
       "at": "2026-10-03T08:40:19.552751Z",
       "results": 7,
       "span_minutes": 9.883333333333333
+    },
+    {
+      "at": "2026-10-03T08:45:22.385073Z",
+      "results": 0,
+      "span_minutes": 5.05
     }
   ],
   "hourly_density": {
@@ -446,34 +433,34 @@
     },
     "16": {
       "results": 47,
-      "span": 35.05,
-      "n": 5
+      "span": 40.099999999999994,
+      "n": 6
     }
   },
   "reject_reasons": {
     "描述过长(疑口播)": 12,
-    "分类不符": 8
+    "分类不符": 9
   },
   "key_usage": {
     "_day": "2026-10-03",
-    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 104,
-    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 203,
-    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 203,
+    "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 204,
+    "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 204,
+    "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 204,
     "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 104,
     "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 104
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T08:40:20.149547Z",
+      "at": "2026-10-03T08:45:23.028562Z",
       "elapsed": 0.6,
       "searched": 1,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
       "dropped": 0,
-      "staged": 7
+      "staged": 0
     }
   },
-  "key_rr": 0
+  "key_rr": 3
 }
