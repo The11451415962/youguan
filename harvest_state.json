@@ -1,15 +1,6 @@
 {
   "cursor_utc": "2026-10-03T08:45:22.209235Z",
-  "staging": {
-    "hWTUQPCstLs": {
-      "video_id": "hWTUQPCstLs",
-      "title": "Быть маленьким vs большим вместе с Жителем..",
-      "channel_id": "UCnLdlUtr9rqaBdrL2pcEIAg",
-      "channel_name": "Фидж",
-      "published_at": "2026-10-03T08:37:07Z",
-      "first_seen_at": "2026-10-03T08:40:19.898203Z"
-    }
-  },
+  "staging": {},
   "candidates": {},
   "notified": {},
   "rejected": {
@@ -87,7 +78,8 @@
     "NHESfUgexIY": "2026-10-03T08:45:22.652366Z",
     "IWNMAQZPiLE": "2026-10-03T08:45:22.652366Z",
     "064O6HRS-ZE": "2026-10-03T08:45:22.652366Z",
-    "lLuTn78f_cI": "2026-10-03T08:45:22.652366Z"
+    "lLuTn78f_cI": "2026-10-03T08:45:22.652366Z",
+    "hWTUQPCstLs": "2026-10-03T08:50:18.834748Z"
   },
   "channels": {
     "UCn2JX81N4Bcz_XOT6aIheaQ": {
@@ -381,6 +373,10 @@
     "UCgIsqRvx8LBfyYWUjJdBmTg": {
       "subs": 3370,
       "fetched_at": "2026-10-03T08:45:22.914321Z"
+    },
+    "UCnLdlUtr9rqaBdrL2pcEIAg": {
+      "subs": 176000,
+      "fetched_at": "2026-10-03T08:50:18.953418Z"
     }
   },
   "search_log": [
@@ -446,21 +442,20 @@
     "AIzaSyBlqc5S5tqe8L2UliQDGUlNKQh7-AhMCXw": 204,
     "AIzaSyA7mbIBX5J4Lb6-atVa7eJS6ikjd71sS0g": 204,
     "AIzaSyDD0FZVKKucMEg4WKj5ZGfcu32hDfQSvCs": 204,
-    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 104,
-    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 104
+    "AIzaSyBTOOYsxV_tXdz64XQ2aXYUIlFtpxrXmcY": 105,
+    "AIzaSyCHymAxrhXtEsV_kP2pqhnBYZa4xbqjA0c": 105
   },
   "key_quota_fails": {},
   "stats": {
     "last_cycle": {
-      "at": "2026-10-03T08:45:23.028562Z",
-      "elapsed": 0.6,
-      "searched": 1,
+      "at": "2026-10-03T08:50:19.063695Z",
+      "elapsed": 0.2,
+      "searched": 0,
       "new": 0,
       "gated_in": 0,
       "sampled": 0,
-      "dropped": 0,
-      "staged": 0
+      "dropped": 0
     }
   },
-  "key_rr": 3
+  "key_rr": 0
 }
