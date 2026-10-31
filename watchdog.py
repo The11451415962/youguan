@@ -208,8 +208,11 @@ def main() -> int:
         f"去这里看一眼: https://github.com/{repo}/actions",
     ]
     ok = send_mail("[YouTube 监控停摆] 已经很久没有成功运行了", lines)
-    print("[×] 监控停摆，退出码 1（让 workflow 变红）")
-    return 0 if ok else 1
+    # 不管邮件有没有发出去，都要让 workflow 变红：红色是第二道信号，
+    # 万一 SMTP 也坏了，GitHub 的失败通知还能兜住。
+    print("[×] 监控停摆，退出码 1（让 workflow 变红）"
+          + ("" if ok else "；注意：告警邮件没发出去，请检查 SMTP 配置"))
+    return 1
 
 
 if __name__ == "__main__":
