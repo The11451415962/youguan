@@ -1,0 +1,48 @@
+name: Monitor Watchdog
+
+# 停机哨兵：每小时检查「YouTube Monitor」最近有没有成功跑过。
+# 超过 MAX_SILENCE_HOURS 小时没有成功运行 → 发邮件告警 + 让任务变红。
+#
+# 为什么需要它：2026-10-15 cron-job.org 静默停摆，监控 16 天没跑，
+# 期间没有任何告警，谁都没发现。有了它，这种情况 2 小时内就会暴露。
+on:
+  schedule:
+    - cron: '17 * * * *'      # 每小时 17 分（错开监控自己的点）
+  workflow_dispatch:
+    inputs:
+      max_silence_hours:
+        description: '容忍静默小时数（默认 2；填 0 可强制触发一次告警自测）'
+        type: number
+        default: 2
+
+# 只读：需要 actions:read 才能列运行记录，contents:read 为了检出 config.json
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: watchdog
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # watchdog.py 只用标准库，不需要装依赖
+      - name: 检查监控是否还在运行
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_SENDER: ${{ secrets.SMTP_SENDER }}
+          NOTIFICATION_RECIPIENT: ${{ secrets.NOTIFICATION_RECIPIENT }}
+          MAX_SILENCE_HOURS: ${{ github.event.inputs.max_silence_hours || '2' }}
+        run: python watchdog.py
